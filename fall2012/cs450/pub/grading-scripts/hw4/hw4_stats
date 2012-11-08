@@ -1,0 +1,205 @@
+#!/bin/bash
+
+usage="Usage: hw4_stat <username> <stat file>"
+
+interface=eth0
+
+echo "grading $1 ..."
+
+if [ $# -lt 2 ]; then
+   echo $usage
+   exit 1
+fi
+
+score=0
+
+mkdir -p $1
+cd $1
+
+time=${4:-"HEAD"}
+
+TERM=f12
+svn co -r 66 svn://cs450.cs.uic.edu/$TERM/$1/hw4
+
+if [ -d hw4 ]; then 
+	cd hw4
+	cp ../../torrent_files/* .
+	cp -r ../../bencode-tools-2011-03-15 .
+
+	if [ -d bencode-tools-2011-03-15 ]; then 
+		cd bencode-tools-2011-03-15
+		./configure
+		make
+		cd ..
+	fi
+	
+	make
+else
+	echo "Not submitted..."
+	exit 1
+fi
+
+scorefile=$2
+rm $scorefile
+
+my_ip=`ifconfig $interface | awk '/inet addr/ {print $2}' | tr -d "addr:"`
+
+
+#############################################
+# testing for trace of pthread and select
+#############################################
+echo "TEST FOR pthread and select" >> $scorefile
+echo "=====================================" >> $scorefile
+
+echo -e "grep for pthread:" >> $scorefile
+grep pthread hw4.c >> $scorefile
+
+echo -e "\ngrep for select:" >> $scorefile
+grep "select\|FD_ISSET" hw4.c >> $scorefile 
+
+
+
+
+#############################################
+# testing with high bandwidth seeds only
+#############################################
+echo -e "\nTEST FOR cs450files02.torrent" >> $scorefile
+echo "=====================================" >> $scorefile
+
+tracefile="trace02.pcap"
+
+rm /tmp/$tracefile
+sudo ../../run_tcpdump "/tmp/"$tracefile
+timeout 120 ./hw4 cs450files02.torrent > program_output_02.txt 2>&1
+sudo killall tcpdump
+sleep 1
+
+sudo chown `whoami` /tmp/$tracefile
+cp /tmp/$tracefile . 
+
+
+#test for validity of files
+md5_orig_file1=aab3ee0eb2457a764ac8e8d8f7fa7766
+md5_orig_file2=b29b86d22e6ad612684eb6c7fb8a5ec2
+md5_orig_file3=95ba720b0e2722a354225d776fbdab2e
+md5_orig_file4=17aa3a050687dfcfd4d46e6c547a09f0
+md5_orig_file5=b3105b7a0f422f0f053bf286497cb9e8
+md5_orig_file6=db2a68480d5812a422323edc80a5b455
+md5_orig_file7=e56a498f6f684ac099591630d2635319
+md5_orig_file8=f2f89622af7ab8e1530ff8478a17eded
+
+md5_file1=`md5sum cs450files02/file1.txt | awk '{print $1}'`
+md5_file2=`md5sum cs450files02/file2.jpg | awk '{print $1}'`
+md5_file3=`md5sum cs450files02/file3.txt | awk '{print $1}'`
+md5_file4=`md5sum cs450files02/file4.jpg | awk '{print $1}'`
+md5_file5=`md5sum cs450files02/file5.txt | awk '{print $1}'`
+md5_file6=`md5sum cs450files02/file6.jpg | awk '{print $1}'`
+md5_file7=`md5sum cs450files02/file7.txt | awk '{print $1}'`
+md5_file8=`md5sum cs450files02/file8.jpg | awk '{print $1}'`
+
+if [ "$md5_orig_file1" == "$md5_file1" ]; then
+	echo "file1 md5: CORRECT" >> $scorefile
+else
+	echo "file1 md5: WRONG" >> $scorefile
+fi
+
+if [ "$md5_orig_file2" == "$md5_file2" ]; then
+	echo "file2 md5: CORRECT" >> $scorefile
+else
+	echo "file2 md5: WRONG" >> $scorefile
+fi
+
+if [ "$md5_orig_file3" == "$md5_file3" ]; then
+	echo "file3 md5: CORRECT" >> $scorefile
+else
+	echo "file3 md5: WRONG" >> $scorefile
+fi
+
+if [ "$md5_orig_file4" == "$md5_file4" ]; then
+	echo "file4 md5: CORRECT" >> $scorefile
+else
+	echo "file4 md5: WRONG" >> $scorefile
+fi
+
+if [ "$md5_orig_file5" == "$md5_file5" ]; then
+	echo "file5 md5: CORRECT" >> $scorefile
+else
+	echo "file5 md5: WRONG" >> $scorefile
+fi
+
+if [ "$md5_orig_file6" == "$md5_file6" ]; then
+	echo "file6 md5: CORRECT" >> $scorefile
+else
+	echo "file6 md5: WRONG" >> $scorefile
+fi
+
+if [ "$md5_orig_file7" == "$md5_file7" ]; then
+	echo "file7 md5: CORRECT" >> $scorefile
+else
+	echo "file7 md5: WRONG" >> $scorefile
+fi
+
+if [ "$md5_orig_file8" == "$md5_file8" ]; then
+	echo "file8 md5: CORRECT" >> $scorefile
+else
+	echo "file8 md5: WRONG" >> $scorefile
+fi
+
+
+#extracts epoch second, src addr, destination addr, and packet length for bittorrent piece messages only
+tshark -R "bittorrent.msg.type==7" -r $tracefile -T fields -e frame.time_epoch -e ip.src -e ip.dst -e bittorrent.msg.length | awk -F. '{print $1, $2, $3, $4, $5, $6, $7, $8}' | awk '{print $1, $3"."$4"."$5"."$6, $7"."$8"."$9"."$10, $11}' > "all_pieces_02"
+
+#find ip's of seeds
+echo -e "\nseed ips:" >> $scorefile
+cat all_pieces_02 | awk '{print $2}' | sort -u >> $scorefile
+
+#high count means downloaded from all seeds concurrently
+echo -e "\ncount for seed ips (high value means concurrent download):" >> $scorefile
+cat all_pieces_02 | awk '{print $2}' | uniq -c | wc -l >> $scorefile 
+
+#find download speed (kbps). calculated from length of the pieces 
+echo -e "\ndownload speed aggregated by seconds in kbps (top 5 are taken):" >> $scorefile
+cat all_pieces_02 | awk '{total[$1]+=$4} END{for(x in total) print x, total[x]/1024}' | awk '{print $2}' | sort -nr | head -5 >> $scorefile
+
+
+
+
+#############################################
+#testing with low bandwidth seeds and peers
+#############################################
+echo -e "\nTEST FOR cs450files.torrent" >> $scorefile
+echo "=====================================" >> $scorefile
+
+tracefile="trace.pcap"
+
+rm /tmp/$tracefile
+sudo ../../run_tcpdump "/tmp/"$tracefile
+timeout 300 ./hw4 cs450files.torrent > program_output.txt 2>&1
+sudo killall tcpdump
+sleep 1
+
+sudo chown `whoami` /tmp/$tracefile
+cp /tmp/$tracefile . 
+
+
+#extracts epoch second, src addr, destination addr, and packet length for bittorrent piece messages only
+tshark -R "bittorrent.msg.type==7" -r $tracefile -T fields -e frame.time_epoch -e ip.src -e ip.dst -e bittorrent.msg.length | awk -F. '{print $1, $2, $3, $4, $5, $6, $7, $8}' | awk '{print $1, $3"."$4"."$5"."$6, $7"."$8"."$9"."$10, $11}' > "all_pieces"
+
+#find ip's of all peers
+echo -e "peer ips:" >> $scorefile
+cat all_pieces | awk '$3==ip {print}' ip=$my_ip | awk '{print $2}' | sort -u >> $scorefile
+
+#high count means downloaded from all seeds concurrently
+echo -e "\ncount for peer ips (high value means concurrent download):" >> $scorefile
+cat all_pieces | awk '$3==ip {print}' ip=$my_ip | awk '{print $2}' | uniq -c | wc -l >> $scorefile 
+
+#find download speed (kbps). calculated from length of the pieces 
+echo -e "\ndownload speed aggregated by seconds in kbps (top 5 are taken):" >> $scorefile
+cat all_pieces | awk '{total[$1]+=$4} END{for(x in total) print x, total[x]/1024}' | awk '{print $2}' | sort -nr | head -5 >> $scorefile
+
+#find upload activity
+echo -e "\nuploaded to following ips:" >> $scorefile
+cat all_pieces | awk '$2==ip {print}' ip=$my_ip | awk '{print $3}' | sort -u >> $scorefile 
+
+
+

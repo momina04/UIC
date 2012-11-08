@@ -1,0 +1,32 @@
+./sim-safe tests/bin.little/test-math 2> test-math_stderr 1>test-math
+./sim-outorder tests/bin.little/test-math 2> test-math_stderr_outorder 1>test-math_outorder
+Q1)
+./sim-outorder -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_outorder_stderr 1>equake_outorder
+
+time ./sim-outorder -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2> equake_outorder_stderr 1>equake_outorder
+
+real    4m38.042s
+user    3m37.438s
+sys 0m0.144s
+
+
+Q2)
+-issue:inorder  true # run pipeline with in-order issue
+./sim-outorder -issue:inorder -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_inorder_stderr 1>equake_inorder
+
+ time ./sim-outorder -issue:inorder -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2> equake_inorder_stderr 1>equake_inorder
+
+ real   4m9.042s
+ user   3m22.941s
+ sys    0m0.076s
+
+
+Q3)
+./sim-safe equake.ss < equake.in 2>equake_safe_stderr 1>equake_safe
+
+time ./sim-safe equake.ss < equake.in 2>equake_safe_stderr 1>equake_safe
+
+real    121m22.670s
+user    120m4.186s
+sys 0m0.948s
+

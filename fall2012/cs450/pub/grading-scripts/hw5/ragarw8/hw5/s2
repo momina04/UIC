@@ -1,0 +1,7 @@
+[SUCCESS] latency=1000 forwarding=1 [1]: 1 [throughput (kB/s)=0.50]
+[SUCCESS] latency=100 forwarding=1 [1]: 1 [throughput (kB/s)=5.74]
+[SUCCESS] latency=10 forwarding=1 [1]: 1 [throughput (kB/s)=43.92]
+[SUCCESS] latency=100 forwarding=0.95 [1]: 1 [throughput (kB/s)=4.19]
+[SUCCESS] latency=10 forwarding=0.95 [1]: 1 [throughput (kB/s)=41.73]
+[SUCCESS] latency=10 forwarding=0.9 [1]: 1 [throughput (kB/s)=36.16]
+Total score: 6

@@ -1,0 +1,10 @@
+hw4.c: In function ‘draw_state’:
+hw4.c:139:3: warning: implicit declaration of function ‘missing_blocks’ [-Wimplicit-function-declaration]
+hw4.c: In function ‘process_request_message’:
+hw4.c:402:9: warning: ‘return’ with no value, in function returning non-void [enabled by default]
+hw4.c: In function ‘request_block’:
+hw4.c:697:4: warning: passing argument 2 of ‘queue_send’ from incompatible pointer type [enabled by default]
+hw4.c:182:6: note: expected ‘char *’ but argument is of type ‘struct <anonymous> *’
+hw4.c: In function ‘send_not_interested’:
+hw4.c:712:5: warning: passing argument 2 of ‘queue_send’ from incompatible pointer type [enabled by default]
+hw4.c:182:6: note: expected ‘char *’ but argument is of type ‘struct <anonymous> *’

@@ -1,0 +1,1583 @@
+<RITESH>Sent Packet - 0 with rtt 500 dev 50 timeout - 700 ms           
+current queue size --> 1
+current queue size --> 1
+<RITESH>Got ack for 0       
+<RITESH> Ack rxed - 0 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 0
+current queue size --> 1
+current queue size --> 0
+<RITESH>Sent Packet - 1 with rtt 178 dev 89 timeout - 534 ms           
+current queue size --> 1
+<RITESH>Sent Packet - 2 with rtt 178 dev 89 timeout - 534 ms           
+current queue size --> 2
+current queue size --> 2
+<RITESH>Got ack for 1       
+<RITESH> Ack rxed - 0 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 1
+current queue size --> 2
+<RITESH>Got ack for 2       
+<RITESH> Ack rxed - 1 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 2
+current queue size --> 2
+current queue size --> 1
+current queue size --> 0
+<RITESH>Sent Packet - 3 with rtt 139 dev 91 timeout - 503 ms           
+current queue size --> 1
+<RITESH>Sent Packet - 4 with rtt 139 dev 91 timeout - 503 ms           
+current queue size --> 2
+<RITESH>Sent Packet - 5 with rtt 139 dev 91 timeout - 503 ms           
+current queue size --> 3
+<RITESH>Sent Packet - 6 with rtt 139 dev 91 timeout - 503 ms           
+current queue size --> 4
+current queue size --> 4
+<RITESH>Got ack for 3       
+<RITESH> Ack rxed - 0 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 3
+current queue size --> 4
+<RITESH>Got ack for 4       
+<RITESH> Ack rxed - 1 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 4
+current queue size --> 4
+<RITESH>Got ack for 5       
+<RITESH> Ack rxed - 2 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 5
+current queue size --> 4
+<RITESH>Got ack for 6       
+<RITESH> Ack rxed - 3 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 6
+current queue size --> 4
+current queue size --> 3
+current queue size --> 2
+current queue size --> 1
+current queue size --> 0
+<RITESH>Sent Packet - 7 with rtt 101 dev 51 timeout - 305 ms           
+current queue size --> 1
+<RITESH>Sent Packet - 8 with rtt 101 dev 51 timeout - 305 ms           
+current queue size --> 2
+<RITESH>Sent Packet - 9 with rtt 101 dev 51 timeout - 305 ms           
+current queue size --> 3
+<RITESH>Sent Packet - 10 with rtt 101 dev 51 timeout - 305 ms           
+current queue size --> 4
+<RITESH>Sent Packet - 11 with rtt 101 dev 51 timeout - 305 ms           
+current queue size --> 5
+<RITESH>Sent Packet - 12 with rtt 101 dev 51 timeout - 305 ms           
+current queue size --> 6
+<RITESH>Sent Packet - 13 with rtt 101 dev 51 timeout - 305 ms           
+current queue size --> 7
+<RITESH>Sent Packet - 14 with rtt 101 dev 51 timeout - 305 ms           
+current queue size --> 8
+current queue size --> 8
+<RITESH>Got ack for 8       
+<RITESH> Ack rxed - 1 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 8
+current queue size --> 8
+<RITESH>Got ack for 9       
+<RITESH> Ack rxed - 2 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 9
+current queue size --> 8
+<RITESH>Got ack for 10       
+<RITESH> Ack rxed - 3 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 10
+current queue size --> 8
+<RITESH>Got ack for 11       
+<RITESH> Ack rxed - 4 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 11
+current queue size --> 8
+<RITESH>Got ack for 12       
+<RITESH> Ack rxed - 5 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 12
+current queue size --> 8
+<RITESH>Got ack for 13       
+<RITESH> Ack rxed - 6 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 13
+current queue size --> 8
+<RITESH>Got ack for 14       
+<RITESH> Ack rxed - 7 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 14
+current queue size --> 8
+current queue size --> 8
+<RITESH>Retransmitted Packet - 7 with rtt 92 dev 11 timeout - 136 ms           
+current queue size --> 8
+<RITESH>Got ack for 7       
+<RITESH> Ack rxed - 0 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 7
+current queue size --> 8
+current queue size --> 7
+current queue size --> 6
+current queue size --> 5
+current queue size --> 4
+current queue size --> 3
+current queue size --> 2
+current queue size --> 1
+current queue size --> 0
+<RITESH>Sent Packet - 15 with rtt 92 dev 11 timeout - 272 ms           
+current queue size --> 1
+<RITESH>Sent Packet - 16 with rtt 92 dev 11 timeout - 272 ms           
+current queue size --> 2
+<RITESH>Sent Packet - 17 with rtt 92 dev 11 timeout - 272 ms           
+current queue size --> 3
+<RITESH>Sent Packet - 18 with rtt 92 dev 11 timeout - 272 ms           
+current queue size --> 4
+<RITESH>Sent Packet - 19 with rtt 92 dev 11 timeout - 272 ms           
+current queue size --> 5
+<RITESH>Sent Packet - 20 with rtt 92 dev 11 timeout - 272 ms           
+current queue size --> 6
+<RITESH>Sent Packet - 21 with rtt 92 dev 11 timeout - 272 ms           
+current queue size --> 7
+current queue size --> 7
+<RITESH>Got ack for 15       
+<RITESH> Ack rxed - 0 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 15
+current queue size --> 7
+<RITESH>Got ack for 16       
+<RITESH> Ack rxed - 1 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 16
+current queue size --> 7
+<RITESH>Got ack for 17       
+<RITESH> Ack rxed - 2 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 17
+current queue size --> 7
+<RITESH>Got ack for 18       
+<RITESH> Ack rxed - 3 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 18
+current queue size --> 7
+<RITESH>Got ack for 19       
+<RITESH> Ack rxed - 4 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 19
+current queue size --> 7
+<RITESH>Got ack for 20       
+<RITESH> Ack rxed - 5 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 20
+current queue size --> 7
+<RITESH>Got ack for 21       
+<RITESH> Ack rxed - 6 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 21
+current queue size --> 7
+current queue size --> 6
+current queue size --> 5
+current queue size --> 4
+current queue size --> 3
+current queue size --> 2
+current queue size --> 1
+current queue size --> 0
+<RITESH>Sent Packet - 22 with rtt 106 dev 13 timeout - 158 ms           
+current queue size --> 1
+<RITESH>Sent Packet - 23 with rtt 106 dev 13 timeout - 158 ms           
+current queue size --> 2
+<RITESH>Sent Packet - 24 with rtt 106 dev 13 timeout - 158 ms           
+current queue size --> 3
+<RITESH>Sent Packet - 25 with rtt 106 dev 13 timeout - 158 ms           
+current queue size --> 4
+<RITESH>Sent Packet - 26 with rtt 106 dev 13 timeout - 158 ms           
+current queue size --> 5
+<RITESH>Sent Packet - 27 with rtt 106 dev 13 timeout - 158 ms           
+current queue size --> 6
+<RITESH>Sent Packet - 28 with rtt 106 dev 13 timeout - 158 ms           
+current queue size --> 7
+<RITESH>Sent Packet - 29 with rtt 106 dev 13 timeout - 158 ms           
+current queue size --> 8
+<RITESH>Sent Packet - 30 with rtt 106 dev 13 timeout - 158 ms           
+current queue size --> 9
+<RITESH>Sent Packet - 31 with rtt 106 dev 13 timeout - 158 ms           
+current queue size --> 10
+<RITESH>Sent Packet - 32 with rtt 106 dev 13 timeout - 158 ms           
+current queue size --> 11
+<RITESH>Sent Packet - 33 with rtt 106 dev 13 timeout - 158 ms           
+current queue size --> 12
+<RITESH>Sent Packet - 34 with rtt 106 dev 13 timeout - 158 ms           
+current queue size --> 13
+<RITESH>Sent Packet - 35 with rtt 106 dev 13 timeout - 158 ms           
+current queue size --> 14
+current queue size --> 14
+<RITESH>Got ack for 23       
+<RITESH> Ack rxed - 1 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 23
+current queue size --> 14
+<RITESH>Got ack for 24       
+<RITESH> Ack rxed - 2 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 24
+current queue size --> 14
+<RITESH>Got ack for 25       
+<RITESH> Ack rxed - 3 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 25
+current queue size --> 14
+<RITESH>Got ack for 26       
+<RITESH> Ack rxed - 4 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 26
+current queue size --> 14
+<RITESH>Got ack for 27       
+<RITESH> Ack rxed - 5 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 27
+current queue size --> 14
+<RITESH>Got ack for 28       
+<RITESH> Ack rxed - 6 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 28
+current queue size --> 14
+<RITESH>Got ack for 29       
+<RITESH> Ack rxed - 7 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 29
+current queue size --> 14
+<RITESH>Got ack for 30       
+<RITESH> Ack rxed - 8 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 30
+current queue size --> 14
+<RITESH>Got ack for 32       
+<RITESH> Ack rxed - 10 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 32
+current queue size --> 14
+<RITESH>Got ack for 33       
+<RITESH> Ack rxed - 11 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 33
+current queue size --> 14
+<RITESH>Got ack for 34       
+<RITESH> Ack rxed - 12 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 34
+current queue size --> 14
+<RITESH>Got ack for 35       
+<RITESH> Ack rxed - 13 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 35
+current queue size --> 14
+current queue size --> 14
+<RITESH>Retransmitted Packet - 22 with rtt 111 dev 7 timeout - 139 ms           
+<RITESH>Retransmitted Packet - 31 with rtt 111 dev 7 timeout - 139 ms           
+current queue size --> 14
+<RITESH>Got ack for 22       
+<RITESH> Ack rxed - 0 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 22
+current queue size --> 14
+<RITESH>Got ack for 31       
+<RITESH> Ack rxed - 9 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 31
+current queue size --> 14
+current queue size --> 13
+current queue size --> 12
+current queue size --> 11
+current queue size --> 10
+current queue size --> 9
+current queue size --> 8
+current queue size --> 7
+current queue size --> 6
+current queue size --> 5
+current queue size --> 4
+current queue size --> 3
+current queue size --> 2
+current queue size --> 1
+current queue size --> 0
+<RITESH>Sent Packet - 36 with rtt 111 dev 7 timeout - 278 ms           
+current queue size --> 1
+<RITESH>Sent Packet - 37 with rtt 111 dev 7 timeout - 278 ms           
+current queue size --> 2
+<RITESH>Sent Packet - 38 with rtt 111 dev 7 timeout - 278 ms           
+current queue size --> 3
+<RITESH>Sent Packet - 39 with rtt 111 dev 7 timeout - 278 ms           
+current queue size --> 4
+<RITESH>Sent Packet - 40 with rtt 111 dev 7 timeout - 278 ms           
+current queue size --> 5
+<RITESH>Sent Packet - 41 with rtt 111 dev 7 timeout - 278 ms           
+current queue size --> 6
+<RITESH>Sent Packet - 42 with rtt 111 dev 7 timeout - 278 ms           
+current queue size --> 7
+<RITESH>Sent Packet - 43 with rtt 111 dev 7 timeout - 278 ms           
+current queue size --> 8
+<RITESH>Sent Packet - 44 with rtt 111 dev 7 timeout - 278 ms           
+current queue size --> 9
+<RITESH>Sent Packet - 45 with rtt 111 dev 7 timeout - 278 ms           
+current queue size --> 10
+<RITESH>Sent Packet - 46 with rtt 111 dev 7 timeout - 278 ms           
+current queue size --> 11
+<RITESH>Sent Packet - 47 with rtt 111 dev 7 timeout - 278 ms           
+current queue size --> 12
+<RITESH>Sent Packet - 48 with rtt 111 dev 7 timeout - 278 ms           
+current queue size --> 13
+current queue size --> 13
+<RITESH>Got ack for 36       
+<RITESH> Ack rxed - 0 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 36
+current queue size --> 13
+<RITESH>Got ack for 37       
+<RITESH> Ack rxed - 1 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 37
+current queue size --> 13
+<RITESH>Got ack for 38       
+<RITESH> Ack rxed - 2 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 38
+current queue size --> 13
+<RITESH>Got ack for 39       
+<RITESH> Ack rxed - 3 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 39
+current queue size --> 13
+<RITESH>Got ack for 40       
+<RITESH> Ack rxed - 4 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 40
+current queue size --> 13
+<RITESH>Got ack for 41       
+<RITESH> Ack rxed - 5 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 41
+current queue size --> 13
+<RITESH>Got ack for 42       
+<RITESH> Ack rxed - 6 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 42
+current queue size --> 13
+<RITESH>Got ack for 43       
+<RITESH> Ack rxed - 7 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 43
+current queue size --> 13
+<RITESH>Got ack for 44       
+<RITESH> Ack rxed - 8 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 44
+current queue size --> 13
+<RITESH>Got ack for 45       
+<RITESH> Ack rxed - 9 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 45
+current queue size --> 13
+<RITESH>Got ack for 46       
+<RITESH> Ack rxed - 10 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 46
+current queue size --> 13
+<RITESH>Got ack for 47       
+<RITESH> Ack rxed - 11 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 47
+current queue size --> 13
+<RITESH>Got ack for 48       
+<RITESH> Ack rxed - 12 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 48
+current queue size --> 13
+current queue size --> 12
+current queue size --> 11
+current queue size --> 10
+current queue size --> 9
+current queue size --> 8
+current queue size --> 7
+current queue size --> 6
+current queue size --> 5
+current queue size --> 4
+current queue size --> 3
+current queue size --> 2
+current queue size --> 1
+current queue size --> 0
+<RITESH>Sent Packet - 49 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 1
+<RITESH>Sent Packet - 50 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 2
+<RITESH>Sent Packet - 51 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 3
+<RITESH>Sent Packet - 52 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 4
+<RITESH>Sent Packet - 53 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 5
+<RITESH>Sent Packet - 54 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 6
+<RITESH>Sent Packet - 55 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 7
+<RITESH>Sent Packet - 56 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 8
+<RITESH>Sent Packet - 57 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 9
+<RITESH>Sent Packet - 58 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 10
+<RITESH>Sent Packet - 59 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 11
+<RITESH>Sent Packet - 60 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 12
+<RITESH>Sent Packet - 61 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 13
+<RITESH>Sent Packet - 62 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 14
+<RITESH>Sent Packet - 63 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 15
+<RITESH>Sent Packet - 64 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 16
+<RITESH>Sent Packet - 65 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 17
+<RITESH>Sent Packet - 66 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 18
+<RITESH>Sent Packet - 67 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 19
+<RITESH>Sent Packet - 68 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 20
+<RITESH>Sent Packet - 69 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 21
+<RITESH>Sent Packet - 70 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 22
+<RITESH>Sent Packet - 71 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 23
+<RITESH>Sent Packet - 72 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 24
+<RITESH>Sent Packet - 73 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 25
+<RITESH>Sent Packet - 74 with rtt 138 dev 10 timeout - 178 ms           
+current queue size --> 26
+current queue size --> 26
+<RITESH>Got ack for 49       
+<RITESH> Ack rxed - 0 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 49
+current queue size --> 26
+<RITESH>Got ack for 50       
+<RITESH> Ack rxed - 1 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 50
+current queue size --> 26
+<RITESH>Got ack for 51       
+<RITESH> Ack rxed - 2 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 51
+current queue size --> 26
+<RITESH>Got ack for 52       
+<RITESH> Ack rxed - 3 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 52
+current queue size --> 26
+<RITESH>Got ack for 53       
+<RITESH> Ack rxed - 4 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 53
+current queue size --> 26
+<RITESH>Got ack for 54       
+<RITESH> Ack rxed - 5 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 54
+current queue size --> 26
+<RITESH>Got ack for 55       
+<RITESH> Ack rxed - 6 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 55
+current queue size --> 26
+<RITESH>Got ack for 56       
+<RITESH> Ack rxed - 7 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 56
+current queue size --> 26
+<RITESH>Got ack for 57       
+<RITESH> Ack rxed - 8 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 57
+current queue size --> 26
+<RITESH>Got ack for 59       
+<RITESH> Ack rxed - 10 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 59
+current queue size --> 26
+<RITESH>Got ack for 60       
+<RITESH> Ack rxed - 11 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 60
+current queue size --> 26
+<RITESH>Got ack for 61       
+<RITESH> Ack rxed - 12 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 61
+current queue size --> 26
+<RITESH>Got ack for 62       
+<RITESH> Ack rxed - 13 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 62
+current queue size --> 26
+<RITESH>Got ack for 63       
+<RITESH> Ack rxed - 14 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 63
+current queue size --> 26
+<RITESH>Got ack for 64       
+<RITESH> Ack rxed - 15 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 64
+current queue size --> 26
+<RITESH>Got ack for 66       
+<RITESH> Ack rxed - 17 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 66
+current queue size --> 26
+<RITESH>Got ack for 67       
+<RITESH> Ack rxed - 18 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 67
+current queue size --> 26
+<RITESH>Got ack for 68       
+<RITESH> Ack rxed - 19 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 68
+current queue size --> 26
+<RITESH>Got ack for 69       
+<RITESH> Ack rxed - 20 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 69
+current queue size --> 26
+<RITESH>Got ack for 70       
+<RITESH> Ack rxed - 21 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 70
+current queue size --> 26
+<RITESH>Got ack for 71       
+<RITESH> Ack rxed - 22 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 71
+current queue size --> 26
+<RITESH>Got ack for 72       
+<RITESH> Ack rxed - 23 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 72
+current queue size --> 26
+<RITESH>Got ack for 73       
+<RITESH> Ack rxed - 24 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 73
+current queue size --> 26
+<RITESH>Got ack for 74       
+<RITESH> Ack rxed - 25 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 74
+current queue size --> 26
+current queue size --> 26
+<RITESH>Retransmitted Packet - 58 with rtt 79 dev 5 timeout - 99 ms           
+<RITESH>Retransmitted Packet - 65 with rtt 79 dev 5 timeout - 99 ms           
+current queue size --> 26
+<RITESH>Got ack for 58       
+<RITESH> Ack rxed - 9 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 58
+current queue size --> 26
+<RITESH>Got ack for 65       
+<RITESH> Ack rxed - 16 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 65
+current queue size --> 26
+current queue size --> 25
+current queue size --> 24
+current queue size --> 23
+current queue size --> 22
+current queue size --> 21
+current queue size --> 20
+current queue size --> 19
+current queue size --> 18
+current queue size --> 17
+current queue size --> 16
+current queue size --> 15
+current queue size --> 14
+current queue size --> 13
+current queue size --> 12
+current queue size --> 11
+current queue size --> 10
+current queue size --> 9
+current queue size --> 8
+current queue size --> 7
+current queue size --> 6
+current queue size --> 5
+current queue size --> 4
+current queue size --> 3
+current queue size --> 2
+current queue size --> 1
+current queue size --> 0
+<RITESH>Sent Packet - 75 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 1
+<RITESH>Sent Packet - 76 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 2
+<RITESH>Sent Packet - 77 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 3
+<RITESH>Sent Packet - 78 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 4
+<RITESH>Sent Packet - 79 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 5
+<RITESH>Sent Packet - 80 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 6
+<RITESH>Sent Packet - 81 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 7
+<RITESH>Sent Packet - 82 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 8
+<RITESH>Sent Packet - 83 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 9
+<RITESH>Sent Packet - 84 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 10
+<RITESH>Sent Packet - 85 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 11
+<RITESH>Sent Packet - 86 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 12
+<RITESH>Sent Packet - 87 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 13
+<RITESH>Sent Packet - 88 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 14
+<RITESH>Sent Packet - 89 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 15
+<RITESH>Sent Packet - 90 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 16
+<RITESH>Sent Packet - 91 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 17
+<RITESH>Sent Packet - 92 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 18
+<RITESH>Sent Packet - 93 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 19
+<RITESH>Sent Packet - 94 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 20
+<RITESH>Sent Packet - 95 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 21
+<RITESH>Sent Packet - 96 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 22
+<RITESH>Sent Packet - 97 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 23
+<RITESH>Sent Packet - 98 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 24
+<RITESH>Sent Packet - 99 with rtt 79 dev 5 timeout - 198 ms           
+current queue size --> 25
+current queue size --> 25
+<RITESH>Got ack for 75       
+<RITESH> Ack rxed - 0 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 75
+current queue size --> 25
+<RITESH>Got ack for 76       
+<RITESH> Ack rxed - 1 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 76
+current queue size --> 25
+<RITESH>Got ack for 77       
+<RITESH> Ack rxed - 2 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 77
+current queue size --> 25
+<RITESH>Got ack for 78       
+<RITESH> Ack rxed - 3 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 78
+current queue size --> 25
+<RITESH>Got ack for 80       
+<RITESH> Ack rxed - 5 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 80
+current queue size --> 25
+<RITESH>Got ack for 81       
+<RITESH> Ack rxed - 6 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 81
+current queue size --> 25
+<RITESH>Got ack for 82       
+<RITESH> Ack rxed - 7 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 82
+current queue size --> 25
+<RITESH>Got ack for 83       
+<RITESH> Ack rxed - 8 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 83
+current queue size --> 25
+<RITESH>Got ack for 84       
+<RITESH> Ack rxed - 9 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 84
+current queue size --> 25
+<RITESH>Got ack for 85       
+<RITESH> Ack rxed - 10 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 85
+current queue size --> 25
+<RITESH>Got ack for 86       
+<RITESH> Ack rxed - 11 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 86
+current queue size --> 25
+<RITESH>Got ack for 87       
+<RITESH> Ack rxed - 12 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 87
+current queue size --> 25
+<RITESH>Got ack for 88       
+<RITESH> Ack rxed - 13 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 88
+current queue size --> 25
+<RITESH>Got ack for 89       
+<RITESH> Ack rxed - 14 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 89
+current queue size --> 25
+<RITESH>Got ack for 90       
+<RITESH> Ack rxed - 15 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 90
+current queue size --> 25
+<RITESH>Got ack for 91       
+<RITESH> Ack rxed - 16 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 91
+current queue size --> 25
+<RITESH>Got ack for 92       
+<RITESH> Ack rxed - 17 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 92
+current queue size --> 25
+<RITESH>Got ack for 93       
+<RITESH> Ack rxed - 18 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 93
+current queue size --> 25
+<RITESH>Got ack for 94       
+<RITESH> Ack rxed - 19 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 94
+current queue size --> 25
+<RITESH>Got ack for 95       
+<RITESH> Ack rxed - 20 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 95
+current queue size --> 25
+<RITESH>Got ack for 96       
+<RITESH> Ack rxed - 21 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 96
+current queue size --> 25
+<RITESH>Got ack for 97       
+<RITESH> Ack rxed - 22 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 97
+current queue size --> 25
+<RITESH>Got ack for 98       
+<RITESH> Ack rxed - 23 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 98
+current queue size --> 25
+current queue size --> 25
+<RITESH>Retransmitted Packet - 79 with rtt 118 dev 7 timeout - 146 ms           
+<RITESH>Retransmitted Packet - 99 with rtt 118 dev 7 timeout - 146 ms           
+current queue size --> 25
+<RITESH>Got ack for 79       
+<RITESH> Ack rxed - 4 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 79
+current queue size --> 25
+<RITESH>Got ack for 99       
+<RITESH> Ack rxed - 24 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 99
+current queue size --> 25
+current queue size --> 24
+current queue size --> 23
+current queue size --> 22
+current queue size --> 21
+current queue size --> 20
+current queue size --> 19
+current queue size --> 18
+current queue size --> 17
+current queue size --> 16
+current queue size --> 15
+current queue size --> 14
+current queue size --> 13
+current queue size --> 12
+current queue size --> 11
+current queue size --> 10
+current queue size --> 9
+current queue size --> 8
+current queue size --> 7
+current queue size --> 6
+current queue size --> 5
+current queue size --> 4
+current queue size --> 3
+current queue size --> 2
+current queue size --> 1
+current queue size --> 0
+<RITESH>Sent Packet - 100 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 1
+<RITESH>Sent Packet - 101 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 2
+<RITESH>Sent Packet - 102 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 3
+<RITESH>Sent Packet - 103 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 4
+<RITESH>Sent Packet - 104 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 5
+<RITESH>Sent Packet - 105 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 6
+<RITESH>Sent Packet - 106 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 7
+<RITESH>Sent Packet - 107 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 8
+<RITESH>Sent Packet - 108 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 9
+<RITESH>Sent Packet - 109 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 10
+<RITESH>Sent Packet - 110 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 11
+<RITESH>Sent Packet - 111 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 12
+<RITESH>Sent Packet - 112 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 13
+<RITESH>Sent Packet - 113 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 14
+<RITESH>Sent Packet - 114 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 15
+<RITESH>Sent Packet - 115 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 16
+<RITESH>Sent Packet - 116 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 17
+<RITESH>Sent Packet - 117 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 18
+<RITESH>Sent Packet - 118 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 19
+<RITESH>Sent Packet - 119 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 20
+<RITESH>Sent Packet - 120 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 21
+<RITESH>Sent Packet - 121 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 22
+<RITESH>Sent Packet - 122 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 23
+<RITESH>Sent Packet - 123 with rtt 118 dev 7 timeout - 292 ms           
+current queue size --> 24
+current queue size --> 24
+<RITESH>Got ack for 100       
+<RITESH> Ack rxed - 0 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 100
+current queue size --> 24
+<RITESH>Got ack for 101       
+<RITESH> Ack rxed - 1 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 101
+current queue size --> 24
+<RITESH>Got ack for 102       
+<RITESH> Ack rxed - 2 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 102
+current queue size --> 24
+<RITESH>Got ack for 103       
+<RITESH> Ack rxed - 3 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 103
+current queue size --> 24
+<RITESH>Got ack for 104       
+<RITESH> Ack rxed - 4 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 104
+current queue size --> 24
+<RITESH>Got ack for 105       
+<RITESH> Ack rxed - 5 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 105
+current queue size --> 24
+<RITESH>Got ack for 106       
+<RITESH> Ack rxed - 6 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 106
+current queue size --> 24
+<RITESH>Got ack for 107       
+<RITESH> Ack rxed - 7 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 107
+current queue size --> 24
+<RITESH>Got ack for 108       
+<RITESH> Ack rxed - 8 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 108
+current queue size --> 24
+<RITESH>Got ack for 109       
+<RITESH> Ack rxed - 9 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 109
+current queue size --> 24
+<RITESH>Got ack for 110       
+<RITESH> Ack rxed - 10 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 110
+current queue size --> 24
+<RITESH>Got ack for 111       
+<RITESH> Ack rxed - 11 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 111
+current queue size --> 24
+<RITESH>Got ack for 112       
+<RITESH> Ack rxed - 12 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 112
+current queue size --> 24
+<RITESH>Got ack for 115       
+<RITESH> Ack rxed - 15 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 115
+current queue size --> 24
+<RITESH>Got ack for 116       
+<RITESH> Ack rxed - 16 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 116
+current queue size --> 24
+<RITESH>Got ack for 117       
+<RITESH> Ack rxed - 17 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 117
+current queue size --> 24
+<RITESH>Got ack for 118       
+<RITESH> Ack rxed - 18 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 118
+current queue size --> 24
+<RITESH>Got ack for 119       
+<RITESH> Ack rxed - 19 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 119
+current queue size --> 24
+<RITESH>Got ack for 120       
+<RITESH> Ack rxed - 20 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 120
+current queue size --> 24
+<RITESH>Got ack for 121       
+<RITESH> Ack rxed - 21 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 121
+current queue size --> 24
+<RITESH>Got ack for 122       
+<RITESH> Ack rxed - 22 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 122
+current queue size --> 24
+<RITESH>Got ack for 123       
+<RITESH> Ack rxed - 23 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 123
+current queue size --> 24
+current queue size --> 24
+<RITESH>Retransmitted Packet - 113 with rtt 102 dev 10 timeout - 142 ms           
+<RITESH>Retransmitted Packet - 114 with rtt 102 dev 10 timeout - 142 ms           
+current queue size --> 24
+<RITESH>Got ack for 113       
+<RITESH> Ack rxed - 13 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 113
+current queue size --> 24
+<RITESH>Got ack for 114       
+<RITESH> Ack rxed - 14 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 114
+current queue size --> 24
+current queue size --> 23
+current queue size --> 22
+current queue size --> 21
+current queue size --> 20
+current queue size --> 19
+current queue size --> 18
+current queue size --> 17
+current queue size --> 16
+current queue size --> 15
+current queue size --> 14
+current queue size --> 13
+current queue size --> 12
+current queue size --> 11
+current queue size --> 10
+current queue size --> 9
+current queue size --> 8
+current queue size --> 7
+current queue size --> 6
+current queue size --> 5
+current queue size --> 4
+current queue size --> 3
+current queue size --> 2
+current queue size --> 1
+current queue size --> 0
+<RITESH>Sent Packet - 124 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 1
+<RITESH>Sent Packet - 125 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 2
+<RITESH>Sent Packet - 126 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 3
+<RITESH>Sent Packet - 127 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 4
+<RITESH>Sent Packet - 128 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 5
+<RITESH>Sent Packet - 129 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 6
+<RITESH>Sent Packet - 130 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 7
+<RITESH>Sent Packet - 131 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 8
+<RITESH>Sent Packet - 132 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 9
+<RITESH>Sent Packet - 133 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 10
+<RITESH>Sent Packet - 134 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 11
+<RITESH>Sent Packet - 135 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 12
+<RITESH>Sent Packet - 136 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 13
+<RITESH>Sent Packet - 137 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 14
+<RITESH>Sent Packet - 138 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 15
+<RITESH>Sent Packet - 139 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 16
+<RITESH>Sent Packet - 140 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 17
+<RITESH>Sent Packet - 141 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 18
+<RITESH>Sent Packet - 142 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 19
+<RITESH>Sent Packet - 143 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 20
+<RITESH>Sent Packet - 144 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 21
+<RITESH>Sent Packet - 145 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 22
+<RITESH>Sent Packet - 146 with rtt 102 dev 10 timeout - 284 ms           
+current queue size --> 23
+current queue size --> 23
+<RITESH>Got ack for 124       
+<RITESH> Ack rxed - 0 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 124
+current queue size --> 23
+<RITESH>Got ack for 125       
+<RITESH> Ack rxed - 1 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 125
+current queue size --> 23
+<RITESH>Got ack for 126       
+<RITESH> Ack rxed - 2 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 126
+current queue size --> 23
+<RITESH>Got ack for 127       
+<RITESH> Ack rxed - 3 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 127
+current queue size --> 23
+<RITESH>Got ack for 128       
+<RITESH> Ack rxed - 4 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 128
+current queue size --> 23
+<RITESH>Got ack for 129       
+<RITESH> Ack rxed - 5 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 129
+current queue size --> 23
+<RITESH>Got ack for 130       
+<RITESH> Ack rxed - 6 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 130
+current queue size --> 23
+<RITESH>Got ack for 131       
+<RITESH> Ack rxed - 7 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 131
+current queue size --> 23
+<RITESH>Got ack for 132       
+<RITESH> Ack rxed - 8 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 132
+current queue size --> 23
+<RITESH>Got ack for 133       
+<RITESH> Ack rxed - 9 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 133
+current queue size --> 23
+<RITESH>Got ack for 135       
+<RITESH> Ack rxed - 11 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 135
+current queue size --> 23
+<RITESH>Got ack for 137       
+<RITESH> Ack rxed - 13 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 137
+current queue size --> 23
+<RITESH>Got ack for 138       
+<RITESH> Ack rxed - 14 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 138
+current queue size --> 23
+<RITESH>Got ack for 139       
+<RITESH> Ack rxed - 15 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 139
+current queue size --> 23
+<RITESH>Got ack for 140       
+<RITESH> Ack rxed - 16 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 140
+current queue size --> 23
+<RITESH>Got ack for 141       
+<RITESH> Ack rxed - 17 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 141
+current queue size --> 23
+<RITESH>Got ack for 142       
+<RITESH> Ack rxed - 18 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 142
+current queue size --> 23
+<RITESH>Got ack for 143       
+<RITESH> Ack rxed - 19 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 143
+current queue size --> 23
+<RITESH>Got ack for 144       
+<RITESH> Ack rxed - 20 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 144
+current queue size --> 23
+<RITESH>Got ack for 145       
+<RITESH> Ack rxed - 21 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 145
+current queue size --> 23
+<RITESH>Got ack for 146       
+<RITESH> Ack rxed - 22 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 146
+current queue size --> 23
+current queue size --> 23
+<RITESH>Retransmitted Packet - 134 with rtt 139 dev 8 timeout - 171 ms           
+<RITESH>Retransmitted Packet - 136 with rtt 139 dev 8 timeout - 171 ms           
+current queue size --> 23
+<RITESH>Got ack for 134       
+<RITESH> Ack rxed - 10 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 134
+current queue size --> 23
+<RITESH>Got ack for 136       
+<RITESH> Ack rxed - 12 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 136
+current queue size --> 23
+current queue size --> 22
+current queue size --> 21
+current queue size --> 20
+current queue size --> 19
+current queue size --> 18
+current queue size --> 17
+current queue size --> 16
+current queue size --> 15
+current queue size --> 14
+current queue size --> 13
+current queue size --> 12
+current queue size --> 11
+current queue size --> 10
+current queue size --> 9
+current queue size --> 8
+current queue size --> 7
+current queue size --> 6
+current queue size --> 5
+current queue size --> 4
+current queue size --> 3
+current queue size --> 2
+current queue size --> 1
+current queue size --> 0
+<RITESH>Sent Packet - 147 with rtt 139 dev 8 timeout - 342 ms           
+current queue size --> 1
+<RITESH>Sent Packet - 148 with rtt 139 dev 8 timeout - 342 ms           
+current queue size --> 2
+<RITESH>Sent Packet - 149 with rtt 139 dev 8 timeout - 342 ms           
+current queue size --> 3
+<RITESH>Sent Packet - 150 with rtt 139 dev 8 timeout - 342 ms           
+current queue size --> 4
+<RITESH>Sent Packet - 151 with rtt 139 dev 8 timeout - 342 ms           
+current queue size --> 5
+<RITESH>Sent Packet - 152 with rtt 139 dev 8 timeout - 342 ms           
+current queue size --> 6
+<RITESH>Sent Packet - 153 with rtt 139 dev 8 timeout - 342 ms           
+current queue size --> 7
+<RITESH>Sent Packet - 154 with rtt 139 dev 8 timeout - 342 ms           
+current queue size --> 8
+<RITESH>Sent Packet - 155 with rtt 139 dev 8 timeout - 342 ms           
+current queue size --> 9
+<RITESH>Sent Packet - 156 with rtt 139 dev 8 timeout - 342 ms           
+current queue size --> 10
+<RITESH>Sent Packet - 157 with rtt 139 dev 8 timeout - 342 ms           
+current queue size --> 11
+<RITESH>Sent Packet - 158 with rtt 139 dev 8 timeout - 342 ms           
+current queue size --> 12
+<RITESH>Sent Packet - 159 with rtt 139 dev 8 timeout - 342 ms           
+current queue size --> 13
+<RITESH>Sent Packet - 160 with rtt 139 dev 8 timeout - 342 ms           
+current queue size --> 14
+<RITESH>Sent Packet - 161 with rtt 139 dev 8 timeout - 342 ms           
+current queue size --> 15
+<RITESH>Sent Packet - 162 with rtt 139 dev 8 timeout - 342 ms           
+current queue size --> 16
+<RITESH>Sent Packet - 163 with rtt 139 dev 8 timeout - 342 ms           
+current queue size --> 17
+<RITESH>Sent Packet - 164 with rtt 139 dev 8 timeout - 342 ms           
+current queue size --> 18
+<RITESH>Sent Packet - 165 with rtt 139 dev 8 timeout - 342 ms           
+current queue size --> 19
+<RITESH>Sent Packet - 166 with rtt 139 dev 8 timeout - 342 ms           
+current queue size --> 20
+<RITESH>Sent Packet - 167 with rtt 139 dev 8 timeout - 342 ms           
+current queue size --> 21
+<RITESH>Sent Packet - 168 with rtt 139 dev 8 timeout - 342 ms           
+current queue size --> 22
+current queue size --> 22
+<RITESH>Got ack for 147       
+<RITESH> Ack rxed - 0 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 147
+current queue size --> 22
+<RITESH>Got ack for 148       
+<RITESH> Ack rxed - 1 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 148
+current queue size --> 22
+<RITESH>Got ack for 149       
+<RITESH> Ack rxed - 2 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 149
+current queue size --> 22
+<RITESH>Got ack for 150       
+<RITESH> Ack rxed - 3 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 150
+current queue size --> 22
+<RITESH>Got ack for 151       
+<RITESH> Ack rxed - 4 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 151
+current queue size --> 22
+<RITESH>Got ack for 152       
+<RITESH> Ack rxed - 5 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 152
+current queue size --> 22
+<RITESH>Got ack for 153       
+<RITESH> Ack rxed - 6 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 153
+current queue size --> 22
+<RITESH>Got ack for 154       
+<RITESH> Ack rxed - 7 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 154
+current queue size --> 22
+<RITESH>Got ack for 155       
+<RITESH> Ack rxed - 8 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 155
+current queue size --> 22
+<RITESH>Got ack for 156       
+<RITESH> Ack rxed - 9 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 156
+current queue size --> 22
+<RITESH>Got ack for 158       
+<RITESH> Ack rxed - 11 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 158
+current queue size --> 22
+<RITESH>Got ack for 159       
+<RITESH> Ack rxed - 12 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 159
+current queue size --> 22
+<RITESH>Got ack for 160       
+<RITESH> Ack rxed - 13 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 160
+current queue size --> 22
+<RITESH>Got ack for 161       
+<RITESH> Ack rxed - 14 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 161
+current queue size --> 22
+<RITESH>Got ack for 162       
+<RITESH> Ack rxed - 15 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 162
+current queue size --> 22
+<RITESH>Got ack for 163       
+<RITESH> Ack rxed - 16 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 163
+current queue size --> 22
+<RITESH>Got ack for 164       
+<RITESH> Ack rxed - 17 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 164
+current queue size --> 22
+<RITESH>Got ack for 165       
+<RITESH> Ack rxed - 18 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 165
+current queue size --> 22
+<RITESH>Got ack for 166       
+<RITESH> Ack rxed - 19 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 166
+current queue size --> 22
+<RITESH>Got ack for 167       
+<RITESH> Ack rxed - 20 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 167
+current queue size --> 22
+<RITESH>Got ack for 168       
+<RITESH> Ack rxed - 21 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 168
+current queue size --> 22
+current queue size --> 22
+<RITESH>Retransmitted Packet - 157 with rtt 104 dev 6 timeout - 128 ms           
+current queue size --> 22
+<RITESH>Got ack for 157       
+<RITESH> Ack rxed - 10 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 157
+current queue size --> 22
+current queue size --> 21
+current queue size --> 20
+current queue size --> 19
+current queue size --> 18
+current queue size --> 17
+current queue size --> 16
+current queue size --> 15
+current queue size --> 14
+current queue size --> 13
+current queue size --> 12
+current queue size --> 11
+current queue size --> 10
+current queue size --> 9
+current queue size --> 8
+current queue size --> 7
+current queue size --> 6
+current queue size --> 5
+current queue size --> 4
+current queue size --> 3
+current queue size --> 2
+current queue size --> 1
+current queue size --> 0
+<RITESH>Sent Packet - 169 with rtt 104 dev 6 timeout - 256 ms           
+current queue size --> 1
+<RITESH>Sent Packet - 170 with rtt 104 dev 6 timeout - 256 ms           
+current queue size --> 2
+<RITESH>Sent Packet - 171 with rtt 104 dev 6 timeout - 256 ms           
+current queue size --> 3
+<RITESH>Sent Packet - 172 with rtt 104 dev 6 timeout - 256 ms           
+current queue size --> 4
+<RITESH>Sent Packet - 173 with rtt 104 dev 6 timeout - 256 ms           
+current queue size --> 5
+<RITESH>Sent Packet - 174 with rtt 104 dev 6 timeout - 256 ms           
+current queue size --> 6
+
+Finished sending, closing socket.
+<RITESH>, rel_close called.
+<RITESH>, rel_close: sending close and waiting for ack of close packet(packet_len = 0).
+<RITESH>Sent Packet - 175 with rtt 104 dev 6 timeout - 256 ms           
+current queue size --> 7
+current queue size --> 7
+<RITESH>Got ack for 169       
+<RITESH> Ack rxed - 0 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 169
+current queue size --> 7
+<RITESH>Got ack for 170       
+<RITESH> Ack rxed - 1 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 170
+current queue size --> 7
+<RITESH>Got ack for 171       
+<RITESH> Ack rxed - 2 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 171
+current queue size --> 7
+<RITESH>Got ack for 172       
+<RITESH> Ack rxed - 3 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 172
+current queue size --> 7
+<RITESH>Got ack for 173       
+<RITESH> Ack rxed - 4 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 173
+current queue size --> 7
+<RITESH>Got ack for 174       
+<RITESH> Ack rxed - 5 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 174
+current queue size --> 7
+current queue size --> 7
+<RITESH>Retransmitted Packet - 175 with rtt 113 dev 7 timeout - 141 ms           
+current queue size --> 7
+<RITESH>Got ack for 175       
+<RITESH> Ack rxed - 6 , start_seq_no , redundant log
+<RITESH> nth element in Q packet->seq_no = 175
+current queue size --> 7
+<RITESH>Exception: Sending ACK - 0  for a non-ack packet receivd        
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7
+current queue size --> 7

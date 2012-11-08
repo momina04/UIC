@@ -1,0 +1,75 @@
+#!/bin/bash
+
+usage="Usage: hw5_score <username> <base port> <score file> [time]"
+
+if [ $# -lt 3 ]; then
+	echo $usage
+	exit 1
+fi
+
+time=${4:-"HEAD"}
+
+score=0
+
+mkdir -p $1
+cd $1
+
+svn co -r $time svn://cs450.cs.uic.edu/f12/$1/hw5
+
+cd hw5
+rm $3
+cp ../../landscape.jpg .
+
+make
+
+############################################
+latency=(1000 100 10 100 10 10)
+forwarding=(1 1 1 0.95 0.95 0.9)
+tput=(0.2 2.2 23.6 1.9 18.4 14.6) #acceptable lower limit of throughput in kB/s
+timeout=(4467 407 38 471 49 62) #timeout is approx. 50% more than corresponding lower limit of throughput
+
+#file="1000lines"
+#md5_orig=187323fe69aa075411d75dd0849f8263
+
+file="landscape.jpg"
+md5_orig=014519a8f2fa487b418fdd3a8eeb4f26
+
+rm RECVD_FILE*
+
+for i in 0 1 2 3 4 5; do
+	echo "test case $i"
+	base_port=$(($2+$i*4))
+	timeout=${timeout[$i]}
+
+	./proxy -p $base_port -b 2 -l ${latency[$i]} -f ${forwarding[$i]} &
+	sleep 2
+
+	timeout $timeout ./hw5_receiver 127.0.0.1 $base_port > "RECVD_FILE_$i" &
+	sleep 1
+
+	rm sender_output
+	timeout $timeout cat $file | timeout $timeout ./hw5_sender 127.0.0.1 $base_port 2> sender_output
+	sleep 30
+
+	md5_recv=`md5sum "RECVD_FILE_$i" | awk '{print $1}'`
+	echo $md5_recv
+
+	throughput=`cat sender_output | grep -i "KB/s" | awk '{print $(NF-1)}'`
+	
+	if [ "$md5_recv" == "$md5_orig" ]; then
+		tput_ok=`echo $throughput ${tput[$i]} | awk '{if($1>=$2) {print 1} else {print 0}}'`
+		if [ "$tput_ok" -eq "1" ]; then
+			echo "[SUCCESS] latency=${latency[$i]} forwarding=${forwarding[$i]} [1]: 1 [throughput (kB/s)=$throughput]" >> $3
+			score=`echo $score | awk '{print $1+1}'`
+		else
+			echo "[PARTIAL] latency=${latency[$i]} forwarding=${forwarding[$i]} [1]: 0.5 [valid content, but throughput too low.]" >> $3
+			score=`echo $score | awk '{print $1+0.5}'`
+		fi
+	else
+		echo "[FAILED] latency=${latency[$i]} forwarding=${forwarding[$i]} [1]: 0 [invalid content]" >> $3
+	fi
+
+	kill `pgrep -f "./proxy -p $base_port"`
+done
+############################################
+echo "Total score: $score" >> $3

@@ -1,0 +1,240 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+ANY	bencode-tools-2011-03-15/typevalidator.py	/^class ANY:$/;"	c
+AR	bencode-tools-2011-03-15/Makefile	/^AR = ar$/;"	m
+BENCODE_BOOL	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	BENCODE_BOOL = 1,$/;"	e
+BENCODE_DICT	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	BENCODE_DICT,$/;"	e
+BENCODE_INT	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	BENCODE_INT,$/;"	e
+BENCODE_LIST	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	BENCODE_LIST,$/;"	e
+BENCODE_STR	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	BENCODE_STR,$/;"	e
+BEN_INSUFFICIENT	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	BEN_INSUFFICIENT, \/* Insufficient amount of data for decoding *\/$/;"	e
+BEN_INVALID	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	BEN_INVALID,      \/* Invalid data was given to decoder *\/$/;"	e
+BEN_NO_MEMORY	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	BEN_NO_MEMORY,    \/* Memory allocation failed *\/$/;"	e
+BEN_OK	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	BEN_OK = 0, \/* No errors. Set to zero. Non-zero implies an error. *\/$/;"	e
+BUFFER_SIZE	bencode-tools-2011-03-15/bencat.c	15;"	d	file:
+BUFSIZE	hw4.c	27;"	d	file:
+Bencached	bencode-tools-2011-03-15/bencode.py	/^class Bencached(object):$/;"	c
+CC	bencode-tools-2011-03-15/Makefile	/^CC = gcc$/;"	m
+CFLAGS	bencode-tools-2011-03-15/Makefile	/^CFLAGS = -Wall -O2 -g -fPIC -shared -Iinclude $/;"	m
+EXECFLAGS	bencode-tools-2011-03-15/Makefile	/^EXECFLAGS = -Wall -O2 -g -Iinclude $/;"	m
+INCLUDES	Makefile	/^INCLUDES=bencode-tools-2011-03-15\/include\/ $/;"	m
+Invalid_Format_Object	bencode-tools-2011-03-15/typevalidator.py	/^class Invalid_Format_Object(Exception):$/;"	c
+LDFLAGS	bencode-tools-2011-03-15/Makefile	/^LDFLAGS = $/;"	m
+LIBMODULES	bencode-tools-2011-03-15/Makefile	/^LIBMODULES = bencode.o$/;"	m
+LONGLONGSIZE	bencode-tools-2011-03-15/bencode.c	25;"	d	file:
+MAX_ALLOC	bencode-tools-2011-03-15/bencode.c	10;"	d	file:
+OBJECTS	Makefile	/^OBJECTS=bencode-tools-2011-03-15\/bencode.o$/;"	m
+ONE_OR_MORE	bencode-tools-2011-03-15/typevalidator.py	/^class ONE_OR_MORE:$/;"	c
+OPTIONAL_KEY	bencode-tools-2011-03-15/typevalidator.py	/^class OPTIONAL_KEY:$/;"	c
+PIECE_EMPTY	hw4.c	/^enum {PIECE_EMPTY=0, PIECE_PENDING=1, PIECE_FINISHED=2} *piece_status;$/;"	e	file:
+PIECE_FINISHED	hw4.c	/^enum {PIECE_EMPTY=0, PIECE_PENDING=1, PIECE_FINISHED=2} *piece_status;$/;"	e	file:
+PIECE_PENDING	hw4.c	/^enum {PIECE_EMPTY=0, PIECE_PENDING=1, PIECE_FINISHED=2} *piece_status;$/;"	e	file:
+PREFIX	bencode-tools-2011-03-15/Makefile	/^PREFIX = \/usr\/local$/;"	m
+TYPEVALIDATOR_BENCODE_H	bencode-tools-2011-03-15/include/bencodetools/bencode.h	2;"	d
+ZERO_OR_MORE	bencode-tools-2011-03-15/typevalidator.py	/^class ZERO_OR_MORE:$/;"	c
+__init__	bencode-tools-2011-03-15/bencode.py	/^    def __init__(self, s):$/;"	m	class:Bencached
+__init__	bencode-tools-2011-03-15/typevalidator.py	/^    def __init__(self, key):$/;"	m	class:OPTIONAL_KEY
+__init__	bencode-tools-2011-03-15/typevalidator.py	/^    def __init__(self, reason=''):$/;"	m	class:Invalid_Format_Object
+__str__	bencode-tools-2011-03-15/typevalidator.py	/^    def __str__(self):$/;"	m	class:Invalid_Format_Object	file:
+active_peers	hw4.c	/^int active_peers() {$/;"	f
+addr	hw4.h	/^	in_addr_t addr;$/;"	m	struct:peer_addr
+alloc	bencode-tools-2011-03-15/bencode.c	/^static void *alloc(int type)$/;"	f	file:
+alloc	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	size_t alloc;$/;"	m	struct:bencode_dict
+alloc	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	size_t alloc;$/;"	m	struct:bencode_list
+anno_lock	hw4.c	/^pthread_mutex_t status_lock, file_lock, anno_lock;$/;"	v
+announce_url	hw4.c	/^char announce_url[255];$/;"	v
+b	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	char b;$/;"	m	struct:bencode_bool
+bdecode	bencode-tools-2011-03-15/bencode.py	/^def bdecode(x):$/;"	f
+ben_blob	bencode-tools-2011-03-15/bencode.c	/^struct bencode *ben_blob(const void *data, size_t len)$/;"	f
+ben_bool	bencode-tools-2011-03-15/bencode.c	/^struct bencode *ben_bool(int boolean)$/;"	f
+ben_bool_cast	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^static inline struct bencode_bool *ben_bool_cast(struct bencode *b)$/;"	f
+ben_bool_const_cast	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^static inline const struct bencode_bool *ben_bool_const_cast(const struct bencode *b)$/;"	f
+ben_bool_val	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^static inline int ben_bool_val(const struct bencode *b)$/;"	f
+ben_cmp	bencode-tools-2011-03-15/bencode.c	/^int ben_cmp(const struct bencode *a, const struct bencode *b)$/;"	f
+ben_cmp_qsort	bencode-tools-2011-03-15/bencode.c	/^int ben_cmp_qsort(const void *a, const void *b)$/;"	f
+ben_decode	bencode-tools-2011-03-15/bencode.c	/^struct bencode *ben_decode(const void *data, size_t len)$/;"	f
+ben_decode2	bencode-tools-2011-03-15/bencode.c	/^struct bencode *ben_decode2(const void *data, size_t len, size_t *off, int *error)$/;"	f
+ben_dict	bencode-tools-2011-03-15/bencode.c	/^struct bencode *ben_dict(void)$/;"	f
+ben_dict_cast	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^static inline struct bencode_dict *ben_dict_cast(struct bencode *b)$/;"	f
+ben_dict_const_cast	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^static inline const struct bencode_dict *ben_dict_const_cast(const struct bencode *b)$/;"	f
+ben_dict_for_each	bencode-tools-2011-03-15/include/bencodetools/bencode.h	323;"	d
+ben_dict_get	bencode-tools-2011-03-15/bencode.c	/^struct bencode *ben_dict_get(const struct bencode *dict, const struct bencode *key)$/;"	f
+ben_dict_get_by_str	bencode-tools-2011-03-15/bencode.c	/^struct bencode *ben_dict_get_by_str(const struct bencode *dict, const char *key)$/;"	f
+ben_dict_len	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^static inline size_t ben_dict_len(const struct bencode *b)$/;"	f
+ben_dict_pop	bencode-tools-2011-03-15/bencode.c	/^struct bencode *ben_dict_pop(struct bencode *dict, const struct bencode *key)$/;"	f
+ben_dict_set	bencode-tools-2011-03-15/bencode.c	/^int ben_dict_set(struct bencode *dict, struct bencode *key, struct bencode *value)$/;"	f
+ben_dict_set_by_str	bencode-tools-2011-03-15/bencode.c	/^int ben_dict_set_by_str(struct bencode *dict, const char *key, struct bencode *value)$/;"	f
+ben_dict_set_str_by_str	bencode-tools-2011-03-15/bencode.c	/^int ben_dict_set_str_by_str(struct bencode *dict, const char *key, const char *value)$/;"	f
+ben_encode	bencode-tools-2011-03-15/bencode.c	/^void *ben_encode(size_t *len, const struct bencode *b)$/;"	f
+ben_encode2	bencode-tools-2011-03-15/bencode.c	/^size_t ben_encode2(char *data, size_t maxlen, const struct bencode *b)$/;"	f
+ben_encoded_size	bencode-tools-2011-03-15/bencode.c	/^size_t ben_encoded_size(const struct bencode *b)$/;"	f
+ben_free	bencode-tools-2011-03-15/bencode.c	/^void ben_free(struct bencode *b)$/;"	f
+ben_int	bencode-tools-2011-03-15/bencode.c	/^struct bencode *ben_int(long long ll)$/;"	f
+ben_int_cast	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^static inline struct bencode_int *ben_int_cast(struct bencode *i)$/;"	f
+ben_int_const_cast	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^static inline const struct bencode_int *ben_int_const_cast(const struct bencode *i)$/;"	f
+ben_int_val	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^static inline long long ben_int_val(const struct bencode *b)$/;"	f
+ben_is_bool	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^static inline int ben_is_bool(struct bencode *b)$/;"	f
+ben_is_dict	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^static inline int ben_is_dict(struct bencode *b)$/;"	f
+ben_is_int	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^static inline int ben_is_int(struct bencode *b)$/;"	f
+ben_is_list	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^static inline int ben_is_list(struct bencode *b)$/;"	f
+ben_is_str	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^static inline int ben_is_str(struct bencode *b)$/;"	f
+ben_list	bencode-tools-2011-03-15/bencode.c	/^struct bencode *ben_list(void)$/;"	f
+ben_list_append	bencode-tools-2011-03-15/bencode.c	/^int ben_list_append(struct bencode *list, struct bencode *b)$/;"	f
+ben_list_cast	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^static inline struct bencode_list *ben_list_cast(struct bencode *list)$/;"	f
+ben_list_const_cast	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^static inline const struct bencode_list *ben_list_const_cast(const struct bencode *list)$/;"	f
+ben_list_for_each	bencode-tools-2011-03-15/include/bencodetools/bencode.h	315;"	d
+ben_list_get	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^static inline struct bencode *ben_list_get(const struct bencode *list, size_t i)$/;"	f
+ben_list_len	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^static inline size_t ben_list_len(const struct bencode *b)$/;"	f
+ben_list_set	bencode-tools-2011-03-15/bencode.c	/^void ben_list_set(struct bencode *list, size_t i, struct bencode *b)$/;"	f
+ben_print	bencode-tools-2011-03-15/bencode.c	/^char *ben_print(const struct bencode *b)$/;"	f
+ben_str	bencode-tools-2011-03-15/bencode.c	/^struct bencode *ben_str(const char *s)$/;"	f
+ben_str_cast	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^static inline struct bencode_str *ben_str_cast(struct bencode *str)$/;"	f
+ben_str_const_cast	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^static inline const struct bencode_str *ben_str_const_cast(const struct bencode *str)$/;"	f
+ben_str_len	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^static inline size_t ben_str_len(const struct bencode *b)$/;"	f
+ben_str_val	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^static inline const char *ben_str_val(const struct bencode *b)$/;"	f
+ben_strerror	bencode-tools-2011-03-15/bencode.c	/^const char *ben_strerror(int error)$/;"	f
+benchmark	bencode-tools-2011-03-15/typevalidator.py	/^def benchmark():$/;"	f
+bencode	bencode-tools-2011-03-15/bencode.py	/^def bencode(item):$/;"	f
+bencode	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^struct bencode {$/;"	s
+bencode_bool	bencode-tools-2011-03-15/bencode.py	/^def bencode_bool(x, b):$/;"	f
+bencode_bool	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^struct bencode_bool {$/;"	s
+bencode_cached	bencode-tools-2011-03-15/bencode.py	/^def bencode_cached(x, b):$/;"	f
+bencode_dict	bencode-tools-2011-03-15/bencode.py	/^def bencode_dict(x, b):$/;"	f
+bencode_dict	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^struct bencode_dict {$/;"	s
+bencode_int	bencode-tools-2011-03-15/bencode.py	/^def bencode_int(x, b):$/;"	f
+bencode_int	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^struct bencode_int {$/;"	s
+bencode_keyvalue	bencode-tools-2011-03-15/bencode.c	/^struct bencode_keyvalue {$/;"	s	file:
+bencode_list	bencode-tools-2011-03-15/bencode.py	/^def bencode_list(x, b):$/;"	f
+bencode_list	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^struct bencode_list {$/;"	s
+bencode_str	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^struct bencode_str {$/;"	s
+bencode_string	bencode-tools-2011-03-15/bencode.py	/^def bencode_string(x, b):$/;"	f
+bitfield	hw4.h	/^	char* bitfield;$/;"	m	struct:peer_state
+booltest	bencode-tools-2011-03-15/bencodetest.c	/^static void booltest(const char *s, size_t len, int expected, int experror)$/;"	f	file:
+choked	hw4.h	/^	int choked;$/;"	m	struct:peer_state
+choked_peers	hw4.c	/^int choked_peers() {$/;"	f
+connect_to_peer	hw4.c	/^void *connect_to_peer(void* pa) {$/;"	f
+connected	hw4.h	/^	int connected;$/;"	m	struct:peer_state
+count	hw4.h	/^	int count; \/\/ number of bytes currently in the incoming buffer$/;"	m	struct:peer_state
+data	bencode-tools-2011-03-15/bencode.c	/^	const char *data;$/;"	m	struct:decode	file:
+debug	hw4.c	/^int debug=1;  \/\/set this to zero if you don't want all the debugging messages $/;"	v
+decode	bencode-tools-2011-03-15/bencode.c	/^static struct bencode *decode(struct decode *ctx)$/;"	f	file:
+decode	bencode-tools-2011-03-15/bencode.c	/^struct decode {$/;"	s	file:
+decode_bool	bencode-tools-2011-03-15/bencode.c	/^static struct bencode *decode_bool(struct decode *ctx)$/;"	f	file:
+decode_bool	bencode-tools-2011-03-15/bencode.py	/^def decode_bool(x, f):$/;"	f
+decode_dict	bencode-tools-2011-03-15/bencode.c	/^static struct bencode *decode_dict(struct decode *ctx)$/;"	f	file:
+decode_dict	bencode-tools-2011-03-15/bencode.py	/^def decode_dict(x, f):$/;"	f
+decode_int	bencode-tools-2011-03-15/bencode.c	/^static struct bencode *decode_int(struct decode *ctx)$/;"	f	file:
+decode_int	bencode-tools-2011-03-15/bencode.py	/^def decode_int(x, f):$/;"	f
+decode_list	bencode-tools-2011-03-15/bencode.c	/^static struct bencode *decode_list(struct decode *ctx)$/;"	f	file:
+decode_list	bencode-tools-2011-03-15/bencode.py	/^def decode_list(x, f):$/;"	f
+decode_str	bencode-tools-2011-03-15/bencode.c	/^static struct bencode *decode_str(struct decode *ctx)$/;"	f	file:
+decode_string	bencode-tools-2011-03-15/bencode.py	/^def decode_string(x, f):$/;"	f
+dict_tests	bencode-tools-2011-03-15/bencodetest.c	/^static void dict_tests(void)$/;"	f	file:
+dicttest	bencode-tools-2011-03-15/bencodetest.c	/^static void dicttest(const char *s, size_t len, size_t expected, int experror)$/;"	f	file:
+digest	hw4.c	/^unsigned char digest[20];$/;"	v
+draw_state	hw4.c	/^void* draw_state() {$/;"	f
+drop_message	hw4.c	/^void drop_message(struct peer_state* peer) {$/;"	f
+encoded_size_tests	bencode-tools-2011-03-15/bencodetest.c	/^static void encoded_size_tests(void)$/;"	f	file:
+error	bencode-tools-2011-03-15/bencode.c	/^	int error;$/;"	m	struct:decode	file:
+file_length	hw4.c	/^int file_length=0;$/;"	v
+file_lock	hw4.c	/^pthread_mutex_t status_lock, file_lock, anno_lock;$/;"	v
+find	bencode-tools-2011-03-15/bencode.c	/^static size_t find(const char *data, size_t len, size_t off, char c)$/;"	f	file:
+finish_cond	hw4.c	/^pthread_cond_t finish_cond;$/;"	v
+fmt_bdecode	bencode-tools-2011-03-15/bencode.py	/^def fmt_bdecode(fmt, data):$/;"	f
+free_dict	bencode-tools-2011-03-15/bencode.c	/^static void free_dict(struct bencode_dict *d)$/;"	f	file:
+free_list	bencode-tools-2011-03-15/bencode.c	/^static void free_list(struct bencode_list *list)$/;"	f	file:
+get_printed_size	bencode-tools-2011-03-15/bencode.c	/^static size_t get_printed_size(const struct bencode *b)$/;"	f	file:
+get_size	bencode-tools-2011-03-15/bencode.c	/^static size_t get_size(const struct bencode *b)$/;"	f	file:
+handle_announcement	hw4.c	/^void handle_announcement(char *ptr, size_t size) {$/;"	f
+incoming	hw4.h	/^	char* incoming; \/\/ buffer where we store partial messages$/;"	m	struct:peer_state
+info	hw4.c	/^struct bencode *info;$/;"	v
+insufficient	bencode-tools-2011-03-15/bencode.c	/^static int insufficient(struct decode *ctx)$/;"	f	file:
+insufficient_ptr	bencode-tools-2011-03-15/bencode.c	/^static void *insufficient_ptr(struct decode *ctx)$/;"	f	file:
+inttest	bencode-tools-2011-03-15/bencodetest.c	/^static void inttest(const char *s, size_t len, long long expected, int experror)$/;"	f	file:
+invalid	bencode-tools-2011-03-15/bencode.c	/^static int invalid(struct decode *ctx)$/;"	f	file:
+invalid_ptr	bencode-tools-2011-03-15/bencode.c	/^static void *invalid_ptr(struct decode *ctx)$/;"	f	file:
+ip	hw4.h	/^	in_addr_t ip;$/;"	m	struct:peer_state
+key	bencode-tools-2011-03-15/bencode.c	/^	struct bencode *key;$/;"	m	struct:bencode_keyvalue	file:
+keys	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	struct bencode **keys;$/;"	m	struct:bencode_dict
+len	bencode-tools-2011-03-15/bencode.c	/^	const size_t len;$/;"	m	struct:decode	file:
+len	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	size_t len;$/;"	m	struct:bencode_str
+level	bencode-tools-2011-03-15/bencode.c	/^	int level;$/;"	m	struct:decode	file:
+listtest	bencode-tools-2011-03-15/bencodetest.c	/^static void listtest(const char *s, size_t len, size_t expected, int experror)$/;"	f	file:
+ll	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	long long ll;$/;"	m	struct:bencode_int
+main	bencode-tools-2011-03-15/bencat.c	/^int main(int argc, char *argv[])$/;"	f
+main	bencode-tools-2011-03-15/bencodetest.c	/^int main(void)$/;"	f
+main	hw4.c	/^int main(int argc, char** argv) {$/;"	f
+misc_tests	bencode-tools-2011-03-15/bencodetest.c	/^static void misc_tests(void)$/;"	f	file:
+missing_blocks	hw4.c	/^int missing_blocks() {$/;"	f
+n	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	size_t n;$/;"	m	struct:bencode_dict
+n	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	size_t n;$/;"	m	struct:bencode_list
+next	hw4.h	/^	struct peer_state *next;$/;"	m	struct:peer_state
+next_piece	hw4.c	/^int next_piece(int previous_piece) {$/;"	f
+off	bencode-tools-2011-03-15/bencode.c	/^	size_t off;$/;"	m	struct:decode	file:
+oom_ptr	bencode-tools-2011-03-15/bencode.c	/^static void *oom_ptr(struct decode *ctx)$/;"	f	file:
+peer_addr	hw4.h	/^struct peer_addr {$/;"	s
+peer_connected	hw4.c	/^int peer_connected(in_addr_t addr) {$/;"	f
+peer_id	hw4.c	/^char peer_id[21]="-UICCS450-";$/;"	v
+peer_state	hw4.h	/^struct peer_state {$/;"	s
+peers	hw4.c	/^struct peer_state *peers=0;$/;"	v
+piece_length	hw4.c	/^int piece_length;$/;"	v
+piece_status	hw4.c	/^enum {PIECE_EMPTY=0, PIECE_PENDING=1, PIECE_FINISHED=2} *piece_status;$/;"	v
+port	hw4.h	/^	short port;$/;"	m	struct:peer_addr
+print	bencode-tools-2011-03-15/bencode.c	/^static int print(char *data, size_t size, size_t *pos, const struct bencode *b)$/;"	f	file:
+print_bencode	hw4_bencode.c	/^void print_bencode(struct bencode* b) {$/;"	f
+print_help	bencode-tools-2011-03-15/bencat.c	/^static void print_help(void)$/;"	f	file:
+print_tests	bencode-tools-2011-03-15/bencodetest.c	/^static void print_tests(void)$/;"	f	file:
+process	bencode-tools-2011-03-15/bencat.c	/^static int process(int fd)$/;"	f	file:
+process_buffer	bencode-tools-2011-03-15/bencat.c	/^static int process_buffer(char *buf, size_t *size, size_t len)$/;"	f	file:
+process_files	bencode-tools-2011-03-15/bencat.c	/^static int process_files(int i, int argc, char *argv[])$/;"	f	file:
+process_object	bencode-tools-2011-03-15/bencat.c	/^static int process_object(const struct bencode *b)$/;"	f	file:
+puthexchar	bencode-tools-2011-03-15/bencode.c	/^static int puthexchar(char *data, size_t size, size_t *pos, unsigned char hex)$/;"	f	file:
+putlonglong	bencode-tools-2011-03-15/bencode.c	/^static int putlonglong(char *data, size_t size, size_t *pos, long long ll)$/;"	f	file:
+putonechar	bencode-tools-2011-03-15/bencode.c	/^static int putonechar(char *data, size_t size, size_t *pos, char c)$/;"	f	file:
+putstr	bencode-tools-2011-03-15/bencode.c	/^static int putstr(char *data, size_t size, size_t *pos, char *s)$/;"	f	file:
+putunsignedlonglong	bencode-tools-2011-03-15/bencode.c	/^static int putunsignedlonglong(char *data, size_t size, size_t *pos,$/;"	f	file:
+read_long_long	bencode-tools-2011-03-15/bencode.c	/^static int read_long_long(long long *ll, struct decode *ctx, int c)$/;"	f	file:
+read_size_t	bencode-tools-2011-03-15/bencode.c	/^static size_t read_size_t(struct decode *ctx, int c)$/;"	f	file:
+reallocarray	bencode-tools-2011-03-15/bencat.c	/^static int reallocarray(char **buf, size_t *size)$/;"	f	file:
+receive_message	hw4.c	/^int receive_message(struct peer_state* peer) {$/;"	f
+replacewithlast	bencode-tools-2011-03-15/bencode.c	/^static void replacewithlast(struct bencode **arr, size_t i, size_t n)$/;"	f	file:
+request_block	hw4.c	/^ void request_block(struct peer_state* peer, int piece, int offset) {	$/;"	f
+requested_piece	hw4.h	/^	int requested_piece;$/;"	m	struct:peer_state
+resize_dict	bencode-tools-2011-03-15/bencode.c	/^static int resize_dict(struct bencode_dict *d)$/;"	f	file:
+resize_list	bencode-tools-2011-03-15/bencode.c	/^static int resize_list(struct bencode_list *list)$/;"	f	file:
+s	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	char *s;$/;"	m	struct:bencode_str
+screenbuf	hw4.c	/^char screenbuf[10000];$/;"	v
+send_interested	hw4.c	/^void send_interested(struct peer_state* peer) {$/;"	f
+serialize	bencode-tools-2011-03-15/bencode.c	/^static int serialize(char *data, size_t size, size_t *pos,$/;"	f	file:
+shift_buffer	bencode-tools-2011-03-15/bencat.c	/^static void shift_buffer(char *buf, size_t *size, size_t off)$/;"	f	file:
+socket	hw4.h	/^	int socket;$/;"	m	struct:peer_state
+start_peers	hw4.c	/^void start_peers() {$/;"	f
+status_lock	hw4.c	/^pthread_mutex_t status_lock, file_lock, anno_lock;$/;"	v
+strtest	bencode-tools-2011-03-15/bencodetest.c	/^static void strtest(const char *s, size_t len, const char *expected, int experror)$/;"	f	file:
+teemode	bencode-tools-2011-03-15/bencat.c	/^static int teemode;$/;"	v	file:
+test_bdecode	bencode-tools-2011-03-15/bencode.py	/^def test_bdecode():$/;"	f
+test_bencode	bencode-tools-2011-03-15/bencode.py	/^def test_bencode():$/;"	f
+test_validate	bencode-tools-2011-03-15/typevalidator.py	/^def test_validate():$/;"	f
+testvectors	bencode-tools-2011-03-15/bencodetest.c	/^static void testvectors(const char **vec, int success)$/;"	f	file:
+torrent	hw4.c	/^struct bencode_dict *torrent;$/;"	v
+type	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	char type;$/;"	m	struct:bencode
+type	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	char type;$/;"	m	struct:bencode_bool
+type	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	char type;$/;"	m	struct:bencode_dict
+type	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	char type;$/;"	m	struct:bencode_int
+type	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	char type;$/;"	m	struct:bencode_list
+type	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	char type;$/;"	m	struct:bencode_str
+type_size	bencode-tools-2011-03-15/bencode.c	/^static size_t type_size(int type)$/;"	f	file:
+validate	bencode-tools-2011-03-15/typevalidator.py	/^def validate(fmt, o):$/;"	f
+validate_dict	bencode-tools-2011-03-15/typevalidator.py	/^def validate_dict(fmt, o):$/;"	f
+validate_list	bencode-tools-2011-03-15/typevalidator.py	/^def validate_list(fmt, o):$/;"	f
+value	bencode-tools-2011-03-15/bencode.c	/^	struct bencode *value;$/;"	m	struct:bencode_keyvalue	file:
+values	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	struct bencode **values;$/;"	m	struct:bencode_dict
+values	bencode-tools-2011-03-15/include/bencodetools/bencode.h	/^	struct bencode **values;$/;"	m	struct:bencode_list
+write_block	hw4.c	/^void write_block(char* data, int piece, int offset, int len, int acquire_lock) {$/;"	f
+xclose	bencode-tools-2011-03-15/bencat.c	/^static int xclose(int fd)$/;"	f	file:
+xfwrite	bencode-tools-2011-03-15/bencat.c	/^static size_t xfwrite(const void *ptr, size_t size, size_t nmemb, FILE *stream)$/;"	f	file:
+xread	bencode-tools-2011-03-15/bencat.c	/^static ssize_t xread(int fd, void *buf, size_t count)$/;"	f	file:

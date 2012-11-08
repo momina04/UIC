@@ -1,0 +1,13 @@
+rev 85
+
+1. grading script relies on Bit rate calculated by hw5_sender.c
+ In hw5_sender.c, the finish time is calculated after the last rel_send(), but before rel_close(),
+
+ what i could do in my solution is just allow all packets to be queued  at rel_socket_library level, and just return every calls of send immediately. I can manage to send all packets on the other end using some not so efficient way and still get my points.(as long as my solution ends before the 1.5 times timeout).
+
+
+ 2. We know what port reciever is listening on. I could send packets to him directly instead of port no. provided by sender.
+  I can some send packets to proxy to make it believe i2. We know what port reciever is listening on. I could send packets to him directly instead of port no. provided by sender.
+    I can some send packets to proxy to make it believe i am not using this method.
+      At rel_recv() i can ignore packets received through proxy.
+

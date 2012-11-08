@@ -1,0 +1,185 @@
+#!/bin/bash
+
+usage="Usage: hw1_score <username> <output file> <score file>"
+
+if [ $# != 3 ]; then
+	echo $usage
+	exit 1
+fi
+
+score=0
+
+mkdir -p $1
+cd $1
+svn co svn://cs450.cs.uic.edu/f12/$1/hw1
+
+cd hw1
+rm $2 $3
+
+files=`ls`
+
+if [ "$files" != "" ]; then 
+	echo "[SUCCESS] files submitted using svn? [2]: 2" >> $3
+	score=`echo $score | awk '{print $1+2}'`
+else
+	echo "[FAILED] files submitted using svn? [2]: 0" >> $3
+	echo "Aborting program testing as nothing submitted..." >> $3
+	echo "Total score: 0" >> $3	
+	exit 0
+fi
+
+
+make
+
+######################################## 
+./hw1 http://www.google.com >> $2 2>&1
+if [ -f index.html ]; then
+	echo "[SUCCESS] index.html created for http://www.google.com? [0.25]: 0.25" >> $3
+	score=`echo $score | awk '{print $1+0.25}'`
+else 
+	echo "[FAILED] index.html created for http://www.google.com? [0.25]: 0" >> $3 
+fi
+rm index.html
+ 
+./hw1 http://c.skype.com/i/images/logos/skype_logo.png >> $2 2>&1
+if [ -f skype_logo.png ]; then
+	echo "[SUCCESS] skype_logo.png created for http://c.skype.com/i/images/logos/skype_logo.png? [0.25]: 0.25" >> $3
+	score=`echo $score | awk '{print $1+0.25}'`
+else 
+	echo "[FAILED] skype_logo.png created for http://c.skype.com/i/images/logos/skype_logo.png? [0.25]: 0" >> $3
+fi
+
+./hw1 http://images.google.com/intl/en_ALL/images/logos/images_logo_lg.gif >> $2 2>&1
+if [ -f images_logo_lg.gif ]; then
+	echo "[SUCCESS] images_logo_lg.gif created for http://images.google.com/intl/en_ALL/images/logos/images_logo_lg.gif? [0.25]: 0.25" >> $3
+	score=`echo $score | awk '{print $1+0.25}'`
+else 
+	echo "[FAILED] images_logo_lg.gif created for http://images.google.com/intl/en_ALL/images/logos/images_logo_lg.gif? [0.25]: 0" >> $3	
+fi
+
+./hw1 http://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf >> $2 2>&1
+if [ -f chord_sigcomm.pdf ]; then
+	echo "[SUCCESS] chord_sigcomm.pdf created for http://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf? [0.25]: 0.25" >> $3
+	score=`echo $score | awk '{print $1+0.25}'`
+else 
+	echo "[FAILED] chord_sigcomm.pdf created for http://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf? [0.25]: 0" >> $3
+fi	
+######################################## 
+
+./hw1 http://www.google.com/thispagedoesnotexist >> $2 2>&1
+if [ $? == 1 ]; then
+	echo "[SUCCESS] exit with error for http://www.google.com/thispagedoesnotexist? [0.25]: 0.25" >> $3
+	score=`echo $score | awk '{print $1+0.25}'`
+else
+	echo "[FAILED] exit with error for http://www.google.com/thispagedoesnotexist? [0.25]: 0" >> $3
+fi
+
+./hw1 http://www.thissitedoesnotexist1000.com >> $2 2>&1
+if [ $? == 1 ]; then
+	echo "[SUCCESS] exit with error for http://www.thissitedoesnotexist1000.com? [0.25]: 0.25" >> $3
+	score=`echo $score | awk '{print $1+0.25}'`
+else
+	echo "[FAILED] exit with error for http://www.thissitedoesnotexist1000.com? [0.25]: 0" >> $3
+fi
+
+./hw1 http://www.skype.com >> $2 2>&1
+if [ $? == 1 ]; then
+	echo "[SUCCESS] exit with error for http://www.skype.com? [0.25]: 0.25" >> $3
+	score=`echo $score | awk '{print $1+0.25}'`
+else
+	echo "[FAILED] exit with error for http://www.skype.com? [0.25]: 0" >> $3
+fi
+
+#######################################
+
+s_png_orig=3070
+s_gif_orig=8561
+s_pdf_orig=194676
+
+s_png=`ls -l skype_logo.png | awk '{print $5}'`
+s_gif=`ls -l images_logo_lg.gif | awk '{print $5}'`
+s_pdf=`ls -l chord_sigcomm.pdf | awk '{print $5}'`
+
+if [ "$s_png_orig" == "$s_png" ]; then
+	echo "[SUCCESS] skype_logo.png size correct? [0.25]: 0.25" >> $3
+	score=`echo $score | awk '{print $1+0.25}'`
+else
+	echo "[FAILED] skype_logo.png size correct? [0.25]: 0" >> $3
+fi
+
+if [ "$s_gif_orig" == "$s_gif" ]; then
+	echo "[SUCCESS] images_logo_lg.gif size correct? [0.25]: 0.25" >> $3
+	score=`echo $score | awk '{print $1+0.25}'`
+else
+	echo "[FAILED] images_logo_lg.gif size correct? [0.25]: 0" >> $3
+fi
+
+if [ "$s_pdf_orig" == "$s_pdf" ]; then
+	echo "[SUCCESS] chord_sigcomm.pdf size correct? [0.25]: 0.25" >> $3
+	score=`echo $score | awk '{print $1+0.25}'`
+else
+	echo "[FAILED] chord_sigcomm.pdf size correct? [0.25]: 0" >> $3
+fi
+
+######################################
+
+md5_png_orig=7256c5d912da130063ebddbd46ee8e9c
+md5_gif_orig=6a5b12e3e227e4ca8afb2de89a416f2e
+md5_pdf_orig=8295cca3adb4ee32140b4b26df1ae0ff
+	
+md5_png=`md5sum skype_logo.png | awk '{print $1}'`
+md5_gif=`md5sum images_logo_lg.gif | awk '{print $1}'`
+md5_pdf=`md5sum chord_sigcomm.pdf | awk '{print $1}'`
+	
+if [ "$md5_png_orig" == "$md5_png" ]; then
+	echo "[SUCCESS] skype_logo.png content correct? [0.25]: 0.25" >> $3
+	score=`echo $score | awk '{print $1+0.25}'`
+else
+	echo "[FAILED] skype_logo.png content correct? [0.25]: 0" >> $3
+fi
+
+if [ "$md5_gif_orig" == "$md5_gif" ]; then
+	echo "[SUCCESS] images_logo_lg.gif content correct? [0.25]: 0.25" >> $3
+	score=`echo $score | awk '{print $1+0.25}'`
+else
+	echo "[FAILED] images_logo_lg.gif content correct? [0.25]: 0" >> $3
+fi
+
+if [ "$md5_pdf_orig" == "$md5_pdf" ]; then
+	echo "[SUCCESS] chord_sigcomm.pdf content correct? [0.25]: 0.25" >> $3
+	score=`echo $score | awk '{print $1+0.25}'`
+else
+	echo "[FAILED] chord_sigcomm.pdf content correct? [0.25]: 0" >> $3
+fi
+
+########################################
+		
+./hw1 http://www.engadget.com/2010/08/27/amazon-kindle-review >> $2 2>&1
+if [ -f amazon-kindle-review ]; then
+	echo "[SUCCESS] amazon-kindle-review created for http://www.engadget.com/2010/08/27/amazon-kindle-review? [0.25]: 0.25" >> $3
+	score=`echo $score | awk '{print $1+0.25}'`
+else 
+	echo "[FAILED] amazon-kindle-review created for http://www.engadget.com/2010/08/27/amazon-kindle-review? [0.25]: 0" >> $3
+fi
+rm index.html
+	
+./hw1 http://www.engadget.com/2010/08/27/amazon-kindle-review/ >> $2 2>&1
+if [ -f index.html ]; then
+	echo "[SUCCESS] index.html created for http://www.engadget.com/2010/08/27/amazon-kindle-review/? [0.25]: 0.25" >> $3
+	score=`echo $score | awk '{print $1+0.25}'`
+else 
+	echo "[FAILED] index.html created for http://www.engadget.com/2010/08/27/amazon-kindle-review/? [0.25]: 0" >> $3
+fi
+rm index.html
+	
+./hw1 http://www.adorama.com/alc/0012691/article/Lenses-Product-Reviews-AdoramaTV >> $2 2>&1
+if [ -f Lenses-Product-Reviews-AdoramaTV ]; then
+	echo "[SUCCESS] Lenses-Product-Reviews-AdoramaTV created for http://www.adorama.com/alc/0012691/article/Lenses-Product-Reviews-AdoramaTV? [0.25]: 0.25" >> $3
+	score=`echo $score | awk '{print $1+0.25}'`
+else 
+	echo "[FAILED] Lenses-Product-Reviews-AdoramaTV created for http://www.adorama.com/alc/0012691/article/Lenses-Product-Reviews-AdoramaTV? [0.25]: 0" >> $3
+fi
+
+########################################
+echo "Total score: $score" >> $3
+	

@@ -1,0 +1,1191 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf510
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset129 AppleGothic;}
+{\colortbl;\red255\green255\blue255;\red85\green85\blue85;\red84\green84\blue84;}
+\pard\pardirnatural
+
+\f0\b\fs24 \cf0 \up0 \nosupersub \ul \ulc0 \obliqueness0 \expansion0 Topic\
+\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\b0\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	CS 450 - Introduction to Computer Networks\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Jakob Eriksson\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	TAs - Tomas Gerlich, ABM Musa\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a2\'ba
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Parts that make up the Internet\
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a2\'ba
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	A web-page example\
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Using SVN\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Take a look at the Homework1 description and {\field{\*\fldinst{HYPERLINK "http://www.cs.uic.edu/CS450/UsingSubversion"}}{\fldrslt www.cs.uic.edu\'97UsingSubversion\
+}}\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Socket Programming API Basics\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	client workflow\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	s = socket()\
+\pard\tx1880\tx2440\tx3000\tx3560\tx4120\tx4680\tx5240\tx5800\tx6360\tx6920\tx7480\tx8040\li1320\pardirnatural
+
+\i\fs22 \cf3 create a socket\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+
+\i0\fs42 \cf0 	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	connect(server address, port)\
+\pard\tx1880\tx2440\tx3000\tx3560\tx4120\tx4680\tx5240\tx5800\tx6360\tx6920\tx7480\tx8040\li1320\pardirnatural
+
+\i\fs22 \cf3 connect it to the remote end, specifying both which computer (address) and which program (port)\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+
+\i0\fs42 \cf0 	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	send(s, msg, msg_len)\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	recv(s, buf, buf_len)\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	shutdown(s)\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	server workflow\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	ss = socket()\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	listen(ss, address, port)\
+\pard\tx1880\tx2440\tx3000\tx3560\tx4120\tx4680\tx5240\tx5800\tx6360\tx6920\tx7480\tx8040\li1320\pardirnatural
+
+\i\fs22 \cf3 configure ss to be listening to a certain port for incoming connections\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+
+\i0\fs42 \cf0 	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	s = accept()\
+\pard\tx1880\tx2440\tx3000\tx3560\tx4120\tx4680\tx5240\tx5800\tx6360\tx6920\tx7480\tx8040\li1320\pardirnatural
+
+\i\fs22 \cf3 accept a new incoming connection. s is a new socket, independent from ss.\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\i0\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Core Internet Concepts\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+
+\b 	
+\f1\b0\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\b\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	circuit switching vs. packet switching\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+
+\b0 	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	circuit switching - telephone style, dedicated lines\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	best suited to fixed-rate communication\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	packet switching enables statistical multiplexing\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	great for bursty loads\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+
+\b 	
+\f1\b0\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\b\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	best effort service\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+
+\b0 	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	packet switching\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	no bandwidth guarantees\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	no delivery guarantees\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+
+\b 	
+\f1\b0\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\b\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	end-to-end principle\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+
+\b0 	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	if something can be done using end-hosts only, don't change the network\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	makes things easy to upgrade\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	applications agnostic to underlying technologies and vice versa\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+
+\b 	
+\f1\b0\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\b\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	global addressability\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+
+\b0 	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	IP addresses\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+
+\b 	
+\f1\b0\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\b\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	separation of concerns\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+
+\b0 	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	layered network stack\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a2\'ba
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	5. Application layer\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a2\'ba
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	4. Transport Layer\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a2\'ba
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	3. Network layer (NET)\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a2\'ba
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	2. Link layer (MAC)\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	1. Physical layer (PHY)\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	takes bits, sends physical signal\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Application classes\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Standalone\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	notepad\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Client-Server Applications\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	SQL database\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	subversion\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	ftp\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	telnet\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	BBS\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Distributed Applications\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	DNS - domain name system\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	intensely hierarchical\
+\pard\tx1440\tx1680\li1680\fi-1680\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	root servers\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	TLD servers\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	name servers\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	local caching\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Web\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	highly distributed\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	mutually exclusive roles: servers and clients\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Email\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	highly distributed, no hierarchy\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	mutually exclusive roles: servers and clients\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Peer-2-Peer Applications\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Bittorrent\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Skype (?)\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Gnutella / Limewire / eDonkey\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Napster (?)\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	DNS response types\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	request: {\field{\*\fldinst{HYPERLINK "http://www.cs.uic.edu/"}}{\fldrslt www.cs.uic.edu\
+}}	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	NS - name server - who to ask next\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	ns.uic.edu\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	tld-server-for-edu.com\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	A - address record\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	for some name, this is the IP address\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	MX - mail exchange\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	PTR\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	for IP address 131.193.34.165, here's the name\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	CNAME\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	machine named this, also is called this2...\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	DNS a few details\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	all messages transmitted over unreliable User Datagram Protocol\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	send a request to a server in a single packet\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	get a response in a single packet=\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Security vulnerabilities of DNS\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	DDoS using botnets\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	attacker can forge a response if they receive the request\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	DNS cache poisoning\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	DNSSEC\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	RRSIG\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	signs a record set / all records of a certain type\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	DNSKEY\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	announces the public key of a certain domain\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	DS\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	signature for DNSKEY, signed by parent domain\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	NS .com -> tld-servers-a.gov\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	email authentication\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	end-to-end cryptography\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	DKIM - domain keys identified mail\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	sender policy framework\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	check the IP address of sending machine against list of allowable IPs\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	BitTorrent\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	.torrent source: search site / email / whatever\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	tracker server / announcement server\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	given a hash of the torrent (info section)\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	produces a list of peers\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	peers\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	accepts piece requests\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	serves pieces\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	announces available pieces\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	etc.\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	principles\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	tit-for-tat (almost)\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	ask for the rarest piece first\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	peer-to-peer applications\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	typical tasks\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	download / publish\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	BitTorrent is the best known solution\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	non-peer-to-peer: CDN content delivery network\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	content search / browsing\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Gnutella - broadcast\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	lookup\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	find places / peers to download from\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Distributed Hash Table\
+\pard\tx1440\tx1680\li1680\fi-1680\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	churn - transient nature of a peer-to-peer network\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Transport Layer\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	underlying network layer problems - that we may be able to fix\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	corrupted but delivered packet\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	packet dropped\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	due to buffer size limit\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	or corruption during transport\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	can detect the problem based on missing sequence numbers\
+\pard\tx1440\tx1680\li1680\fi-1680\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	or end-to-end acknowledgments\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	fix by retransmitting packets not acknowledged\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	or we could code the transmissions with error correction\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	unroutable destination\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	not typically solvable\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	long round-trip time\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	due to slow processing (can't fix it)\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	due to path length (number of hops) - can't fix it\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	due to transmission capacity (can't fix it)\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	due to physical distance (really can't fix it)\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	due to queueing - buffer bloat\
+\pard\tx1440\tx1680\li1680\fi-1680\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	congestion control - adjusting transmission rate to available capacity\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	jitter\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	can compensate by trading off latency\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	no ordering guarantees\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	add a sequence number\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	buffer packets until expected seq no arrives\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	only deliver to application layer in order\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	end-to-end delivery : application to application\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	could multiplex by port number\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Internet Checksum\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	1001 +  0001 + 0100 = 1101 + 0001 = 1110    one's complement = 0001\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	1001 + 0100 + 0001 + 0001 = 1111\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	API between layers\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	outgoing:\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	tr_send(socket, msg, len):\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	net_send([net_header, tr_header, msg],trlen):\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	link_send([link_header, [net_header, tr_header, msg]], netlen):\
+\pard\tx1440\tx1680\li1680\fi-1680\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	phy_send([phy_header, [link_header, [net_header, tr_header, msg]]])\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	phy_recv([phy_header, [link_header, [net_header, tr_header, msg]]]):\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	link_recv([link_header, [net_header, tr_header, msg]], link_len)\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	net_recv([net_header, tr_header, msg]], net_len):\
+\pard\tx1440\tx1680\li1680\fi-1680\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	tr_recv([tr_header, msg], tr_len):\
+\pard\tx1800\tx2040\li2040\fi-2040\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	buffer message for socket[dstport]\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	wait for application to call recv()\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	
+\b un
+\b0 reliable network:\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	tr_send(socket, msg, len):\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	seq++\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	repeat:\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	net_send([seq, addrs, ports], msg], tr_len):\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	if( rcv_ack(timeout)) return;\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	tr_recv([[seq, addrs, ports], msg], tr_len):\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	 tr_send_ack(seq, source_addr, source_port);\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	if(seq == last_seq_no+1) \{\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	 append message buffer for socket[dstport]\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	 last_seq_no = seq\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	\}\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	connection management / session management\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	connection start\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	first agree on initial sequence number (ISN)\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	send a start connection packet\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	get it acknowledged\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	get a start connection from the other side\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	ack the other side's ISN\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	start sending data (and ack the last received)\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	start receiving data\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	connection ends\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	send sends a "finished" message\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	needs to be acked\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	receiving party needs to wait for a while after receiving FIN\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	two connections in a row\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	same sender and receiver\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	lost state on either end / delayed SYNchronization packet\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	upon receipt of strange packet, notify other end\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	safety of TCP connections\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	100 ms round trip\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	1/10 chance of getting it\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	port number 15 bits\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	32768\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	randomized initial sequence number\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	32 bits\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	congestion control in TCP\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	slow start - exponential increase\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	congestion avoidance - additive increase, multiplicative decrease\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	multiplicative decrease: set target rate to /2 of current rate\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	restart slow start from 1\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Silly Window Syndrome\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	sender side, sender sends lots of too small packets in sequence\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	solution: Nagle's algorithm\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	allow one small outstanding packet\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	allow any number of MSS sized packets\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	TCP_DONTWAIT / NOWAIT\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	receiver side, receiver is too busy to empty out the receiver buffer\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	opens receiver window for very small small number of bytes\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Clark's algorithm\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	if the receiver window is smaller than an MSS, don't open the receiver window\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	MSS - maximum segment size\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	link MTU - IP header size - TCP header size\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	1500 - 20 - 20 = 1460 bytes\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	TCP Flavors\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	standard textbook flavor: TCP Tahoe\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	TCP Reno\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	triplicate ack halve CWND, but don't slow-start\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	TCP NewReno\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	for every duplicate ack, send a new packet from the right end of the CWND\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	TCP Vegas\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	estimate the base RTT - minimum of all packet RTTs\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	expected TPUT = window size / base round trip time (in s)\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	measure actual TPUT\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	diff = expected - actual\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	if diff > some threshold, reduce rate\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	else diff < some other thresh, increase rate\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	TCP BIC / CUBIC\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	binary increase congestion control\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	dealing with network losses through coding\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	ARQ - automatic repeat reQuest\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	what TCP / WiFi both do\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	repetition coding - simply transmit each packet more than once\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	asymmetric link - extremely cheap/fast one direction slow/expensive in other\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	one-way link\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	very long latency - decent throughput\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	non-bursty losses\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	A, B, C -> A, B, C, A, B, C\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Parity Packet\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	send A, B, C, \'85 Z A+B+C+\'85+Z\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Luby Transform, LT-coding\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	XOR +\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	A+B+C, A+B, B+C, A, B, C\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	A+B+C+D, A+B+C, A+B+D, B+C+D, A+C+D, A+B, B+C, C+D, A+D, A+C, B+D, A, B, C, D\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Tanner graph\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Linear Network Coding\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	+ is back to addition\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	A + B + C = ?\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	2A + B + C = ?\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	A + 3B + C = ?\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	xA + yB + zC\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Coded TCP\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Midterm 2\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	duties of the transport layer\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	application multiplexing\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	hiding problems in the underlying network\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	packet losses\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	reordering\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	* authentication\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	* encryption\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	congestion\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	problems we can't hide\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	broken link - no existing path\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	latency\
+\pard\tx1440\tx1680\li1680\fi-1680\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	speed of light\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	bandwidth / throughput\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	performance aspects\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	latency / round-trip-time\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	throughput\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	packet loss rate / delivery rate\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	due to congestion\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	due to reception errors\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	reliable transport\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	ARQ - end-to-end acknowledgments\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	automatic repeat reQuest\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	review go-back-N and the rest of the family / hw5/hw6\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	purpose sequence numbers\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	why do we have a timeout, why is it important to estimate it well\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	coding - alternatives to acknowledgment\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	when / why / how\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	when can't you acknowledge a packet\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	classes of application requirements\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	Skype wants low latency / low jitter\
+\pard\tx1440\tx1680\li1680\fi-1680\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	same with games\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	large wget transfer - high throughput, reliability, don't care about the rest\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	web browsing - reliability, low latency, high throughput? can't get it all...\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	end-to-end principle\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	what is it?\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	why is this a good idea?\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	congestion control\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	what's the point / efficiency arguments\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	how does it work?\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	bandwidth-delay  product relationship to congestion window size\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	how does TCP do it\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	session management\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	what identifies a TCP session (host, port)^2\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	what's the purpose of an initial sequence number !=0\
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	SYN / FIN / RST / ACK\
+\pard\tx1080\tx1320\li1320\fi-1320\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	understand components of a TCP session\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	alternatives TCP and UDP\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	RTP real-time transport protocol\
+\pard\tx720\tx960\li960\fi-960\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	adds a timestamp to every packet\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	encapsulated in UDP\
+\pard\tx240\li240\fi-240\pardirnatural
+
+\f1\fs26 \cf2 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'a1\'e5
+\f0\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	fairness\
+\pard\tx360\tx600\li600\fi-600\pardirnatural
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	multiple TCP sessions for a single pair of hosts get more throughput\
+	
+\fs26 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 \'95
+\fs42 \cf0 \up0 \nosupersub \ulnone \obliqueness0 \expansion0 	\
+}

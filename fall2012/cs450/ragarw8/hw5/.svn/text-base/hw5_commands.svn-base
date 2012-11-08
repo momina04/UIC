@@ -1,0 +1,11 @@
+gdb hw5_receiver
+r 127.0.0.1 8000 > rx
+
+
+./proxy -b 2 -p 8000 -l 100 -f 1
+
+gdb hw5_sender
+r 127.0.0.1 8000 < 1000lines
+
+
+plot "values" using 1:2 ti "actual" w lines, "values" using 1:3 ti "mean" w lines

@@ -1,0 +1,8 @@
+[01:57 AM]ritesh@ritesh-linux ~/fall2012/cs450/pub/grading-scripts/hw5/ragarw8/hw5$ tail -f s
+[SUCCESS] latency=1000 forwarding=1 [1]: 1 [throughput (kB/s)=0.47]
+[SUCCESS] latency=100 forwarding=1 [1]: 1 [throughput (kB/s)=4.35]
+[SUCCESS] latency=10 forwarding=1 [1]: 1 [throughput (kB/s)=44.50]
+[SUCCESS] latency=100 forwarding=0.95 [1]: 1 [throughput (kB/s)=4.03]
+[SUCCESS] latency=10 forwarding=0.95 [1]: 1 [throughput (kB/s)=40.94]
+[SUCCESS] latency=10 forwarding=0.9 [1]: 1 [throughput (kB/s)=37.17]
+

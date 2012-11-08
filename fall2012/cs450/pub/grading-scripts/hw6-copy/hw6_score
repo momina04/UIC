@@ -1,0 +1,111 @@
+#!/bin/bash
+
+usage="Usage: hw6_score <username> <base port> <score file> [time]"
+
+if [ $# -lt 3 ]; then
+	echo $usage
+	exit 1
+fi
+
+time=${4:-"HEAD"}
+
+score=0
+
+mkdir -p $1
+cd $1
+
+term=f12
+#svn co -r $time svn://cs450.cs.uic.edu/$term/$1/hw6
+
+cd hw6
+rm $3
+cp ../../landscape.jpg .
+cp ../../bighorn.jpg .
+cp ../../hw6_sender.c .
+cp ../../hw6_receiver.c .
+
+
+make
+
+############################################
+latency=(20 20 20 20 20 20)
+forwarding=(1 0.95 1 0.95 1 0.95)
+buffer=(2 2 10 10 100 100)
+seeds=(123456789 12345 987654 12345 88888 99999 13579 2468 123789 987654321)
+
+
+tput=(6.5 5.5 55 20 250 20) #acceptable lower limit of throughput in kB/s
+timeout=(135 170 50 140 100 1000) 
+
+for i in 0 1 2 3 4 5; do
+	echo "test case $i"
+	counter=0
+	thput=""
+
+	if [ $i -le 3 ]; then #first 4 test-cases use landscape.jpg
+		file="landscape.jpg"
+		md5_orig=014519a8f2fa487b418fdd3a8eeb4f26
+	else
+		file="bighorn.jpg" #last 2 test-cases use bighorn.jpg
+		md5_orig=3368d19d4361b8e16b21819d2c55bdc9
+
+	fi
+
+	echo "$file $md5_orig"
+
+
+	buffer_size=${buffer[$i]}
+	forwarding_prob=${forwarding[$i]}
+
+    timeout=${timeout[$i]}
+	
+	rm RECVD_FILE* sender_output*
+	for j in 0 1 2 3 4 5 6 7 8 9; do
+		seed=${seeds[$j]}
+		base_port=$(($2+$j*4+$i*40))
+
+		timeout $(($timeout+5)) ./proxy -l 20 -p $base_port -b $buffer_size -f $forwarding_prob -r $seed &
+		sleep 1
+
+	    timeout $timeout ./hw6_receiver 127.0.0.1 $base_port > "RECVD_FILE$j" &
+		sleep 1
+
+     	cat $file | timeout $timeout ./hw6_sender 127.0.0.1 $base_port 2> "sender_output$j" &
+	done
+	wait
+
+	for j in 0 1 2 3 4 5 6 7 8 9; do
+		md5_recv=`md5sum "RECVD_FILE$j" | awk '{print $1}'`
+		echo $md5_recv
+
+		throughput=`cat sender_output$j | grep -i "KB/s" | awk '{printf "%0.1f\n", $(NF-1)}'`
+		
+		if [ "$md5_recv" == "$md5_orig" ]; then
+			thput=$thput" "$throughput
+			echo $throughput ${tput[$i]} >> file_tput
+			tput_ok=`echo $throughput ${tput[$i]} | awk '{if($1>=$2) {print 1} else {print 0}}'`
+			if [ "$tput_ok" -eq "1" ]; then
+				counter=$(($counter+1))
+			fi
+		else
+			thput=$thput" 0"
+		fi
+
+		
+	done
+	
+	echo $counter
+	mean=`echo $thput | sed 's/ /\n/g' | awk '{sum+=$1; count++} END{print sum/count}'`
+	if [ $counter -eq 10 ]; then
+		echo "[SUCCESS] buf=$buffer_size fd=$forwarding_prob [1]: 1 [throughput(kB/s)=$thput] mean=$mean" >> $3
+		score=`echo $score | awk '{print $1+1}'`
+	elif [ $counter -lt 10 ] && [ $counter -ge 5 ]; then
+		echo "[PARTIAL] buf=$buffer_size fd=$forwarding_prob [1]: 0.5 [throughput(kB/s)=$thput] mean=$mean" >> $3
+		score=`echo $score | awk '{print $1+0.5}'`
+	else
+		echo "[FAILED] buf=$buffer_size fd=$forwarding_prob [1]: 0 [throughput (kB/s)=$thput] mean=$mean" >> $3
+	fi
+done
+############################################
+#rm RECVD_FILE* sender_output*
+echo "Total score: $score" >> $3

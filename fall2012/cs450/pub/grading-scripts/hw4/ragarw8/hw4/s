@@ -1,0 +1,44 @@
+TEST FOR pthread and select
+=====================================
+grep for pthread:
+			//pthread_create(&thread,0,connect_to_peer,&peerlist[i]);
+			// pthread_create allows us to pass in one pointer. For the bencoded case, we allocate a new
+			//pthread_t thread;
+			//pthread_create(&thread,0,connect_to_peer,&peeraddr);
+	// create our output file, and set up a piece_status array, and a couple of pthread sync. variables
+
+grep for select:
+#include <sys/select.h>
+        int rdy = select(FD_SETSIZE,&readset_copy,&writeset_copy,&exceptionset_copy, &timespec);
+            if(FD_ISSET(peer->socket,&readset_copy)) 
+            if(FD_ISSET(peer->socket,&writeset_copy)){
+            if(FD_ISSET(peer->socket,&writeset_copy)){
+
+TEST FOR cs450files02.torrent
+=====================================
+file1 md5: CORRECT
+file2 md5: CORRECT
+file3 md5: CORRECT
+file4 md5: CORRECT
+file5 md5: CORRECT
+file6 md5: CORRECT
+file7 md5: CORRECT
+file8 md5: CORRECT
+
+seed ips:
+
+count for seed ips (high value means concurrent download):
+0
+
+download speed aggregated by seconds in kbps (top 5 are taken):
+
+TEST FOR cs450files.torrent
+=====================================
+peer ips:
+
+count for peer ips (high value means concurrent download):
+0
+
+download speed aggregated by seconds in kbps (top 5 are taken):
+
+uploaded to following ips:

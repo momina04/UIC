@@ -1,0 +1,13 @@
+<html><body>
+Note that both the server and client are receivers in the TCP examples. You'll need to use 'nc' to create something for them to receive.<p>
+
+<a href=client.c>client.c</a><br>
+To run a server for this client, try 'echo hello | nc -l [port]'<p>
+
+<a href=server.c>server.c</a><br>
+To run a client for this server, try 'echo hello | nc localhost [port]'<p>
+
+<a href=udpclient.c>udpclient.c</a><br>
+<a href=udpserver.c>udpserver.c</a><br>
+<a href=selectserver.c>selectserver.c</a><br>
+</body></html>

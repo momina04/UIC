@@ -1,0 +1,144 @@
+#!/bin/bash
+
+usage="Usage: hw3_score <username> <score file>"
+
+if [ $# != 2 ]; then
+	echo $usage
+	exit 1
+fi
+
+score=0
+
+mkdir -p $1
+cd $1
+
+TERM=f12
+svn co svn://cs450.cs.uic.edu/$TERM/$1/hw3
+
+cd hw3
+rm $2
+
+make
+
+######################################## 
+input="nibbles.cs.uic.edu"
+prog_result=`./hw3 -d -i $input | tail -1 | awk '{print $NF}'`
+host_result=`host -t A $prog_result | tail -1 | awk '{print $NF}' | sed 's/.$//'`
+
+if [ $host_result == $input ]; then
+	echo "[SUCCESS] $input [0.5]: 0.5" >> $2
+	score=`echo $score | awk '{print $1+0.5}'`
+else
+	echo "[FAILED] $input [0.5]: 0" >> $2
+fi 
+
+########################################
+input="www.cs.uic.edu"
+prog_result=`./hw3 -d -i $input | tail -1 | awk '{print $NF}'`
+host_result=`host -t A $prog_result | tail -1 | awk '{print $NF}' | sed 's/.$//'`
+
+if [ $host_result == $input ]; then
+	echo "[SUCCESS] $input [0.5]: 0.5" >> $2
+	score=`echo $score | awk '{print $1+0.5}'`
+else
+	echo "[FAILED] $input [0.5]: 0" >> $2
+fi 
+
+#######################################
+input="cs450.cs.uic.edu"
+prog_result=`./hw3 -d -i $input | tail -1 | awk '{print $NF}'`
+host_result=`host -t A $input | tail -1 | awk '{print $NF}'`
+
+if [ $host_result == $prog_result ]; then
+	echo "[SUCCESS] $input [0.5]: 0.5" >> $2
+	score=`echo $score | awk '{print $1+0.5}'`
+else
+	echo "[FAILED] $input [0.5]: 0" >> $2
+fi
+
+########################################
+input="www.nus.edu"
+prog_result=`./hw3 -d -i $input | tail -1 | awk '{print $NF}'`
+host_result=`host -t A $input | tail -1 | awk '{print $NF}'`
+
+if [ $host_result == $prog_result ]; then
+	echo "[SUCCESS] $input [0.5]: 0.5" >> $2
+	score=`echo $score | awk '{print $1+0.5}'`
+else
+	echo "[FAILED] $input [0.5]: 0" >> $2
+fi
+
+#######################################
+input="www.cornell.edu"
+prog_result=`./hw3 -d -i $input | tail -1 | awk '{print $NF}'`
+host_result=`host -t A $input | tail -1 | awk '{print $NF}'`
+
+if [ $host_result == $prog_result ]; then
+	echo "[SUCCESS] $input [0.5]: 0.5" >> $2
+	score=`echo $score | awk '{print $1+0.5}'`
+else
+	echo "[FAILED] $input [0.5]: 0" >> $2
+fi
+
+########################################
+input="www.yahoo.com.tw"
+prog_result=`./hw3 -d -i $input | tail -1 | awk '{print $NF}'`
+host_result=`host -t A $input | tail -1 | awk '{print $NF}'`
+
+if [ $host_result == $prog_result ]; then
+	echo "[SUCCESS] $input [1]: 1" >> $2
+	score=`echo $score | awk '{print $1+1}'`
+else
+	echo "[FAILED] $input [1]: 0" >> $2
+fi
+
+########################################
+input="www.prothom-alo.com"
+prog_result=`./hw3 -d -i $input | tail -1 | awk '{print $NF}'`
+host_result=`host -t A $input | tail -1 | awk '{print $NF}'`
+
+if [ $host_result == $prog_result ]; then
+	echo "[SUCCESS] $input [1]: 1" >> $2
+	score=`echo $score | awk '{print $1+1}'`
+else
+	echo "[FAILED] $input [1]: 0" >> $2
+fi
+
+#####################################
+input="www.creditunion1.org"
+prog_result=`./hw3 -d -i $input | tail -1 | awk '{print $NF}'`
+
+if [ "$prog_result" == "65.49.18.168" ]; then
+	echo "[SUCCESS] $input [1]: 1" >> $2
+	score=`echo $score | awk '{print $1+1}'`
+else
+	echo "[FAILED] $input [1]: 0" >> $2
+fi
+
+
+########################################
+input="128.30.76.78"
+prog_result=`./hw3 -d -i $input | tail -1 | awk '{print $NF}'`
+host_result=`host $input | tail -1 | awk '{print $NF}' | sed 's/.$//'`
+
+if [ $host_result == $prog_result ]; then
+	echo "[SUCCESS] $input [0.5]: 0.5" >> $2
+	score=`echo $score | awk '{print $1+0.5}'`
+else
+	echo "[FAILED] $input [0.5]: 0" >> $2
+fi
+
+########################################
+input="63.111.24.121"
+prog_result=`./hw3 -d -i $input | tail -1 | awk '{print $NF}'`
+host_result=`host $input | tail -1 | awk '{print $NF}'| sed 's/.$//'`
+
+if [ $host_result == $prog_result ]; then
+	echo "[SUCCESS] $input [0.5]: 0.5" >> $2
+	score=`echo $score | awk '{print $1+0.5}'`
+else
+	echo "[FAILED] $input [0.5]: 0" >> $2
+fi
+
+########################################
+echo "Total score: $score" >> $2

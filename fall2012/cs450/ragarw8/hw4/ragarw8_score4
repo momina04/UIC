@@ -1,0 +1,96 @@
+TEST FOR pthread and select
+=====================================
+grep for pthread:
+			//pthread_create(&thread,0,connect_to_peer,&peerlist[i]);
+			// pthread_create allows us to pass in one pointer. For the bencoded case, we allocate a new
+			//pthread_t thread;
+			//pthread_create(&thread,0,connect_to_peer,&peeraddr);
+	// create our output file, and set up a piece_status array, and a couple of pthread sync. variables
+
+grep for select:
+#include <sys/select.h>
+        int rdy = select(FD_SETSIZE,&readset_copy,&writeset_copy,&exceptionset_copy, &timespec);
+            if(FD_ISSET(peer->socket,&readset_copy)) 
+            if(FD_ISSET(peer->socket,&writeset_copy)){
+            if(FD_ISSET(peer->socket,&writeset_copy)){
+
+TEST FOR cs450files02.torrent
+=====================================
+file1 md5: CORRECT
+file2 md5: CORRECT
+file3 md5: CORRECT
+file4 md5: CORRECT
+file5 md5: CORRECT
+file6 md5: CORRECT
+file7 md5: CORRECT
+file8 md5: CORRECT
+
+seed ips:
+131.193.34.150
+131.193.34.173
+131.193.34.193
+
+count for seed ips (high value means concurrent download):
+954
+
+download speed aggregated by seconds in kbps (top 5 are taken):
+624.343
+576.316
+576.316
+576.316
+544.299
+
+TEST FOR cs450files.torrent
+=====================================
+peer ips:
+132.239.17.224
+133.68.253.243
+133.9.81.166
+136.159.220.40
+137.132.80.106
+137.165.1.113
+13.7.64.22
+139.19.142.6
+139.19.158.231
+139.19.158.235
+141.212.113.180
+141.213.4.202
+141.219.252.133
+142.150.238.13
+143.215.131.199
+149.43.80.20
+156.56.250.226
+165.242.90.129
+169.229.50.15
+192.16.125.12
+195.116.53.14
+199.26.254.67
+202.112.28.100
+202.249.37.69
+203.178.143.10
+206.117.37.4
+206.12.16.155
+211.69.207.34
+213.131.1.101
+220.245.140.196
+72.36.112.79
+
+count for peer ips (high value means concurrent download):
+1348
+
+download speed aggregated by seconds in kbps (top 5 are taken):
+1008.55
+912.501
+899.624
+896.492
+896.492
+
+uploaded to following ips:
+137.132.80.106
+141.219.252.133
+211.69.207.34
+213.131.1.101
+220.245.140.196
+
+
+Total score: 12

@@ -1,0 +1,31 @@
+\documentclass[twocolumn]{article}
+\usepackage{graphicx}
+\begin{document}
+\title{Homework 5: Round-trip time measurements and IP localization}
+\author{Gwyneth Ramakrishnan}
+\maketitle
+
+\begin{abstract}
+In this homework, we measure and report pairwise round-trip times for 100 Planetlab hosts. We then explore the routes taken for each pair, and determine the most popular routers and network prefixes. Finally, we estimate the location of the most popular routers, based on rtt measurements. 
+\end{abstract}
+
+\section{Round-Trip Times}
+
+\begin{figure}
+\centering
+\includegraphics[width=2in,angle=270]{oneway.pdf}
+\caption{My round-trip time measurements.}
+\label{figure:rtt}
+\end{figure}
+
+In Fig. \ref{figure:rtt}, we note that...
+
+$$ \sum_{i=0}^{maxhost}{\sqrt{rtt_i^2}} $$
+
+\section{Popular Routers and Prefixes}
+\subsection{Routers}
+\subsection{Prefixes}
+
+\section{Conclusions}
+
+\end{document}

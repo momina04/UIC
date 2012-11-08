@@ -1,0 +1,10 @@
+rm data/raw.txt
+for host in `cat data/twoips.txt`; do 
+ cat logs/$host.log | awk '{print from,$0}' from=$host >> data/raw.txt;
+done
+
+# at this point, raw.txt contains all everything
+# now you need to figure out the relevant locations and distances
+
+cat data/raw.txt | grep icmp_seq | tr '=' ' ' > data/post-processed.txt
+

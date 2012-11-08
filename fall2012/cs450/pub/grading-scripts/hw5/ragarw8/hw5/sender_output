@@ -1,0 +1,1884 @@
+<RITESH> Identified sender
+<RITESH> Sent packet - 1
+<RITESH> Waiting for ACK 100 ms <<
+<RITESH> MISSED Ack....Retransmitting - 1
+<RITESH> Waiting for ACK 100 ms <<
+<RITESH> GOT Ack - 1
+<RITESH> Sent packet - 2
+<RITESH> Waiting for ACK 109 ms <<
+<RITESH> GOT Ack - 2
+<RITESH> Sent packet - 3
+<RITESH> Waiting for ACK 91 ms <<
+<RITESH> GOT Ack - 3
+<RITESH> Sent packet - 4
+<RITESH> Waiting for ACK 78 ms <<
+<RITESH> MISSED Ack....Retransmitting - 4
+<RITESH> Waiting for ACK 78 ms <<
+<RITESH> GOT Ack - 4
+<RITESH> Sent packet - 5
+<RITESH> Waiting for ACK 87 ms <<
+<RITESH> GOT Ack - 5
+<RITESH> Sent packet - 6
+<RITESH> Waiting for ACK 74 ms <<
+<RITESH> GOT Ack - 6
+<RITESH> Sent packet - 7
+<RITESH> Waiting for ACK 65 ms <<
+<RITESH> GOT Ack - 7
+<RITESH> Sent packet - 8
+<RITESH> Waiting for ACK 58 ms <<
+<RITESH> GOT Ack - 8
+<RITESH> Sent packet - 9
+<RITESH> Waiting for ACK 53 ms <<
+<RITESH> GOT Ack - 9
+<RITESH> Sent packet - 10
+<RITESH> Waiting for ACK 49 ms <<
+<RITESH> GOT Ack - 10
+<RITESH> Sent packet - 11
+<RITESH> Waiting for ACK 46 ms <<
+<RITESH> GOT Ack - 11
+<RITESH> Sent packet - 12
+<RITESH> Waiting for ACK 44 ms <<
+<RITESH> GOT Ack - 12
+<RITESH> Sent packet - 13
+<RITESH> Waiting for ACK 42 ms <<
+<RITESH> GOT Ack - 13
+<RITESH> Sent packet - 14
+<RITESH> Waiting for ACK 41 ms <<
+<RITESH> GOT Ack - 14
+<RITESH> Sent packet - 15
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> MISSED Ack....Retransmitting - 15
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> GOT Ack - 15
+<RITESH> Sent packet - 16
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> Recevied Previous ACK - 15..ignoring...resending - 16
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 16
+<RITESH> Sent packet - 17
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> MISSED Ack....Retransmitting - 17
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 17
+<RITESH> Sent packet - 18
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> Recevied Previous ACK - 17..ignoring...resending - 18
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 18
+<RITESH> Sent packet - 19
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> Recevied Previous ACK - 18..ignoring...resending - 19
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 19
+<RITESH> Sent packet - 20
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> MISSED Ack....Retransmitting - 20
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 20
+<RITESH> Sent packet - 21
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> MISSED Ack....Retransmitting - 21
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 21
+<RITESH> Sent packet - 22
+<RITESH> Waiting for ACK 47 ms <<
+<RITESH> GOT Ack - 22
+<RITESH> Sent packet - 23
+<RITESH> Waiting for ACK 44 ms <<
+<RITESH> GOT Ack - 23
+<RITESH> Sent packet - 24
+<RITESH> Waiting for ACK 42 ms <<
+<RITESH> MISSED Ack....Retransmitting - 24
+<RITESH> Waiting for ACK 42 ms <<
+<RITESH> MISSED Ack....Retransmitting - 24
+<RITESH> Waiting for ACK 42 ms <<
+<RITESH> GOT Ack - 24
+<RITESH> Sent packet - 25
+<RITESH> Waiting for ACK 62 ms <<
+<RITESH> GOT Ack - 25
+<RITESH> Sent packet - 26
+<RITESH> Waiting for ACK 55 ms <<
+<RITESH> GOT Ack - 26
+<RITESH> Sent packet - 27
+<RITESH> Waiting for ACK 51 ms <<
+<RITESH> GOT Ack - 27
+<RITESH> Sent packet - 28
+<RITESH> Waiting for ACK 48 ms <<
+<RITESH> GOT Ack - 28
+<RITESH> Sent packet - 29
+<RITESH> Waiting for ACK 45 ms <<
+<RITESH> GOT Ack - 29
+<RITESH> Sent packet - 30
+<RITESH> Waiting for ACK 43 ms <<
+<RITESH> GOT Ack - 30
+<RITESH> Sent packet - 31
+<RITESH> Waiting for ACK 42 ms <<
+<RITESH> GOT Ack - 31
+<RITESH> Sent packet - 32
+<RITESH> Waiting for ACK 41 ms <<
+<RITESH> GOT Ack - 32
+<RITESH> Sent packet - 33
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> GOT Ack - 33
+<RITESH> Sent packet - 34
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 34
+<RITESH> Sent packet - 35
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> MISSED Ack....Retransmitting - 35
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 35
+<RITESH> Sent packet - 36
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> Recevied Previous ACK - 35..ignoring...resending - 36
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 36
+<RITESH> Sent packet - 37
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> MISSED Ack....Retransmitting - 37
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> Recevied Previous ACK - 36..ignoring...resending - 37
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 37
+<RITESH> Sent packet - 38
+<RITESH> Waiting for ACK 47 ms <<
+<RITESH> GOT Ack - 38
+<RITESH> Sent packet - 39
+<RITESH> Waiting for ACK 44 ms <<
+<RITESH> GOT Ack - 39
+<RITESH> Sent packet - 40
+<RITESH> Waiting for ACK 42 ms <<
+<RITESH> GOT Ack - 40
+<RITESH> Sent packet - 41
+<RITESH> Waiting for ACK 41 ms <<
+<RITESH> GOT Ack - 41
+<RITESH> Sent packet - 42
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> GOT Ack - 42
+<RITESH> Sent packet - 43
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> MISSED Ack....Retransmitting - 43
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 43
+<RITESH> Sent packet - 44
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> MISSED Ack....Retransmitting - 44
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> Recevied Previous ACK - 43..ignoring...resending - 44
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 44
+<RITESH> Sent packet - 45
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 45
+<RITESH> Sent packet - 46
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> MISSED Ack....Retransmitting - 46
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 46
+<RITESH> Sent packet - 47
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> Recevied Previous ACK - 46..ignoring...resending - 47
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 47
+<RITESH> Sent packet - 48
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> Recevied Previous ACK - 47..ignoring...resending - 48
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 48
+<RITESH> Sent packet - 49
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> MISSED Ack....Retransmitting - 49
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 49
+<RITESH> Sent packet - 50
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> Recevied Previous ACK - 49..ignoring...resending - 50
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 50
+<RITESH> Sent packet - 51
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> MISSED Ack....Retransmitting - 51
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> Recevied Previous ACK - 50..ignoring...resending - 51
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 51
+<RITESH> Sent packet - 52
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> Recevied Previous ACK - 51..ignoring...resending - 52
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 52
+<RITESH> Sent packet - 53
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> MISSED Ack....Retransmitting - 53
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> Recevied Previous ACK - 52..ignoring...resending - 53
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 53
+<RITESH> Sent packet - 54
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> Recevied Previous ACK - 53..ignoring...resending - 54
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 54
+<RITESH> Sent packet - 55
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> MISSED Ack....Retransmitting - 55
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> Recevied Previous ACK - 54..ignoring...resending - 55
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 55
+<RITESH> Sent packet - 56
+<RITESH> Waiting for ACK 47 ms <<
+<RITESH> GOT Ack - 56
+<RITESH> Sent packet - 57
+<RITESH> Waiting for ACK 44 ms <<
+<RITESH> GOT Ack - 57
+<RITESH> Sent packet - 58
+<RITESH> Waiting for ACK 43 ms <<
+<RITESH> GOT Ack - 58
+<RITESH> Sent packet - 59
+<RITESH> Waiting for ACK 41 ms <<
+<RITESH> GOT Ack - 59
+<RITESH> Sent packet - 60
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> MISSED Ack....Retransmitting - 60
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> GOT Ack - 60
+<RITESH> Sent packet - 61
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> Recevied Previous ACK - 60..ignoring...resending - 61
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> GOT Ack - 61
+<RITESH> Sent packet - 62
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> Recevied Previous ACK - 61..ignoring...resending - 62
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 62
+<RITESH> Sent packet - 63
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> Recevied Previous ACK - 62..ignoring...resending - 63
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 63
+<RITESH> Sent packet - 64
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> Recevied Previous ACK - 63..ignoring...resending - 64
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 64
+<RITESH> Sent packet - 65
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> MISSED Ack....Retransmitting - 65
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 65
+<RITESH> Sent packet - 66
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> MISSED Ack....Retransmitting - 66
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> Recevied Previous ACK - 65..ignoring...resending - 66
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 66
+<RITESH> Sent packet - 67
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> MISSED Ack....Retransmitting - 67
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 67
+<RITESH> Sent packet - 68
+<RITESH> Waiting for ACK 47 ms <<
+<RITESH> GOT Ack - 68
+<RITESH> Sent packet - 69
+<RITESH> Waiting for ACK 45 ms <<
+<RITESH> MISSED Ack....Retransmitting - 69
+<RITESH> Waiting for ACK 45 ms <<
+<RITESH> GOT Ack - 69
+<RITESH> Sent packet - 70
+<RITESH> Waiting for ACK 55 ms <<
+<RITESH> MISSED Ack....Retransmitting - 70
+<RITESH> Waiting for ACK 55 ms <<
+<RITESH> GOT Ack - 70
+<RITESH> Sent packet - 71
+<RITESH> Waiting for ACK 65 ms <<
+<RITESH> GOT Ack - 71
+<RITESH> Sent packet - 72
+<RITESH> Waiting for ACK 58 ms <<
+<RITESH> GOT Ack - 72
+<RITESH> Sent packet - 73
+<RITESH> Waiting for ACK 53 ms <<
+<RITESH> MISSED Ack....Retransmitting - 73
+<RITESH> Waiting for ACK 53 ms <<
+<RITESH> GOT Ack - 73
+<RITESH> Sent packet - 74
+<RITESH> Waiting for ACK 63 ms <<
+<RITESH> GOT Ack - 74
+<RITESH> Sent packet - 75
+<RITESH> Waiting for ACK 57 ms <<
+<RITESH> MISSED Ack....Retransmitting - 75
+<RITESH> Waiting for ACK 57 ms <<
+<RITESH> GOT Ack - 75
+<RITESH> Sent packet - 76
+<RITESH> Waiting for ACK 67 ms <<
+<RITESH> GOT Ack - 76
+<RITESH> Sent packet - 77
+<RITESH> Waiting for ACK 59 ms <<
+<RITESH> MISSED Ack....Retransmitting - 77
+<RITESH> Waiting for ACK 59 ms <<
+<RITESH> GOT Ack - 77
+<RITESH> Sent packet - 78
+<RITESH> Waiting for ACK 69 ms <<
+<RITESH> GOT Ack - 78
+<RITESH> Sent packet - 79
+<RITESH> Waiting for ACK 61 ms <<
+<RITESH> GOT Ack - 79
+<RITESH> Sent packet - 80
+<RITESH> Waiting for ACK 55 ms <<
+<RITESH> GOT Ack - 80
+<RITESH> Sent packet - 81
+<RITESH> Waiting for ACK 51 ms <<
+<RITESH> GOT Ack - 81
+<RITESH> Sent packet - 82
+<RITESH> Waiting for ACK 47 ms <<
+<RITESH> GOT Ack - 82
+<RITESH> Sent packet - 83
+<RITESH> Waiting for ACK 45 ms <<
+<RITESH> GOT Ack - 83
+<RITESH> Sent packet - 84
+<RITESH> Waiting for ACK 43 ms <<
+<RITESH> GOT Ack - 84
+<RITESH> Sent packet - 85
+<RITESH> Waiting for ACK 42 ms <<
+<RITESH> GOT Ack - 85
+<RITESH> Sent packet - 86
+<RITESH> Waiting for ACK 41 ms <<
+<RITESH> GOT Ack - 86
+<RITESH> Sent packet - 87
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> GOT Ack - 87
+<RITESH> Sent packet - 88
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 88
+<RITESH> Sent packet - 89
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 89
+<RITESH> Sent packet - 90
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> MISSED Ack....Retransmitting - 90
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> GOT Ack - 90
+<RITESH> Sent packet - 91
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> Recevied Previous ACK - 90..ignoring...resending - 91
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> GOT Ack - 91
+<RITESH> Sent packet - 92
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> MISSED Ack....Retransmitting - 92
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> Recevied Previous ACK - 91..ignoring...resending - 92
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> GOT Ack - 92
+<RITESH> Sent packet - 93
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> Recevied Previous ACK - 92..ignoring...resending - 93
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> MISSED Ack....Retransmitting - 93
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> GOT Ack - 93
+<RITESH> Sent packet - 94
+<RITESH> Waiting for ACK 42 ms <<
+<RITESH> Recevied Previous ACK - 93..ignoring...resending - 94
+<RITESH> Waiting for ACK 42 ms <<
+<RITESH> GOT Ack - 94
+<RITESH> Sent packet - 95
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> Recevied Previous ACK - 94..ignoring...resending - 95
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> GOT Ack - 95
+<RITESH> Sent packet - 96
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> Recevied Previous ACK - 95..ignoring...resending - 96
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 96
+<RITESH> Sent packet - 97
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> Recevied Previous ACK - 96..ignoring...resending - 97
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 97
+<RITESH> Sent packet - 98
+<RITESH> Waiting for ACK 44 ms <<
+<RITESH> GOT Ack - 98
+<RITESH> Sent packet - 99
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> GOT Ack - 99
+<RITESH> Sent packet - 100
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 100
+<RITESH> Sent packet - 101
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> MISSED Ack....Retransmitting - 101
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> GOT Ack - 101
+<RITESH> Sent packet - 102
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> Recevied Previous ACK - 101..ignoring...resending - 102
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> GOT Ack - 102
+<RITESH> Sent packet - 103
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 103
+<RITESH> Sent packet - 104
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 104
+<RITESH> Sent packet - 105
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> MISSED Ack....Retransmitting - 105
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 105
+<RITESH> Sent packet - 106
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 106
+<RITESH> Sent packet - 107
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> MISSED Ack....Retransmitting - 107
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 107
+<RITESH> Sent packet - 108
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> Recevied Previous ACK - 107..ignoring...resending - 108
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 108
+<RITESH> Sent packet - 109
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> MISSED Ack....Retransmitting - 109
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> Recevied Previous ACK - 108..ignoring...resending - 109
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 109
+<RITESH> Sent packet - 110
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> Recevied Previous ACK - 109..ignoring...resending - 110
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 110
+<RITESH> Sent packet - 111
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> Recevied Previous ACK - 110..ignoring...resending - 111
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> MISSED Ack....Retransmitting - 111
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 111
+<RITESH> Sent packet - 112
+<RITESH> Waiting for ACK 41 ms <<
+<RITESH> Recevied Previous ACK - 111..ignoring...resending - 112
+<RITESH> Waiting for ACK 41 ms <<
+<RITESH> GOT Ack - 112
+<RITESH> Sent packet - 113
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> Recevied Previous ACK - 112..ignoring...resending - 113
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 113
+<RITESH> Sent packet - 114
+<RITESH> Waiting for ACK 45 ms <<
+<RITESH> GOT Ack - 114
+<RITESH> Sent packet - 115
+<RITESH> Waiting for ACK 42 ms <<
+<RITESH> MISSED Ack....Retransmitting - 115
+<RITESH> Waiting for ACK 42 ms <<
+<RITESH> GOT Ack - 115
+<RITESH> Sent packet - 116
+<RITESH> Waiting for ACK 50 ms <<
+<RITESH> GOT Ack - 116
+<RITESH> Sent packet - 117
+<RITESH> Waiting for ACK 45 ms <<
+<RITESH> GOT Ack - 117
+<RITESH> Sent packet - 118
+<RITESH> Waiting for ACK 42 ms <<
+<RITESH> GOT Ack - 118
+<RITESH> Sent packet - 119
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 119
+<RITESH> Sent packet - 120
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 120
+<RITESH> Sent packet - 121
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> GOT Ack - 121
+<RITESH> Sent packet - 122
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> MISSED Ack....Retransmitting - 122
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 122
+<RITESH> Sent packet - 123
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> Recevied Previous ACK - 122..ignoring...resending - 123
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 123
+<RITESH> Sent packet - 124
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> MISSED Ack....Retransmitting - 124
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 124
+<RITESH> Sent packet - 125
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> Recevied Previous ACK - 124..ignoring...resending - 125
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 125
+<RITESH> Sent packet - 126
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> MISSED Ack....Retransmitting - 126
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> Recevied Previous ACK - 125..ignoring...resending - 126
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> GOT Ack - 126
+<RITESH> Sent packet - 127
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 127
+<RITESH> Sent packet - 128
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 128
+<RITESH> Sent packet - 129
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> GOT Ack - 129
+<RITESH> Sent packet - 130
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> MISSED Ack....Retransmitting - 130
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> GOT Ack - 130
+<RITESH> Sent packet - 131
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> Recevied Previous ACK - 130..ignoring...resending - 131
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 131
+<RITESH> Sent packet - 132
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> Recevied Previous ACK - 131..ignoring...resending - 132
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 132
+<RITESH> Sent packet - 133
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> MISSED Ack....Retransmitting - 133
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> Recevied Previous ACK - 132..ignoring...resending - 133
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 133
+<RITESH> Sent packet - 134
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> Recevied Previous ACK - 133..ignoring...resending - 134
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 134
+<RITESH> Sent packet - 135
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> MISSED Ack....Retransmitting - 135
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> Recevied Previous ACK - 134..ignoring...resending - 135
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> GOT Ack - 135
+<RITESH> Sent packet - 136
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> Recevied Previous ACK - 135..ignoring...resending - 136
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> GOT Ack - 136
+<RITESH> Sent packet - 137
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> MISSED Ack....Retransmitting - 137
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> Recevied Previous ACK - 136..ignoring...resending - 137
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> GOT Ack - 137
+<RITESH> Sent packet - 138
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> Recevied Previous ACK - 137..ignoring...resending - 138
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> GOT Ack - 138
+<RITESH> Sent packet - 139
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> MISSED Ack....Retransmitting - 139
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> GOT Ack - 139
+<RITESH> Sent packet - 140
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> Recevied Previous ACK - 139..ignoring...resending - 140
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> GOT Ack - 140
+<RITESH> Sent packet - 141
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> Recevied Previous ACK - 140..ignoring...resending - 141
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> GOT Ack - 141
+<RITESH> Sent packet - 142
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> Recevied Previous ACK - 141..ignoring...resending - 142
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> GOT Ack - 142
+<RITESH> Sent packet - 143
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> Recevied Previous ACK - 142..ignoring...resending - 143
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> MISSED Ack....Retransmitting - 143
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> GOT Ack - 143
+<RITESH> Sent packet - 144
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> Recevied Previous ACK - 143..ignoring...resending - 144
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 144
+<RITESH> Sent packet - 145
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> Recevied Previous ACK - 144..ignoring...resending - 145
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> GOT Ack - 145
+<RITESH> Sent packet - 146
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> GOT Ack - 146
+<RITESH> Sent packet - 147
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> MISSED Ack....Retransmitting - 147
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 147
+<RITESH> Sent packet - 148
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 148
+<RITESH> Sent packet - 149
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> MISSED Ack....Retransmitting - 149
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 149
+<RITESH> Sent packet - 150
+<RITESH> Waiting for ACK 41 ms <<
+<RITESH> GOT Ack - 150
+<RITESH> Sent packet - 151
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 151
+<RITESH> Sent packet - 152
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> GOT Ack - 152
+<RITESH> Sent packet - 153
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 153
+<RITESH> Sent packet - 154
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> MISSED Ack....Retransmitting - 154
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> MISSED Ack....Retransmitting - 154
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> GOT Ack - 154
+<RITESH> Sent packet - 155
+<RITESH> Waiting for ACK 47 ms <<
+<RITESH> GOT Ack - 155
+<RITESH> Sent packet - 156
+<RITESH> Waiting for ACK 42 ms <<
+<RITESH> GOT Ack - 156
+<RITESH> Sent packet - 157
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 157
+<RITESH> Sent packet - 158
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> GOT Ack - 158
+<RITESH> Sent packet - 159
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 159
+<RITESH> Sent packet - 160
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> MISSED Ack....Retransmitting - 160
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 160
+<RITESH> Sent packet - 161
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> GOT Ack - 161
+<RITESH> Sent packet - 162
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 162
+<RITESH> Sent packet - 163
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> GOT Ack - 163
+<RITESH> Sent packet - 164
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 164
+<RITESH> Sent packet - 165
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> GOT Ack - 165
+<RITESH> Sent packet - 166
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> MISSED Ack....Retransmitting - 166
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> GOT Ack - 166
+<RITESH> Sent packet - 167
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> GOT Ack - 167
+<RITESH> Sent packet - 168
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> GOT Ack - 168
+<RITESH> Sent packet - 169
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> GOT Ack - 169
+<RITESH> Sent packet - 170
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> MISSED Ack....Retransmitting - 170
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> GOT Ack - 170
+<RITESH> Sent packet - 171
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> Recevied Previous ACK - 170..ignoring...resending - 171
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> GOT Ack - 171
+<RITESH> Sent packet - 172
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> MISSED Ack....Retransmitting - 172
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> Recevied Previous ACK - 171..ignoring...resending - 172
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> GOT Ack - 172
+<RITESH> Sent packet - 173
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> Recevied Previous ACK - 172..ignoring...resending - 173
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> GOT Ack - 173
+<RITESH> Sent packet - 174
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> MISSED Ack....Retransmitting - 174
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> Recevied Previous ACK - 173..ignoring...resending - 174
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> MISSED Ack....Retransmitting - 174
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> GOT Ack - 174
+<RITESH> Sent packet - 175
+<RITESH> Waiting for ACK 44 ms <<
+<RITESH> GOT Ack - 175
+<RITESH> Sent packet - 176
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> GOT Ack - 176
+<RITESH> Sent packet - 177
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> MISSED Ack....Retransmitting - 177
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 177
+<RITESH> Sent packet - 178
+<RITESH> Waiting for ACK 45 ms <<
+<RITESH> GOT Ack - 178
+<RITESH> Sent packet - 179
+<RITESH> Waiting for ACK 41 ms <<
+<RITESH> GOT Ack - 179
+<RITESH> Sent packet - 180
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 180
+<RITESH> Sent packet - 181
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> GOT Ack - 181
+<RITESH> Sent packet - 182
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 182
+<RITESH> Sent packet - 183
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> MISSED Ack....Retransmitting - 183
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> GOT Ack - 183
+<RITESH> Sent packet - 184
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 184
+<RITESH> Sent packet - 185
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> GOT Ack - 185
+<RITESH> Sent packet - 186
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 186
+<RITESH> Sent packet - 187
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 187
+<RITESH> Sent packet - 188
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> MISSED Ack....Retransmitting - 188
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> GOT Ack - 188
+<RITESH> Sent packet - 189
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> GOT Ack - 189
+<RITESH> Sent packet - 190
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> MISSED Ack....Retransmitting - 190
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> GOT Ack - 190
+<RITESH> Sent packet - 191
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> Recevied Previous ACK - 190..ignoring...resending - 191
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> GOT Ack - 191
+<RITESH> Sent packet - 192
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> Recevied Previous ACK - 191..ignoring...resending - 192
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> MISSED Ack....Retransmitting - 192
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> GOT Ack - 192
+<RITESH> Sent packet - 193
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> Recevied Previous ACK - 192..ignoring...resending - 193
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> GOT Ack - 193
+<RITESH> Sent packet - 194
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> MISSED Ack....Retransmitting - 194
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 194
+<RITESH> Sent packet - 195
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> GOT Ack - 195
+<RITESH> Sent packet - 196
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> MISSED Ack....Retransmitting - 196
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 196
+<RITESH> Sent packet - 197
+<RITESH> Waiting for ACK 44 ms <<
+<RITESH> GOT Ack - 197
+<RITESH> Sent packet - 198
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> GOT Ack - 198
+<RITESH> Sent packet - 199
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 199
+<RITESH> Sent packet - 200
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 200
+<RITESH> Sent packet - 201
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> GOT Ack - 201
+<RITESH> Sent packet - 202
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> MISSED Ack....Retransmitting - 202
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> GOT Ack - 202
+<RITESH> Sent packet - 203
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> Recevied Previous ACK - 202..ignoring...resending - 203
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> GOT Ack - 203
+<RITESH> Sent packet - 204
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> Recevied Previous ACK - 203..ignoring...resending - 204
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> GOT Ack - 204
+<RITESH> Sent packet - 205
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> GOT Ack - 205
+<RITESH> Sent packet - 206
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 206
+<RITESH> Sent packet - 207
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> GOT Ack - 207
+<RITESH> Sent packet - 208
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> MISSED Ack....Retransmitting - 208
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> GOT Ack - 208
+<RITESH> Sent packet - 209
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 209
+<RITESH> Sent packet - 210
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> GOT Ack - 210
+<RITESH> Sent packet - 211
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 211
+<RITESH> Sent packet - 212
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> GOT Ack - 212
+<RITESH> Sent packet - 213
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> GOT Ack - 213
+<RITESH> Sent packet - 214
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> MISSED Ack....Retransmitting - 214
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> GOT Ack - 214
+<RITESH> Sent packet - 215
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> MISSED Ack....Retransmitting - 215
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 215
+<RITESH> Sent packet - 216
+<RITESH> Waiting for ACK 44 ms <<
+<RITESH> GOT Ack - 216
+<RITESH> Sent packet - 217
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 217
+<RITESH> Sent packet - 218
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> GOT Ack - 218
+<RITESH> Sent packet - 219
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 219
+<RITESH> Sent packet - 220
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> GOT Ack - 220
+<RITESH> Sent packet - 221
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> MISSED Ack....Retransmitting - 221
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> GOT Ack - 221
+<RITESH> Sent packet - 222
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> Recevied Previous ACK - 221..ignoring...resending - 222
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> GOT Ack - 222
+<RITESH> Sent packet - 223
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> MISSED Ack....Retransmitting - 223
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> GOT Ack - 223
+<RITESH> Sent packet - 224
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> MISSED Ack....Retransmitting - 224
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> Recevied Previous ACK - 223..ignoring...resending - 224
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> GOT Ack - 224
+<RITESH> Sent packet - 225
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> MISSED Ack....Retransmitting - 225
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> GOT Ack - 225
+<RITESH> Sent packet - 226
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> MISSED Ack....Retransmitting - 226
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> GOT Ack - 226
+<RITESH> Sent packet - 227
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> MISSED Ack....Retransmitting - 227
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> Recevied Previous ACK - 226..ignoring...resending - 227
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> GOT Ack - 227
+<RITESH> Sent packet - 228
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> MISSED Ack....Retransmitting - 228
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> Recevied Previous ACK - 227..ignoring...resending - 228
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> GOT Ack - 228
+<RITESH> Sent packet - 229
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> Recevied Previous ACK - 228..ignoring...resending - 229
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> GOT Ack - 229
+<RITESH> Sent packet - 230
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> Recevied Previous ACK - 229..ignoring...resending - 230
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> GOT Ack - 230
+<RITESH> Sent packet - 231
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> Recevied Previous ACK - 230..ignoring...resending - 231
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> GOT Ack - 231
+<RITESH> Sent packet - 232
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> Recevied Previous ACK - 231..ignoring...resending - 232
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> GOT Ack - 232
+<RITESH> Sent packet - 233
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> Recevied Previous ACK - 232..ignoring...resending - 233
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> GOT Ack - 233
+<RITESH> Sent packet - 234
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> Recevied Previous ACK - 233..ignoring...resending - 234
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> GOT Ack - 234
+<RITESH> Sent packet - 235
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> Recevied Previous ACK - 234..ignoring...resending - 235
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> GOT Ack - 235
+<RITESH> Sent packet - 236
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> MISSED Ack....Retransmitting - 236
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> Recevied Previous ACK - 235..ignoring...resending - 236
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> MISSED Ack....Retransmitting - 236
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> GOT Ack - 236
+<RITESH> Sent packet - 237
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> Recevied Previous ACK - 236..ignoring...resending - 237
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 237
+<RITESH> Sent packet - 238
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> Recevied Previous ACK - 237..ignoring...resending - 238
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> GOT Ack - 238
+<RITESH> Sent packet - 239
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> Recevied Previous ACK - 238..ignoring...resending - 239
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> GOT Ack - 239
+<RITESH> Sent packet - 240
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> Recevied Previous ACK - 239..ignoring...resending - 240
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> GOT Ack - 240
+<RITESH> Sent packet - 241
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> GOT Ack - 241
+<RITESH> Sent packet - 242
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> MISSED Ack....Retransmitting - 242
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> GOT Ack - 242
+<RITESH> Sent packet - 243
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> MISSED Ack....Retransmitting - 243
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> GOT Ack - 243
+<RITESH> Sent packet - 244
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> MISSED Ack....Retransmitting - 244
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> GOT Ack - 244
+<RITESH> Sent packet - 245
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> MISSED Ack....Retransmitting - 245
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> MISSED Ack....Retransmitting - 245
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> MISSED Ack....Retransmitting - 245
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> GOT Ack - 245
+<RITESH> Sent packet - 246
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> Recevied Previous ACK - 245..ignoring...resending - 246
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> GOT Ack - 246
+<RITESH> Sent packet - 247
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> Recevied Previous ACK - 246..ignoring...resending - 247
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 247
+<RITESH> Sent packet - 248
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> Recevied Previous ACK - 247..ignoring...resending - 248
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 248
+<RITESH> Sent packet - 249
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> GOT Ack - 249
+<RITESH> Sent packet - 250
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> GOT Ack - 250
+<RITESH> Sent packet - 251
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> GOT Ack - 251
+<RITESH> Sent packet - 252
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> GOT Ack - 252
+<RITESH> Sent packet - 253
+<RITESH> Waiting for ACK 25 ms <<
+<RITESH> GOT Ack - 253
+<RITESH> Sent packet - 254
+<RITESH> Waiting for ACK 24 ms <<
+<RITESH> GOT Ack - 254
+<RITESH> Sent packet - 255
+<RITESH> Waiting for ACK 23 ms <<
+<RITESH> MISSED Ack....Retransmitting - 255
+<RITESH> Waiting for ACK 23 ms <<
+<RITESH> GOT Ack - 255
+<RITESH> Sent packet - 256
+<RITESH> Waiting for ACK 22 ms <<
+<RITESH> Recevied Previous ACK - 255..ignoring...resending - 256
+<RITESH> Waiting for ACK 22 ms <<
+<RITESH> MISSED Ack....Retransmitting - 256
+<RITESH> Waiting for ACK 22 ms <<
+<RITESH> GOT Ack - 256
+<RITESH> Sent packet - 257
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> Recevied Previous ACK - 256..ignoring...resending - 257
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> GOT Ack - 257
+<RITESH> Sent packet - 258
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> Recevied Previous ACK - 257..ignoring...resending - 258
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> GOT Ack - 258
+<RITESH> Sent packet - 259
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> Recevied Previous ACK - 258..ignoring...resending - 259
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> GOT Ack - 259
+<RITESH> Sent packet - 260
+<RITESH> Waiting for ACK 25 ms <<
+<RITESH> Recevied Previous ACK - 259..ignoring...resending - 260
+<RITESH> Waiting for ACK 25 ms <<
+<RITESH> GOT Ack - 260
+<RITESH> Sent packet - 261
+<RITESH> Waiting for ACK 24 ms <<
+<RITESH> MISSED Ack....Retransmitting - 261
+<RITESH> Waiting for ACK 24 ms <<
+<RITESH> Recevied Previous ACK - 260..ignoring...resending - 261
+<RITESH> Waiting for ACK 24 ms <<
+<RITESH> GOT Ack - 261
+<RITESH> Sent packet - 262
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> MISSED Ack....Retransmitting - 262
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> MISSED Ack....Retransmitting - 262
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> GOT Ack - 262
+<RITESH> Sent packet - 263
+<RITESH> Waiting for ACK 43 ms <<
+<RITESH> GOT Ack - 263
+<RITESH> Sent packet - 264
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 264
+<RITESH> Sent packet - 265
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> MISSED Ack....Retransmitting - 265
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 265
+<RITESH> Sent packet - 266
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 266
+<RITESH> Sent packet - 267
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 267
+<RITESH> Sent packet - 268
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> GOT Ack - 268
+<RITESH> Sent packet - 269
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> GOT Ack - 269
+<RITESH> Sent packet - 270
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> GOT Ack - 270
+<RITESH> Sent packet - 271
+<RITESH> Waiting for ACK 25 ms <<
+<RITESH> GOT Ack - 271
+<RITESH> Sent packet - 272
+<RITESH> Waiting for ACK 24 ms <<
+<RITESH> MISSED Ack....Retransmitting - 272
+<RITESH> Waiting for ACK 24 ms <<
+<RITESH> GOT Ack - 272
+<RITESH> Sent packet - 273
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> MISSED Ack....Retransmitting - 273
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> GOT Ack - 273
+<RITESH> Sent packet - 274
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> GOT Ack - 274
+<RITESH> Sent packet - 275
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 275
+<RITESH> Sent packet - 276
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> GOT Ack - 276
+<RITESH> Sent packet - 277
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> MISSED Ack....Retransmitting - 277
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> GOT Ack - 277
+<RITESH> Sent packet - 278
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> Recevied Previous ACK - 277..ignoring...resending - 278
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> GOT Ack - 278
+<RITESH> Sent packet - 279
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> Recevied Previous ACK - 278..ignoring...resending - 279
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> GOT Ack - 279
+<RITESH> Sent packet - 280
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> MISSED Ack....Retransmitting - 280
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> GOT Ack - 280
+<RITESH> Sent packet - 281
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> MISSED Ack....Retransmitting - 281
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> GOT Ack - 281
+<RITESH> Sent packet - 282
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> Recevied Previous ACK - 281..ignoring...resending - 282
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> GOT Ack - 282
+<RITESH> Sent packet - 283
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> MISSED Ack....Retransmitting - 283
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> Recevied Previous ACK - 282..ignoring...resending - 283
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> GOT Ack - 283
+<RITESH> Sent packet - 284
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> GOT Ack - 284
+<RITESH> Sent packet - 285
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> GOT Ack - 285
+<RITESH> Sent packet - 286
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> GOT Ack - 286
+<RITESH> Sent packet - 287
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> MISSED Ack....Retransmitting - 287
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> GOT Ack - 287
+<RITESH> Sent packet - 288
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> Recevied Previous ACK - 287..ignoring...resending - 288
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> GOT Ack - 288
+<RITESH> Sent packet - 289
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> GOT Ack - 289
+<RITESH> Sent packet - 290
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> MISSED Ack....Retransmitting - 290
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> GOT Ack - 290
+<RITESH> Sent packet - 291
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> Recevied Previous ACK - 290..ignoring...resending - 291
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> GOT Ack - 291
+<RITESH> Sent packet - 292
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> Recevied Previous ACK - 291..ignoring...resending - 292
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> GOT Ack - 292
+<RITESH> Sent packet - 293
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> Recevied Previous ACK - 292..ignoring...resending - 293
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> GOT Ack - 293
+<RITESH> Sent packet - 294
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> GOT Ack - 294
+<RITESH> Sent packet - 295
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> GOT Ack - 295
+<RITESH> Sent packet - 296
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> MISSED Ack....Retransmitting - 296
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> GOT Ack - 296
+<RITESH> Sent packet - 297
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 297
+<RITESH> Sent packet - 298
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> GOT Ack - 298
+<RITESH> Sent packet - 299
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> MISSED Ack....Retransmitting - 299
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> GOT Ack - 299
+<RITESH> Sent packet - 300
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> Recevied Previous ACK - 299..ignoring...resending - 300
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> GOT Ack - 300
+<RITESH> Sent packet - 301
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> Recevied Previous ACK - 300..ignoring...resending - 301
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> GOT Ack - 301
+<RITESH> Sent packet - 302
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> MISSED Ack....Retransmitting - 302
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> Recevied Previous ACK - 301..ignoring...resending - 302
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> GOT Ack - 302
+<RITESH> Sent packet - 303
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> GOT Ack - 303
+<RITESH> Sent packet - 304
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> MISSED Ack....Retransmitting - 304
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> GOT Ack - 304
+<RITESH> Sent packet - 305
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> Recevied Previous ACK - 304..ignoring...resending - 305
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> GOT Ack - 305
+<RITESH> Sent packet - 306
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> Recevied Previous ACK - 305..ignoring...resending - 306
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 306
+<RITESH> Sent packet - 307
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> Recevied Previous ACK - 306..ignoring...resending - 307
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 307
+<RITESH> Sent packet - 308
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> Recevied Previous ACK - 307..ignoring...resending - 308
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> MISSED Ack....Retransmitting - 308
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> MISSED Ack....Retransmitting - 308
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> MISSED Ack....Retransmitting - 308
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> GOT Ack - 308
+<RITESH> Sent packet - 309
+<RITESH> Waiting for ACK 60 ms <<
+<RITESH> Recevied Previous ACK - 308..ignoring...resending - 309
+<RITESH> Waiting for ACK 60 ms <<
+<RITESH> GOT Ack - 309
+<RITESH> Sent packet - 310
+<RITESH> Waiting for ACK 54 ms <<
+<RITESH> Recevied Previous ACK - 309..ignoring...resending - 310
+<RITESH> Waiting for ACK 54 ms <<
+<RITESH> GOT Ack - 310
+<RITESH> Sent packet - 311
+<RITESH> Waiting for ACK 57 ms <<
+<RITESH> GOT Ack - 311
+<RITESH> Sent packet - 312
+<RITESH> Waiting for ACK 49 ms <<
+<RITESH> GOT Ack - 312
+<RITESH> Sent packet - 313
+<RITESH> Waiting for ACK 43 ms <<
+<RITESH> GOT Ack - 313
+<RITESH> Sent packet - 314
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 314
+<RITESH> Sent packet - 315
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> GOT Ack - 315
+<RITESH> Sent packet - 316
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> MISSED Ack....Retransmitting - 316
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 316
+<RITESH> Sent packet - 317
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> Recevied Previous ACK - 316..ignoring...resending - 317
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 317
+<RITESH> Sent packet - 318
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> MISSED Ack....Retransmitting - 318
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 318
+<RITESH> Sent packet - 319
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> MISSED Ack....Retransmitting - 319
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> Recevied Previous ACK - 318..ignoring...resending - 319
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 319
+<RITESH> Sent packet - 320
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> MISSED Ack....Retransmitting - 320
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 320
+<RITESH> Sent packet - 321
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> MISSED Ack....Retransmitting - 321
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 321
+<RITESH> Sent packet - 322
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> MISSED Ack....Retransmitting - 322
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> Recevied Previous ACK - 321..ignoring...resending - 322
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 322
+<RITESH> Sent packet - 323
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> Recevied Previous ACK - 322..ignoring...resending - 323
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 323
+<RITESH> Sent packet - 324
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> Recevied Previous ACK - 323..ignoring...resending - 324
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> MISSED Ack....Retransmitting - 324
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 324
+<RITESH> Sent packet - 325
+<RITESH> Waiting for ACK 42 ms <<
+<RITESH> Recevied Previous ACK - 324..ignoring...resending - 325
+<RITESH> Waiting for ACK 42 ms <<
+<RITESH> GOT Ack - 325
+<RITESH> Sent packet - 326
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> GOT Ack - 326
+<RITESH> Sent packet - 327
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 327
+<RITESH> Sent packet - 328
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 328
+<RITESH> Sent packet - 329
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> MISSED Ack....Retransmitting - 329
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> GOT Ack - 329
+<RITESH> Sent packet - 330
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> Recevied Previous ACK - 329..ignoring...resending - 330
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> GOT Ack - 330
+<RITESH> Sent packet - 331
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> MISSED Ack....Retransmitting - 331
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> GOT Ack - 331
+<RITESH> Sent packet - 332
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> MISSED Ack....Retransmitting - 332
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 332
+<RITESH> Sent packet - 333
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> MISSED Ack....Retransmitting - 333
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> Recevied Previous ACK - 332..ignoring...resending - 333
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 333
+<RITESH> Sent packet - 334
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 334
+<RITESH> Sent packet - 335
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> MISSED Ack....Retransmitting - 335
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 335
+<RITESH> Sent packet - 336
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> Recevied Previous ACK - 335..ignoring...resending - 336
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 336
+<RITESH> Sent packet - 337
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> Recevied Previous ACK - 336..ignoring...resending - 337
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 337
+<RITESH> Sent packet - 338
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> Recevied Previous ACK - 337..ignoring...resending - 338
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 338
+<RITESH> Sent packet - 339
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> MISSED Ack....Retransmitting - 339
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> MISSED Ack....Retransmitting - 339
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 339
+<RITESH> Sent packet - 340
+<RITESH> Waiting for ACK 43 ms <<
+<RITESH> GOT Ack - 340
+<RITESH> Sent packet - 341
+<RITESH> Waiting for ACK 41 ms <<
+<RITESH> GOT Ack - 341
+<RITESH> Sent packet - 342
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 342
+<RITESH> Sent packet - 343
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 343
+<RITESH> Sent packet - 344
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 344
+<RITESH> Sent packet - 345
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> MISSED Ack....Retransmitting - 345
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> MISSED Ack....Retransmitting - 345
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> GOT Ack - 345
+<RITESH> Sent packet - 346
+<RITESH> Waiting for ACK 45 ms <<
+<RITESH> Recevied Previous ACK - 345..ignoring...resending - 346
+<RITESH> Waiting for ACK 45 ms <<
+<RITESH> GOT Ack - 346
+<RITESH> Sent packet - 347
+<RITESH> Waiting for ACK 42 ms <<
+<RITESH> Recevied Previous ACK - 346..ignoring...resending - 347
+<RITESH> Waiting for ACK 42 ms <<
+<RITESH> GOT Ack - 347
+<RITESH> Sent packet - 348
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> Recevied Previous ACK - 347..ignoring...resending - 348
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> GOT Ack - 348
+<RITESH> Sent packet - 349
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> Recevied Previous ACK - 348..ignoring...resending - 349
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 349
+<RITESH> Sent packet - 350
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> Recevied Previous ACK - 349..ignoring...resending - 350
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> MISSED Ack....Retransmitting - 350
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 350
+<RITESH> Sent packet - 351
+<RITESH> Waiting for ACK 55 ms <<
+<RITESH> GOT Ack - 351
+<RITESH> Sent packet - 352
+<RITESH> Waiting for ACK 49 ms <<
+<RITESH> GOT Ack - 352
+<RITESH> Sent packet - 353
+<RITESH> Waiting for ACK 45 ms <<
+<RITESH> GOT Ack - 353
+<RITESH> Sent packet - 354
+<RITESH> Waiting for ACK 42 ms <<
+<RITESH> GOT Ack - 354
+<RITESH> Sent packet - 355
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> GOT Ack - 355
+<RITESH> Sent packet - 356
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 356
+<RITESH> Sent packet - 357
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 357
+<RITESH> Sent packet - 358
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> MISSED Ack....Retransmitting - 358
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> GOT Ack - 358
+<RITESH> Sent packet - 359
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> MISSED Ack....Retransmitting - 359
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> Recevied Previous ACK - 358..ignoring...resending - 359
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> GOT Ack - 359
+<RITESH> Sent packet - 360
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> Recevied Previous ACK - 359..ignoring...resending - 360
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> GOT Ack - 360
+<RITESH> Sent packet - 361
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> Recevied Previous ACK - 360..ignoring...resending - 361
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> MISSED Ack....Retransmitting - 361
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 361
+<RITESH> Sent packet - 362
+<RITESH> Waiting for ACK 48 ms <<
+<RITESH> GOT Ack - 362
+<RITESH> Sent packet - 363
+<RITESH> Waiting for ACK 43 ms <<
+<RITESH> MISSED Ack....Retransmitting - 363
+<RITESH> Waiting for ACK 43 ms <<
+<RITESH> MISSED Ack....Retransmitting - 363
+<RITESH> Waiting for ACK 43 ms <<
+<RITESH> GOT Ack - 363
+<RITESH> Sent packet - 364
+<RITESH> Waiting for ACK 61 ms <<
+<RITESH> GOT Ack - 364
+<RITESH> Sent packet - 365
+<RITESH> Waiting for ACK 52 ms <<
+<RITESH> GOT Ack - 365
+<RITESH> Sent packet - 366
+<RITESH> Waiting for ACK 46 ms <<
+<RITESH> GOT Ack - 366
+<RITESH> Sent packet - 367
+<RITESH> Waiting for ACK 42 ms <<
+<RITESH> GOT Ack - 367
+<RITESH> Sent packet - 368
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 368
+<RITESH> Sent packet - 369
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> GOT Ack - 369
+<RITESH> Sent packet - 370
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 370
+<RITESH> Sent packet - 371
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> MISSED Ack....Retransmitting - 371
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> GOT Ack - 371
+<RITESH> Sent packet - 372
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> GOT Ack - 372
+<RITESH> Sent packet - 373
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> GOT Ack - 373
+<RITESH> Sent packet - 374
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> MISSED Ack....Retransmitting - 374
+<RITESH> Waiting for ACK 29 ms <<
+<RITESH> GOT Ack - 374
+<RITESH> Sent packet - 375
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> MISSED Ack....Retransmitting - 375
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> GOT Ack - 375
+<RITESH> Sent packet - 376
+<RITESH> Waiting for ACK 43 ms <<
+<RITESH> GOT Ack - 376
+<RITESH> Sent packet - 377
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 377
+<RITESH> Sent packet - 378
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> GOT Ack - 378
+<RITESH> Sent packet - 379
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> MISSED Ack....Retransmitting - 379
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> MISSED Ack....Retransmitting - 379
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 379
+<RITESH> Sent packet - 380
+<RITESH> Waiting for ACK 50 ms <<
+<RITESH> MISSED Ack....Retransmitting - 380
+<RITESH> Waiting for ACK 50 ms <<
+<RITESH> GOT Ack - 380
+<RITESH> Sent packet - 381
+<RITESH> Waiting for ACK 56 ms <<
+<RITESH> MISSED Ack....Retransmitting - 381
+<RITESH> Waiting for ACK 56 ms <<
+<RITESH> GOT Ack - 381
+<RITESH> Sent packet - 382
+<RITESH> Waiting for ACK 63 ms <<
+<RITESH> GOT Ack - 382
+<RITESH> Sent packet - 383
+<RITESH> Waiting for ACK 54 ms <<
+<RITESH> MISSED Ack....Retransmitting - 383
+<RITESH> Waiting for ACK 54 ms <<
+<RITESH> GOT Ack - 383
+<RITESH> Sent packet - 384
+<RITESH> Waiting for ACK 61 ms <<
+<RITESH> MISSED Ack....Retransmitting - 384
+<RITESH> Waiting for ACK 61 ms <<
+<RITESH> GOT Ack - 384
+<RITESH> Sent packet - 385
+<RITESH> Waiting for ACK 68 ms <<
+<RITESH> GOT Ack - 385
+<RITESH> Sent packet - 386
+<RITESH> Waiting for ACK 58 ms <<
+<RITESH> GOT Ack - 386
+<RITESH> Sent packet - 387
+<RITESH> Waiting for ACK 51 ms <<
+<RITESH> GOT Ack - 387
+<RITESH> Sent packet - 388
+<RITESH> Waiting for ACK 45 ms <<
+<RITESH> GOT Ack - 388
+<RITESH> Sent packet - 389
+<RITESH> Waiting for ACK 41 ms <<
+<RITESH> GOT Ack - 389
+<RITESH> Sent packet - 390
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 390
+<RITESH> Sent packet - 391
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> GOT Ack - 391
+<RITESH> Sent packet - 392
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> MISSED Ack....Retransmitting - 392
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 392
+<RITESH> Sent packet - 393
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> GOT Ack - 393
+<RITESH> Sent packet - 394
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 394
+<RITESH> Sent packet - 395
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> MISSED Ack....Retransmitting - 395
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> GOT Ack - 395
+<RITESH> Sent packet - 396
+<RITESH> Waiting for ACK 42 ms <<
+<RITESH> GOT Ack - 396
+<RITESH> Sent packet - 397
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 397
+<RITESH> Sent packet - 398
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> GOT Ack - 398
+<RITESH> Sent packet - 399
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 399
+<RITESH> Sent packet - 400
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 400
+<RITESH> Sent packet - 401
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> MISSED Ack....Retransmitting - 401
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> GOT Ack - 401
+<RITESH> Sent packet - 402
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> Recevied Previous ACK - 401..ignoring...resending - 402
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> GOT Ack - 402
+<RITESH> Sent packet - 403
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> MISSED Ack....Retransmitting - 403
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 403
+<RITESH> Sent packet - 404
+<RITESH> Waiting for ACK 45 ms <<
+<RITESH> GOT Ack - 404
+<RITESH> Sent packet - 405
+<RITESH> Waiting for ACK 40 ms <<
+<RITESH> GOT Ack - 405
+<RITESH> Sent packet - 406
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> MISSED Ack....Retransmitting - 406
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 406
+<RITESH> Sent packet - 407
+<RITESH> Waiting for ACK 44 ms <<
+<RITESH> GOT Ack - 407
+<RITESH> Sent packet - 408
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 408
+<RITESH> Sent packet - 409
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> MISSED Ack....Retransmitting - 409
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> GOT Ack - 409
+<RITESH> Sent packet - 410
+<RITESH> Waiting for ACK 43 ms <<
+<RITESH> GOT Ack - 410
+<RITESH> Sent packet - 411
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> MISSED Ack....Retransmitting - 411
+<RITESH> Waiting for ACK 38 ms <<
+<RITESH> GOT Ack - 411
+<RITESH> Sent packet - 412
+<RITESH> Waiting for ACK 44 ms <<
+<RITESH> GOT Ack - 412
+<RITESH> Sent packet - 413
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 413
+<RITESH> Sent packet - 414
+<RITESH> Waiting for ACK 35 ms <<
+<RITESH> GOT Ack - 414
+<RITESH> Sent packet - 415
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> GOT Ack - 415
+<RITESH> Sent packet - 416
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> GOT Ack - 416
+<RITESH> Sent packet - 417
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> MISSED Ack....Retransmitting - 417
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> GOT Ack - 417
+<RITESH> Sent packet - 418
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> Recevied Previous ACK - 417..ignoring...resending - 418
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> MISSED Ack....Retransmitting - 418
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> GOT Ack - 418
+<RITESH> Sent packet - 419
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> Recevied Previous ACK - 418..ignoring...resending - 419
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 419
+<RITESH> Sent packet - 420
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> Recevied Previous ACK - 419..ignoring...resending - 420
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> GOT Ack - 420
+<RITESH> Sent packet - 421
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> MISSED Ack....Retransmitting - 421
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 421
+<RITESH> Sent packet - 422
+<RITESH> Waiting for ACK 44 ms <<
+<RITESH> GOT Ack - 422
+<RITESH> Sent packet - 423
+<RITESH> Waiting for ACK 39 ms <<
+<RITESH> GOT Ack - 423
+<RITESH> Sent packet - 424
+<RITESH> Waiting for ACK 36 ms <<
+<RITESH> GOT Ack - 424
+<RITESH> Sent packet - 425
+<RITESH> Waiting for ACK 33 ms <<
+<RITESH> GOT Ack - 425
+<RITESH> Sent packet - 426
+<RITESH> Waiting for ACK 31 ms <<
+<RITESH> GOT Ack - 426
+<RITESH> Sent packet - 427
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> GOT Ack - 427
+<RITESH> Sent packet - 428
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> MISSED Ack....Retransmitting - 428
+<RITESH> Waiting for ACK 28 ms <<
+<RITESH> GOT Ack - 428
+<RITESH> Sent packet - 429
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> MISSED Ack....Retransmitting - 429
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> Recevied Previous ACK - 428..ignoring...resending - 429
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> GOT Ack - 429
+<RITESH> Sent packet - 430
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> Recevied Previous ACK - 429..ignoring...resending - 430
+<RITESH> Waiting for ACK 27 ms <<
+<RITESH> GOT Ack - 430
+<RITESH> Sent packet - 431
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> MISSED Ack....Retransmitting - 431
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> Recevied Previous ACK - 430..ignoring...resending - 431
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> GOT Ack - 431
+<RITESH> Sent packet - 432
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> MISSED Ack....Retransmitting - 432
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> GOT Ack - 432
+<RITESH> Sent packet - 433
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> Recevied Previous ACK - 432..ignoring...resending - 433
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> GOT Ack - 433
+<RITESH> Sent packet - 434
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> MISSED Ack....Retransmitting - 434
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> Recevied Previous ACK - 433..ignoring...resending - 434
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> GOT Ack - 434
+<RITESH> Sent packet - 435
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> Recevied Previous ACK - 434..ignoring...resending - 435
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> MISSED Ack....Retransmitting - 435
+<RITESH> Waiting for ACK 26 ms <<
+<RITESH> GOT Ack - 435
+<RITESH> Sent packet - 436
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> Recevied Previous ACK - 435..ignoring...resending - 436
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> GOT Ack - 436
+<RITESH> Sent packet - 437
+<RITESH> Waiting for ACK 37 ms <<
+<RITESH> GOT Ack - 437
+<RITESH> Sent packet - 438
+<RITESH> Waiting for ACK 34 ms <<
+<RITESH> GOT Ack - 438
+<RITESH> Sent packet - 439
+<RITESH> Waiting for ACK 32 ms <<
+<RITESH> GOT Ack - 439
+
+Finished sending, closing socket.
+<RITESH> Sent packet - 440
+<RITESH> Waiting for ACK 30 ms <<
+<RITESH> GOT Ack - 440
+
+Sent 609889 bytes in 16.8550 seconds, 36.18 kB/s
+Estimated RTT: 29 ms

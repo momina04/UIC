@@ -1,0 +1,66 @@
+current queue size --> 1
+current queue size --> 2
+current queue size --> 3
+current queue size --> 4
+current queue size --> 5
+current queue size --> 4
+current queue size --> 3
+current queue size --> 2
+current queue size --> 1
+current queue size --> 0
+getNthelement() : current queue size --> 0
+QEmpty = 1
+
+i = 0,
+QEmpty = 0
+Q-Full = 0
+Q-size = 1
+0th element = 0
+i = 1,
+QEmpty = 0
+Q-Full = 0
+Q-size = 2
+0th element = 0
+i = 2,
+QEmpty = 0
+Q-Full = 0
+Q-size = 3
+0th element = 0
+i = 3,
+QEmpty = 0
+Q-Full = 0
+Q-size = 4
+0th element = 0
+i = 4,
+QEmpty = 0
+Q-Full = 0
+Q-size = 5
+0th element = 0
+
+QEmpty = 0
+Q-Full = 0
+Q-size = 4
+0th element = 1
+j = 0, i = 0
+-------
+QEmpty = 0
+Q-Full = 0
+Q-size = 3
+0th element = 2
+j = 1, i = 1
+-------
+QEmpty = 0
+Q-Full = 0
+Q-size = 2
+0th element = 3
+j = 2, i = 2
+-------
+QEmpty = 0
+Q-Full = 0
+Q-size = 1
+0th element = 4
+j = 3, i = 3
+-------
+QEmpty = 1
+Q-Full = 0
+Q-size = 0

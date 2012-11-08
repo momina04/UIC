@@ -1,0 +1,49 @@
+<<<<<<< .mine
+hw6.c: In function ‘send_all_unacked_packets_again’:
+hw6.c:85:11: warning: assignment from incompatible pointer type [enabled by default]
+hw6.c: In function ‘rel_send’:
+hw6.c:172:23: warning: assignment from incompatible pointer type [enabled by default]
+hw6.c:222:15: warning: assignment from incompatible pointer type [enabled by default]
+hw6.c:230:13: warning: implicit declaration of function ‘decrease_window_size’ [-Wimplicit-function-declaration]
+hw6.c:233:13: warning: implicit declaration of function ‘increase_window_size’ [-Wimplicit-function-declaration]
+hw6.c: At top level:
+hw6.c:254:6: warning: conflicting types for ‘increase_window_size’ [enabled by default]
+hw6.c:233:13: note: previous implicit declaration of ‘increase_window_size’ was here
+hw6.c:272:6: warning: conflicting types for ‘decrease_window_size’ [enabled by default]
+hw6.c:230:13: note: previous implicit declaration of ‘decrease_window_size’ was here
+hw6.c: In function ‘isPacketAvailableinQueueold’:
+hw6.c:298:11: warning: assignment from incompatible pointer type [enabled by default]
+hw6.c: In function ‘isPacketAvailableinQueue’:
+hw6.c:312:7: warning: assignment from incompatible pointer type [enabled by default]
+hw6.c: In function ‘rel_recv’:
+hw6.c:334:13: warning: passing argument 1 of ‘doQInsert’ from incompatible pointer type [enabled by default]
+cqueue.c:23:5: note: expected ‘char *’ but argument is of type ‘struct rxerQelements *’
+hw6.c:361:19: warning: assignment from incompatible pointer type [enabled by default]
+hw6.c:383:7: warning: assignment from incompatible pointer type [enabled by default]
+hw6.c:390:5: warning: passing argument 1 of ‘doQInsert’ from incompatible pointer type [enabled by default]
+cqueue.c:23:5: note: expected ‘char *’ but argument is of type ‘struct rxerQelements *’
+=======
+hw6.c: In function ‘send_all_unacked_packets_again’:
+hw6.c:87:11: warning: assignment from incompatible pointer type [enabled by default]
+hw6.c: In function ‘rel_send’:
+hw6.c:174:23: warning: assignment from incompatible pointer type [enabled by default]
+hw6.c:224:15: warning: assignment from incompatible pointer type [enabled by default]
+hw6.c:232:13: warning: implicit declaration of function ‘decrease_window_size’ [-Wimplicit-function-declaration]
+hw6.c:235:13: warning: implicit declaration of function ‘increase_window_size’ [-Wimplicit-function-declaration]
+hw6.c: At top level:
+hw6.c:256:6: warning: conflicting types for ‘increase_window_size’ [enabled by default]
+hw6.c:235:13: note: previous implicit declaration of ‘increase_window_size’ was here
+hw6.c:274:6: warning: conflicting types for ‘decrease_window_size’ [enabled by default]
+hw6.c:232:13: note: previous implicit declaration of ‘decrease_window_size’ was here
+hw6.c: In function ‘isPacketAvailableinQueueold’:
+hw6.c:300:11: warning: assignment from incompatible pointer type [enabled by default]
+hw6.c: In function ‘isPacketAvailableinQueue’:
+hw6.c:314:7: warning: assignment from incompatible pointer type [enabled by default]
+hw6.c: In function ‘rel_recv’:
+hw6.c:336:13: warning: passing argument 1 of ‘doQInsert’ from incompatible pointer type [enabled by default]
+cqueue.c:23:5: note: expected ‘char *’ but argument is of type ‘struct rxerQelements *’
+hw6.c:363:19: warning: assignment from incompatible pointer type [enabled by default]
+hw6.c:385:7: warning: assignment from incompatible pointer type [enabled by default]
+hw6.c:392:5: warning: passing argument 1 of ‘doQInsert’ from incompatible pointer type [enabled by default]
+cqueue.c:23:5: note: expected ‘char *’ but argument is of type ‘struct rxerQelements *’
+>>>>>>> .r109

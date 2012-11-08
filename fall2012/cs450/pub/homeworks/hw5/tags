@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+FD_COPY	proxy.c	26;"	d	file:
+MAX_PACKET	hw5.h	8;"	d
+MAX_PKT	proxy.c	13;"	d	file:
+MAX_SEGMENT	hw5.h	9;"	d
+TARGETS	Makefile	/^TARGETS=hw5_sender hw5_receiver proxy$/;"	m
+ack_number	hw5.h	/^	uint32_t ack_number;$/;"	m	struct:hw5_hdr
+buffersize	proxy.c	/^int buffersize = 2; \/\/ in packetso$/;"	v
+current_msec	hw5.c	/^int current_msec() {$/;"	f
+forward_rate	proxy.c	/^double forward_rate = 1.0; \/\/ probability$/;"	v
+host_x	proxy.c	/^in_addr_t host_x, host_y;$/;"	v
+host_y	proxy.c	/^in_addr_t host_x, host_y;$/;"	v
+hw5_hdr	hw5.h	/^struct hw5_hdr {$/;"	s
+latency	proxy.c	/^int latency = 100; \/\/ in milliseconds$/;"	v
+main	hw5_receiver.c	/^int main(int argc, char **argv) {	$/;"	f
+main	hw5_sender.c	/^int main(int argc, char** argv) {	$/;"	f
+main	proxy.c	/^int main(int argc, char** argv) {	$/;"	f
+ms_from_now	proxy.c	/^int ms_from_now(struct timeval expiry) {$/;"	f
+msec_to_timeval	hw5.c	/^void msec_to_timeval(int millis, struct timeval *out_timeval) {$/;"	f
+port_b	proxy.c	/^int port_b = 8080; \/\/base port; if given proxy, sender, and reciver ports are taken automatically using base port $/;"	v
+port_x	proxy.c	/^int port_x = 8082; \/\/ (send to this port. listens on 8080)$/;"	v
+port_y	proxy.c	/^int port_y = 8083; \/\/ (send to this port. receives on 8081)$/;"	v
+rel_close	hw5.c	/^int rel_close(int sock) {$/;"	f
+rel_connect	hw5.c	/^int rel_connect(int socket,struct sockaddr_in *toaddr,int addrsize) {$/;"	f
+rel_recv	hw5.c	/^int rel_recv(int sock, void * buffer, size_t length) {$/;"	f
+rel_rtt	hw5.c	/^int rel_rtt(int socket) {$/;"	f
+rel_send	hw5.c	/^void rel_send(int sock, void *buf, int len)$/;"	f
+rel_socket	hw5.c	/^int rel_socket(int domain, int type, int protocol) {$/;"	f
+seed	proxy.c	/^int seed = 123456789;$/;"	v
+sequence_number	hw5.c	/^int sequence_number;$/;"	v
+sequence_number	hw5.h	/^	uint32_t sequence_number;$/;"	m	struct:hw5_hdr
+time_after	proxy.c	/^struct timeval time_after(int msec) {$/;"	f
+time_from_now	proxy.c	/^struct timeval time_from_now(struct timeval expiry) $/;"	f
+timeval_to_ms	proxy.c	/^int timeval_to_ms(struct timeval t) {$/;"	f
+timeval_to_msec	hw5.c	/^int timeval_to_msec(struct timeval *t) { $/;"	f
+txrate	proxy.c	/^double txrate = 1024*1024; \/\/ bytes per second on the outgoing link$/;"	v
+usage	proxy.c	/^void usage() {$/;"	f

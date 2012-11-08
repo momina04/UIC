@@ -1,0 +1,86 @@
+TEST FOR pthread and select
+=====================================
+grep for pthread:
+			//pthread_create(&thread,0,connect_to_peer,&peerlist[i]);
+			// pthread_create allows us to pass in one pointer. For the bencoded case, we allocate a new
+			//pthread_t thread;
+			//pthread_create(&thread,0,connect_to_peer,&peeraddr);
+	// create our output file, and set up a piece_status array, and a couple of pthread sync. variables
+
+grep for select:
+#include <sys/select.h>
+        int rdy = select(FD_SETSIZE,&readset_copy,&writeset_copy,&exceptionset_copy, &timespec);
+            if(FD_ISSET(peer->socket,&readset_copy)) 
+            if(FD_ISSET(peer->socket,&writeset_copy)){
+            if(FD_ISSET(peer->socket,&writeset_copy)){
+
+TEST FOR cs450files02.torrent
+=====================================
+file1 md5: CORRECT
+file2 md5: CORRECT
+file3 md5: CORRECT
+file4 md5: CORRECT
+file5 md5: CORRECT
+file6 md5: CORRECT
+file7 md5: CORRECT
+file8 md5: CORRECT
+
+seed ips:
+131.193.34.150
+131.193.34.173
+131.193.34.193
+
+count for seed ips (high value means concurrent download):
+990
+
+download speed aggregated by seconds in kbps (top 5 are taken):
+640.352
+624.343
+624.343
+624.343
+624.343
+
+TEST FOR cs450files.torrent
+=====================================
+peer ips:
+132.170.3.32
+132.170.3.33
+132.239.17.224
+133.68.253.243
+136.145.115.196
+137.132.80.106
+140.109.17.180
+141.212.113.180
+141.219.252.133
+143.215.131.199
+165.91.55.8
+169.229.50.15
+192.16.125.12
+192.91.235.229
+195.113.161.83
+199.26.254.67
+200.129.132.18
+200.17.202.195
+202.112.28.100
+202.125.215.12
+204.123.28.56
+204.8.155.226
+206.117.37.4
+206.117.37.5
+219.243.208.62
+220.245.140.197
+66.140.111.5
+
+count for peer ips (high value means concurrent download):
+714
+
+download speed aggregated by seconds in kbps (top 5 are taken):
+1024.56
+960.527
+944.519
+912.501
+896.492
+
+uploaded to following ips:
+137.132.80.106
+220.245.140.197

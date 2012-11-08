@@ -1,0 +1,7 @@
+[SUCCESS] buf=2 fd=1 [1]: 1 [throughput(kB/s)=          ] mean=0
+[SUCCESS] buf=2 fd=0.95 [1]: 1 [throughput(kB/s)=          ] mean=0
+[SUCCESS] buf=10 fd=1 [1]: 1 [throughput(kB/s)=          ] mean=0
+[SUCCESS] buf=10 fd=0.95 [1]: 1 [throughput(kB/s)=          ] mean=0
+[FAILED] buf=100 fd=1 [1]: 0 [throughput (kB/s)= 0 0 0 0 0 0 0 0 0 0] mean=0
+[FAILED] buf=100 fd=0.95 [1]: 0 [throughput (kB/s)= 0 0 0 0 0 0 0 0 0 0] mean=0
+Total score: 4

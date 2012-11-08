@@ -1,0 +1,165 @@
+TEST FOR pthread and select
+=====================================
+grep for pthread:
+			//pthread_create(&thread,0,connect_to_peer,&peerlist[i]);
+			// pthread_create allows us to pass in one pointer. For the bencoded case, we allocate a new
+			//pthread_t thread;
+			//pthread_create(&thread,0,connect_to_peer,&peeraddr);
+	// create our output file, and set up a piece_status array, and a couple of pthread sync. variables
+
+grep for select:
+#include <sys/select.h>
+        int rdy = select(FD_SETSIZE,NULL,&writeset_copy,&exceptionset_copy, &timespec);
+        int rdy = select(FD_SETSIZE,&readset_copy,NULL,&exceptionset_copy, &timespec);
+        int rdy = select(FD_SETSIZE,&readset_copy,&writeset_copy,&exceptionset_copy, &timespec);
+            if(FD_ISSET(peer->socket,&readset_copy)) 
+            if(FD_ISSET(peer->socket,&writeset_copy)){
+           if(FD_ISSET(peer->socket,&writeset_copy)){
+
+TEST FOR cs450files02.torrent
+=====================================
+file1 md5: WRONG
+file2 md5: WRONG
+file3 md5: WRONG
+file4 md5: WRONG
+file5 md5: WRONG
+file6 md5: WRONG
+file7 md5: WRONG
+file8 md5: WRONG
+
+seed ips:
+
+count for seed ips (high value means concurrent download):
+0
+
+download speed aggregated by seconds in kbps (top 5 are taken):
+
+TEST FOR cs450files.torrent
+=====================================
+peer ips:
+128.10.19.53
+128.111.52.63
+128.143.6.134
+128.163.142.21
+128.208.4.197
+128.223.8.111
+128.36.233.154
+128.6.192.158
+128.8.126.111
+128.8.126.98
+128.84.154.40
+129.74.74.19
+130.216.1.22
+132.239.17.224
+133.15.59.1
+13.7.64.22
+140.192.249.204
+141.212.113.180
+141.219.252.132
+142.104.21.241
+143.215.131.199
+143.89.49.74
+147.229.10.250
+149.43.80.22
+156.56.250.226
+165.230.49.115
+165.242.90.129
+165.91.55.8
+169.229.50.14
+190.227.163.141
+192.16.125.12
+192.33.90.69
+192.91.235.230
+195.116.53.14
+199.26.254.67
+199.26.254.68
+200.129.132.18
+200.17.202.195
+202.116.81.194
+202.249.37.67
+203.178.143.10
+204.8.155.227
+206.117.37.5
+206.12.16.155
+208.77.77.196
+219.243.208.60
+219.243.208.62
+220.245.140.196
+72.36.112.71
+72.36.112.79
+
+count for peer ips (high value means concurrent download):
+1452
+
+download speed aggregated by seconds in kbps (top 5 are taken):
+416.229
+416.229
+384.211
+368.202
+368.202
+
+uploaded to following ips:
+128.10.19.53
+128.111.52.63
+128.143.6.134
+128.163.142.21
+128.208.4.197
+128.223.8.111
+128.36.233.154
+128.42.142.44
+128.6.192.158
+128.8.126.111
+128.8.126.98
+128.84.154.40
+129.107.35.131
+129.22.150.78
+129.74.74.19
+129.93.229.138
+130.194.252.8
+130.216.1.22
+132.170.3.33
+132.239.17.224
+132.72.23.11
+133.15.59.1
+133.68.253.242
+13.7.64.22
+140.192.249.204
+141.212.113.180
+141.219.252.132
+142.104.21.241
+143.215.131.199
+143.89.49.74
+147.229.10.250
+149.43.80.22
+156.56.250.226
+165.230.49.115
+165.242.90.129
+165.91.55.8
+169.229.50.14
+190.227.163.141
+192.16.125.12
+192.33.90.69
+192.91.235.230
+195.116.53.14
+199.26.254.67
+199.26.254.68
+200.129.132.18
+200.17.202.195
+202.112.28.100
+202.116.81.194
+202.249.37.67
+203.178.143.10
+204.8.155.226
+204.8.155.227
+206.117.37.5
+206.12.16.155
+208.77.77.195
+208.77.77.196
+213.131.1.101
+219.243.208.60
+219.243.208.62
+220.245.140.196
+66.140.111.5
+72.36.112.71
+72.36.112.79
+93.180.0.114

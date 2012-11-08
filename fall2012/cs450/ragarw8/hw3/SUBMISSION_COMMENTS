@@ -1,0 +1,42 @@
+/*
+ * =====================================================================================
+ *
+ *       Filename:  SUBMISSION_COMMENTS
+ *
+ *
+ *        Version:  1.0
+ *        Created:  09/16/2012 04:51:12 PM
+ *
+ *         Author:  Ritesh Agarwal (Omi), ragarw8@uic.edu
+ *        Company:  University of Illinois, Chicago
+ *
+ * =====================================================================================
+ */
+
+-Comments did not get uploaded for the first few commits,
+Please refer below
+    ------------------------------------------------------------------------
+    r30 | ragarw8 | 2012-09-16 13:56:32 -0500 (Sun, 16 Sep 2012) | 2 lines
+
+    Test comment to check why it was not added before
+
+    -----------------------------------------------------------------------
+    r29 | ragarw8 | 2012-09-16 13:52:24 -0500 (Sun, 16 Sep 2012) | 1 line
+    Stage3: Algorithm for selecting next server from root-servers.txt implemented and tested (get_next_nameserver)
+    Name resolution will work, but moving to next server when one is unresponsive feature not working
+
+    ------------------------------------------------------------------------
+    r28 | ragarw8 | 2012-09-16 13:36:43 -0500 (Sun, 16 Sep 2012) | 1 line
+    Stage2: Nameserver list will now be read from root-servers.txt and not required to be passed as an arguement.
+    Not working at this stage
+
+ 
+
+    ------------------------------------------------------------------------
+    r27 | ragarw8 | 2012-09-16 12:58:07 -0500 (Sun, 16 Sep 2012) | 1 line
+    Stage1: Used template, modified makefile
+
+-Problem in grading script that truncates the period in host output needs to fixed.
+[FIXED by modifying the output of program]
+
+-Problem in grading script that expects a single IP for www.prothom-alo.com needs to be fixed.

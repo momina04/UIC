@@ -1,0 +1,1 @@
+plot "values" using 1:2 ti "actual" w lines, "values" using 1:3 ti "mean" w lines
