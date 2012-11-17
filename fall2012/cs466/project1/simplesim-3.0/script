@@ -1,0 +1,1 @@
+time ./sim-outorder   -fetch:ifqsize 32 -decode:width 32 -issue:width 32 -commit:width 32 -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_width32_stderr 1>equake_width32

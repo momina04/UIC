@@ -1,0 +1,116 @@
+./sim-safe tests/bin.little/test-math 2> test-math_stderr 1>test-math
+./sim-outorder tests/bin.little/test-math 2> test-math_stderr_outorder 1>test-math_outorder
+
+Q1)
+./sim-outorder -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_outorder_stderr 1>equake_outorder
+
+time ./sim-outorder -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2> equake_outorder_stderr 1>equake_outorder
+
+real    4m38.042s
+user    3m37.438s
+sys 0m0.144s
+
+
+Q2)
+-issue:inorder  true # run pipeline with in-order issue
+./sim-outorder -issue:inorder -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_inorder_stderr 1>equake_inorder
+
+ time ./sim-outorder -issue:inorder -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2> equake_inorder_stderr 1>equake_inorder
+
+ real   4m9.042s
+ user   3m22.941s
+ sys    0m0.076s
+
+
+Q3)
+./sim-safe equake.ss < equake.in 2>equake_safe_stderr 1>equake_safe
+
+time ./sim-safe equake.ss < equake.in 2>equake_safe_stderr 1>equake_safe
+
+real    121m22.670s
+user    120m4.186s
+sys 0m0.948s
+
+Q4)
+-fetch:ifqsize              4 # instruction fetch queue size (in insts)
+-decode:width               4 # instruction decode B/W (insts/cycle)
+-issue:width                4 # instruction issue B/W (insts/cycle)
+-commit:width               4 # instruction commit B/W (insts/cycle)
+
+./sim-outorder   -fetch:ifqsize 1 -decode:width 1 -issue:width 1 -commit:width 1 -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_width1_stderr 1>equake_width1
+./sim-outorder   -fetch:ifqsize 2 -decode:width 2 -issue:width 2 -commit:width 2 -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_width2_stderr 1>equake_width2
+./sim-outorder   -fetch:ifqsize 4 -decode:width 4 -issue:width 4 -commit:width 4 -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_width4_stderr 1>equake_width4
+./sim-outorder   -fetch:ifqsize 8 -decode:width 8 -issue:width 8 -commit:width 8 -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_width8_stderr 1>equake_width8
+./sim-outorder   -fetch:ifqsize 16 -decode:width 16 -issue:width 16 -commit:width 16 -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_width16_stderr 1>equake_width16
+
+time ./sim-outorder   -fetch:ifqsize 1 -decode:width 1 -issue:width 1 -commit:width 1 -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_width1_stderr 1>equake_width1
+real    4m47.517s
+user    4m42.762s
+sys     0m0.236s
+
+time ./sim-outorder   -fetch:ifqsize 2 -decode:width 2 -issue:width 2 -commit:width 2 -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_width2_stderr 1>equake_width2
+real    4m0.581s
+user    3m57.675s
+sys     0m0.064s
+
+
+time ./sim-outorder   -fetch:ifqsize 4 -decode:width 4 -issue:width 4 -commit:width 4 -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_width4_stderr 1>equake_width4
+real    3m36.723s
+user    3m34.473s
+sys     0m0.052s
+
+time ./sim-outorder   -fetch:ifqsize 8 -decode:width 8 -issue:width 8 -commit:width 8 -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_width8_stderr 1>equake_width8
+real    3m39.887s
+user    3m38.022s
+sys     0m0.068s
+
+time ./sim-outorder   -fetch:ifqsize 16 -decode:width 16 -issue:width 16 -commit:width 16 -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_width16_stderr 1>equake_width16
+real    3m41.718s
+user    3m39.474s
+sys     0m0.036s
+
+
+Q5)
+-cache:il1lat               1 # l1 instruction cache hit latency (in cycles)
+-cache:il2lat               6 # l2 instruction cache hit latency (in cycles)
+
+-cache:dl1lat               1 # l1 data cache hit latency (in cycles)
+-cache:dl2lat               6 # l2 data cache hit latency (in cycles)
+
+-mem:lat         18 2 # memory access latency (<first_chunk> <inter_chunk>)
+
+./sim-outorder  -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_cache_default_config_stderr 1>equake_cache_default_config
+./sim-outorder  -mem:lat 6 6 -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_cache_config2_stderr 1>equake_cache_config2
+./sim-outorder  -cache:dl2lat 1 -cache:il2lat 1 -mem:lat 1 1 -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_cache_config3_stderr 1>equake_cache_config3
+
+time ./sim-outorder  -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_cache_default_config_stderr 1>equake_cache_default_config
+
+real    3m42.799s
+user    3m35.529s
+sys     0m0.432s
+
+time ./sim-outorder  -mem:lat 6 6 -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_cache_config2_stderr 1>equake_cache_config2
+
+real    3m40.829s
+user    3m36.126s
+sys     0m0.140s
+
+time ./sim-outorder  -cache:dl2lat 1 -cache:il2lat 1 -mem:lat 1 1 -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_cache_config3_stderr  1>equake_cache_config3
+
+real    3m47.196s
+user    3m42.414s
+sys     0m0.556s
+
+
+time ./sim-outorder  -mem:lat 6 6 -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_cache_config2_stderr 1>equake_cache_config2
+
+real    6m43.296s
+user    3m36.426s
+sys     0m0.080s
+
+time ./sim-outorder  -cache:dl2lat 1 -cache:il2lat 1 -mem:lat 1 1 -fastfwd 500000000 -max:inst 300000000 equake.ss < equake.in 2>equake_cache_config3_stderr  1>equake_cache_config3
+
+real    6m40.542s
+user    3m33.589s
+sys     0m0.124s
+
