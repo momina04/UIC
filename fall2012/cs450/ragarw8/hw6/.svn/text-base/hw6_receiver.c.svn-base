@@ -29,14 +29,25 @@ int main(int argc, char **argv) {
 		exit(1);
 	}
 
+	int starttime = current_msec();
+	int totalbytes = 0;
+
 	char segment[MAX_SEGMENT];
 	while(1) {
 		int recv_count = rel_recv(sock, segment, MAX_SEGMENT);		
 		if(recv_count == 0) break;
+		totalbytes+=recv_count;
 		
 		// write out payload to stdout
 		fwrite(segment,1,recv_count,stdout);							
 	}
+
+	int finished_msec = current_msec();
+
+	fprintf(stderr,"\nReceived %d bytes in %.4f seconds, %.2f kB/s\n",
+					totalbytes,
+					(finished_msec-starttime)/1000.0,
+					totalbytes/(float)(finished_msec-starttime));
 
 	fprintf(stderr, "\nFinished receiving file, closing socket.\n");
 	rel_close(sock);

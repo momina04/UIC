@@ -1,0 +1,177 @@
+#!/bin/bash
+source "scripts/variables"
+
+#cleanup
+#rm logs/*.post1
+#rm logs/*.post2 ..done before starting stage2
+
+
+#Remove 0 size .ping files
+for host in `ls logs/*.ping`; do 
+    if [ -s $host ]; then
+        echo "Do nothing" > /dev/null
+    else
+        rm $host
+    fi
+done
+
+
+
+#Remove errors
+#100% packet loss...ping does not give average value
+for host in `ls logs/*.ping`; do 
+    cat $host|sed -e 's/.*100%.*/rtt min\/avg\/max\/mdev = 0.0\/unknown\/0.0\/0.0 ms/g' > $host"2"
+    mv $host"2" $host
+done
+
+
+#pruning complete
+echo "Pruning complete"
+date
+
+#Stage1
+#{
+#will create 3 files for each host with their ips, average rtts and distance
+cd logs
+for source_host in `ls *.ping`; do 
+#{
+    cd ..
+
+    IP=`echo $source_host|cut -d '.' -f1,2,3,4`
+    source_host_location=`cat data/IP_locations.txt |grep $IP|awk '{print $2,$3}'`
+    cat logs/$source_host|grep statistics|awk '{print $2}' > logs/"$source_host""_ips.post1"
+    cat logs/$source_host|grep avg|awk '{print $4}'|tr '/' ' '|awk '{print $2}' > logs/"$source_host""_averages.post1"
+
+    #this loop will calculate the distances of all the other ips with source_host
+    cd logs
+    touch "$source_host""_distances.post1" #to avoid error messages when file is not present
+    rm "$source_host""_distances.post1"
+    touch "$source_host""_sips.post1" #to avoid error messages when file is not present
+    rm "$source_host""_sips.post1"
+    touch "$source_host""_sloc.post1"
+    rm "$source_host""_sloc.post1"
+    touch "$source_host""_dloc.post1"
+    rm "$source_host""_dloc.post1"
+    for dest_host in `cat "$source_host""_ips.post1"`; do 
+        IP=`echo $dest_host|cut -d '.' -f1,2,3,4`
+        dest_host_location=`cat ../data/IP_locations.txt |grep $IP|awk '{print $2,$3}'`
+        distance=`../scripts/gcdist.pl $source_host_location $dest_host_location`
+        echo $distance >> "$source_host""_distances.post1"
+        echo $source_host >> "$source_host""_sips.post1"
+        echo $source_host_location >> "$source_host""_sloc.post1"
+        echo $dest_host_location >> "$source_host""_dloc.post1"
+    done
+    cd ..
+
+    cd logs
+#}
+done
+cd ..
+#Prune stage1 data
+#Remove 0 size _ips, _averages and _distance files (.post1)
+for file in `ls logs/*.post1`; do 
+    if [ -s $file ]; then
+        echo "Do nothing" > /dev/null
+    else
+        rm $file
+    fi
+done
+
+#delete raw data files
+#rm logs/*.ping ..dont do this here, it is needed for next loop
+
+echo "Stage1 complete"
+#}
+
+rm logs/all_data1.post2 #for Correctness as we are appending data in this loop
+date
+#Stage2
+#will create a file for each host with distance and avg_rtt combining them
+for source_host in `ls logs/*.ping`; do 
+    if [ -s $source_host"_ips.post1" ] ; then
+        #paste $source_host"_ips.post1" $source_host"_averages.post1" $source_host"_distances.post1" > $source_host.post2
+        paste $source_host"_distances.post1" $source_host"_averages.post1" >> "logs/all_data1.post2"
+        paste "$source_host""_sips.post1" $source_host"_ips.post1" $source_host"_distances.post1" $source_host"_averages.post1"  $source_host"_sloc.post1"  $source_host"_dloc.post1" >> "logs/all_data"
+        #echo "`wc -l $source_host"_distances.post1"` `wc -l $source_host"_averages.post1"`"
+    else
+        echo "Do nothing" > /dev/null
+    fi
+done
+#awk add speed to all data
+cat logs/all_data|awk '{print $0,$3*1000*2/$4}' > logs/all_data_speed
+sort -t ' ' -k 1 -n logs/all_data1.post2 > logs/all_data2.post2 #sort data based on distance(optional) ...makes it easy to verify  (will make the calculation of average for same distance, simple in next step) #done before
+
+#delete stage 1 files
+#rm logs/*.post1
+
+echo "Stage2 complete"
+date
+
+#Stage 3
+#prepare a file with sorted, unique length and rtt pairs
+cat logs/all_data2.post2 |tr ".\t" " "|cut -d " " -f1,3 > logs/all_data1.post3 #truncate part after decmimal point to approximate
+#sort -t ' ' -k 1 -n logs/all_data1.post3 > logs/all_data2.post3 #sort data based on distance(optional) (will make the calculation of average for same distance, simple in next step) #done before
+uniq logs/all_data1.post3 > logs/all_data2.post3 #Remove duplicate lines(duplicate distance rtt pairs)
+
+echo "Stage3 complete"
+date
+
+#delete stage 2 files
+#rm logs/*.post2
+
+#Stage 4(Final stage)
+#take averages of rtt for duplicate distance values
+
+#Awk script in readable format
+#cat logs/all_data3.post3|awk '
+#BEGIN
+#{
+#    print "BEGIN";distance="none";avg_rtt="none"
+#}
+#{
+#    if(distance != "none") 
+#    {
+#        if($1 == distance) 
+#        {
+#            avg_rtt = avg_rtt + $2;
+#            avg_rtt = avg_rtt / 2;
+#        }
+#        else
+#        {
+#            print distance,avg_rtt;
+#            distance=$1;avg_rtt=$2
+#        }
+#    }
+#    else{
+#            distance=$1;avg_rtt=$2
+#    } 
+#}
+#END 
+#{
+#    print "END";print distance,avg_rtt
+#}
+#'
+#remove unknown string to avoid unnecessary errors during average calculations
+cat logs/all_data2.post3|grep unknown -v > logs/all_data1.post4
+# rtt in seconds #cat logs/all_data1.post4|awk ' BEGIN { distance="none";avg_rtt="none" } { if(distance != "none") { if($1 == distance) { avg_rtt = avg_rtt + $2; avg_rtt = int(avg_rtt / 2); } else { print distance,avg_rtt/1000; distance=$1;avg_rtt=$2 } } else{ distance=$1;avg_rtt=$2 } } END { print distance,avg_rtt/1000 } ' > data/post-processed.txt
+cat logs/all_data1.post4|awk ' BEGIN { distance="none";avg_rtt="none" } { if(distance != "none") { if($1 == distance) { avg_rtt = avg_rtt + $2; avg_rtt = int(avg_rtt / 2); } else { print distance,avg_rtt; distance=$1;avg_rtt=$2 } } else{ distance=$1;avg_rtt=$2 } } END { print distance,avg_rtt } ' > data/post-processed.txt
+#cat data/post-processed1.txt |tr ".\t" " "|cut -d " " -f1,2 > data/post-processed.txt #truncate part after decmimal point to approximate
+#rm data/post-processed1.txt
+
+#Generate CDF table
+cat data/post-processed.txt | awk '{print $1, NR-1}' > logs/cdf_data.post4
+cat logs/cdf_data.post4|awk ' { print $1,$2/max} ' max=`sort -n -k2  logs/cdf_data.post4 |tail -1|cut -f2 -d ' '` > data/cdf.txt
+
+#Calcuate Speed of bits and mean of speed of bits(multiplying by 1000 to convert ms to secs, mutiplying by 2 as it is round trip time and not one way time) UNIT: km/s
+cat data/post-processed.txt|awk 'BEGIN {sum=0} {if($2 != 0){speed = $1*1000*2/$2;sum += speed; print $1,$2,speed}} END {print sum/NR}' > data/post-processed_with_speed.txt
+
+#Calculate Standard Deviation
+head -n -1 data/post-processed_with_speed.txt|awk 'BEGIN {sum=0}{print $1,$2,$3,$3-mean; sum+=($3-mean)*($3-mean)} END {print sqrt(sum/NR)}' mean=`tail -1 data/post-processed_with_speed.txt` > data/post-processed_with_speed_variance.txt
+
+echo "Stage4 complete"
+date
+
+
+
+#Last cleanup
+#rm logs/*.ping

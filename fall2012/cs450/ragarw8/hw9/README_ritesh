@@ -1,0 +1,108 @@
+
+your username and password for homework 9 are ragarw8/TOQ29mtz. you can log in to the Stanford VNS system at http://vns-2.stanford.edu/login/.
+-----------------------------------------------
+ragarw8
+Name    ragarw8 ragarw8
+Organization    UC San Diego
+Position    Student
+E-mail Address  ragarw8@uic.edu
+Simulation Auth Key -#B;H_komAmZq|=p`\WIGbKXkS#<9#OS^b4U#vs%q2]gqCHa/RojWjXk..)/|c}C
+Topologies Owned     None
+Topologies Assigned To  Topology 1245 (1-router 2-server)
+-----------------------------------------------
+Topology 1245 (1-router 2-server)
+Owner   Chris Kanich (UC San Diego)
+Allowed Users   ragarw8 (ragarw8 ragarw8) 
+Allowed Source IPs (for traffic)     All
+Type    1-router 2-server
+IPs Allocated From  171.67.236.0/22 (Public)
+IPs Assigned    171.67.237.232/29 (8 addresses)
+-----------------------------------------------
+Topology README
+This readme describes your particular setup for the VNS sr assignment.
+
+You have been assigned topology 1245 which looks like this:
+
+
+                                            Application Server
+                                        +====================+
+                                        |                    |
+                                        |   171.67.237.237   |
+                                        |                    |
+                                        +====================+
+                                                /
+                                               /
+                                              /
+                    eth0:                    /
+                   171.67.237.232           /     eth1: 171.67.237.236
+                           +============(eth1)==+
+                           |                    |
+  internet =============(eth0)  Your Router     |
+                           |                    |
+                           +============(eth2)==+
+                                            \    eth2: 171.67.237.238
+                                             \
+                                              \
+                                               \
+                                        +====================+
+                                        |                    |
+                                        |  171.67.237.239    |
+                                        |                    |
+                                        +====================+
+                                           Application Server
+
+After extracting the stub code, you'll need to create a file named "auth_key" and place your authentication key in this file.  Your authentication key can be viewed if you click on the "Your Profile" link on the VNS web interface.
+
+To connect to your topology, after compiling the stub code, invoke sr as follows:
+
+>./sr -t 1245 -s vns-1.stanford.edu -u <your_vns_user_name>
+
+Please verify that the IP addresses for the interfaces match those in this email!
+
+Your output upon connecting should look like this:
+
+Using VNS sr stub code revised 2010-01-21 (rev 0.23)
+Loading routing table
+---------------------------------------------
+Destination Gateway     Mask    Iface
+0.0.0.0            172.24.74.17       0.0.0.0            eth0
+171.67.237.237     171.67.237.237     255.255.255.255    eth1
+171.67.237.239     171.67.237.239     255.255.255.255    eth2
+---------------------------------------------
+Client gorden connecting to Server vns-1.stanford.edu:3250
+Requesting topology 1245
+successfully authenticated as <your_vns_user_name>
+Router interfaces:
+ Requesting topology 1245
+ Router interfaces:
+ eth0    HWaddr 70:00:00:eb:00:01
+ inet addr 171.67.237.232
+ eth1    HWaddr 70:00:00:eb:00:02
+ inet addr 171.67.237.236
+ eth2    HWaddr 70:00:00:eb:00:06
+ inet addr 171.67.237.238
+ <-- Ready to process packets --> 
+**************************************
+VNS Welcome Message
+**************************************
+System status should be normal. Enjoy!
+
+Secondly, please verify that you can see packets arriving to your topology when you try and ping one of your router interfaces.  To do this, connect to your topology as described above and try and ping eth0 (IP: 171.67.237.232).
+
+> ping 171.67.237.232
+
+If you see output from sr that looks like:
+
+ *** -> Received packet of length 60
+ *** -> Received packet of length 60
+ *** -> Received packet of length 60
+
+ everything is working!  If not, please email vns-support@lists.stanford.edu.
+
+Good Luck!
+---------------------------------------------
+Topology Routing Table
+0.0.0.0            172.24.74.17       0.0.0.0            eth0
+171.67.237.237     171.67.237.237     255.255.255.255    eth1
+171.67.237.239     171.67.237.239     255.255.255.255    eth2
+---------------------------------------------

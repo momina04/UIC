@@ -1,0 +1,145 @@
+TEST FOR ping
+=====================================
+ping to routher eth0:
+PING 171.67.236.112 (171.67.236.112) 56(84) bytes of data.
+64 bytes from 171.67.236.112: icmp_req=3 ttl=51 time=134 ms
+64 bytes from 171.67.236.112: icmp_req=2 ttl=51 time=1366 ms
+64 bytes from 171.67.236.112: icmp_req=4 ttl=51 time=133 ms
+64 bytes from 171.67.236.112: icmp_req=5 ttl=51 time=135 ms
+64 bytes from 171.67.236.112: icmp_req=6 ttl=51 time=135 ms
+64 bytes from 171.67.236.112: icmp_req=7 ttl=51 time=135 ms
+64 bytes from 171.67.236.112: icmp_req=8 ttl=51 time=137 ms
+64 bytes from 171.67.236.112: icmp_req=9 ttl=51 time=135 ms
+64 bytes from 171.67.236.112: icmp_req=10 ttl=51 time=136 ms
+
+--- 171.67.236.112 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9011ms
+rtt min/avg/max/mdev = 133.962/272.329/1366.383/386.807 ms, pipe 2
+
+
+ping to routher server 1:
+PING 171.67.236.117 (171.67.236.117) 56(84) bytes of data.
+64 bytes from 171.67.236.117: icmp_req=2 ttl=50 time=203 ms
+64 bytes from 171.67.236.117: icmp_req=1 ttl=50 time=1692 ms
+64 bytes from 171.67.236.117: icmp_req=3 ttl=50 time=204 ms
+64 bytes from 171.67.236.117: icmp_req=4 ttl=50 time=202 ms
+64 bytes from 171.67.236.117: icmp_req=5 ttl=50 time=203 ms
+64 bytes from 171.67.236.117: icmp_req=6 ttl=50 time=203 ms
+64 bytes from 171.67.236.117: icmp_req=7 ttl=50 time=204 ms
+64 bytes from 171.67.236.117: icmp_req=8 ttl=50 time=202 ms
+64 bytes from 171.67.236.117: icmp_req=9 ttl=50 time=204 ms
+64 bytes from 171.67.236.117: icmp_req=10 ttl=50 time=202 ms
+
+--- 171.67.236.117 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9011ms
+rtt min/avg/max/mdev = 202.734/352.630/1692.241/446.538 ms, pipe 2
+
+
+ping to routher server 2:
+PING 171.67.236.119 (171.67.236.119) 56(84) bytes of data.
+64 bytes from 171.67.236.119: icmp_req=2 ttl=50 time=202 ms
+64 bytes from 171.67.236.119: icmp_req=1 ttl=50 time=1474 ms
+64 bytes from 171.67.236.119: icmp_req=3 ttl=50 time=202 ms
+64 bytes from 171.67.236.119: icmp_req=4 ttl=50 time=204 ms
+64 bytes from 171.67.236.119: icmp_req=5 ttl=50 time=203 ms
+64 bytes from 171.67.236.119: icmp_req=6 ttl=50 time=204 ms
+64 bytes from 171.67.236.119: icmp_req=7 ttl=50 time=203 ms
+64 bytes from 171.67.236.119: icmp_req=8 ttl=50 time=205 ms
+64 bytes from 171.67.236.119: icmp_req=9 ttl=50 time=202 ms
+64 bytes from 171.67.236.119: icmp_req=10 ttl=50 time=205 ms
+
+--- 171.67.236.119 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9012ms
+rtt min/avg/max/mdev = 202.671/331.062/1474.849/381.263 ms, pipe 2
+
+
+
+
+TEST FOR traceroute
+=====================================
+traceroute to routher eth0:
+traceroute to 171.67.236.112 (171.67.236.112), 30 hops max, 60 byte packets
+ 1  ececs.rtr.fw.uic.edu (128.248.16.209)  1.316 ms  1.345 ms  1.185 ms
+ 2  41-45.gw.uic.edu (128.248.246.209)  1.418 ms  1.302 ms  1.242 ms
+ 3  mren-uic.gw.uic.edu (192.43.252.13)  1.566 ms  1.653 ms  1.645 ms
+ 4  xe-2-0-0.650.rtr.chic.net.internet2.edu (64.57.28.205)  1.978 ms  2.016 ms  1.960 ms
+ 5  ae-0.10.rtr.kans.net.internet2.edu (64.57.28.36)  62.992 ms  12.615 ms  12.698 ms
+ 6  xe-1-1-0.0.rtr.hous.net.internet2.edu (64.57.28.57)  26.178 ms  25.694 ms  25.735 ms
+ 7  ge-6-1-0.0.rtr.losa.net.internet2.edu (64.57.28.96)  465.659 ms  461.247 ms *
+ 8  hpr-lax-hpr--i2-newnet.cenic.net (137.164.26.133)  56.967 ms  56.701 ms  56.842 ms
+ 9  svl-hpr2--lax-hpr2-10g.cenic.net (137.164.25.38)  65.064 ms  64.946 ms  65.076 ms
+10  hpr-stanford--svl-hpr2-10ge.cenic.net (137.164.27.62)  65.565 ms  65.303 ms  65.315 ms
+11  boundarya-rtr.Stanford.EDU (171.66.0.34)  65.540 ms  65.389 ms  65.383 ms
+12  serv-rtr.Stanford.EDU (68.65.168.100)  65.521 ms  65.391 ms  65.409 ms
+13  * * *
+14  171.67.236.112 (171.67.236.112)  297.390 ms !P  285.281 ms !P  300.782 ms !P
+
+
+traceroute  to routher server 1:
+traceroute to 171.67.236.117 (171.67.236.117), 30 hops max, 60 byte packets
+ 1  ececs.rtr.fw.uic.edu (128.248.16.209)  1.260 ms  1.157 ms  1.320 ms
+ 2  41-45.gw.uic.edu (128.248.246.209)  1.103 ms  1.286 ms  1.322 ms
+ 3  mren-uic.gw.uic.edu (192.43.252.13)  1.560 ms  1.649 ms  1.688 ms
+ 4  xe-2-0-0.650.rtr.chic.net.internet2.edu (64.57.28.205)  1.926 ms  1.714 ms  1.804 ms
+ 5  ae-0.10.rtr.kans.net.internet2.edu (64.57.28.36)  105.269 ms  105.265 ms  105.294 ms
+ 6  xe-1-1-0.0.rtr.hous.net.internet2.edu (64.57.28.57)  89.110 ms  88.023 ms  85.381 ms
+ 7  ge-6-1-0.0.rtr.losa.net.internet2.edu (64.57.28.96)  429.862 ms * *
+ 8  hpr-lax-hpr--i2-newnet.cenic.net (137.164.26.133)  56.925 ms  56.961 ms  56.860 ms
+ 9  svl-hpr2--lax-hpr2-10g.cenic.net (137.164.25.38)  65.024 ms  64.959 ms  64.860 ms
+10  hpr-stanford--svl-hpr2-10ge.cenic.net (137.164.27.62)  65.483 ms  65.375 ms  65.353 ms
+11  boundarya-rtr.Stanford.EDU (171.66.0.34)  65.472 ms  65.487 ms  65.556 ms
+12  serv-rtr.Stanford.EDU (68.65.168.100)  65.415 ms  65.319 ms  65.379 ms
+13  * * *
+14  * * *
+15  171.67.236.117 (171.67.236.117)  2053.790 ms  2072.753 ms  2066.504 ms
+
+
+traceroute to routher server 2:
+traceroute to 171.67.236.119 (171.67.236.119), 30 hops max, 60 byte packets
+ 1  ececs.rtr.fw.uic.edu (128.248.16.209)  1.205 ms  1.286 ms  1.323 ms
+ 2  41-45.gw.uic.edu (128.248.246.209)  1.017 ms  1.403 ms  1.342 ms
+ 3  mren-uic.gw.uic.edu (192.43.252.13)  1.780 ms  1.674 ms  1.674 ms
+ 4  xe-2-0-0.650.rtr.chic.net.internet2.edu (64.57.28.205)  1.893 ms  1.837 ms  1.923 ms
+ 5  ae-0.10.rtr.kans.net.internet2.edu (64.57.28.36)  12.846 ms  85.823 ms  85.863 ms
+ 6  xe-1-1-0.0.rtr.hous.net.internet2.edu (64.57.28.57)  26.099 ms  25.674 ms  25.696 ms
+ 7  * * *
+ 8  hpr-lax-hpr--i2-newnet.cenic.net (137.164.26.133)  57.049 ms  57.206 ms  57.129 ms
+ 9  svl-hpr2--lax-hpr2-10g.cenic.net (137.164.25.38)  65.119 ms  64.889 ms  64.977 ms
+10  hpr-stanford--svl-hpr2-10ge.cenic.net (137.164.27.62)  65.567 ms  65.222 ms  65.317 ms
+11  boundarya-rtr.Stanford.EDU (171.66.0.34)  65.628 ms  65.417 ms  65.408 ms
+12  serv-rtr.Stanford.EDU (68.65.168.100)  65.375 ms  65.328 ms  65.309 ms
+13  * * *
+14  * * *
+15  171.67.236.119 (171.67.236.119)  344.701 ms  459.104 ms  456.732 ms
+
+
+
+
+TEST FOR server files
+=====================================
+server page:
+<html>
+<head><title>App Server Homepage</title></head>
+<body>
+<h2>VNS App Server Website</h2>
+
+<p>You've successfully loaded a small (<600B) webpage hosted on your VNS
+topology's application server!</p>
+
+<p>To stress your router a little more, try these:
+<ul>
+	<li>The <a href="photos.html">photos page</a> has 3 photos (~0.5MB total).
+Your browser will (probably) simultaneously download these all at once.</li>
+	<li>Download this <a href="big.jpg">big photo</a> to see how your router
+handles larger file transfers.</li>
+	<li>Look at <a href="src_info.dyn">this dynamic page</a> to see where you're sending packing from.</li>
+</ul>
+</p>
+</body>
+</html>
+
+
+server small image md5sum:
+1bd991e884f1288a1ddb47e41107ba73  ashleigh_falls_offshoot.jpg
+
+

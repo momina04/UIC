@@ -1,0 +1,33 @@
+#1) Two reasonable scatterplots of pair-wise round-trip times.
+	  1 point
+
+#2) Two reasonable CDF plots for rtt and distance.
+	  1 point
+	
+#3) Computed mean and standard deviation of speed of bits 
+    over each set with explanation of any differences between the 
+    measurement sets. For this question it is important to calculate 
+    the mean and std.dev. of the actual speed of bits as opposed 
+    to the mean and std.dev of rtt and distance.
+	  1 point
+	
+#4) Estimation of maximum speed of bits with comparison to speed
+    of light and explanation why are they different.
+	  1 point
+	
+#5) List of servers with incorrect locations with explanation
+    of reasoning.
+	  0.5 points
+
+#6) List of sites or countries with poor connectivity with an example and
+	an explanation of reasoning.
+	  0.5 points
+	
+#7) Location estimation of IP 68.86.95.9 with evidence used and explanation
+    of reasoning. For full score, Chicago should be mentioned as the correct 
+    answer along with explanation and reasoning.
+  	  1 point
+  	
+
+Partial credit to any of the above is possible.
+Total score is calculated as a sum of #1+#2+#3+#4+#5+#6+#7 above.

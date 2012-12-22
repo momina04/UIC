@@ -1,0 +1,26 @@
+The hw8 grade was calculated by comparing how much the homework was close to
+the correct solution. The sample REPORT.txt file was split into the following
+four lists:
+
+1) AS ids of most frequently occuring ASNs
+2) AS ids with largest number of neighboring ASNs
+3) AS ids with largest number of observed hosts
+4) AS ids that occur in all three lists above
+
+For each element above, the fractional overlap with the correct solution was
+calculated as follows: The intersection of the homework set with the solution
+set was calculated and then divided by 30 to get a fraction between 0 and 1.
+
+The elements 1) 2) 3) and 4) in the score.txt file contain these fractions,
+where 1.0 denotes a perfect overlap and 0.0 denotes no overlap.
+
+Also, the elements 5) 6) 7) and 8) contain the number of AS ids in each
+of the above lists.
+
+The Total score was then calculated as follows:
+If any of the lists 5) to 8) contained more than 0 ASNs, that would be worth 3 points.
+The corresponding element in 1) to 4) was then set to 0.0. After that, each 
+element from 1) to 4) greater than or equal to 0.50 earned 0.5 points with an additional
+0.5 points if the element was also greater than or equal to 0.80.
+
+The Total score is calculated as a sum of the above scored points. 

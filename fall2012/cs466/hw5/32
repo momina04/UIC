@@ -1,0 +1,211 @@
+32 KB
+{
+    Cache Parameters:
+
+    Number of banks:1
+    Total Cache Size (bytes):32768
+    Size in bytes of bank:32768
+    Number of sets per bank:128
+    Associativity:4
+    Block Size (bytes):64
+    Read/Write Ports per bank:1
+    Read Ports per bank:0
+    Write Ports per bank:0
+    Technology Size (nm):65
+    Vdd:1.1
+
+    Access time (ns): 1.34885567595
+    Random cycle time (ns):0.799284794577
+    Multisubbank interleave cycle time (of data array) (ns):0.414616467705
+    Total read dynamic energy per read port(nJ): 0.239950084998
+    Total read dynamic power per read port at max freq (W): 0.30020599244 
+    Total standby leakage power per bank (W): 0.0395089533498
+    Refresh power (percentage of standby leakage power): 0.0
+    Total area (mm^2): 2.09981160747
+    DRAM array refresh interval (microseconds):0.0
+    DRAM array availability (percentage):0.0
+    Best number of wordline segments (data): 4
+    Best number of bitline segments (data): 8
+    Best number of sets per wordline (data): 1.0
+    Best degree of bitline muxing (data): 2
+    Best degree of sense-amp level 1 muxing (data): 4
+    Best degree of sense-amp level 2 muxing (data): 1
+
+    Best number of wordline segments (tag): 2
+    Best number of bitline segments (tag): 4
+    Best number of sets per wordline (tag): 2.0
+    Best degree of bitline muxing (tag): 1
+    Best degree of sense-amp level 1 muxing (data): 2
+    Best degree of sense-amp level 2 muxing (data): 2
+
+    Time Components:
+
+    Data array:
+    delay_route_to_bank (ns):0.0
+    addr_din_horizontal_htree (ns):0.231849485989
+    addr_din_vertical_htree (ns):0.0824236702926
+    row_predecode_driver_and_block (ns):0.100343311423
+    row_decoder (ns):0.16803787278
+    bitlines (ns):0.0757324309639
+    sense_amp (ns):0.0071814765379
+    subarray_output_driver (ns):0.0848708061194
+    bit_mux_predecode_driver_and_block (ns):0.374085278726
+    bit_mux_decoder (ns):0.0
+    senseamp_mux_level_1_predecode_driver_and_block (ns):-2.58493941423e-17
+    senseamp_mux_level_1_decoder (ns):0.150642994228
+    senseamp_mux_level_2_predecode_driver_and_block (ns):-2.58493941423e-17
+    senseamp_mux_level_2_decoder (ns):0.0
+    delay_dout_vertical_htree (ns):0.0323947478892
+    delay_dout_horizontal_htree (ns):0.231849485989
+
+    Tag array:
+    delay_route_to_bank (ns):0.0
+    addr_din_horizontal_htree (ns):0.0354138270934
+    addr_din_vertical_htree (ns):0.0285399364238
+    row_predecode_driver_and_block (ns):0.100343311423
+    row_decoder (ns):0.111438001159
+    bitlines (ns):0.036845887387
+    sense_amp (ns):0.00714120017553
+    subarray_output_driver (ns):0.0840680390276
+    bit_mux_predecode_driver_and_block (ns):0.0
+    bit_mux_decoder (ns):0.0
+    senseamp_mux_level_1_predecode_driver_and_block (ns):0.140027722159
+    senseamp_mux_level_1_decoder (ns):0.0
+    senseamp_mux_level_2_predecode_driver_and_block (ns):0.0964843256859
+    senseamp_mux_level_2_decoder (ns):0.0
+    delay_dout_vertical_htree (ns):0.0
+    delay_dout_horizontal_htree (ns):0.0354138270934
+    delay_comparator (ns):0.0956204556628
+
+    Power Components:
+
+    Data array:
+    Percentage of total dynamic power:
+    routing_to_bank:0.0
+    addr_horizontal_htree:1.24895800362
+    datain_horizontal_htree:1.03975114217e+298
+    addr_vertical_htree:0.484554199398
+    row_predecoder_drivers:0.00647860766597
+    row_predecoder_blocks:0.0401095813694
+    row_decoder/driver:0.808380141155
+    bit_mux_predecoder_drivers:0.00109891083532
+    bit_mux_predecoder_blocks:1.18745821147
+    bit_mux_decoders:0.0
+    senseamp_mux_level_1_predecoder_drivers:0.0
+    senseamp_mux_level_1_predecoder_blocks:0.0
+    senseamp_mux_level_1_decoders:0.349763292549
+    senseamp_mux_level_2_predecoder_drivers:0.0
+    senseamp_mux_level_2_predecoder_blocks:0.0
+    senseamp_mux_level_2_decoders:0.0
+    bitlines:2.61630860412
+    sense_amps:2.73155785434
+    prechg_eq_drivers:5.54019398767
+    subarray_output_drivers:2.06346084288
+    dataout_vertical_htree:16.9192491649
+    dyn_dataout_horizontal_htree:63.3184785961
+
+    Percentage of total leakage power:
+    routing_to_bank:0.0
+    addr_horizontal_htree:0.141886861051
+    datain_horizontal_htree:9.08075910724
+    addr_vertical_htree:0.283773722101
+    row_predecoder_drivers:0.00950533856501
+    row_predecoder_blocks:0.0511548481204
+    row_decoders/drivers:3.62975176205
+    bit_mux_predecoder_drivers:0.00189288233588
+    bit_mux_predecoder_blocks:0.113429742564
+    bit_mux_decoders:0.0
+    senseamp_mux_level_1_predecoder_drivers:0.0
+    senseamp_mux_level_1_predecoder_blocks:0.0
+    senseamp_mux_level_1_decoders:0.0567148712821
+    senseamp_mux_level_2_predecoder_drivers:0.0
+    senseamp_mux_level_2_predecoder_blocks:0.0
+    senseamp_mux_level_2_decoders:0.0
+    memory cells:42.9584384169
+    sense_amps:1.45286926464
+    prechg_eq_drivers:0.228260709431
+    subarray_output_drivers:1.89848073379
+    dataout_vertical_htree:16.8804821624
+    dyn_dataout_horizontal_htree:9.08075910724
+
+    Tag array:
+    Percentage of total dynamic power:
+    routing_to_bank:0.0
+    addr_horizontal_htree:0.0519143064658
+    datain_horizontal_htree:5.84799033155e-270
+    addr_vertical_htree:0.0121824098953
+    row_predecoder_drivers:0.00323930383299
+    row_predecoder_blocks:0.0200547906847
+    row_decoder/driver:0.156014429766
+    bit_mux_predecoder_drivers:0.0
+    bit_mux_predecoder_blocks:0.0
+    bit_mux_decoders:0.0
+    senseamp_mux_level_1_predecoder_drivers:0.000549455417659
+    senseamp_mux_level_1_predecoder_blocks:0.113460455949
+    senseamp_mux_level_1_decoders:0.0
+    senseamp_mux_level_2_predecoder_drivers:0.0
+    senseamp_mux_level_2_predecoder_blocks:0.0797399629892
+    senseamp_mux_level_2_decoders:0.0
+    bitlines:0.373039455661
+    sense_amps:0.763942014282
+    prechg_eq_drivers:0.833938409425
+    subarray_output_drivers:0.013767164039
+    dataout_vertical_htree:0.00812160659685
+    dyn_dataout_horizontal_htree:0.0346095376438
+    dyn_comparators:0.219376699203
+
+    Percentage of total leakage power:
+    routing_to_bank:0.0
+    addr_horizontal_htree:0.0
+    datain_horizontal_htree:0.0
+    addr_vertical_htree:0.0
+    row_predecoder_drivers:0.00237633464125
+    row_predecoder_blocks:0.0127887120301
+    row_decoders/drivers:0.748831784676
+    bit_mux_predecoder_drivers:0.0
+    bit_mux_predecoder_blocks:0.0
+    bit_mux_decoders:0.0
+    senseamp_mux_level_1_predecoder_drivers:0.000473220583971
+    senseamp_mux_level_1_predecoder_blocks:0.028357435641
+    senseamp_mux_level_1_decoders:0.0
+    senseamp_mux_level_2_predecoder_drivers:0.0
+    senseamp_mux_level_2_predecoder_blocks:0.028357435641
+    senseamp_mux_level_2_decoders:0.0
+    memory cells:3.02051520119
+    sense_amps:0.20430974034
+    prechg_eq_drivers:0.833938409425
+    subarray_output_drivers:0.266973853189
+    dataout_vertical_htree:0.0
+    dyn_dataout_horizontal_htree:0.0
+    leak_comparators:0.6810324678
+
+    Area Components:
+
+    Data array:
+    area (mm2):2.06691949984
+    area_efficiency:7.82340707571
+    all_banks_height (micron):994.172705598
+    all_banks_width (micron):2079.0346468
+    bank_height (micron):946.214917015
+    bank_width (micron):2079.0346468
+    mat_height (micron):123.063729254
+    mat_width (micron):810.197323402
+    subarray_memory_cell_area_height (micron):15.184
+    subarray_memory_cell_area_width (micron):390.0
+    routing_area_height_within_bank (micron):453.96
+    routing_area_width_within_bank (micron):458.64
+
+    Tag array:
+    area (mm2):0.0328921076296
+    area_efficiency:34.5668916326
+    all_banks_height (micron):127.058917015
+    all_banks_width (micron):258.872878838
+    bank_height (micron):127.058917015
+    bank_width (micron):258.872878838
+    mat_height (micron):57.0294585073
+    mat_width (micron):243.026200232
+    subarray_memory_cell_area_height (micron):15.184
+    subarray_memory_cell_area_width (micron):109.6875
+    routing_area_height_within_bank (micron):13.0
+    routing_area_width_within_bank (micron):15.8466786053
+}

@@ -1,0 +1,2750 @@
+PING 149.43.80.20 (149.43.80.20) 56(84) bytes of data.
+64 bytes from 149.43.80.20: icmp_seq=1 ttl=64 time=0.127 ms
+PING 204.8.155.227 (204.8.155.227) 56(84) bytes of data.
+64 bytes from 204.8.155.227: icmp_seq=1 ttl=50 time=32.6 ms
+Will not ping self
+PING 141.213.4.202 (141.213.4.202) 56(84) bytes of data.
+64 bytes from 141.213.4.202: icmp_seq=1 ttl=51 time=32.4 ms
+PING 137.99.11.87 (137.99.11.87) 56(84) bytes of data.
+64 bytes from 137.99.11.87: icmp_seq=1 ttl=45 time=32.4 ms
+PING 192.91.235.230 (192.91.235.230) 56(84) bytes of data.
+64 bytes from 192.91.235.230: icmp_seq=1 ttl=47 time=25.3 ms
+PING 128.238.88.64 (128.238.88.64) 56(84) bytes of data.
+64 bytes from 128.238.88.64: icmp_seq=1 ttl=53 time=32.5 ms
+PING 140.192.249.204 (140.192.249.204) 56(84) bytes of data.
+64 bytes from 140.192.249.204: icmp_seq=1 ttl=54 time=31.1 ms
+64 bytes from 140.192.249.204: icmp_seq=1 ttl=245 time=31.2 ms (DUP!)
+PING 129.237.161.194 (129.237.161.194) 56(84) bytes of data.
+64 bytes from 129.237.161.194: icmp_seq=1 ttl=51 time=43.2 ms
+PING 72.36.112.71 (72.36.112.71) 56(84) bytes of data.
+64 bytes from 72.36.112.71: icmp_seq=1 ttl=50 time=42.4 ms
+PING 137.165.1.113 (137.165.1.113) 56(84) bytes of data.
+64 bytes from 137.165.1.113: icmp_seq=1 ttl=48 time=37.4 ms
+PING 128.220.251.52 (128.220.251.52) 56(84) bytes of data.
+64 bytes from 128.220.251.52: icmp_seq=1 ttl=50 time=30.5 ms
+PING 143.215.131.206 (143.215.131.206) 56(84) bytes of data.
+64 bytes from 143.215.131.206: icmp_seq=1 ttl=50 time=50.9 ms
+PING 165.230.49.119 (165.230.49.119) 56(84) bytes of data.
+64 bytes from 165.230.49.119: icmp_seq=1 ttl=47 time=19.8 ms
+PING 165.91.55.8 (165.91.55.8) 56(84) bytes of data.
+64 bytes from 165.91.55.8: icmp_seq=1 ttl=52 time=43.0 ms
+PING 129.32.84.160 (129.32.84.160) 56(84) bytes of data.
+64 bytes from 129.32.84.160: icmp_seq=1 ttl=52 time=21.6 ms
+PING 128.84.154.40 (128.84.154.40) 56(84) bytes of data.
+64 bytes from 128.84.154.40: icmp_seq=1 ttl=50 time=25.8 ms
+PING 128.42.142.44 (128.42.142.44) 56(84) bytes of data.
+64 bytes from 128.42.142.44: icmp_seq=1 ttl=51 time=49.9 ms
+PING 204.123.28.56 (204.123.28.56) 56(84) bytes of data.
+64 bytes from 204.123.28.56: icmp_seq=1 ttl=54 time=69.2 ms
+PING 128.84.154.41 (128.84.154.41) 56(84) bytes of data.
+64 bytes from 128.84.154.41: icmp_seq=1 ttl=50 time=26.0 ms
+PING 128.163.142.21 (128.163.142.21) 56(84) bytes of data.
+64 bytes from 128.163.142.21: icmp_seq=1 ttl=50 time=50.3 ms
+PING 192.91.235.229 (192.91.235.229) 56(84) bytes of data.
+64 bytes from 192.91.235.229: icmp_seq=1 ttl=47 time=23.7 ms
+PING 143.215.131.199 (143.215.131.199) 56(84) bytes of data.
+64 bytes from 143.215.131.199: icmp_seq=1 ttl=50 time=50.5 ms
+PING 170.140.119.69 (170.140.119.69) 56(84) bytes of data.
+64 bytes from 170.140.119.69: icmp_seq=1 ttl=53 time=47.7 ms
+PING 130.49.221.40 (130.49.221.40) 56(84) bytes of data.
+64 bytes from 130.49.221.40: icmp_seq=1 ttl=52 time=30.9 ms
+PING 204.8.155.226 (204.8.155.226) 56(84) bytes of data.
+64 bytes from 204.8.155.226: icmp_seq=1 ttl=50 time=32.6 ms
+PING 170.140.119.70 (170.140.119.70) 56(84) bytes of data.
+64 bytes from 170.140.119.70: icmp_seq=1 ttl=53 time=49.5 ms
+PING 198.133.224.149 (198.133.224.149) 56(84) bytes of data.
+64 bytes from 198.133.224.149: icmp_seq=1 ttl=50 time=37.2 ms
+PING 169.229.50.15 (169.229.50.15) 56(84) bytes of data.
+64 bytes from 169.229.50.15: icmp_seq=1 ttl=49 time=86.7 ms
+PING 131.247.2.246 (131.247.2.246) 56(84) bytes of data.
+64 bytes from 131.247.2.246: icmp_seq=1 ttl=51 time=56.8 ms
+PING 141.212.113.180 (141.212.113.180) 56(84) bytes of data.
+64 bytes from 141.212.113.180: icmp_seq=1 ttl=51 time=33.2 ms
+PING 141.161.20.33 (141.161.20.33) 56(84) bytes of data.
+64 bytes from 141.161.20.33: icmp_seq=1 ttl=48 time=25.0 ms
+PING 169.229.50.14 (169.229.50.14) 56(84) bytes of data.
+64 bytes from 169.229.50.14: icmp_seq=1 ttl=49 time=86.2 ms
+PING 128.8.126.98 (128.8.126.98) 56(84) bytes of data.
+64 bytes from 128.8.126.98: icmp_seq=1 ttl=47 time=26.8 ms
+PING 165.230.49.115 (165.230.49.115) 56(84) bytes of data.
+64 bytes from 165.230.49.115: icmp_seq=1 ttl=48 time=19.8 ms
+PING 131.193.34.21 (131.193.34.21) 56(84) bytes of data.
+64 bytes from 131.193.34.21: icmp_seq=1 ttl=54 time=32.3 ms
+PING 131.193.34.38 (131.193.34.38) 56(84) bytes of data.
+64 bytes from 131.193.34.38: icmp_seq=1 ttl=54 time=34.8 ms
+PING 129.32.84.161 (129.32.84.161) 56(84) bytes of data.
+64 bytes from 129.32.84.161: icmp_seq=1 ttl=52 time=22.2 ms
+PING 129.22.150.78 (129.22.150.78) 56(84) bytes of data.
+64 bytes from 129.22.150.78: icmp_seq=1 ttl=46 time=30.6 ms
+PING 128.223.8.111 (128.223.8.111) 56(84) bytes of data.
+64 bytes from 128.223.8.111: icmp_seq=1 ttl=51 time=99.7 ms
+PING 199.26.254.68 (199.26.254.68) 56(84) bytes of data.
+64 bytes from 199.26.254.68: icmp_seq=1 ttl=51 time=24.4 ms
+PING 141.219.252.133 (141.219.252.133) 56(84) bytes of data.
+64 bytes from 141.219.252.133: icmp_seq=1 ttl=53 time=46.6 ms
+PING 128.6.192.158 (128.6.192.158) 56(84) bytes of data.
+64 bytes from 128.6.192.158: icmp_seq=1 ttl=49 time=19.8 ms
+PING 129.186.205.79 (129.186.205.79) 56(84) bytes of data.
+64 bytes from 129.186.205.79: icmp_seq=1 ttl=53 time=45.3 ms
+PING 128.223.8.114 (128.223.8.114) 56(84) bytes of data.
+64 bytes from 128.223.8.114: icmp_seq=1 ttl=52 time=99.3 ms
+PING 128.163.142.20 (128.163.142.20) 56(84) bytes of data.
+64 bytes from 128.163.142.20: icmp_seq=1 ttl=50 time=51.6 ms
+PING 206.117.37.5 (206.117.37.5) 56(84) bytes of data.
+64 bytes from 206.117.37.5: icmp_seq=1 ttl=47 time=99.9 ms
+PING 199.26.254.67 (199.26.254.67) 56(84) bytes of data.
+64 bytes from 199.26.254.67: icmp_seq=1 ttl=51 time=31.2 ms
+PING 143.215.131.197 (143.215.131.197) 56(84) bytes of data.
+64 bytes from 143.215.131.197: icmp_seq=1 ttl=50 time=50.6 ms
+PING 128.6.192.156 (128.6.192.156) 56(84) bytes of data.
+64 bytes from 128.6.192.156: icmp_seq=1 ttl=49 time=19.7 ms
+PING 128.8.126.111 (128.8.126.111) 56(84) bytes of data.
+64 bytes from 128.8.126.111: icmp_seq=1 ttl=47 time=27.0 ms
+PING 208.77.77.196 (208.77.77.196) 56(84) bytes of data.
+64 bytes from 208.77.77.196: icmp_seq=1 ttl=48 time=90.8 ms
+PING 140.247.60.123 (140.247.60.123) 56(84) bytes of data.
+64 bytes from 140.247.60.123: icmp_seq=1 ttl=52 time=32.8 ms
+PING 169.229.50.12 (169.229.50.12) 56(84) bytes of data.
+64 bytes from 169.229.50.12: icmp_seq=1 ttl=49 time=86.4 ms
+PING 66.140.111.5 (66.140.111.5) 56(84) bytes of data.
+64 bytes from 66.140.111.5: icmp_seq=1 ttl=52 time=58.7 ms
+PING 128.233.252.11 (128.233.252.11) 56(84) bytes of data.
+64 bytes from 128.233.252.11: icmp_seq=1 ttl=51 time=90.9 ms
+PING 142.150.238.13 (142.150.238.13) 56(84) bytes of data.
+64 bytes from 142.150.238.13: icmp_seq=1 ttl=52 time=31.4 ms
+PING 129.107.35.131 (129.107.35.131) 56(84) bytes of data.
+64 bytes from 129.107.35.131: icmp_seq=1 ttl=51 time=49.4 ms
+PING 128.112.139.18 (128.112.139.18) 56(84) bytes of data.
+64 bytes from 128.112.139.18: icmp_seq=1 ttl=50 time=31.6 ms
+PING 206.12.16.155 (206.12.16.155) 56(84) bytes of data.
+64 bytes from 206.12.16.155: icmp_seq=1 ttl=51 time=105 ms
+PING 128.208.3.180 (128.208.3.180) 56(84) bytes of data.
+64 bytes from 128.208.3.180: icmp_seq=1 ttl=51 time=94.8 ms
+PING 139.19.158.231 (139.19.158.231) 56(84) bytes of data.
+64 bytes from 139.19.158.231: icmp_seq=1 ttl=42 time=125 ms
+PING 193.63.75.21 (193.63.75.21) 56(84) bytes of data.
+64 bytes from 193.63.75.21: icmp_seq=1 ttl=49 time=90.5 ms
+PING 192.33.90.69 (192.33.90.69) 56(84) bytes of data.
+64 bytes from 192.33.90.69: icmp_seq=1 ttl=52 time=109 ms
+PING 208.77.77.195 (208.77.77.195) 56(84) bytes of data.
+64 bytes from 208.77.77.195: icmp_seq=1 ttl=48 time=91.0 ms
+PING 156.56.250.226 (156.56.250.226) 56(84) bytes of data.
+64 bytes from 156.56.250.226: icmp_seq=1 ttl=49 time=54.5 ms
+PING 129.63.159.101 (129.63.159.101) 56(84) bytes of data.
+64 bytes from 129.63.159.101: icmp_seq=1 ttl=47 time=26.5 ms
+PING 128.111.52.58 (128.111.52.58) 56(84) bytes of data.
+64 bytes from 128.111.52.58: icmp_seq=1 ttl=46 time=104 ms
+PING 152.66.245.161 (152.66.245.161) 56(84) bytes of data.
+64 bytes from 152.66.245.161: icmp_seq=1 ttl=48 time=138 ms
+PING 128.10.19.53 (128.10.19.53) 56(84) bytes of data.
+64 bytes from 128.10.19.53: icmp_seq=1 ttl=49 time=54.2 ms
+PING 192.42.83.253 (192.42.83.253) 56(84) bytes of data.
+64 bytes from 192.42.83.253: icmp_seq=1 ttl=52 time=32.4 ms
+PING 72.36.112.79 (72.36.112.79) 56(84) bytes of data.
+64 bytes from 72.36.112.79: icmp_seq=1 ttl=50 time=42.6 ms
+PING 198.82.160.238 (198.82.160.238) 56(84) bytes of data.
+64 bytes from 198.82.160.238: icmp_seq=1 ttl=50 time=33.4 ms
+PING 129.82.12.187 (129.82.12.187) 56(84) bytes of data.
+64 bytes from 129.82.12.187: icmp_seq=1 ttl=52 time=83.5 ms
+PING 131.247.2.247 (131.247.2.247) 56(84) bytes of data.
+64 bytes from 131.247.2.247: icmp_seq=1 ttl=51 time=57.2 ms
+PING 195.116.53.14 (195.116.53.14) 56(84) bytes of data.
+64 bytes from 195.116.53.14: icmp_seq=1 ttl=51 time=116 ms
+PING 192.16.125.12 (192.16.125.12) 56(84) bytes of data.
+64 bytes from 192.16.125.12: icmp_seq=1 ttl=47 time=119 ms
+PING 139.19.158.229 (139.19.158.229) 56(84) bytes of data.
+64 bytes from 139.19.158.229: icmp_seq=1 ttl=42 time=123 ms
+PING 155.225.2.71 (155.225.2.71) 56(84) bytes of data.
+64 bytes from 155.225.2.71: icmp_seq=1 ttl=47 time=45.8 ms
+PING 129.22.150.29 (129.22.150.29) 56(84) bytes of data.
+64 bytes from 129.22.150.29: icmp_seq=1 ttl=46 time=31.2 ms
+PING 129.97.74.12 (129.97.74.12) 56(84) bytes of data.
+64 bytes from 129.97.74.12: icmp_seq=1 ttl=50 time=37.8 ms
+PING 131.247.2.241 (131.247.2.241) 56(84) bytes of data.
+64 bytes from 131.247.2.241: icmp_seq=1 ttl=52 time=56.9 ms
+PING 141.219.252.132 (141.219.252.132) 56(84) bytes of data.
+64 bytes from 141.219.252.132: icmp_seq=1 ttl=53 time=46.6 ms
+PING 139.19.142.5 (139.19.142.5) 56(84) bytes of data.
+64 bytes from 139.19.142.5: icmp_seq=1 ttl=42 time=123 ms
+PING 128.223.8.113 (128.223.8.113) 56(84) bytes of data.
+64 bytes from 128.223.8.113: icmp_seq=1 ttl=52 time=99.6 ms
+PING 129.74.74.19 (129.74.74.19) 56(84) bytes of data.
+64 bytes from 129.74.74.19: icmp_seq=1 ttl=51 time=60.0 ms
+PING 138.4.0.120 (138.4.0.120) 56(84) bytes of data.
+64 bytes from 138.4.0.120: icmp_seq=1 ttl=49 time=112 ms
+PING 142.103.2.1 (142.103.2.1) 56(84) bytes of data.
+64 bytes from 142.103.2.1: icmp_seq=1 ttl=49 time=86.9 ms
+PING 195.113.161.83 (195.113.161.83) 56(84) bytes of data.
+64 bytes from 195.113.161.83: icmp_seq=1 ttl=52 time=132 ms
+PING 128.223.8.112 (128.223.8.112) 56(84) bytes of data.
+64 bytes from 128.223.8.112: icmp_seq=1 ttl=52 time=99.7 ms
+PING 130.83.166.245 (130.83.166.245) 56(84) bytes of data.
+64 bytes from 130.83.166.245: icmp_seq=1 ttl=47 time=112 ms
+PING 128.42.142.41 (128.42.142.41) 56(84) bytes of data.
+64 bytes from 128.42.142.41: icmp_seq=1 ttl=51 time=49.8 ms
+PING 13.7.64.22 (13.7.64.22) 56(84) bytes of data.
+64 bytes from 13.7.64.22: icmp_seq=1 ttl=53 time=81.1 ms
+PING 129.82.12.188 (129.82.12.188) 56(84) bytes of data.
+64 bytes from 129.82.12.188: icmp_seq=1 ttl=52 time=83.3 ms
+PING 163.117.253.22 (163.117.253.22) 56(84) bytes of data.
+64 bytes from 163.117.253.22: icmp_seq=1 ttl=49 time=120 ms
+PING 129.242.19.197 (129.242.19.197) 56(84) bytes of data.
+64 bytes from 129.242.19.197: icmp_seq=1 ttl=45 time=151 ms
+PING 163.117.253.23 (163.117.253.23) 56(84) bytes of data.
+64 bytes from 163.117.253.23: icmp_seq=1 ttl=49 time=121 ms
+PING 193.166.167.5 (193.166.167.5) 56(84) bytes of data.
+64 bytes from 193.166.167.5: icmp_seq=1 ttl=48 time=129 ms
+PING 128.208.4.198 (128.208.4.198) 56(84) bytes of data.
+64 bytes from 128.208.4.198: icmp_seq=1 ttl=51 time=94.7 ms
+PING 128.227.150.12 (128.227.150.12) 56(84) bytes of data.
+64 bytes from 128.227.150.12: icmp_seq=1 ttl=52 time=57.9 ms
+PING 139.19.158.227 (139.19.158.227) 56(84) bytes of data.
+64 bytes from 139.19.158.227: icmp_seq=1 ttl=42 time=123 ms
+PING 128.208.4.197 (128.208.4.197) 56(84) bytes of data.
+64 bytes from 128.208.4.197: icmp_seq=1 ttl=51 time=94.6 ms
+PING 128.138.207.54 (128.138.207.54) 56(84) bytes of data.
+64 bytes from 128.138.207.54: icmp_seq=1 ttl=46 time=61.5 ms
+PING 130.206.158.140 (130.206.158.140) 56(84) bytes of data.
+64 bytes from 130.206.158.140: icmp_seq=1 ttl=47 time=130 ms
+PING 143.205.172.12 (143.205.172.12) 56(84) bytes of data.
+64 bytes from 143.205.172.12: icmp_seq=1 ttl=41 time=135 ms
+PING 139.19.158.235 (139.19.158.235) 56(84) bytes of data.
+64 bytes from 139.19.158.235: icmp_seq=1 ttl=42 time=124 ms
+PING 82.179.176.44 (82.179.176.44) 56(84) bytes of data.
+64 bytes from 82.179.176.44: icmp_seq=1 ttl=40 time=159 ms
+PING 194.254.215.11 (194.254.215.11) 56(84) bytes of data.
+64 bytes from 194.254.215.11: icmp_seq=1 ttl=48 time=121 ms
+PING 130.253.21.121 (130.253.21.121) 56(84) bytes of data.
+64 bytes from 130.253.21.121: icmp_seq=1 ttl=53 time=81.1 ms
+PING 193.0.109.25 (193.0.109.25) 56(84) bytes of data.
+64 bytes from 193.0.109.25: icmp_seq=1 ttl=43 time=142 ms
+PING 130.73.142.87 (130.73.142.87) 56(84) bytes of data.
+64 bytes from 130.73.142.87: icmp_seq=1 ttl=51 time=108 ms
+PING 206.23.240.29 (206.23.240.29) 56(84) bytes of data.
+64 bytes from 206.23.240.29: icmp_seq=1 ttl=45 time=76.9 ms
+PING 139.19.142.2 (139.19.142.2) 56(84) bytes of data.
+64 bytes from 139.19.142.2: icmp_seq=1 ttl=42 time=123 ms
+PING 139.19.142.6 (139.19.142.6) 56(84) bytes of data.
+64 bytes from 139.19.142.6: icmp_seq=1 ttl=42 time=123 ms
+PING 143.225.229.236 (143.225.229.236) 56(84) bytes of data.
+64 bytes from 143.225.229.236: icmp_seq=1 ttl=45 time=128 ms
+PING 128.111.52.63 (128.111.52.63) 56(84) bytes of data.
+64 bytes from 128.111.52.63: icmp_seq=1 ttl=46 time=103 ms
+PING 193.226.19.30 (193.226.19.30) 56(84) bytes of data.
+64 bytes from 193.226.19.30: icmp_seq=1 ttl=48 time=158 ms
+PING 133.68.253.243 (133.68.253.243) 56(84) bytes of data.
+64 bytes from 133.68.253.243: icmp_seq=1 ttl=46 time=193 ms
+PING 140.109.17.180 (140.109.17.180) 56(84) bytes of data.
+64 bytes from 140.109.17.180: icmp_seq=1 ttl=51 time=206 ms
+PING 192.12.33.100 (192.12.33.100) 56(84) bytes of data.
+64 bytes from 192.12.33.100: icmp_seq=1 ttl=47 time=119 ms
+PING 134.121.64.7 (134.121.64.7) 56(84) bytes of data.
+64 bytes from 134.121.64.7: icmp_seq=1 ttl=44 time=102 ms
+PING 202.249.37.67 (202.249.37.67) 56(84) bytes of data.
+64 bytes from 202.249.37.67: icmp_seq=1 ttl=50 time=180 ms
+PING 206.117.37.6 (206.117.37.6) 56(84) bytes of data.
+64 bytes from 206.117.37.6: icmp_seq=1 ttl=47 time=99.8 ms
+PING 200.0.206.12 (200.0.206.12) 56(84) bytes of data.
+64 bytes from 200.0.206.12: icmp_seq=1 ttl=47 time=178 ms
+PING 195.37.16.121 (195.37.16.121) 56(84) bytes of data.
+64 bytes from 195.37.16.121: icmp_seq=1 ttl=45 time=133 ms
+PING 190.227.163.141 (190.227.163.141) 56(84) bytes of data.
+64 bytes from 190.227.163.141: icmp_seq=1 ttl=48 time=193 ms
+PING 132.239.17.224 (132.239.17.224) 56(84) bytes of data.
+64 bytes from 132.239.17.224: icmp_seq=1 ttl=45 time=109 ms
+PING 202.249.37.69 (202.249.37.69) 56(84) bytes of data.
+64 bytes from 202.249.37.69: icmp_seq=1 ttl=50 time=199 ms
+64 bytes from 149.43.80.20: icmp_seq=2 ttl=64 time=0.095 ms
+PING 193.1.170.136 (193.1.170.136) 56(84) bytes of data.
+64 bytes from 193.1.170.136: icmp_seq=1 ttl=46 time=124 ms
+PING 194.29.178.5 (194.29.178.5) 56(84) bytes of data.
+64 bytes from 194.29.178.5: icmp_seq=1 ttl=40 time=125 ms
+PING 133.15.59.1 (133.15.59.1) 56(84) bytes of data.
+64 bytes from 133.15.59.1: icmp_seq=1 ttl=45 time=200 ms
+PING 139.30.240.192 (139.30.240.192) 56(84) bytes of data.
+64 bytes from 139.30.240.192: icmp_seq=1 ttl=49 time=128 ms
+PING 193.0.109.23 (193.0.109.23) 56(84) bytes of data.
+64 bytes from 193.0.109.23: icmp_seq=1 ttl=43 time=140 ms
+PING 212.235.189.115 (212.235.189.115) 56(84) bytes of data.
+64 bytes from 212.235.189.115: icmp_seq=1 ttl=42 time=136 ms
+64 bytes from 204.8.155.227: icmp_seq=2 ttl=50 time=32.1 ms
+64 bytes from 141.213.4.202: icmp_seq=2 ttl=51 time=31.9 ms
+PING 80.65.237.10 (80.65.237.10) 56(84) bytes of data.
+64 bytes from 80.65.237.10: icmp_seq=1 ttl=44 time=164 ms
+PING 138.232.66.174 (138.232.66.174) 56(84) bytes of data.
+64 bytes from 138.232.66.174: icmp_seq=1 ttl=40 time=141 ms
+PING 93.180.0.114 (93.180.0.114) 56(84) bytes of data.
+64 bytes from 93.180.0.114: icmp_seq=1 ttl=41 time=169 ms
+PING 133.68.253.242 (133.68.253.242) 56(84) bytes of data.
+64 bytes from 133.68.253.242: icmp_seq=1 ttl=46 time=181 ms
+64 bytes from 129.237.161.194: icmp_seq=2 ttl=51 time=41.4 ms
+64 bytes from 137.99.11.87: icmp_seq=2 ttl=45 time=33.2 ms
+PING 200.129.132.18 (200.129.132.18) 56(84) bytes of data.
+64 bytes from 200.129.132.18: icmp_seq=1 ttl=44 time=229 ms
+64 bytes from 192.91.235.230: icmp_seq=2 ttl=47 time=25.0 ms
+PING 80.65.237.11 (80.65.237.11) 56(84) bytes of data.
+64 bytes from 80.65.237.11: icmp_seq=1 ttl=44 time=163 ms
+64 bytes from 128.238.88.64: icmp_seq=2 ttl=53 time=32.4 ms
+64 bytes from 140.192.249.204: icmp_seq=2 ttl=54 time=31.1 ms
+64 bytes from 140.192.249.204: icmp_seq=2 ttl=245 time=31.3 ms (DUP!)
+PING 213.131.1.101 (213.131.1.101) 56(84) bytes of data.
+64 bytes from 213.131.1.101: icmp_seq=1 ttl=40 time=158 ms
+PING 156.62.231.242 (156.62.231.242) 56(84) bytes of data.
+64 bytes from 156.62.231.242: icmp_seq=1 ttl=50 time=215 ms
+PING 193.136.124.226 (193.136.124.226) 56(84) bytes of data.
+64 bytes from 193.136.124.226: icmp_seq=1 ttl=41 time=161 ms
+64 bytes from 72.36.112.71: icmp_seq=2 ttl=50 time=43.0 ms
+PING 165.242.90.129 (165.242.90.129) 56(84) bytes of data.
+64 bytes from 165.242.90.129: icmp_seq=1 ttl=43 time=188 ms
+PING 160.193.163.106 (160.193.163.106) 56(84) bytes of data.
+64 bytes from 160.193.163.106: icmp_seq=1 ttl=43 time=193 ms
+64 bytes from 137.165.1.113: icmp_seq=2 ttl=48 time=37.5 ms
+PING 147.229.10.250 (147.229.10.250) 56(84) bytes of data.
+64 bytes from 147.229.10.250: icmp_seq=1 ttl=49 time=134 ms
+64 bytes from 143.215.131.206: icmp_seq=2 ttl=50 time=50.7 ms
+64 bytes from 128.220.251.52: icmp_seq=2 ttl=50 time=30.4 ms
+64 bytes from 165.230.49.119: icmp_seq=2 ttl=47 time=19.6 ms
+64 bytes from 165.91.55.8: icmp_seq=2 ttl=52 time=42.9 ms
+PING 147.102.3.113 (147.102.3.113) 56(84) bytes of data.
+64 bytes from 147.102.3.113: icmp_seq=1 ttl=42 time=169 ms
+PING 203.178.143.10 (203.178.143.10) 56(84) bytes of data.
+64 bytes from 203.178.143.10: icmp_seq=1 ttl=42 time=193 ms
+64 bytes from 129.32.84.160: icmp_seq=2 ttl=52 time=21.1 ms
+64 bytes from 128.84.154.40: icmp_seq=2 ttl=50 time=25.7 ms
+64 bytes from 128.42.142.44: icmp_seq=2 ttl=51 time=49.8 ms
+64 bytes from 204.123.28.56: icmp_seq=2 ttl=54 time=69.0 ms
+64 bytes from 128.84.154.41: icmp_seq=2 ttl=50 time=25.9 ms
+PING 202.23.159.51 (202.23.159.51) 56(84) bytes of data.
+64 bytes from 202.23.159.51: icmp_seq=1 ttl=41 time=226 ms
+64 bytes from 128.163.142.21: icmp_seq=2 ttl=50 time=50.3 ms
+64 bytes from 192.91.235.229: icmp_seq=2 ttl=47 time=23.7 ms
+64 bytes from 170.140.119.69: icmp_seq=2 ttl=53 time=47.4 ms
+64 bytes from 143.215.131.199: icmp_seq=2 ttl=50 time=50.6 ms
+64 bytes from 130.49.221.40: icmp_seq=2 ttl=52 time=30.5 ms
+64 bytes from 204.8.155.226: icmp_seq=2 ttl=50 time=32.4 ms
+PING 221.199.217.145 (221.199.217.145) 56(84) bytes of data.
+64 bytes from 221.199.217.145: icmp_seq=1 ttl=47 time=228 ms
+PING 137.132.80.105 (137.132.80.105) 56(84) bytes of data.
+64 bytes from 137.132.80.105: icmp_seq=1 ttl=42 time=264 ms
+PING 200.17.202.195 (200.17.202.195) 56(84) bytes of data.
+64 bytes from 200.17.202.195: icmp_seq=1 ttl=46 time=165 ms
+PING 136.145.115.196 (136.145.115.196) 56(84) bytes of data.
+64 bytes from 136.145.115.196: icmp_seq=1 ttl=47 time=191 ms
+PING 140.112.107.82 (140.112.107.82) 56(84) bytes of data.
+64 bytes from 140.112.107.82: icmp_seq=1 ttl=46 time=290 ms
+64 bytes from 169.229.50.15: icmp_seq=2 ttl=49 time=86.6 ms
+64 bytes from 198.133.224.149: icmp_seq=2 ttl=50 time=36.8 ms
+64 bytes from 170.140.119.70: icmp_seq=2 ttl=53 time=49.4 ms
+64 bytes from 131.247.2.246: icmp_seq=2 ttl=51 time=56.9 ms
+PING 133.9.81.166 (133.9.81.166) 56(84) bytes of data.
+64 bytes from 133.9.81.166: icmp_seq=1 ttl=45 time=185 ms
+64 bytes from 141.161.20.33: icmp_seq=2 ttl=48 time=24.6 ms
+64 bytes from 141.212.113.180: icmp_seq=2 ttl=51 time=33.2 ms
+64 bytes from 169.229.50.14: icmp_seq=2 ttl=49 time=86.3 ms
+PING 133.9.81.164 (133.9.81.164) 56(84) bytes of data.
+64 bytes from 133.9.81.164: icmp_seq=1 ttl=45 time=186 ms
+64 bytes from 128.8.126.98: icmp_seq=2 ttl=47 time=26.8 ms
+64 bytes from 165.230.49.115: icmp_seq=2 ttl=48 time=20.0 ms
+64 bytes from 131.193.34.21: icmp_seq=2 ttl=54 time=32.2 ms
+64 bytes from 129.32.84.161: icmp_seq=2 ttl=52 time=21.3 ms
+PING 143.89.49.74 (143.89.49.74) 56(84) bytes of data.
+64 bytes from 143.89.49.74: icmp_seq=1 ttl=46 time=297 ms
+64 bytes from 129.22.150.78: icmp_seq=2 ttl=46 time=31.4 ms
+PING 220.245.140.197 (220.245.140.197) 56(84) bytes of data.
+64 bytes from 220.245.140.197: icmp_seq=1 ttl=49 time=291 ms
+64 bytes from 128.223.8.111: icmp_seq=2 ttl=51 time=99.9 ms
+PING 137.132.80.106 (137.132.80.106) 56(84) bytes of data.
+64 bytes from 137.132.80.106: icmp_seq=1 ttl=42 time=258 ms
+64 bytes from 199.26.254.68: icmp_seq=2 ttl=51 time=24.2 ms
+64 bytes from 141.219.252.133: icmp_seq=2 ttl=53 time=46.5 ms
+64 bytes from 128.6.192.158: icmp_seq=2 ttl=49 time=19.6 ms
+64 bytes from 129.186.205.79: icmp_seq=2 ttl=53 time=45.1 ms
+64 bytes from 128.223.8.114: icmp_seq=2 ttl=52 time=99.3 ms
+64 bytes from 128.163.142.20: icmp_seq=2 ttl=50 time=52.0 ms
+PING 130.194.252.8 (130.194.252.8) 56(84) bytes of data.
+64 bytes from 130.194.252.8: icmp_seq=1 ttl=44 time=245 ms
+64 bytes from 143.215.131.197: icmp_seq=2 ttl=50 time=50.3 ms
+64 bytes from 131.193.34.38: icmp_seq=2 ttl=54 time=49.2 ms
+64 bytes from 128.6.192.156: icmp_seq=2 ttl=49 time=19.6 ms
+64 bytes from 206.117.37.5: icmp_seq=2 ttl=47 time=102 ms
+64 bytes from 128.8.126.111: icmp_seq=2 ttl=47 time=26.5 ms
+PING 140.112.42.158 (140.112.42.158) 56(84) bytes of data.
+64 bytes from 140.112.42.158: icmp_seq=1 ttl=45 time=276 ms
+64 bytes from 140.247.60.123: icmp_seq=2 ttl=52 time=32.9 ms
+64 bytes from 208.77.77.196: icmp_seq=2 ttl=48 time=92.9 ms
+64 bytes from 169.229.50.12: icmp_seq=2 ttl=49 time=86.5 ms
+64 bytes from 199.26.254.67: icmp_seq=2 ttl=51 time=38.2 ms
+PING 202.116.81.195 (202.116.81.195) 56(84) bytes of data.
+64 bytes from 202.116.81.195: icmp_seq=1 ttl=45 time=316 ms
+64 bytes from 66.140.111.5: icmp_seq=2 ttl=52 time=58.7 ms
+64 bytes from 142.150.238.13: icmp_seq=2 ttl=52 time=30.2 ms
+64 bytes from 129.107.35.131: icmp_seq=2 ttl=51 time=49.0 ms
+64 bytes from 128.233.252.11: icmp_seq=2 ttl=51 time=92.0 ms
+64 bytes from 128.112.139.18: icmp_seq=2 ttl=50 time=32.4 ms
+64 bytes from 206.12.16.155: icmp_seq=2 ttl=51 time=108 ms
+64 bytes from 128.208.3.180: icmp_seq=2 ttl=51 time=94.6 ms
+64 bytes from 139.19.158.231: icmp_seq=2 ttl=42 time=123 ms
+PING 130.216.1.23 (130.216.1.23) 56(84) bytes of data.
+64 bytes from 130.216.1.23: icmp_seq=1 ttl=49 time=226 ms
+64 bytes from 193.63.75.21: icmp_seq=2 ttl=49 time=90.2 ms
+PING 203.110.240.191 (203.110.240.191) 56(84) bytes of data.
+64 bytes from 203.110.240.191: icmp_seq=1 ttl=40 time=265 ms
+64 bytes from 192.33.90.69: icmp_seq=2 ttl=52 time=109 ms
+PING 202.141.161.43 (202.141.161.43) 56(84) bytes of data.
+64 bytes from 202.141.161.43: icmp_seq=1 ttl=46 time=242 ms
+64 bytes from 129.63.159.101: icmp_seq=2 ttl=47 time=26.0 ms
+64 bytes from 156.56.250.226: icmp_seq=2 ttl=49 time=54.6 ms
+64 bytes from 128.111.52.58: icmp_seq=2 ttl=46 time=104 ms
+64 bytes from 208.77.77.195: icmp_seq=2 ttl=48 time=93.3 ms
+PING 133.15.59.2 (133.15.59.2) 56(84) bytes of data.
+64 bytes from 133.15.59.2: icmp_seq=1 ttl=45 time=218 ms
+64 bytes from 152.66.245.161: icmp_seq=2 ttl=48 time=138 ms
+64 bytes from 128.10.19.53: icmp_seq=2 ttl=49 time=53.8 ms
+64 bytes from 192.42.83.253: icmp_seq=2 ttl=52 time=32.1 ms
+64 bytes from 131.247.2.247: icmp_seq=2 ttl=51 time=56.7 ms
+64 bytes from 198.82.160.238: icmp_seq=2 ttl=50 time=33.4 ms
+PING 130.216.1.22 (130.216.1.22) 56(84) bytes of data.
+64 bytes from 130.216.1.22: icmp_seq=1 ttl=49 time=227 ms
+64 bytes from 72.36.112.79: icmp_seq=2 ttl=50 time=42.6 ms
+64 bytes from 129.82.12.187: icmp_seq=2 ttl=52 time=83.5 ms
+PING 202.116.81.194 (202.116.81.194) 56(84) bytes of data.
+64 bytes from 202.116.81.194: icmp_seq=1 ttl=46 time=323 ms
+64 bytes from 195.116.53.14: icmp_seq=2 ttl=51 time=116 ms
+PING 140.123.230.249 (140.123.230.249) 56(84) bytes of data.
+64 bytes from 140.123.230.249: icmp_seq=1 ttl=49 time=235 ms
+64 bytes from 192.16.125.12: icmp_seq=2 ttl=47 time=119 ms
+64 bytes from 139.19.158.229: icmp_seq=2 ttl=42 time=124 ms
+64 bytes from 129.22.150.29: icmp_seq=2 ttl=46 time=30.7 ms
+64 bytes from 155.225.2.71: icmp_seq=2 ttl=47 time=45.7 ms
+64 bytes from 129.97.74.12: icmp_seq=2 ttl=50 time=37.5 ms
+64 bytes from 131.247.2.241: icmp_seq=2 ttl=52 time=56.8 ms
+64 bytes from 141.219.252.132: icmp_seq=2 ttl=53 time=46.9 ms
+64 bytes from 139.19.142.5: icmp_seq=2 ttl=42 time=123 ms
+64 bytes from 129.74.74.19: icmp_seq=2 ttl=51 time=59.9 ms
+64 bytes from 128.223.8.113: icmp_seq=2 ttl=52 time=99.6 ms
+64 bytes from 138.4.0.120: icmp_seq=2 ttl=49 time=111 ms
+64 bytes from 195.113.161.83: icmp_seq=2 ttl=52 time=130 ms
+64 bytes from 142.103.2.1: icmp_seq=2 ttl=49 time=87.5 ms
+PING 219.243.208.62 (219.243.208.62) 56(84) bytes of data.
+64 bytes from 219.243.208.62: icmp_seq=1 ttl=47 time=278 ms
+64 bytes from 128.223.8.112: icmp_seq=2 ttl=52 time=99.8 ms
+64 bytes from 130.83.166.245: icmp_seq=2 ttl=47 time=112 ms
+64 bytes from 128.42.142.41: icmp_seq=2 ttl=51 time=49.8 ms
+64 bytes from 13.7.64.22: icmp_seq=2 ttl=53 time=80.9 ms
+64 bytes from 129.82.12.188: icmp_seq=2 ttl=52 time=83.2 ms
+64 bytes from 163.117.253.22: icmp_seq=2 ttl=49 time=119 ms
+64 bytes from 129.242.19.197: icmp_seq=2 ttl=45 time=150 ms
+64 bytes from 163.117.253.23: icmp_seq=2 ttl=49 time=121 ms
+PING 211.69.207.34 (211.69.207.34) 56(84) bytes of data.
+64 bytes from 211.69.207.34: icmp_seq=1 ttl=43 time=298 ms
+64 bytes from 193.166.167.5: icmp_seq=2 ttl=48 time=129 ms
+64 bytes from 128.208.4.198: icmp_seq=2 ttl=51 time=95.3 ms
+64 bytes from 128.227.150.12: icmp_seq=2 ttl=52 time=58.1 ms
+64 bytes from 139.19.158.227: icmp_seq=2 ttl=42 time=123 ms
+64 bytes from 206.23.240.29: icmp_seq=2 ttl=45 time=59.3 ms
+64 bytes from 128.208.4.197: icmp_seq=2 ttl=51 time=94.3 ms
+64 bytes from 128.138.207.54: icmp_seq=2 ttl=46 time=61.3 ms
+64 bytes from 130.206.158.140: icmp_seq=2 ttl=47 time=129 ms
+64 bytes from 143.205.172.12: icmp_seq=2 ttl=41 time=135 ms
+PING 219.243.208.60 (219.243.208.60) 56(84) bytes of data.
+64 bytes from 219.243.208.60: icmp_seq=1 ttl=48 time=271 ms
+64 bytes from 139.19.158.235: icmp_seq=2 ttl=42 time=124 ms
+64 bytes from 82.179.176.44: icmp_seq=2 ttl=40 time=159 ms
+64 bytes from 193.0.109.25: icmp_seq=2 ttl=43 time=142 ms
+64 bytes from 130.73.142.87: icmp_seq=2 ttl=51 time=107 ms
+64 bytes from 139.19.142.2: icmp_seq=2 ttl=42 time=121 ms
+64 bytes from 139.19.142.6: icmp_seq=2 ttl=42 time=122 ms
+64 bytes from 194.254.215.11: icmp_seq=2 ttl=48 time=128 ms
+64 bytes from 143.225.229.236: icmp_seq=2 ttl=45 time=128 ms
+64 bytes from 192.12.33.100: icmp_seq=2 ttl=47 time=109 ms
+64 bytes from 193.226.19.30: icmp_seq=2 ttl=48 time=158 ms
+64 bytes from 133.68.253.243: icmp_seq=2 ttl=46 time=192 ms
+64 bytes from 128.111.52.63: icmp_seq=2 ttl=46 time=105 ms
+64 bytes from 140.109.17.180: icmp_seq=2 ttl=51 time=206 ms
+PING 202.112.28.100 (202.112.28.100) 56(84) bytes of data.
+64 bytes from 202.112.28.100: icmp_seq=1 ttl=45 time=318 ms
+PING 220.245.140.196 (220.245.140.196) 56(84) bytes of data.
+64 bytes from 220.245.140.196: icmp_seq=1 ttl=48 time=311 ms
+64 bytes from 134.121.64.7: icmp_seq=2 ttl=45 time=102 ms
+64 bytes from 202.249.37.67: icmp_seq=2 ttl=50 time=180 ms
+64 bytes from 200.0.206.12: icmp_seq=2 ttl=47 time=177 ms
+64 bytes from 206.117.37.6: icmp_seq=2 ttl=47 time=102 ms
+64 bytes from 190.227.163.141: icmp_seq=2 ttl=48 time=193 ms
+64 bytes from 132.239.17.224: icmp_seq=2 ttl=45 time=109 ms
+64 bytes from 202.249.37.69: icmp_seq=2 ttl=50 time=199 ms
+64 bytes from 195.37.16.121: icmp_seq=2 ttl=45 time=141 ms
+64 bytes from 133.15.59.1: icmp_seq=2 ttl=45 time=196 ms
+64 bytes from 139.30.240.192: icmp_seq=2 ttl=49 time=124 ms
+64 bytes from 194.29.178.5: icmp_seq=2 ttl=40 time=125 ms
+PING 128.36.233.154 (128.36.233.154) 56(84) bytes of data.
+64 bytes from 128.36.233.154: icmp_seq=2 ttl=49 time=134 ms
+64 bytes from 193.1.170.136: icmp_seq=2 ttl=46 time=124 ms
+64 bytes from 149.43.80.20: icmp_seq=3 ttl=64 time=0.114 ms
+64 bytes from 193.0.109.23: icmp_seq=2 ttl=43 time=140 ms
+64 bytes from 212.235.189.115: icmp_seq=2 ttl=42 time=136 ms
+64 bytes from 204.8.155.227: icmp_seq=3 ttl=50 time=32.4 ms
+64 bytes from 80.65.237.10: icmp_seq=2 ttl=44 time=165 ms
+64 bytes from 141.213.4.202: icmp_seq=3 ttl=51 time=31.9 ms
+64 bytes from 138.232.66.174: icmp_seq=2 ttl=40 time=141 ms
+64 bytes from 93.180.0.114: icmp_seq=2 ttl=41 time=169 ms
+64 bytes from 133.68.253.242: icmp_seq=2 ttl=46 time=181 ms
+64 bytes from 80.65.237.11: icmp_seq=2 ttl=44 time=162 ms
+64 bytes from 137.99.11.87: icmp_seq=3 ttl=45 time=31.7 ms
+64 bytes from 200.129.132.18: icmp_seq=2 ttl=44 time=229 ms
+64 bytes from 129.237.161.194: icmp_seq=3 ttl=51 time=41.7 ms
+64 bytes from 213.131.1.101: icmp_seq=2 ttl=40 time=158 ms
+64 bytes from 192.91.235.230: icmp_seq=3 ttl=47 time=25.2 ms
+64 bytes from 140.192.249.204: icmp_seq=3 ttl=245 time=32.0 ms
+64 bytes from 128.238.88.64: icmp_seq=3 ttl=53 time=32.2 ms
+64 bytes from 156.62.231.242: icmp_seq=2 ttl=50 time=215 ms
+64 bytes from 193.136.124.226: icmp_seq=2 ttl=41 time=161 ms
+64 bytes from 143.89.49.74: icmp_seq=2 ttl=46 time=248 ms
+64 bytes from 165.242.90.129: icmp_seq=2 ttl=43 time=187 ms
+64 bytes from 140.192.249.204: icmp_seq=3 ttl=54 time=36.5 ms (DUP!)
+64 bytes from 72.36.112.71: icmp_seq=3 ttl=50 time=42.6 ms
+64 bytes from 160.193.163.106: icmp_seq=2 ttl=43 time=193 ms
+64 bytes from 147.229.10.250: icmp_seq=2 ttl=49 time=133 ms
+64 bytes from 137.165.1.113: icmp_seq=3 ttl=48 time=37.7 ms
+64 bytes from 143.215.131.206: icmp_seq=3 ttl=50 time=50.7 ms
+64 bytes from 128.220.251.52: icmp_seq=3 ttl=50 time=30.2 ms
+64 bytes from 165.230.49.119: icmp_seq=3 ttl=47 time=19.6 ms
+64 bytes from 165.91.55.8: icmp_seq=3 ttl=52 time=42.9 ms
+64 bytes from 147.102.3.113: icmp_seq=2 ttl=42 time=169 ms
+64 bytes from 128.42.142.44: icmp_seq=3 ttl=51 time=50.1 ms
+64 bytes from 129.32.84.160: icmp_seq=3 ttl=52 time=21.6 ms
+64 bytes from 128.84.154.40: icmp_seq=3 ttl=50 time=25.7 ms
+64 bytes from 204.123.28.56: icmp_seq=3 ttl=54 time=69.0 ms
+64 bytes from 128.84.154.41: icmp_seq=3 ttl=50 time=25.8 ms
+64 bytes from 128.163.142.21: icmp_seq=3 ttl=50 time=50.5 ms
+64 bytes from 202.23.159.51: icmp_seq=2 ttl=41 time=227 ms
+64 bytes from 192.91.235.229: icmp_seq=3 ttl=47 time=23.6 ms
+64 bytes from 143.215.131.199: icmp_seq=3 ttl=50 time=50.6 ms
+64 bytes from 170.140.119.69: icmp_seq=3 ttl=53 time=47.9 ms
+64 bytes from 130.49.221.40: icmp_seq=3 ttl=52 time=30.5 ms
+64 bytes from 204.8.155.226: icmp_seq=3 ttl=50 time=33.0 ms
+64 bytes from 221.199.217.145: icmp_seq=2 ttl=47 time=228 ms
+64 bytes from 137.132.80.105: icmp_seq=2 ttl=42 time=263 ms
+64 bytes from 200.17.202.195: icmp_seq=2 ttl=46 time=165 ms
+64 bytes from 203.178.143.10: icmp_seq=2 ttl=41 time=211 ms
+64 bytes from 140.112.107.82: icmp_seq=2 ttl=46 time=286 ms
+64 bytes from 198.133.224.149: icmp_seq=3 ttl=50 time=36.9 ms
+64 bytes from 169.229.50.15: icmp_seq=3 ttl=49 time=86.7 ms
+64 bytes from 131.247.2.246: icmp_seq=3 ttl=51 time=56.9 ms
+64 bytes from 170.140.119.70: icmp_seq=3 ttl=53 time=49.2 ms
+64 bytes from 133.9.81.166: icmp_seq=2 ttl=45 time=185 ms
+64 bytes from 136.145.115.196: icmp_seq=2 ttl=47 time=198 ms
+64 bytes from 141.212.113.180: icmp_seq=3 ttl=51 time=32.9 ms
+64 bytes from 141.161.20.33: icmp_seq=3 ttl=48 time=24.8 ms
+64 bytes from 133.9.81.164: icmp_seq=2 ttl=45 time=185 ms
+64 bytes from 169.229.50.14: icmp_seq=3 ttl=49 time=86.6 ms
+64 bytes from 128.8.126.98: icmp_seq=3 ttl=47 time=26.5 ms
+64 bytes from 131.193.34.38: icmp_seq=3 ttl=54 time=32.5 ms
+64 bytes from 165.230.49.115: icmp_seq=3 ttl=48 time=19.7 ms
+64 bytes from 131.193.34.21: icmp_seq=3 ttl=54 time=32.0 ms
+64 bytes from 129.32.84.161: icmp_seq=3 ttl=52 time=21.4 ms
+64 bytes from 129.22.150.78: icmp_seq=3 ttl=46 time=31.1 ms
+64 bytes from 128.223.8.111: icmp_seq=3 ttl=51 time=99.6 ms
+64 bytes from 199.26.254.67: icmp_seq=3 ttl=51 time=25.6 ms
+64 bytes from 137.132.80.106: icmp_seq=2 ttl=42 time=257 ms
+64 bytes from 199.26.254.68: icmp_seq=3 ttl=51 time=24.3 ms
+64 bytes from 206.117.37.5: icmp_seq=3 ttl=47 time=96.8 ms
+64 bytes from 141.219.252.133: icmp_seq=3 ttl=53 time=46.3 ms
+64 bytes from 128.6.192.158: icmp_seq=3 ttl=49 time=19.6 ms
+64 bytes from 129.186.205.79: icmp_seq=3 ttl=53 time=45.0 ms
+64 bytes from 208.77.77.196: icmp_seq=3 ttl=48 time=87.2 ms
+64 bytes from 128.223.8.114: icmp_seq=3 ttl=52 time=99.4 ms
+64 bytes from 128.163.142.20: icmp_seq=3 ttl=50 time=51.7 ms
+64 bytes from 130.194.252.8: icmp_seq=2 ttl=44 time=245 ms
+64 bytes from 143.215.131.197: icmp_seq=3 ttl=50 time=50.4 ms
+64 bytes from 140.112.42.158: icmp_seq=2 ttl=45 time=276 ms
+64 bytes from 128.8.126.111: icmp_seq=3 ttl=47 time=26.4 ms
+64 bytes from 140.247.60.123: icmp_seq=3 ttl=52 time=32.8 ms
+64 bytes from 128.6.192.156: icmp_seq=3 ttl=49 time=24.0 ms
+64 bytes from 169.229.50.12: icmp_seq=3 ttl=49 time=86.4 ms
+64 bytes from 220.245.140.197: icmp_seq=2 ttl=49 time=306 ms
+64 bytes from 202.116.81.195: icmp_seq=2 ttl=45 time=316 ms
+64 bytes from 66.140.111.5: icmp_seq=3 ttl=52 time=58.6 ms
+PING 132.170.3.33 (132.170.3.33) 56(84) bytes of data.
+From 198.32.155.158 icmp_seq=2 Packet filtered
+64 bytes from 128.233.252.11: icmp_seq=3 ttl=51 time=90.7 ms
+64 bytes from 129.107.35.131: icmp_seq=3 ttl=51 time=48.8 ms
+64 bytes from 142.150.238.13: icmp_seq=3 ttl=52 time=29.7 ms
+64 bytes from 128.112.139.18: icmp_seq=3 ttl=50 time=31.8 ms
+64 bytes from 206.12.16.155: icmp_seq=3 ttl=51 time=104 ms
+64 bytes from 128.208.3.180: icmp_seq=3 ttl=51 time=94.7 ms
+64 bytes from 139.19.158.231: icmp_seq=3 ttl=42 time=123 ms
+64 bytes from 130.216.1.23: icmp_seq=2 ttl=49 time=226 ms
+64 bytes from 128.111.52.58: icmp_seq=3 ttl=46 time=101 ms
+64 bytes from 193.63.75.21: icmp_seq=3 ttl=49 time=90.2 ms
+64 bytes from 192.33.90.69: icmp_seq=3 ttl=52 time=109 ms
+64 bytes from 202.141.161.43: icmp_seq=2 ttl=46 time=242 ms
+64 bytes from 203.110.240.191: icmp_seq=2 ttl=40 time=266 ms
+64 bytes from 129.63.159.101: icmp_seq=3 ttl=47 time=26.1 ms
+64 bytes from 156.56.250.226: icmp_seq=3 ttl=49 time=54.3 ms
+64 bytes from 208.77.77.195: icmp_seq=3 ttl=48 time=95.5 ms
+64 bytes from 133.15.59.2: icmp_seq=2 ttl=45 time=221 ms
+64 bytes from 152.66.245.161: icmp_seq=3 ttl=48 time=139 ms
+64 bytes from 192.42.83.253: icmp_seq=3 ttl=52 time=32.0 ms
+64 bytes from 130.216.1.22: icmp_seq=2 ttl=49 time=227 ms
+64 bytes from 198.82.160.238: icmp_seq=3 ttl=50 time=33.3 ms
+64 bytes from 72.36.112.79: icmp_seq=3 ttl=50 time=42.6 ms
+64 bytes from 129.82.12.187: icmp_seq=3 ttl=52 time=83.2 ms
+64 bytes from 128.10.19.53: icmp_seq=3 ttl=49 time=55.6 ms
+64 bytes from 131.247.2.247: icmp_seq=3 ttl=51 time=58.1 ms
+64 bytes from 202.116.81.194: icmp_seq=2 ttl=46 time=324 ms
+64 bytes from 195.116.53.14: icmp_seq=3 ttl=51 time=116 ms
+64 bytes from 139.19.158.229: icmp_seq=3 ttl=42 time=123 ms
+64 bytes from 140.123.230.249: icmp_seq=2 ttl=49 time=235 ms
+64 bytes from 192.16.125.12: icmp_seq=3 ttl=47 time=119 ms
+64 bytes from 129.22.150.29: icmp_seq=3 ttl=46 time=30.7 ms
+64 bytes from 155.225.2.71: icmp_seq=3 ttl=47 time=45.7 ms
+64 bytes from 129.97.74.12: icmp_seq=3 ttl=50 time=37.6 ms
+64 bytes from 131.247.2.241: icmp_seq=3 ttl=52 time=56.9 ms
+64 bytes from 141.219.252.132: icmp_seq=3 ttl=53 time=46.3 ms
+64 bytes from 139.19.142.5: icmp_seq=3 ttl=42 time=123 ms
+64 bytes from 129.74.74.19: icmp_seq=3 ttl=51 time=59.8 ms
+64 bytes from 128.223.8.113: icmp_seq=3 ttl=52 time=99.5 ms
+64 bytes from 138.4.0.120: icmp_seq=3 ttl=49 time=111 ms
+64 bytes from 142.103.2.1: icmp_seq=3 ttl=49 time=87.1 ms
+64 bytes from 195.113.161.83: icmp_seq=3 ttl=52 time=130 ms
+64 bytes from 219.243.208.62: icmp_seq=2 ttl=47 time=278 ms
+64 bytes from 128.223.8.112: icmp_seq=3 ttl=52 time=99.5 ms
+64 bytes from 130.83.166.245: icmp_seq=3 ttl=47 time=112 ms
+64 bytes from 13.7.64.22: icmp_seq=3 ttl=53 time=81.1 ms
+64 bytes from 128.42.142.41: icmp_seq=3 ttl=51 time=49.8 ms
+64 bytes from 129.82.12.188: icmp_seq=3 ttl=52 time=82.8 ms
+64 bytes from 163.117.253.22: icmp_seq=3 ttl=49 time=120 ms
+64 bytes from 211.69.207.34: icmp_seq=2 ttl=43 time=297 ms
+64 bytes from 129.242.19.197: icmp_seq=3 ttl=45 time=150 ms
+64 bytes from 163.117.253.23: icmp_seq=3 ttl=49 time=122 ms
+64 bytes from 193.166.167.5: icmp_seq=3 ttl=48 time=128 ms
+64 bytes from 128.208.4.198: icmp_seq=3 ttl=51 time=94.7 ms
+64 bytes from 128.227.150.12: icmp_seq=3 ttl=52 time=58.0 ms
+64 bytes from 139.19.158.227: icmp_seq=3 ttl=42 time=123 ms
+64 bytes from 128.208.4.197: icmp_seq=3 ttl=51 time=94.5 ms
+64 bytes from 128.138.207.54: icmp_seq=3 ttl=46 time=61.5 ms
+64 bytes from 206.23.240.29: icmp_seq=3 ttl=45 time=63.7 ms
+64 bytes from 130.206.158.140: icmp_seq=3 ttl=47 time=129 ms
+64 bytes from 143.205.172.12: icmp_seq=3 ttl=41 time=135 ms
+64 bytes from 219.243.208.60: icmp_seq=2 ttl=48 time=271 ms
+64 bytes from 139.19.158.235: icmp_seq=3 ttl=42 time=123 ms
+64 bytes from 82.179.176.44: icmp_seq=3 ttl=40 time=159 ms
+64 bytes from 193.0.109.25: icmp_seq=3 ttl=43 time=142 ms
+64 bytes from 130.73.142.87: icmp_seq=3 ttl=51 time=108 ms
+64 bytes from 139.19.142.2: icmp_seq=3 ttl=42 time=121 ms
+64 bytes from 139.19.142.6: icmp_seq=3 ttl=42 time=121 ms
+64 bytes from 194.254.215.11: icmp_seq=3 ttl=48 time=128 ms
+64 bytes from 192.12.33.100: icmp_seq=3 ttl=47 time=106 ms
+64 bytes from 143.225.229.236: icmp_seq=3 ttl=45 time=128 ms
+64 bytes from 220.245.140.196: icmp_seq=2 ttl=48 time=302 ms
+64 bytes from 128.111.52.63: icmp_seq=3 ttl=46 time=103 ms
+64 bytes from 193.226.19.30: icmp_seq=3 ttl=48 time=158 ms
+64 bytes from 133.68.253.243: icmp_seq=3 ttl=46 time=194 ms
+64 bytes from 140.109.17.180: icmp_seq=3 ttl=51 time=206 ms
+64 bytes from 202.112.28.100: icmp_seq=2 ttl=45 time=318 ms
+64 bytes from 206.117.37.6: icmp_seq=3 ttl=47 time=98.1 ms
+64 bytes from 134.121.64.7: icmp_seq=3 ttl=44 time=102 ms
+64 bytes from 202.249.37.67: icmp_seq=3 ttl=50 time=180 ms
+64 bytes from 190.227.163.141: icmp_seq=3 ttl=48 time=193 ms
+64 bytes from 200.0.206.12: icmp_seq=3 ttl=47 time=178 ms
+64 bytes from 202.249.37.69: icmp_seq=3 ttl=50 time=199 ms
+64 bytes from 132.239.17.224: icmp_seq=3 ttl=45 time=111 ms
+64 bytes from 194.29.178.5: icmp_seq=3 ttl=40 time=125 ms
+64 bytes from 149.43.80.20: icmp_seq=4 ttl=64 time=0.096 ms
+64 bytes from 193.1.170.136: icmp_seq=3 ttl=46 time=124 ms
+64 bytes from 195.37.16.121: icmp_seq=3 ttl=45 time=144 ms
+64 bytes from 139.30.240.192: icmp_seq=3 ttl=49 time=127 ms
+64 bytes from 193.0.109.23: icmp_seq=3 ttl=43 time=140 ms
+64 bytes from 212.235.189.115: icmp_seq=3 ttl=42 time=136 ms
+64 bytes from 204.8.155.227: icmp_seq=4 ttl=50 time=32.8 ms
+64 bytes from 80.65.237.10: icmp_seq=3 ttl=44 time=165 ms
+64 bytes from 138.232.66.174: icmp_seq=3 ttl=40 time=140 ms
+64 bytes from 141.213.4.202: icmp_seq=4 ttl=51 time=32.3 ms
+64 bytes from 133.68.253.242: icmp_seq=3 ttl=46 time=181 ms
+64 bytes from 93.180.0.114: icmp_seq=3 ttl=41 time=169 ms
+64 bytes from 80.65.237.11: icmp_seq=3 ttl=44 time=162 ms
+64 bytes from 213.131.1.101: icmp_seq=3 ttl=40 time=157 ms
+64 bytes from 192.91.235.230: icmp_seq=4 ttl=47 time=25.1 ms
+64 bytes from 200.129.132.18: icmp_seq=3 ttl=44 time=229 ms
+64 bytes from 129.237.161.194: icmp_seq=4 ttl=51 time=41.4 ms
+64 bytes from 140.192.249.204: icmp_seq=4 ttl=54 time=31.0 ms
+64 bytes from 140.192.249.204: icmp_seq=4 ttl=245 time=31.2 ms (DUP!)
+64 bytes from 137.99.11.87: icmp_seq=4 ttl=45 time=34.2 ms
+64 bytes from 128.238.88.64: icmp_seq=4 ttl=53 time=32.2 ms
+64 bytes from 193.136.124.226: icmp_seq=3 ttl=41 time=161 ms
+64 bytes from 165.242.90.129: icmp_seq=3 ttl=43 time=187 ms
+64 bytes from 202.23.159.51: icmp_seq=3 ttl=41 time=207 ms
+64 bytes from 143.89.49.74: icmp_seq=3 ttl=46 time=249 ms
+64 bytes from 160.193.163.106: icmp_seq=3 ttl=43 time=193 ms
+64 bytes from 72.36.112.71: icmp_seq=4 ttl=50 time=43.1 ms
+64 bytes from 156.62.231.242: icmp_seq=3 ttl=50 time=224 ms
+64 bytes from 147.229.10.250: icmp_seq=3 ttl=49 time=133 ms
+64 bytes from 143.215.131.206: icmp_seq=4 ttl=50 time=50.7 ms
+64 bytes from 137.165.1.113: icmp_seq=4 ttl=48 time=38.4 ms
+64 bytes from 133.15.59.1: icmp_seq=3 ttl=45 time=224 ms
+64 bytes from 128.220.251.52: icmp_seq=4 ttl=50 time=30.2 ms
+64 bytes from 165.230.49.119: icmp_seq=4 ttl=47 time=19.6 ms
+64 bytes from 165.91.55.8: icmp_seq=4 ttl=52 time=42.8 ms
+64 bytes from 147.102.3.113: icmp_seq=3 ttl=42 time=169 ms
+64 bytes from 128.42.142.44: icmp_seq=4 ttl=51 time=50.0 ms
+64 bytes from 128.84.154.40: icmp_seq=4 ttl=50 time=25.7 ms
+64 bytes from 204.123.28.56: icmp_seq=4 ttl=54 time=69.1 ms
+64 bytes from 129.32.84.160: icmp_seq=4 ttl=52 time=22.4 ms
+64 bytes from 128.84.154.41: icmp_seq=4 ttl=50 time=25.8 ms
+64 bytes from 128.163.142.21: icmp_seq=4 ttl=50 time=50.4 ms
+64 bytes from 203.178.143.10: icmp_seq=3 ttl=42 time=192 ms
+64 bytes from 192.91.235.229: icmp_seq=4 ttl=47 time=23.6 ms
+64 bytes from 170.140.119.69: icmp_seq=4 ttl=53 time=47.7 ms
+64 bytes from 143.215.131.199: icmp_seq=4 ttl=50 time=50.7 ms
+64 bytes from 130.49.221.40: icmp_seq=4 ttl=52 time=30.5 ms
+64 bytes from 204.8.155.226: icmp_seq=4 ttl=50 time=32.4 ms
+64 bytes from 221.199.217.145: icmp_seq=3 ttl=47 time=228 ms
+64 bytes from 140.112.107.82: icmp_seq=3 ttl=46 time=283 ms
+64 bytes from 200.17.202.195: icmp_seq=3 ttl=46 time=165 ms
+64 bytes from 137.132.80.105: icmp_seq=3 ttl=42 time=263 ms
+64 bytes from 198.133.224.149: icmp_seq=4 ttl=50 time=36.7 ms
+64 bytes from 169.229.50.15: icmp_seq=4 ttl=49 time=86.8 ms
+64 bytes from 131.247.2.246: icmp_seq=4 ttl=51 time=56.9 ms
+64 bytes from 170.140.119.70: icmp_seq=4 ttl=53 time=49.3 ms
+64 bytes from 133.9.81.166: icmp_seq=3 ttl=45 time=185 ms
+64 bytes from 141.212.113.180: icmp_seq=4 ttl=51 time=33.1 ms
+64 bytes from 133.9.81.164: icmp_seq=3 ttl=45 time=185 ms
+64 bytes from 141.161.20.33: icmp_seq=4 ttl=48 time=24.8 ms
+64 bytes from 169.229.50.14: icmp_seq=4 ttl=49 time=86.3 ms
+64 bytes from 128.8.126.98: icmp_seq=4 ttl=47 time=26.8 ms
+64 bytes from 136.145.115.196: icmp_seq=3 ttl=47 time=202 ms
+64 bytes from 131.193.34.38: icmp_seq=4 ttl=54 time=32.6 ms
+64 bytes from 165.230.49.115: icmp_seq=4 ttl=48 time=19.7 ms
+64 bytes from 131.193.34.21: icmp_seq=4 ttl=54 time=32.0 ms
+64 bytes from 129.32.84.161: icmp_seq=4 ttl=52 time=21.8 ms
+64 bytes from 206.117.37.5: icmp_seq=4 ttl=47 time=89.0 ms
+64 bytes from 129.22.150.78: icmp_seq=4 ttl=46 time=30.2 ms
+64 bytes from 208.77.77.196: icmp_seq=4 ttl=48 time=80.0 ms
+64 bytes from 128.223.8.111: icmp_seq=4 ttl=51 time=99.8 ms
+64 bytes from 199.26.254.68: icmp_seq=4 ttl=51 time=24.5 ms
+64 bytes from 137.132.80.106: icmp_seq=3 ttl=42 time=257 ms
+64 bytes from 128.6.192.158: icmp_seq=4 ttl=49 time=19.8 ms
+64 bytes from 129.186.205.79: icmp_seq=4 ttl=53 time=45.1 ms
+64 bytes from 130.194.252.8: icmp_seq=3 ttl=44 time=245 ms
+64 bytes from 128.223.8.114: icmp_seq=4 ttl=52 time=99.3 ms
+64 bytes from 128.163.142.20: icmp_seq=4 ttl=50 time=52.0 ms
+64 bytes from 199.26.254.67: icmp_seq=4 ttl=51 time=31.8 ms
+64 bytes from 143.215.131.197: icmp_seq=4 ttl=50 time=50.4 ms
+64 bytes from 128.6.192.156: icmp_seq=4 ttl=49 time=19.6 ms
+64 bytes from 128.8.126.111: icmp_seq=4 ttl=47 time=26.9 ms
+64 bytes from 140.247.60.123: icmp_seq=4 ttl=52 time=32.9 ms
+64 bytes from 220.245.140.197: icmp_seq=3 ttl=49 time=304 ms
+64 bytes from 169.229.50.12: icmp_seq=4 ttl=49 time=86.3 ms
+64 bytes from 140.112.42.158: icmp_seq=3 ttl=45 time=281 ms
+64 bytes from 202.116.81.195: icmp_seq=3 ttl=45 time=316 ms
+64 bytes from 66.140.111.5: icmp_seq=4 ttl=52 time=58.7 ms
+64 bytes from 208.77.77.195: icmp_seq=4 ttl=48 time=79.2 ms
+64 bytes from 128.233.252.11: icmp_seq=4 ttl=51 time=91.2 ms
+64 bytes from 129.107.35.131: icmp_seq=4 ttl=51 time=49.0 ms
+64 bytes from 128.112.139.18: icmp_seq=4 ttl=50 time=31.8 ms
+64 bytes from 206.12.16.155: icmp_seq=4 ttl=51 time=104 ms
+64 bytes from 128.208.3.180: icmp_seq=4 ttl=51 time=95.8 ms
+64 bytes from 139.19.158.231: icmp_seq=4 ttl=42 time=124 ms
+64 bytes from 130.216.1.23: icmp_seq=3 ttl=49 time=227 ms
+64 bytes from 128.111.52.58: icmp_seq=4 ttl=46 time=101 ms
+64 bytes from 192.33.90.69: icmp_seq=4 ttl=52 time=108 ms
+64 bytes from 193.63.75.21: icmp_seq=4 ttl=49 time=90.4 ms
+64 bytes from 202.141.161.43: icmp_seq=3 ttl=46 time=242 ms
+64 bytes from 203.110.240.191: icmp_seq=3 ttl=40 time=265 ms
+64 bytes from 129.63.159.101: icmp_seq=4 ttl=47 time=26.2 ms
+64 bytes from 156.56.250.226: icmp_seq=4 ttl=49 time=54.5 ms
+64 bytes from 152.66.245.161: icmp_seq=4 ttl=48 time=138 ms
+64 bytes from 192.42.83.253: icmp_seq=4 ttl=52 time=31.9 ms
+64 bytes from 128.10.19.53: icmp_seq=4 ttl=49 time=53.9 ms
+64 bytes from 130.216.1.22: icmp_seq=3 ttl=49 time=227 ms
+64 bytes from 131.247.2.247: icmp_seq=4 ttl=51 time=56.6 ms
+64 bytes from 129.82.12.187: icmp_seq=4 ttl=52 time=83.0 ms
+64 bytes from 198.82.160.238: icmp_seq=4 ttl=50 time=33.3 ms
+64 bytes from 72.36.112.79: icmp_seq=4 ttl=50 time=42.5 ms
+64 bytes from 202.116.81.194: icmp_seq=3 ttl=46 time=323 ms
+64 bytes from 195.116.53.14: icmp_seq=4 ttl=51 time=116 ms
+64 bytes from 139.19.158.229: icmp_seq=4 ttl=42 time=123 ms
+64 bytes from 133.15.59.2: icmp_seq=3 ttl=45 time=228 ms
+64 bytes from 140.123.230.249: icmp_seq=3 ttl=49 time=235 ms
+64 bytes from 192.16.125.12: icmp_seq=4 ttl=47 time=120 ms
+64 bytes from 129.22.150.29: icmp_seq=4 ttl=46 time=30.3 ms
+64 bytes from 155.225.2.71: icmp_seq=4 ttl=47 time=46.7 ms
+64 bytes from 129.97.74.12: icmp_seq=4 ttl=50 time=37.9 ms
+64 bytes from 131.247.2.241: icmp_seq=4 ttl=52 time=56.7 ms
+64 bytes from 141.219.252.132: icmp_seq=4 ttl=53 time=46.6 ms
+64 bytes from 139.19.142.5: icmp_seq=4 ttl=42 time=123 ms
+64 bytes from 129.74.74.19: icmp_seq=4 ttl=51 time=59.9 ms
+64 bytes from 128.223.8.113: icmp_seq=4 ttl=52 time=99.5 ms
+64 bytes from 138.4.0.120: icmp_seq=4 ttl=49 time=111 ms
+64 bytes from 142.103.2.1: icmp_seq=4 ttl=49 time=86.6 ms
+64 bytes from 195.113.161.83: icmp_seq=4 ttl=52 time=130 ms
+64 bytes from 219.243.208.62: icmp_seq=3 ttl=47 time=278 ms
+64 bytes from 130.83.166.245: icmp_seq=4 ttl=47 time=112 ms
+64 bytes from 128.223.8.112: icmp_seq=4 ttl=52 time=99.6 ms
+64 bytes from 13.7.64.22: icmp_seq=4 ttl=53 time=81.0 ms
+64 bytes from 129.82.12.188: icmp_seq=4 ttl=52 time=83.1 ms
+64 bytes from 128.42.142.41: icmp_seq=4 ttl=51 time=49.7 ms
+64 bytes from 163.117.253.22: icmp_seq=4 ttl=49 time=120 ms
+64 bytes from 211.69.207.34: icmp_seq=3 ttl=43 time=297 ms
+64 bytes from 142.150.238.13: icmp_seq=4 ttl=52 time=80.0 ms
+64 bytes from 129.242.19.197: icmp_seq=4 ttl=45 time=150 ms
+64 bytes from 163.117.253.23: icmp_seq=4 ttl=49 time=122 ms
+64 bytes from 193.166.167.5: icmp_seq=4 ttl=48 time=129 ms
+64 bytes from 128.208.4.198: icmp_seq=4 ttl=51 time=94.4 ms
+64 bytes from 128.227.150.12: icmp_seq=4 ttl=52 time=57.8 ms
+64 bytes from 128.208.4.197: icmp_seq=4 ttl=51 time=94.2 ms
+64 bytes from 139.19.158.227: icmp_seq=4 ttl=42 time=124 ms
+64 bytes from 128.138.207.54: icmp_seq=4 ttl=46 time=61.6 ms
+64 bytes from 143.205.172.12: icmp_seq=4 ttl=41 time=134 ms
+64 bytes from 130.206.158.140: icmp_seq=4 ttl=47 time=129 ms
+64 bytes from 219.243.208.60: icmp_seq=3 ttl=48 time=271 ms
+64 bytes from 141.219.252.133: icmp_seq=4 ttl=53 time=122 ms
+64 bytes from 139.19.158.235: icmp_seq=4 ttl=42 time=123 ms
+64 bytes from 206.23.240.29: icmp_seq=4 ttl=45 time=71.5 ms
+64 bytes from 82.179.176.44: icmp_seq=4 ttl=40 time=159 ms
+64 bytes from 193.0.109.25: icmp_seq=4 ttl=43 time=141 ms
+64 bytes from 194.254.215.11: icmp_seq=4 ttl=48 time=122 ms
+64 bytes from 130.73.142.87: icmp_seq=4 ttl=51 time=107 ms
+64 bytes from 128.111.52.63: icmp_seq=4 ttl=46 time=94.9 ms
+64 bytes from 139.19.142.2: icmp_seq=4 ttl=42 time=123 ms
+64 bytes from 139.19.142.6: icmp_seq=4 ttl=42 time=123 ms
+64 bytes from 192.12.33.100: icmp_seq=4 ttl=47 time=107 ms
+64 bytes from 220.245.140.196: icmp_seq=3 ttl=48 time=299 ms
+64 bytes from 143.225.229.236: icmp_seq=4 ttl=45 time=128 ms
+64 bytes from 193.226.19.30: icmp_seq=4 ttl=48 time=158 ms
+64 bytes from 133.68.253.243: icmp_seq=4 ttl=46 time=193 ms
+64 bytes from 140.109.17.180: icmp_seq=4 ttl=51 time=206 ms
+64 bytes from 202.112.28.100: icmp_seq=3 ttl=45 time=318 ms
+64 bytes from 206.117.37.6: icmp_seq=4 ttl=47 time=98.0 ms
+64 bytes from 134.121.64.7: icmp_seq=4 ttl=44 time=102 ms
+64 bytes from 202.249.37.67: icmp_seq=4 ttl=50 time=180 ms
+64 bytes from 190.227.163.141: icmp_seq=4 ttl=48 time=193 ms
+64 bytes from 200.0.206.12: icmp_seq=4 ttl=47 time=178 ms
+64 bytes from 202.249.37.69: icmp_seq=4 ttl=50 time=199 ms
+64 bytes from 132.239.17.224: icmp_seq=4 ttl=45 time=110 ms
+64 bytes from 128.36.233.154: icmp_seq=4 ttl=49 time=134 ms
+64 bytes from 149.43.80.20: icmp_seq=5 ttl=64 time=0.094 ms
+64 bytes from 194.29.178.5: icmp_seq=4 ttl=40 time=125 ms
+64 bytes from 139.30.240.192: icmp_seq=4 ttl=49 time=124 ms
+64 bytes from 193.1.170.136: icmp_seq=4 ttl=46 time=124 ms
+64 bytes from 195.37.16.121: icmp_seq=4 ttl=45 time=146 ms
+64 bytes from 212.235.189.115: icmp_seq=4 ttl=42 time=136 ms
+64 bytes from 193.0.109.23: icmp_seq=4 ttl=43 time=140 ms
+64 bytes from 204.8.155.227: icmp_seq=5 ttl=50 time=33.0 ms
+64 bytes from 80.65.237.10: icmp_seq=4 ttl=44 time=165 ms
+64 bytes from 141.213.4.202: icmp_seq=5 ttl=51 time=32.1 ms
+64 bytes from 133.68.253.242: icmp_seq=4 ttl=46 time=181 ms
+64 bytes from 138.232.66.174: icmp_seq=4 ttl=40 time=141 ms
+64 bytes from 93.180.0.114: icmp_seq=4 ttl=41 time=170 ms
+64 bytes from 137.99.11.87: icmp_seq=5 ttl=45 time=31.6 ms
+64 bytes from 80.65.237.11: icmp_seq=4 ttl=44 time=163 ms
+64 bytes from 213.131.1.101: icmp_seq=4 ttl=40 time=157 ms
+64 bytes from 192.91.235.230: icmp_seq=5 ttl=47 time=25.0 ms
+64 bytes from 140.192.249.204: icmp_seq=5 ttl=54 time=31.1 ms
+64 bytes from 200.129.132.18: icmp_seq=4 ttl=44 time=229 ms
+64 bytes from 129.237.161.194: icmp_seq=5 ttl=51 time=41.5 ms
+64 bytes from 140.192.249.204: icmp_seq=5 ttl=245 time=31.4 ms (DUP!)
+64 bytes from 156.62.231.242: icmp_seq=4 ttl=50 time=215 ms
+64 bytes from 128.238.88.64: icmp_seq=5 ttl=53 time=32.3 ms
+64 bytes from 193.136.124.226: icmp_seq=4 ttl=41 time=162 ms
+64 bytes from 165.242.90.129: icmp_seq=4 ttl=43 time=187 ms
+64 bytes from 160.193.163.106: icmp_seq=4 ttl=43 time=193 ms
+64 bytes from 72.36.112.71: icmp_seq=5 ttl=50 time=42.4 ms
+PING 128.143.6.134 (128.143.6.134) 56(84) bytes of data.
+64 bytes from 128.143.6.134: icmp_seq=1 ttl=52 time=837 ms
+64 bytes from 137.165.1.113: icmp_seq=5 ttl=48 time=37.5 ms
+64 bytes from 147.229.10.250: icmp_seq=4 ttl=49 time=134 ms
+64 bytes from 143.215.131.206: icmp_seq=5 ttl=50 time=50.7 ms
+64 bytes from 128.220.251.52: icmp_seq=5 ttl=50 time=30.4 ms
+64 bytes from 165.230.49.119: icmp_seq=5 ttl=47 time=19.9 ms
+64 bytes from 133.15.59.1: icmp_seq=4 ttl=45 time=224 ms
+64 bytes from 165.91.55.8: icmp_seq=5 ttl=52 time=42.8 ms
+64 bytes from 147.102.3.113: icmp_seq=4 ttl=42 time=169 ms
+64 bytes from 202.23.159.51: icmp_seq=4 ttl=41 time=221 ms
+64 bytes from 128.42.142.44: icmp_seq=5 ttl=51 time=49.9 ms
+64 bytes from 128.84.154.40: icmp_seq=5 ttl=50 time=25.7 ms
+64 bytes from 204.123.28.56: icmp_seq=5 ttl=54 time=69.2 ms
+64 bytes from 129.32.84.160: icmp_seq=5 ttl=52 time=22.0 ms
+64 bytes from 128.84.154.41: icmp_seq=5 ttl=50 time=25.8 ms
+64 bytes from 128.163.142.21: icmp_seq=5 ttl=50 time=50.8 ms
+64 bytes from 192.91.235.229: icmp_seq=5 ttl=47 time=24.2 ms
+64 bytes from 143.215.131.199: icmp_seq=5 ttl=50 time=50.6 ms
+64 bytes from 170.140.119.69: icmp_seq=5 ttl=53 time=47.9 ms
+64 bytes from 130.49.221.40: icmp_seq=5 ttl=52 time=30.8 ms
+64 bytes from 221.199.217.145: icmp_seq=4 ttl=47 time=228 ms
+64 bytes from 204.8.155.226: icmp_seq=5 ttl=50 time=32.6 ms
+64 bytes from 140.112.107.82: icmp_seq=4 ttl=46 time=283 ms
+64 bytes from 137.132.80.105: icmp_seq=4 ttl=42 time=263 ms
+64 bytes from 131.247.2.246: icmp_seq=5 ttl=51 time=56.9 ms
+64 bytes from 169.229.50.15: icmp_seq=5 ttl=49 time=86.9 ms
+64 bytes from 198.133.224.149: icmp_seq=5 ttl=50 time=37.1 ms
+64 bytes from 170.140.119.70: icmp_seq=5 ttl=53 time=49.3 ms
+64 bytes from 133.9.81.166: icmp_seq=4 ttl=45 time=185 ms
+64 bytes from 141.212.113.180: icmp_seq=5 ttl=51 time=33.5 ms
+64 bytes from 133.9.81.164: icmp_seq=4 ttl=45 time=186 ms
+64 bytes from 169.229.50.14: icmp_seq=5 ttl=49 time=86.9 ms
+64 bytes from 141.161.20.33: icmp_seq=5 ttl=48 time=25.2 ms
+64 bytes from 128.8.126.98: icmp_seq=5 ttl=47 time=26.8 ms
+64 bytes from 136.145.115.196: icmp_seq=4 ttl=47 time=202 ms
+64 bytes from 203.178.143.10: icmp_seq=4 ttl=41 time=217 ms
+64 bytes from 165.230.49.115: icmp_seq=5 ttl=48 time=20.4 ms
+64 bytes from 131.193.34.21: icmp_seq=5 ttl=54 time=32.5 ms
+64 bytes from 143.89.49.74: icmp_seq=4 ttl=46 time=298 ms
+64 bytes from 129.22.150.78: icmp_seq=5 ttl=46 time=31.0 ms
+64 bytes from 129.32.84.161: icmp_seq=5 ttl=52 time=25.7 ms
+64 bytes from 206.117.37.5: icmp_seq=5 ttl=47 time=92.8 ms
+64 bytes from 131.193.34.38: icmp_seq=5 ttl=54 time=40.7 ms
+64 bytes from 137.132.80.106: icmp_seq=4 ttl=42 time=257 ms
+64 bytes from 128.223.8.111: icmp_seq=5 ttl=51 time=99.8 ms
+64 bytes from 208.77.77.196: icmp_seq=5 ttl=48 time=83.5 ms
+64 bytes from 199.26.254.68: icmp_seq=5 ttl=51 time=24.4 ms
+64 bytes from 199.26.254.67: icmp_seq=5 ttl=51 time=26.5 ms
+64 bytes from 220.245.140.197: icmp_seq=4 ttl=49 time=295 ms
+64 bytes from 141.219.252.133: icmp_seq=5 ttl=53 time=46.6 ms
+64 bytes from 129.186.205.79: icmp_seq=5 ttl=53 time=45.3 ms
+64 bytes from 128.6.192.158: icmp_seq=5 ttl=49 time=19.7 ms
+64 bytes from 130.194.252.8: icmp_seq=4 ttl=44 time=245 ms
+64 bytes from 128.163.142.20: icmp_seq=5 ttl=50 time=51.6 ms
+64 bytes from 128.223.8.114: icmp_seq=5 ttl=52 time=99.3 ms
+64 bytes from 143.215.131.197: icmp_seq=5 ttl=50 time=50.5 ms
+64 bytes from 140.112.42.158: icmp_seq=4 ttl=45 time=276 ms
+64 bytes from 128.6.192.156: icmp_seq=5 ttl=49 time=19.5 ms
+64 bytes from 128.8.126.111: icmp_seq=5 ttl=47 time=26.8 ms
+64 bytes from 140.247.60.123: icmp_seq=5 ttl=52 time=33.0 ms
+64 bytes from 169.229.50.12: icmp_seq=5 ttl=49 time=86.5 ms
+64 bytes from 202.116.81.195: icmp_seq=4 ttl=45 time=316 ms
+64 bytes from 66.140.111.5: icmp_seq=5 ttl=52 time=58.4 ms
+64 bytes from 128.233.252.11: icmp_seq=5 ttl=51 time=90.7 ms
+64 bytes from 129.107.35.131: icmp_seq=5 ttl=51 time=48.8 ms
+64 bytes from 128.112.139.18: icmp_seq=5 ttl=50 time=31.9 ms
+64 bytes from 142.150.238.13: icmp_seq=5 ttl=52 time=33.4 ms
+64 bytes from 206.12.16.155: icmp_seq=5 ttl=51 time=107 ms
+64 bytes from 208.77.77.195: icmp_seq=5 ttl=48 time=83.9 ms
+64 bytes from 128.208.3.180: icmp_seq=5 ttl=51 time=94.7 ms
+64 bytes from 133.15.59.2: icmp_seq=4 ttl=45 time=210 ms
+64 bytes from 139.19.158.231: icmp_seq=5 ttl=42 time=123 ms
+64 bytes from 130.216.1.23: icmp_seq=4 ttl=49 time=226 ms
+64 bytes from 192.33.90.69: icmp_seq=5 ttl=52 time=109 ms
+64 bytes from 193.63.75.21: icmp_seq=5 ttl=49 time=90.5 ms
+64 bytes from 128.111.52.58: icmp_seq=5 ttl=46 time=102 ms
+64 bytes from 202.141.161.43: icmp_seq=4 ttl=46 time=242 ms
+64 bytes from 203.110.240.191: icmp_seq=4 ttl=40 time=265 ms
+64 bytes from 129.63.159.101: icmp_seq=5 ttl=47 time=25.8 ms
+64 bytes from 156.56.250.226: icmp_seq=5 ttl=49 time=54.4 ms
+64 bytes from 128.10.19.53: icmp_seq=5 ttl=49 time=53.9 ms
+64 bytes from 152.66.245.161: icmp_seq=5 ttl=48 time=139 ms
+64 bytes from 192.42.83.253: icmp_seq=5 ttl=52 time=32.1 ms
+64 bytes from 130.216.1.22: icmp_seq=4 ttl=49 time=227 ms
+64 bytes from 129.82.12.187: icmp_seq=5 ttl=52 time=83.3 ms
+64 bytes from 198.82.160.238: icmp_seq=5 ttl=50 time=33.4 ms
+64 bytes from 131.247.2.247: icmp_seq=5 ttl=51 time=56.9 ms
+64 bytes from 72.36.112.79: icmp_seq=5 ttl=50 time=42.7 ms
+64 bytes from 202.116.81.194: icmp_seq=4 ttl=46 time=323 ms
+64 bytes from 195.116.53.14: icmp_seq=5 ttl=51 time=116 ms
+64 bytes from 192.16.125.12: icmp_seq=5 ttl=47 time=119 ms
+64 bytes from 139.19.158.229: icmp_seq=5 ttl=42 time=124 ms
+64 bytes from 140.123.230.249: icmp_seq=4 ttl=49 time=235 ms
+64 bytes from 129.22.150.29: icmp_seq=5 ttl=46 time=31.4 ms
+64 bytes from 155.225.2.71: icmp_seq=5 ttl=47 time=45.8 ms
+64 bytes from 129.97.74.12: icmp_seq=5 ttl=50 time=37.8 ms
+64 bytes from 131.247.2.241: icmp_seq=5 ttl=52 time=56.8 ms
+64 bytes from 141.219.252.132: icmp_seq=5 ttl=53 time=46.2 ms
+64 bytes from 129.74.74.19: icmp_seq=5 ttl=51 time=59.9 ms
+64 bytes from 139.19.142.5: icmp_seq=5 ttl=42 time=124 ms
+64 bytes from 128.223.8.113: icmp_seq=5 ttl=52 time=99.5 ms
+64 bytes from 138.4.0.120: icmp_seq=5 ttl=49 time=110 ms
+64 bytes from 142.103.2.1: icmp_seq=5 ttl=49 time=86.7 ms
+64 bytes from 195.113.161.83: icmp_seq=5 ttl=52 time=130 ms
+64 bytes from 219.243.208.62: icmp_seq=4 ttl=47 time=278 ms
+64 bytes from 130.83.166.245: icmp_seq=5 ttl=47 time=112 ms
+64 bytes from 128.223.8.112: icmp_seq=5 ttl=52 time=99.7 ms
+64 bytes from 13.7.64.22: icmp_seq=5 ttl=53 time=81.1 ms
+64 bytes from 129.82.12.188: icmp_seq=5 ttl=52 time=83.1 ms
+64 bytes from 128.42.142.41: icmp_seq=5 ttl=51 time=49.8 ms
+64 bytes from 128.143.6.134: icmp_seq=2 ttl=52 time=752 ms
+64 bytes from 163.117.253.22: icmp_seq=5 ttl=49 time=120 ms
+64 bytes from 129.242.19.197: icmp_seq=5 ttl=45 time=150 ms
+64 bytes from 211.69.207.34: icmp_seq=4 ttl=43 time=297 ms
+64 bytes from 163.117.253.23: icmp_seq=5 ttl=49 time=122 ms
+64 bytes from 193.166.167.5: icmp_seq=5 ttl=48 time=129 ms
+64 bytes from 128.208.4.198: icmp_seq=5 ttl=51 time=94.5 ms
+64 bytes from 128.208.4.197: icmp_seq=5 ttl=51 time=94.4 ms
+64 bytes from 128.227.150.12: icmp_seq=5 ttl=52 time=61.0 ms
+64 bytes from 206.23.240.29: icmp_seq=5 ttl=45 time=60.7 ms
+64 bytes from 139.19.158.227: icmp_seq=5 ttl=42 time=124 ms
+64 bytes from 128.138.207.54: icmp_seq=5 ttl=46 time=61.2 ms
+64 bytes from 143.205.172.12: icmp_seq=5 ttl=41 time=135 ms
+64 bytes from 130.206.158.140: icmp_seq=5 ttl=47 time=129 ms
+64 bytes from 219.243.208.60: icmp_seq=4 ttl=48 time=271 ms
+64 bytes from 139.19.158.235: icmp_seq=5 ttl=42 time=123 ms
+64 bytes from 193.0.109.25: icmp_seq=5 ttl=43 time=141 ms
+64 bytes from 194.254.215.11: icmp_seq=5 ttl=48 time=121 ms
+64 bytes from 82.179.176.44: icmp_seq=5 ttl=40 time=159 ms
+64 bytes from 130.73.142.87: icmp_seq=5 ttl=51 time=107 ms
+64 bytes from 139.19.142.2: icmp_seq=5 ttl=42 time=121 ms
+64 bytes from 139.19.142.6: icmp_seq=5 ttl=42 time=123 ms
+64 bytes from 192.12.33.100: icmp_seq=5 ttl=47 time=107 ms
+64 bytes from 128.111.52.63: icmp_seq=5 ttl=46 time=98.6 ms
+64 bytes from 143.225.229.236: icmp_seq=5 ttl=45 time=129 ms
+64 bytes from 133.68.253.243: icmp_seq=5 ttl=46 time=192 ms
+64 bytes from 193.226.19.30: icmp_seq=5 ttl=48 time=157 ms
+64 bytes from 140.109.17.180: icmp_seq=5 ttl=51 time=206 ms
+64 bytes from 202.112.28.100: icmp_seq=4 ttl=45 time=318 ms
+64 bytes from 206.117.37.6: icmp_seq=5 ttl=47 time=98.2 ms
+64 bytes from 134.121.64.7: icmp_seq=5 ttl=44 time=102 ms
+64 bytes from 190.227.163.141: icmp_seq=5 ttl=48 time=193 ms
+64 bytes from 220.245.140.196: icmp_seq=4 ttl=48 time=316 ms
+64 bytes from 202.249.37.67: icmp_seq=5 ttl=50 time=180 ms
+64 bytes from 200.0.206.12: icmp_seq=5 ttl=47 time=179 ms
+64 bytes from 202.249.37.69: icmp_seq=5 ttl=50 time=199 ms
+64 bytes from 195.37.16.121: icmp_seq=5 ttl=45 time=134 ms
+64 bytes from 132.239.17.224: icmp_seq=5 ttl=45 time=112 ms
+64 bytes from 128.36.233.154: icmp_seq=5 ttl=49 time=134 ms
+64 bytes from 149.43.80.20: icmp_seq=6 ttl=64 time=0.205 ms
+64 bytes from 194.29.178.5: icmp_seq=5 ttl=40 time=126 ms
+64 bytes from 193.1.170.136: icmp_seq=5 ttl=46 time=124 ms
+64 bytes from 139.30.240.192: icmp_seq=5 ttl=49 time=127 ms
+64 bytes from 193.0.109.23: icmp_seq=5 ttl=43 time=140 ms
+64 bytes from 212.235.189.115: icmp_seq=5 ttl=42 time=136 ms
+64 bytes from 204.8.155.227: icmp_seq=6 ttl=50 time=32.5 ms
+64 bytes from 80.65.237.10: icmp_seq=5 ttl=44 time=163 ms
+64 bytes from 141.213.4.202: icmp_seq=6 ttl=51 time=31.8 ms
+64 bytes from 138.232.66.174: icmp_seq=5 ttl=40 time=141 ms
+64 bytes from 133.68.253.242: icmp_seq=5 ttl=46 time=181 ms
+64 bytes from 93.180.0.114: icmp_seq=5 ttl=41 time=169 ms
+64 bytes from 137.99.11.87: icmp_seq=6 ttl=45 time=31.4 ms
+64 bytes from 80.65.237.11: icmp_seq=5 ttl=44 time=162 ms
+64 bytes from 192.91.235.230: icmp_seq=6 ttl=47 time=25.0 ms
+64 bytes from 200.129.132.18: icmp_seq=5 ttl=44 time=229 ms
+64 bytes from 140.192.249.204: icmp_seq=6 ttl=54 time=31.3 ms
+64 bytes from 140.192.249.204: icmp_seq=6 ttl=245 time=31.4 ms (DUP!)
+64 bytes from 213.131.1.101: icmp_seq=5 ttl=40 time=159 ms
+64 bytes from 129.237.161.194: icmp_seq=6 ttl=51 time=41.6 ms
+64 bytes from 128.238.88.64: icmp_seq=6 ttl=53 time=32.6 ms
+64 bytes from 193.136.124.226: icmp_seq=5 ttl=41 time=161 ms
+64 bytes from 160.193.163.106: icmp_seq=5 ttl=43 time=193 ms
+64 bytes from 165.242.90.129: icmp_seq=5 ttl=43 time=188 ms
+64 bytes from 133.15.59.1: icmp_seq=5 ttl=45 time=216 ms
+64 bytes from 143.89.49.74: icmp_seq=5 ttl=46 time=249 ms
+64 bytes from 72.36.112.71: icmp_seq=6 ttl=50 time=42.4 ms
+64 bytes from 147.229.10.250: icmp_seq=5 ttl=49 time=134 ms
+64 bytes from 143.215.131.206: icmp_seq=6 ttl=50 time=50.8 ms
+64 bytes from 165.230.49.119: icmp_seq=6 ttl=47 time=20.0 ms
+64 bytes from 128.220.251.52: icmp_seq=6 ttl=50 time=30.3 ms
+64 bytes from 165.91.55.8: icmp_seq=6 ttl=52 time=43.3 ms
+64 bytes from 147.102.3.113: icmp_seq=5 ttl=42 time=169 ms
+64 bytes from 128.42.142.44: icmp_seq=6 ttl=51 time=49.9 ms
+64 bytes from 129.32.84.160: icmp_seq=6 ttl=52 time=21.5 ms
+64 bytes from 128.84.154.41: icmp_seq=6 ttl=50 time=26.0 ms
+64 bytes from 204.123.28.56: icmp_seq=6 ttl=54 time=69.2 ms
+64 bytes from 128.84.154.40: icmp_seq=6 ttl=50 time=25.8 ms
+64 bytes from 128.163.142.21: icmp_seq=6 ttl=50 time=50.4 ms
+64 bytes from 202.23.159.51: icmp_seq=5 ttl=41 time=225 ms
+64 bytes from 192.91.235.229: icmp_seq=6 ttl=47 time=23.9 ms
+64 bytes from 170.140.119.69: icmp_seq=6 ttl=53 time=47.6 ms
+64 bytes from 143.215.131.199: icmp_seq=6 ttl=50 time=50.6 ms
+64 bytes from 130.49.221.40: icmp_seq=6 ttl=52 time=30.6 ms
+64 bytes from 204.8.155.226: icmp_seq=6 ttl=50 time=31.8 ms
+64 bytes from 137.132.80.105: icmp_seq=5 ttl=42 time=263 ms
+64 bytes from 136.145.115.196: icmp_seq=5 ttl=47 time=194 ms
+64 bytes from 131.247.2.246: icmp_seq=6 ttl=51 time=56.9 ms
+64 bytes from 140.112.107.82: icmp_seq=5 ttl=46 time=291 ms
+64 bytes from 198.133.224.149: icmp_seq=6 ttl=50 time=37.3 ms
+64 bytes from 170.140.119.70: icmp_seq=6 ttl=53 time=49.2 ms
+64 bytes from 200.17.202.195: icmp_seq=5 ttl=46 time=165 ms
+64 bytes from 133.9.81.166: icmp_seq=5 ttl=45 time=185 ms
+64 bytes from 203.178.143.10: icmp_seq=5 ttl=42 time=203 ms
+64 bytes from 141.212.113.180: icmp_seq=6 ttl=51 time=33.0 ms
+64 bytes from 133.9.81.164: icmp_seq=5 ttl=45 time=185 ms
+64 bytes from 169.229.50.14: icmp_seq=6 ttl=49 time=86.4 ms
+64 bytes from 141.161.20.33: icmp_seq=6 ttl=48 time=25.1 ms
+64 bytes from 128.8.126.98: icmp_seq=6 ttl=47 time=26.8 ms
+64 bytes from 169.229.50.15: icmp_seq=6 ttl=49 time=94.5 ms
+64 bytes from 165.230.49.115: icmp_seq=6 ttl=48 time=19.6 ms
+64 bytes from 131.193.34.21: icmp_seq=6 ttl=54 time=32.1 ms
+64 bytes from 129.32.84.161: icmp_seq=6 ttl=52 time=21.1 ms
+64 bytes from 137.165.1.113: icmp_seq=6 ttl=48 time=80.7 ms
+64 bytes from 221.199.217.145: icmp_seq=5 ttl=47 time=251 ms
+64 bytes from 129.22.150.78: icmp_seq=6 ttl=46 time=30.9 ms
+64 bytes from 131.193.34.38: icmp_seq=6 ttl=54 time=39.6 ms
+64 bytes from 128.223.8.111: icmp_seq=6 ttl=51 time=99.8 ms
+64 bytes from 137.132.80.106: icmp_seq=5 ttl=42 time=257 ms
+64 bytes from 206.117.37.5: icmp_seq=6 ttl=47 time=95.8 ms
+64 bytes from 199.26.254.68: icmp_seq=6 ttl=51 time=24.2 ms
+64 bytes from 141.219.252.133: icmp_seq=6 ttl=53 time=46.2 ms
+64 bytes from 208.77.77.196: icmp_seq=6 ttl=48 time=86.5 ms
+64 bytes from 129.186.205.79: icmp_seq=6 ttl=53 time=45.1 ms
+64 bytes from 130.194.252.8: icmp_seq=5 ttl=44 time=245 ms
+64 bytes from 128.6.192.158: icmp_seq=6 ttl=49 time=19.7 ms
+64 bytes from 220.245.140.197: icmp_seq=5 ttl=49 time=299 ms
+64 bytes from 199.26.254.67: icmp_seq=6 ttl=51 time=30.1 ms
+64 bytes from 128.223.8.114: icmp_seq=6 ttl=52 time=99.4 ms
+64 bytes from 128.163.142.20: icmp_seq=6 ttl=50 time=51.7 ms
+64 bytes from 143.215.131.197: icmp_seq=6 ttl=50 time=50.3 ms
+64 bytes from 128.6.192.156: icmp_seq=6 ttl=49 time=19.5 ms
+64 bytes from 140.247.60.123: icmp_seq=6 ttl=52 time=32.7 ms
+64 bytes from 128.8.126.111: icmp_seq=6 ttl=47 time=26.9 ms
+64 bytes from 140.112.42.158: icmp_seq=5 ttl=45 time=279 ms
+64 bytes from 156.62.231.242: icmp_seq=5 ttl=50 time=285 ms
+64 bytes from 169.229.50.12: icmp_seq=6 ttl=49 time=86.6 ms
+64 bytes from 133.15.59.2: icmp_seq=5 ttl=45 time=199 ms
+64 bytes from 202.116.81.195: icmp_seq=5 ttl=45 time=316 ms
+64 bytes from 66.140.111.5: icmp_seq=6 ttl=52 time=58.4 ms
+64 bytes from 142.150.238.13: icmp_seq=6 ttl=52 time=31.5 ms
+64 bytes from 129.107.35.131: icmp_seq=6 ttl=51 time=48.7 ms
+64 bytes from 128.233.252.11: icmp_seq=6 ttl=51 time=91.0 ms
+64 bytes from 128.112.139.18: icmp_seq=6 ttl=50 time=31.9 ms
+64 bytes from 206.12.16.155: icmp_seq=6 ttl=51 time=105 ms
+64 bytes from 128.208.3.180: icmp_seq=6 ttl=51 time=95.1 ms
+64 bytes from 139.19.158.231: icmp_seq=6 ttl=42 time=123 ms
+64 bytes from 208.77.77.195: icmp_seq=6 ttl=48 time=88.1 ms
+64 bytes from 130.216.1.23: icmp_seq=5 ttl=49 time=226 ms
+64 bytes from 192.33.90.69: icmp_seq=6 ttl=52 time=109 ms
+64 bytes from 193.63.75.21: icmp_seq=6 ttl=49 time=90.3 ms
+64 bytes from 203.110.240.191: icmp_seq=5 ttl=40 time=265 ms
+64 bytes from 202.141.161.43: icmp_seq=5 ttl=46 time=242 ms
+64 bytes from 128.111.52.58: icmp_seq=6 ttl=46 time=103 ms
+64 bytes from 129.63.159.101: icmp_seq=6 ttl=47 time=26.7 ms
+64 bytes from 156.56.250.226: icmp_seq=6 ttl=49 time=54.7 ms
+64 bytes from 128.10.19.53: icmp_seq=6 ttl=49 time=54.0 ms
+64 bytes from 152.66.245.161: icmp_seq=6 ttl=48 time=138 ms
+64 bytes from 192.42.83.253: icmp_seq=6 ttl=52 time=32.0 ms
+64 bytes from 130.216.1.22: icmp_seq=5 ttl=49 time=227 ms
+64 bytes from 131.247.2.247: icmp_seq=6 ttl=51 time=56.6 ms
+64 bytes from 129.82.12.187: icmp_seq=6 ttl=52 time=83.1 ms
+64 bytes from 198.82.160.238: icmp_seq=6 ttl=50 time=33.5 ms
+64 bytes from 202.116.81.194: icmp_seq=5 ttl=46 time=323 ms
+64 bytes from 72.36.112.79: icmp_seq=6 ttl=50 time=42.6 ms
+64 bytes from 195.116.53.14: icmp_seq=6 ttl=51 time=116 ms
+64 bytes from 139.19.158.229: icmp_seq=6 ttl=42 time=124 ms
+64 bytes from 192.16.125.12: icmp_seq=6 ttl=47 time=119 ms
+64 bytes from 140.123.230.249: icmp_seq=5 ttl=49 time=235 ms
+64 bytes from 129.22.150.29: icmp_seq=6 ttl=46 time=31.1 ms
+64 bytes from 155.225.2.71: icmp_seq=6 ttl=47 time=45.7 ms
+64 bytes from 129.97.74.12: icmp_seq=6 ttl=50 time=37.7 ms
+64 bytes from 131.247.2.241: icmp_seq=6 ttl=52 time=56.7 ms
+64 bytes from 141.219.252.132: icmp_seq=6 ttl=53 time=46.8 ms
+64 bytes from 129.74.74.19: icmp_seq=6 ttl=51 time=60.1 ms
+64 bytes from 139.19.142.5: icmp_seq=6 ttl=42 time=123 ms
+64 bytes from 128.223.8.113: icmp_seq=6 ttl=52 time=99.5 ms
+64 bytes from 138.4.0.120: icmp_seq=6 ttl=49 time=110 ms
+64 bytes from 195.113.161.83: icmp_seq=6 ttl=52 time=130 ms
+64 bytes from 142.103.2.1: icmp_seq=6 ttl=49 time=86.9 ms
+64 bytes from 219.243.208.62: icmp_seq=5 ttl=47 time=279 ms
+64 bytes from 130.83.166.245: icmp_seq=6 ttl=47 time=112 ms
+64 bytes from 13.7.64.22: icmp_seq=6 ttl=53 time=81.2 ms
+64 bytes from 128.223.8.112: icmp_seq=6 ttl=52 time=99.9 ms
+64 bytes from 129.82.12.188: icmp_seq=6 ttl=52 time=83.2 ms
+64 bytes from 128.42.142.41: icmp_seq=6 ttl=51 time=50.3 ms
+64 bytes from 163.117.253.22: icmp_seq=6 ttl=49 time=120 ms
+64 bytes from 211.69.207.34: icmp_seq=5 ttl=43 time=297 ms
+64 bytes from 129.242.19.197: icmp_seq=6 ttl=45 time=151 ms
+64 bytes from 163.117.253.23: icmp_seq=6 ttl=49 time=121 ms
+64 bytes from 128.227.150.12: icmp_seq=6 ttl=52 time=58.0 ms
+64 bytes from 193.166.167.5: icmp_seq=6 ttl=48 time=129 ms
+64 bytes from 128.208.4.198: icmp_seq=6 ttl=51 time=94.6 ms
+64 bytes from 139.19.158.227: icmp_seq=6 ttl=42 time=123 ms
+64 bytes from 128.208.4.197: icmp_seq=6 ttl=51 time=94.3 ms
+64 bytes from 128.138.207.54: icmp_seq=6 ttl=46 time=61.4 ms
+64 bytes from 206.23.240.29: icmp_seq=6 ttl=45 time=62.4 ms
+64 bytes from 143.205.172.12: icmp_seq=6 ttl=41 time=135 ms
+64 bytes from 130.206.158.140: icmp_seq=6 ttl=47 time=129 ms
+64 bytes from 219.243.208.60: icmp_seq=5 ttl=48 time=271 ms
+64 bytes from 139.19.158.235: icmp_seq=6 ttl=42 time=123 ms
+64 bytes from 193.0.109.25: icmp_seq=6 ttl=43 time=142 ms
+64 bytes from 82.179.176.44: icmp_seq=6 ttl=40 time=159 ms
+64 bytes from 130.73.142.87: icmp_seq=6 ttl=51 time=108 ms
+64 bytes from 194.254.215.11: icmp_seq=6 ttl=48 time=126 ms
+64 bytes from 139.19.142.6: icmp_seq=6 ttl=42 time=121 ms
+64 bytes from 139.19.142.2: icmp_seq=6 ttl=42 time=123 ms
+64 bytes from 192.12.33.100: icmp_seq=6 ttl=47 time=107 ms
+64 bytes from 143.225.229.236: icmp_seq=6 ttl=45 time=128 ms
+64 bytes from 133.68.253.243: icmp_seq=6 ttl=46 time=193 ms
+64 bytes from 193.226.19.30: icmp_seq=6 ttl=48 time=157 ms
+64 bytes from 128.111.52.63: icmp_seq=6 ttl=46 time=103 ms
+64 bytes from 202.112.28.100: icmp_seq=5 ttl=45 time=318 ms
+64 bytes from 140.109.17.180: icmp_seq=6 ttl=51 time=206 ms
+64 bytes from 220.245.140.196: icmp_seq=5 ttl=48 time=311 ms
+64 bytes from 134.121.64.7: icmp_seq=6 ttl=45 time=102 ms
+64 bytes from 206.117.37.6: icmp_seq=6 ttl=47 time=99.3 ms
+64 bytes from 190.227.163.141: icmp_seq=6 ttl=48 time=193 ms
+64 bytes from 202.249.37.67: icmp_seq=6 ttl=50 time=180 ms
+64 bytes from 200.0.206.12: icmp_seq=6 ttl=47 time=178 ms
+64 bytes from 202.249.37.69: icmp_seq=6 ttl=50 time=199 ms
+64 bytes from 195.37.16.121: icmp_seq=6 ttl=45 time=136 ms
+64 bytes from 132.239.17.224: icmp_seq=6 ttl=45 time=112 ms
+64 bytes from 149.43.80.20: icmp_seq=7 ttl=64 time=0.118 ms
+64 bytes from 194.29.178.5: icmp_seq=6 ttl=40 time=125 ms
+64 bytes from 193.1.170.136: icmp_seq=6 ttl=46 time=124 ms
+64 bytes from 139.30.240.192: icmp_seq=6 ttl=49 time=127 ms
+64 bytes from 212.235.189.115: icmp_seq=6 ttl=42 time=136 ms
+64 bytes from 133.15.59.1: icmp_seq=6 ttl=45 time=201 ms
+64 bytes from 193.0.109.23: icmp_seq=6 ttl=43 time=140 ms
+64 bytes from 204.8.155.227: icmp_seq=7 ttl=50 time=32.2 ms
+64 bytes from 141.213.4.202: icmp_seq=7 ttl=51 time=32.0 ms
+64 bytes from 138.232.66.174: icmp_seq=6 ttl=40 time=141 ms
+64 bytes from 133.68.253.242: icmp_seq=6 ttl=46 time=181 ms
+64 bytes from 80.65.237.10: icmp_seq=6 ttl=44 time=166 ms
+64 bytes from 93.180.0.114: icmp_seq=6 ttl=41 time=169 ms
+64 bytes from 137.99.11.87: icmp_seq=7 ttl=45 time=31.2 ms
+64 bytes from 192.91.235.230: icmp_seq=7 ttl=47 time=25.0 ms
+64 bytes from 213.131.1.101: icmp_seq=6 ttl=40 time=157 ms
+64 bytes from 200.129.132.18: icmp_seq=6 ttl=44 time=229 ms
+64 bytes from 140.192.249.204: icmp_seq=7 ttl=54 time=31.2 ms
+64 bytes from 140.192.249.204: icmp_seq=7 ttl=245 time=31.4 ms (DUP!)
+64 bytes from 129.237.161.194: icmp_seq=7 ttl=51 time=41.5 ms
+64 bytes from 128.238.88.64: icmp_seq=7 ttl=53 time=32.1 ms
+64 bytes from 156.62.231.242: icmp_seq=6 ttl=50 time=215 ms
+64 bytes from 160.193.163.106: icmp_seq=6 ttl=43 time=193 ms
+64 bytes from 80.65.237.11: icmp_seq=6 ttl=44 time=167 ms
+64 bytes from 193.136.124.226: icmp_seq=6 ttl=41 time=162 ms
+64 bytes from 165.242.90.129: icmp_seq=6 ttl=43 time=187 ms
+64 bytes from 72.36.112.71: icmp_seq=7 ttl=50 time=43.1 ms
+64 bytes from 143.89.49.74: icmp_seq=6 ttl=46 time=253 ms
+64 bytes from 137.165.1.113: icmp_seq=7 ttl=48 time=37.6 ms
+64 bytes from 143.215.131.206: icmp_seq=7 ttl=50 time=50.6 ms
+64 bytes from 147.229.10.250: icmp_seq=6 ttl=49 time=134 ms
+64 bytes from 165.230.49.119: icmp_seq=7 ttl=47 time=19.7 ms
+64 bytes from 128.220.251.52: icmp_seq=7 ttl=50 time=30.2 ms
+64 bytes from 165.91.55.8: icmp_seq=7 ttl=52 time=43.1 ms
+64 bytes from 147.102.3.113: icmp_seq=6 ttl=42 time=169 ms
+64 bytes from 128.42.142.44: icmp_seq=7 ttl=51 time=50.0 ms
+64 bytes from 129.32.84.160: icmp_seq=7 ttl=52 time=21.2 ms
+64 bytes from 128.84.154.41: icmp_seq=7 ttl=50 time=25.9 ms
+64 bytes from 204.123.28.56: icmp_seq=7 ttl=54 time=69.1 ms
+64 bytes from 128.84.154.40: icmp_seq=7 ttl=50 time=25.7 ms
+64 bytes from 128.163.142.21: icmp_seq=7 ttl=50 time=50.3 ms
+64 bytes from 202.23.159.51: icmp_seq=6 ttl=41 time=226 ms
+64 bytes from 192.91.235.229: icmp_seq=7 ttl=47 time=23.8 ms
+64 bytes from 143.215.131.199: icmp_seq=7 ttl=50 time=50.6 ms
+64 bytes from 170.140.119.69: icmp_seq=7 ttl=53 time=48.7 ms
+64 bytes from 130.49.221.40: icmp_seq=7 ttl=52 time=30.5 ms
+64 bytes from 204.8.155.226: icmp_seq=7 ttl=50 time=31.9 ms
+64 bytes from 221.199.217.145: icmp_seq=6 ttl=47 time=228 ms
+64 bytes from 137.132.80.105: icmp_seq=6 ttl=42 time=263 ms
+64 bytes from 136.145.115.196: icmp_seq=6 ttl=47 time=189 ms
+64 bytes from 140.112.107.82: icmp_seq=6 ttl=46 time=289 ms
+64 bytes from 131.247.2.246: icmp_seq=7 ttl=51 time=56.7 ms
+64 bytes from 198.133.224.149: icmp_seq=7 ttl=50 time=36.7 ms
+64 bytes from 169.229.50.15: icmp_seq=7 ttl=49 time=87.0 ms
+64 bytes from 170.140.119.70: icmp_seq=7 ttl=53 time=49.2 ms
+64 bytes from 200.17.202.195: icmp_seq=6 ttl=46 time=165 ms
+64 bytes from 133.9.81.166: icmp_seq=6 ttl=45 time=185 ms
+64 bytes from 133.9.81.164: icmp_seq=6 ttl=45 time=185 ms
+64 bytes from 141.212.113.180: icmp_seq=7 ttl=51 time=33.1 ms
+64 bytes from 169.229.50.14: icmp_seq=7 ttl=49 time=86.3 ms
+64 bytes from 141.161.20.33: icmp_seq=7 ttl=48 time=24.7 ms
+64 bytes from 128.8.126.98: icmp_seq=7 ttl=47 time=26.6 ms
+64 bytes from 165.230.49.115: icmp_seq=7 ttl=48 time=19.8 ms
+64 bytes from 131.193.34.21: icmp_seq=7 ttl=54 time=32.1 ms
+64 bytes from 129.32.84.161: icmp_seq=7 ttl=52 time=23.2 ms
+64 bytes from 203.178.143.10: icmp_seq=6 ttl=41 time=214 ms
+64 bytes from 129.22.150.78: icmp_seq=7 ttl=46 time=31.6 ms
+64 bytes from 128.223.8.111: icmp_seq=7 ttl=51 time=99.9 ms
+64 bytes from 137.132.80.106: icmp_seq=6 ttl=42 time=257 ms
+64 bytes from 199.26.254.68: icmp_seq=7 ttl=51 time=24.7 ms
+64 bytes from 141.219.252.133: icmp_seq=7 ttl=53 time=46.9 ms
+64 bytes from 206.117.37.5: icmp_seq=7 ttl=47 time=98.4 ms
+64 bytes from 129.186.205.79: icmp_seq=7 ttl=53 time=45.1 ms
+64 bytes from 130.194.252.8: icmp_seq=6 ttl=44 time=245 ms
+64 bytes from 128.6.192.158: icmp_seq=7 ttl=49 time=19.6 ms
+64 bytes from 128.223.8.114: icmp_seq=7 ttl=52 time=99.3 ms
+64 bytes from 128.163.142.20: icmp_seq=7 ttl=50 time=51.5 ms
+64 bytes from 208.77.77.196: icmp_seq=7 ttl=48 time=89.7 ms
+64 bytes from 143.215.131.197: icmp_seq=7 ttl=50 time=50.6 ms
+64 bytes from 128.6.192.156: icmp_seq=7 ttl=49 time=19.5 ms
+64 bytes from 128.8.126.111: icmp_seq=7 ttl=47 time=26.8 ms
+64 bytes from 140.247.60.123: icmp_seq=7 ttl=52 time=32.7 ms
+64 bytes from 220.245.140.197: icmp_seq=6 ttl=49 time=303 ms
+64 bytes from 169.229.50.12: icmp_seq=7 ttl=49 time=86.3 ms
+64 bytes from 133.15.59.2: icmp_seq=6 ttl=45 time=199 ms
+64 bytes from 140.112.42.158: icmp_seq=6 ttl=45 time=282 ms
+64 bytes from 202.116.81.195: icmp_seq=6 ttl=45 time=315 ms
+64 bytes from 66.140.111.5: icmp_seq=7 ttl=52 time=58.6 ms
+64 bytes from 128.233.252.11: icmp_seq=7 ttl=51 time=91.0 ms
+64 bytes from 128.112.139.18: icmp_seq=7 ttl=50 time=31.8 ms
+64 bytes from 129.107.35.131: icmp_seq=7 ttl=51 time=49.3 ms
+64 bytes from 206.12.16.155: icmp_seq=7 ttl=51 time=105 ms
+64 bytes from 142.150.238.13: icmp_seq=7 ttl=52 time=34.2 ms
+64 bytes from 128.143.6.134: icmp_seq=3 ttl=52 time=905 ms
+64 bytes from 128.208.3.180: icmp_seq=7 ttl=51 time=95.0 ms
+64 bytes from 139.19.158.231: icmp_seq=7 ttl=42 time=123 ms
+64 bytes from 199.26.254.67: icmp_seq=7 ttl=51 time=52.2 ms
+64 bytes from 130.216.1.23: icmp_seq=6 ttl=49 time=226 ms
+64 bytes from 193.63.75.21: icmp_seq=7 ttl=49 time=90.2 ms
+64 bytes from 203.110.240.191: icmp_seq=6 ttl=40 time=265 ms
+64 bytes from 208.77.77.195: icmp_seq=7 ttl=48 time=91.2 ms
+64 bytes from 202.141.161.43: icmp_seq=6 ttl=46 time=242 ms
+64 bytes from 192.33.90.69: icmp_seq=7 ttl=52 time=110 ms
+64 bytes from 128.111.52.58: icmp_seq=7 ttl=46 time=104 ms
+64 bytes from 129.63.159.101: icmp_seq=7 ttl=47 time=26.2 ms
+64 bytes from 156.56.250.226: icmp_seq=7 ttl=49 time=54.5 ms
+64 bytes from 128.10.19.53: icmp_seq=7 ttl=49 time=53.7 ms
+64 bytes from 192.42.83.253: icmp_seq=7 ttl=52 time=32.2 ms
+64 bytes from 129.82.12.187: icmp_seq=7 ttl=52 time=83.1 ms
+64 bytes from 130.216.1.22: icmp_seq=6 ttl=49 time=227 ms
+64 bytes from 131.247.2.247: icmp_seq=7 ttl=51 time=56.7 ms
+64 bytes from 152.66.245.161: icmp_seq=7 ttl=48 time=139 ms
+64 bytes from 198.82.160.238: icmp_seq=7 ttl=50 time=33.4 ms
+64 bytes from 202.116.81.194: icmp_seq=6 ttl=46 time=323 ms
+64 bytes from 72.36.112.79: icmp_seq=7 ttl=50 time=42.4 ms
+64 bytes from 195.116.53.14: icmp_seq=7 ttl=51 time=116 ms
+64 bytes from 139.19.158.229: icmp_seq=7 ttl=42 time=124 ms
+64 bytes from 192.16.125.12: icmp_seq=7 ttl=47 time=119 ms
+64 bytes from 129.22.150.29: icmp_seq=7 ttl=46 time=31.4 ms
+64 bytes from 140.123.230.249: icmp_seq=6 ttl=49 time=235 ms
+64 bytes from 155.225.2.71: icmp_seq=7 ttl=47 time=45.8 ms
+64 bytes from 129.97.74.12: icmp_seq=7 ttl=50 time=37.5 ms
+64 bytes from 141.219.252.132: icmp_seq=7 ttl=53 time=46.1 ms
+64 bytes from 131.247.2.241: icmp_seq=7 ttl=52 time=56.6 ms
+64 bytes from 129.74.74.19: icmp_seq=7 ttl=51 time=59.8 ms
+64 bytes from 139.19.142.5: icmp_seq=7 ttl=42 time=123 ms
+64 bytes from 128.223.8.113: icmp_seq=7 ttl=52 time=99.3 ms
+64 bytes from 138.4.0.120: icmp_seq=7 ttl=49 time=111 ms
+64 bytes from 142.103.2.1: icmp_seq=7 ttl=49 time=86.8 ms
+64 bytes from 195.113.161.83: icmp_seq=7 ttl=52 time=130 ms
+64 bytes from 219.243.208.62: icmp_seq=6 ttl=47 time=278 ms
+64 bytes from 13.7.64.22: icmp_seq=7 ttl=53 time=80.9 ms
+64 bytes from 128.223.8.112: icmp_seq=7 ttl=52 time=99.6 ms
+64 bytes from 130.83.166.245: icmp_seq=7 ttl=47 time=112 ms
+64 bytes from 129.82.12.188: icmp_seq=7 ttl=52 time=83.1 ms
+64 bytes from 128.42.142.41: icmp_seq=7 ttl=51 time=50.6 ms
+64 bytes from 163.117.253.22: icmp_seq=7 ttl=49 time=120 ms
+64 bytes from 129.242.19.197: icmp_seq=7 ttl=45 time=150 ms
+64 bytes from 163.117.253.23: icmp_seq=7 ttl=49 time=121 ms
+64 bytes from 211.69.207.34: icmp_seq=6 ttl=43 time=298 ms
+64 bytes from 128.227.150.12: icmp_seq=7 ttl=52 time=58.0 ms
+64 bytes from 193.166.167.5: icmp_seq=7 ttl=48 time=129 ms
+64 bytes from 128.208.4.198: icmp_seq=7 ttl=51 time=94.7 ms
+64 bytes from 128.208.4.197: icmp_seq=7 ttl=51 time=94.3 ms
+64 bytes from 139.19.158.227: icmp_seq=7 ttl=42 time=124 ms
+64 bytes from 128.138.207.54: icmp_seq=7 ttl=46 time=61.4 ms
+64 bytes from 206.23.240.29: icmp_seq=7 ttl=45 time=62.3 ms
+64 bytes from 143.205.172.12: icmp_seq=7 ttl=41 time=134 ms
+64 bytes from 130.206.158.140: icmp_seq=7 ttl=47 time=129 ms
+64 bytes from 219.243.208.60: icmp_seq=6 ttl=48 time=271 ms
+64 bytes from 139.19.158.235: icmp_seq=7 ttl=42 time=124 ms
+64 bytes from 193.0.109.25: icmp_seq=7 ttl=43 time=141 ms
+64 bytes from 82.179.176.44: icmp_seq=7 ttl=40 time=159 ms
+64 bytes from 130.73.142.87: icmp_seq=7 ttl=51 time=108 ms
+64 bytes from 131.193.34.38: icmp_seq=7 ttl=54 time=130 ms
+64 bytes from 139.19.142.2: icmp_seq=7 ttl=42 time=121 ms
+64 bytes from 139.19.142.6: icmp_seq=7 ttl=42 time=122 ms
+64 bytes from 194.254.215.11: icmp_seq=7 ttl=48 time=130 ms
+64 bytes from 192.12.33.100: icmp_seq=7 ttl=47 time=108 ms
+64 bytes from 220.245.140.196: icmp_seq=6 ttl=48 time=299 ms
+64 bytes from 143.225.229.236: icmp_seq=7 ttl=45 time=128 ms
+64 bytes from 133.68.253.243: icmp_seq=7 ttl=46 time=193 ms
+64 bytes from 193.226.19.30: icmp_seq=7 ttl=48 time=157 ms
+64 bytes from 128.111.52.63: icmp_seq=7 ttl=46 time=103 ms
+64 bytes from 140.109.17.180: icmp_seq=7 ttl=51 time=206 ms
+64 bytes from 202.112.28.100: icmp_seq=6 ttl=45 time=319 ms
+64 bytes from 134.121.64.7: icmp_seq=7 ttl=44 time=102 ms
+64 bytes from 206.117.37.6: icmp_seq=7 ttl=47 time=99.4 ms
+64 bytes from 190.227.163.141: icmp_seq=7 ttl=48 time=193 ms
+64 bytes from 202.249.37.67: icmp_seq=7 ttl=50 time=180 ms
+64 bytes from 200.0.206.12: icmp_seq=7 ttl=47 time=178 ms
+64 bytes from 202.249.37.69: icmp_seq=7 ttl=50 time=199 ms
+64 bytes from 132.239.17.224: icmp_seq=7 ttl=45 time=110 ms
+64 bytes from 195.37.16.121: icmp_seq=7 ttl=45 time=139 ms
+64 bytes from 149.43.80.20: icmp_seq=8 ttl=64 time=0.117 ms
+64 bytes from 128.36.233.154: icmp_seq=7 ttl=49 time=134 ms
+64 bytes from 194.29.178.5: icmp_seq=7 ttl=40 time=126 ms
+64 bytes from 139.30.240.192: icmp_seq=7 ttl=49 time=124 ms
+64 bytes from 193.1.170.136: icmp_seq=7 ttl=46 time=124 ms
+64 bytes from 212.235.189.115: icmp_seq=7 ttl=42 time=135 ms
+64 bytes from 193.0.109.23: icmp_seq=7 ttl=43 time=141 ms
+64 bytes from 133.15.59.1: icmp_seq=7 ttl=45 time=201 ms
+64 bytes from 204.8.155.227: icmp_seq=8 ttl=50 time=32.7 ms
+64 bytes from 80.65.237.10: icmp_seq=7 ttl=44 time=164 ms
+64 bytes from 141.213.4.202: icmp_seq=8 ttl=51 time=31.9 ms
+64 bytes from 138.232.66.174: icmp_seq=7 ttl=40 time=141 ms
+64 bytes from 133.68.253.242: icmp_seq=7 ttl=46 time=181 ms
+64 bytes from 93.180.0.114: icmp_seq=7 ttl=41 time=171 ms
+64 bytes from 137.99.11.87: icmp_seq=8 ttl=45 time=31.4 ms
+64 bytes from 80.65.237.11: icmp_seq=7 ttl=44 time=163 ms
+64 bytes from 192.91.235.230: icmp_seq=8 ttl=47 time=25.2 ms
+64 bytes from 200.129.132.18: icmp_seq=7 ttl=44 time=229 ms
+64 bytes from 140.192.249.204: icmp_seq=8 ttl=54 time=30.8 ms
+64 bytes from 213.131.1.101: icmp_seq=7 ttl=40 time=159 ms
+64 bytes from 140.192.249.204: icmp_seq=8 ttl=245 time=30.9 ms (DUP!)
+64 bytes from 129.237.161.194: icmp_seq=8 ttl=51 time=41.3 ms
+64 bytes from 128.238.88.64: icmp_seq=8 ttl=53 time=32.1 ms
+64 bytes from 160.193.163.106: icmp_seq=7 ttl=43 time=193 ms
+64 bytes from 193.136.124.226: icmp_seq=7 ttl=41 time=161 ms
+64 bytes from 156.62.231.242: icmp_seq=7 ttl=50 time=215 ms
+64 bytes from 165.242.90.129: icmp_seq=7 ttl=43 time=187 ms
+64 bytes from 72.36.112.71: icmp_seq=8 ttl=50 time=43.9 ms
+64 bytes from 143.89.49.74: icmp_seq=7 ttl=46 time=251 ms
+64 bytes from 147.229.10.250: icmp_seq=7 ttl=49 time=133 ms
+64 bytes from 165.230.49.119: icmp_seq=8 ttl=47 time=19.6 ms
+64 bytes from 143.215.131.206: icmp_seq=8 ttl=50 time=50.8 ms
+64 bytes from 128.220.251.52: icmp_seq=8 ttl=50 time=30.2 ms
+64 bytes from 137.165.1.113: icmp_seq=8 ttl=48 time=39.1 ms
+64 bytes from 165.91.55.8: icmp_seq=8 ttl=52 time=43.0 ms
+64 bytes from 147.102.3.113: icmp_seq=7 ttl=42 time=169 ms
+64 bytes from 128.42.142.44: icmp_seq=8 ttl=51 time=49.9 ms
+64 bytes from 128.84.154.41: icmp_seq=8 ttl=50 time=25.8 ms
+64 bytes from 204.123.28.56: icmp_seq=8 ttl=54 time=69.0 ms
+64 bytes from 129.32.84.160: icmp_seq=8 ttl=52 time=21.7 ms
+64 bytes from 128.163.142.21: icmp_seq=8 ttl=50 time=50.3 ms
+64 bytes from 128.84.154.40: icmp_seq=8 ttl=50 time=25.7 ms
+64 bytes from 202.23.159.51: icmp_seq=7 ttl=41 time=224 ms
+64 bytes from 192.91.235.229: icmp_seq=8 ttl=47 time=23.6 ms
+64 bytes from 170.140.119.69: icmp_seq=8 ttl=53 time=47.6 ms
+64 bytes from 143.215.131.199: icmp_seq=8 ttl=50 time=50.7 ms
+64 bytes from 130.49.221.40: icmp_seq=8 ttl=52 time=30.6 ms
+64 bytes from 204.8.155.226: icmp_seq=8 ttl=50 time=32.2 ms
+64 bytes from 221.199.217.145: icmp_seq=7 ttl=47 time=228 ms
+64 bytes from 137.132.80.105: icmp_seq=7 ttl=42 time=263 ms
+64 bytes from 203.178.143.10: icmp_seq=7 ttl=42 time=193 ms
+64 bytes from 136.145.115.196: icmp_seq=7 ttl=47 time=192 ms
+64 bytes from 131.247.2.246: icmp_seq=8 ttl=51 time=56.8 ms
+64 bytes from 169.229.50.15: icmp_seq=8 ttl=49 time=86.8 ms
+64 bytes from 198.133.224.149: icmp_seq=8 ttl=50 time=36.9 ms
+64 bytes from 200.17.202.195: icmp_seq=7 ttl=46 time=165 ms
+64 bytes from 133.9.81.166: icmp_seq=7 ttl=45 time=185 ms
+64 bytes from 140.112.107.82: icmp_seq=7 ttl=46 time=293 ms
+64 bytes from 170.140.119.70: icmp_seq=8 ttl=53 time=49.5 ms
+64 bytes from 133.9.81.164: icmp_seq=7 ttl=45 time=185 ms
+64 bytes from 141.212.113.180: icmp_seq=8 ttl=51 time=32.9 ms
+64 bytes from 169.229.50.14: icmp_seq=8 ttl=49 time=86.4 ms
+64 bytes from 141.161.20.33: icmp_seq=8 ttl=48 time=24.6 ms
+64 bytes from 128.8.126.98: icmp_seq=8 ttl=47 time=26.5 ms
+64 bytes from 131.193.34.21: icmp_seq=8 ttl=54 time=32.1 ms
+64 bytes from 131.193.34.38: icmp_seq=8 ttl=54 time=33.5 ms
+64 bytes from 165.230.49.115: icmp_seq=8 ttl=48 time=20.3 ms
+64 bytes from 129.32.84.161: icmp_seq=8 ttl=52 time=22.1 ms
+64 bytes from 129.22.150.78: icmp_seq=8 ttl=46 time=31.4 ms
+64 bytes from 128.223.8.111: icmp_seq=8 ttl=51 time=99.7 ms
+64 bytes from 199.26.254.68: icmp_seq=8 ttl=51 time=24.2 ms
+64 bytes from 137.132.80.106: icmp_seq=7 ttl=42 time=257 ms
+64 bytes from 220.245.140.197: icmp_seq=7 ttl=49 time=295 ms
+64 bytes from 129.186.205.79: icmp_seq=8 ttl=53 time=45.1 ms
+64 bytes from 130.194.252.8: icmp_seq=7 ttl=44 time=245 ms
+64 bytes from 206.117.37.5: icmp_seq=8 ttl=47 time=99.8 ms
+64 bytes from 128.223.8.114: icmp_seq=8 ttl=52 time=99.3 ms
+64 bytes from 128.6.192.158: icmp_seq=8 ttl=49 time=19.7 ms
+64 bytes from 128.163.142.20: icmp_seq=8 ttl=50 time=51.5 ms
+64 bytes from 143.215.131.197: icmp_seq=8 ttl=50 time=50.1 ms
+64 bytes from 199.26.254.67: icmp_seq=8 ttl=51 time=32.4 ms
+64 bytes from 208.77.77.196: icmp_seq=8 ttl=48 time=90.9 ms
+64 bytes from 141.219.252.133: icmp_seq=8 ttl=53 time=51.9 ms
+64 bytes from 128.6.192.156: icmp_seq=8 ttl=49 time=19.6 ms
+64 bytes from 140.247.60.123: icmp_seq=8 ttl=52 time=32.8 ms
+64 bytes from 128.8.126.111: icmp_seq=8 ttl=47 time=27.3 ms
+64 bytes from 169.229.50.12: icmp_seq=8 ttl=49 time=86.6 ms
+64 bytes from 133.15.59.2: icmp_seq=7 ttl=45 time=199 ms
+64 bytes from 202.116.81.195: icmp_seq=7 ttl=45 time=316 ms
+64 bytes from 66.140.111.5: icmp_seq=8 ttl=52 time=58.7 ms
+64 bytes from 140.112.42.158: icmp_seq=7 ttl=45 time=286 ms
+64 bytes from 142.150.238.13: icmp_seq=8 ttl=52 time=31.1 ms
+64 bytes from 129.107.35.131: icmp_seq=8 ttl=51 time=48.8 ms
+64 bytes from 128.233.252.11: icmp_seq=8 ttl=51 time=91.4 ms
+64 bytes from 128.112.139.18: icmp_seq=8 ttl=50 time=31.9 ms
+64 bytes from 206.12.16.155: icmp_seq=8 ttl=51 time=109 ms
+64 bytes from 128.208.3.180: icmp_seq=8 ttl=51 time=94.8 ms
+64 bytes from 139.19.158.231: icmp_seq=8 ttl=42 time=123 ms
+64 bytes from 130.216.1.23: icmp_seq=7 ttl=49 time=226 ms
+64 bytes from 208.77.77.195: icmp_seq=8 ttl=48 time=90.5 ms
+64 bytes from 192.33.90.69: icmp_seq=8 ttl=52 time=109 ms
+64 bytes from 203.110.240.191: icmp_seq=7 ttl=40 time=265 ms
+64 bytes from 193.63.75.21: icmp_seq=8 ttl=49 time=90.2 ms
+64 bytes from 202.141.161.43: icmp_seq=7 ttl=46 time=242 ms
+64 bytes from 128.111.52.58: icmp_seq=8 ttl=46 time=104 ms
+64 bytes from 129.63.159.101: icmp_seq=8 ttl=47 time=26.0 ms
+64 bytes from 156.56.250.226: icmp_seq=8 ttl=49 time=54.3 ms
+64 bytes from 152.66.245.161: icmp_seq=8 ttl=48 time=138 ms
+64 bytes from 192.42.83.253: icmp_seq=8 ttl=52 time=32.0 ms
+64 bytes from 129.82.12.187: icmp_seq=8 ttl=52 time=83.1 ms
+64 bytes from 130.216.1.22: icmp_seq=7 ttl=49 time=227 ms
+64 bytes from 202.116.81.194: icmp_seq=7 ttl=46 time=323 ms
+64 bytes from 128.143.6.134: icmp_seq=4 ttl=52 time=919 ms
+64 bytes from 131.247.2.247: icmp_seq=8 ttl=51 time=56.8 ms
+64 bytes from 198.82.160.238: icmp_seq=8 ttl=50 time=33.3 ms
+64 bytes from 72.36.112.79: icmp_seq=8 ttl=50 time=42.3 ms
+64 bytes from 195.116.53.14: icmp_seq=8 ttl=51 time=116 ms
+64 bytes from 139.19.158.229: icmp_seq=8 ttl=42 time=123 ms
+64 bytes from 128.10.19.53: icmp_seq=8 ttl=49 time=60.2 ms
+64 bytes from 192.16.125.12: icmp_seq=8 ttl=47 time=119 ms
+64 bytes from 129.22.150.29: icmp_seq=8 ttl=46 time=31.2 ms
+64 bytes from 140.123.230.249: icmp_seq=7 ttl=49 time=235 ms
+64 bytes from 155.225.2.71: icmp_seq=8 ttl=47 time=46.5 ms
+64 bytes from 129.97.74.12: icmp_seq=8 ttl=50 time=37.6 ms
+64 bytes from 141.219.252.132: icmp_seq=8 ttl=53 time=46.5 ms
+64 bytes from 131.247.2.241: icmp_seq=8 ttl=52 time=56.8 ms
+64 bytes from 129.74.74.19: icmp_seq=8 ttl=51 time=60.1 ms
+64 bytes from 139.19.142.5: icmp_seq=8 ttl=42 time=123 ms
+64 bytes from 128.223.8.113: icmp_seq=8 ttl=52 time=99.5 ms
+64 bytes from 138.4.0.120: icmp_seq=8 ttl=49 time=110 ms
+64 bytes from 195.113.161.83: icmp_seq=8 ttl=52 time=130 ms
+64 bytes from 142.103.2.1: icmp_seq=8 ttl=49 time=86.7 ms
+64 bytes from 219.243.208.62: icmp_seq=7 ttl=47 time=278 ms
+64 bytes from 13.7.64.22: icmp_seq=8 ttl=53 time=81.1 ms
+64 bytes from 128.223.8.112: icmp_seq=8 ttl=52 time=99.5 ms
+64 bytes from 130.83.166.245: icmp_seq=8 ttl=47 time=112 ms
+64 bytes from 129.82.12.188: icmp_seq=8 ttl=52 time=83.2 ms
+64 bytes from 128.42.142.41: icmp_seq=8 ttl=51 time=49.8 ms
+64 bytes from 163.117.253.22: icmp_seq=8 ttl=49 time=119 ms
+64 bytes from 129.242.19.197: icmp_seq=8 ttl=45 time=150 ms
+64 bytes from 211.69.207.34: icmp_seq=7 ttl=43 time=298 ms
+64 bytes from 163.117.253.23: icmp_seq=8 ttl=49 time=122 ms
+64 bytes from 128.227.150.12: icmp_seq=8 ttl=52 time=57.8 ms
+64 bytes from 193.166.167.5: icmp_seq=8 ttl=48 time=128 ms
+64 bytes from 128.208.4.198: icmp_seq=8 ttl=51 time=94.7 ms
+64 bytes from 128.208.4.197: icmp_seq=8 ttl=51 time=94.5 ms
+64 bytes from 139.19.158.227: icmp_seq=8 ttl=42 time=124 ms
+64 bytes from 128.138.207.54: icmp_seq=8 ttl=46 time=61.4 ms
+64 bytes from 143.205.172.12: icmp_seq=8 ttl=41 time=135 ms
+64 bytes from 130.206.158.140: icmp_seq=8 ttl=47 time=129 ms
+64 bytes from 219.243.208.60: icmp_seq=7 ttl=48 time=271 ms
+64 bytes from 139.19.158.235: icmp_seq=8 ttl=42 time=124 ms
+64 bytes from 206.23.240.29: icmp_seq=8 ttl=45 time=68.7 ms
+64 bytes from 193.0.109.25: icmp_seq=8 ttl=43 time=141 ms
+64 bytes from 82.179.176.44: icmp_seq=8 ttl=40 time=159 ms
+64 bytes from 130.73.142.87: icmp_seq=8 ttl=51 time=107 ms
+64 bytes from 194.254.215.11: icmp_seq=8 ttl=48 time=122 ms
+64 bytes from 139.19.142.6: icmp_seq=8 ttl=42 time=121 ms
+64 bytes from 139.19.142.2: icmp_seq=8 ttl=42 time=122 ms
+64 bytes from 192.12.33.100: icmp_seq=8 ttl=47 time=108 ms
+64 bytes from 133.68.253.243: icmp_seq=8 ttl=46 time=193 ms
+64 bytes from 143.225.229.236: icmp_seq=8 ttl=45 time=128 ms
+64 bytes from 193.226.19.30: icmp_seq=8 ttl=48 time=157 ms
+64 bytes from 128.111.52.63: icmp_seq=8 ttl=46 time=103 ms
+64 bytes from 140.109.17.180: icmp_seq=8 ttl=51 time=206 ms
+64 bytes from 202.112.28.100: icmp_seq=7 ttl=45 time=319 ms
+64 bytes from 134.121.64.7: icmp_seq=8 ttl=44 time=102 ms
+64 bytes from 190.227.163.141: icmp_seq=8 ttl=48 time=192 ms
+64 bytes from 206.117.37.6: icmp_seq=8 ttl=47 time=100 ms
+64 bytes from 195.37.16.121: icmp_seq=8 ttl=45 time=131 ms
+64 bytes from 202.249.37.67: icmp_seq=8 ttl=50 time=180 ms
+64 bytes from 202.249.37.69: icmp_seq=8 ttl=50 time=199 ms
+64 bytes from 200.0.206.12: icmp_seq=8 ttl=47 time=178 ms
+64 bytes from 220.245.140.196: icmp_seq=7 ttl=48 time=320 ms
+64 bytes from 132.239.17.224: icmp_seq=8 ttl=45 time=110 ms
+64 bytes from 149.43.80.20: icmp_seq=9 ttl=64 time=0.114 ms
+64 bytes from 128.36.233.154: icmp_seq=8 ttl=49 time=134 ms
+64 bytes from 194.29.178.5: icmp_seq=8 ttl=40 time=125 ms
+64 bytes from 133.15.59.1: icmp_seq=8 ttl=45 time=197 ms
+64 bytes from 193.1.170.136: icmp_seq=8 ttl=46 time=124 ms
+64 bytes from 212.235.189.115: icmp_seq=8 ttl=42 time=136 ms
+64 bytes from 193.0.109.23: icmp_seq=8 ttl=43 time=140 ms
+64 bytes from 139.30.240.192: icmp_seq=8 ttl=49 time=127 ms
+64 bytes from 204.8.155.227: icmp_seq=9 ttl=50 time=32.8 ms
+64 bytes from 80.65.237.10: icmp_seq=8 ttl=44 time=165 ms
+64 bytes from 141.213.4.202: icmp_seq=9 ttl=51 time=31.8 ms
+64 bytes from 138.232.66.174: icmp_seq=8 ttl=40 time=141 ms
+64 bytes from 133.68.253.242: icmp_seq=8 ttl=46 time=181 ms
+64 bytes from 93.180.0.114: icmp_seq=8 ttl=41 time=169 ms
+64 bytes from 137.99.11.87: icmp_seq=9 ttl=45 time=31.6 ms
+64 bytes from 192.91.235.230: icmp_seq=9 ttl=47 time=25.3 ms
+64 bytes from 80.65.237.11: icmp_seq=8 ttl=44 time=164 ms
+64 bytes from 140.192.249.204: icmp_seq=9 ttl=54 time=30.8 ms
+64 bytes from 140.192.249.204: icmp_seq=9 ttl=245 time=30.9 ms (DUP!)
+64 bytes from 213.131.1.101: icmp_seq=8 ttl=40 time=160 ms
+64 bytes from 200.129.132.18: icmp_seq=8 ttl=44 time=229 ms
+64 bytes from 129.237.161.194: icmp_seq=9 ttl=51 time=41.3 ms
+64 bytes from 160.193.163.106: icmp_seq=8 ttl=43 time=193 ms
+64 bytes from 156.62.231.242: icmp_seq=8 ttl=50 time=215 ms
+64 bytes from 128.238.88.64: icmp_seq=9 ttl=53 time=32.6 ms
+64 bytes from 193.136.124.226: icmp_seq=8 ttl=41 time=161 ms
+64 bytes from 165.242.90.129: icmp_seq=8 ttl=43 time=187 ms
+64 bytes from 72.36.112.71: icmp_seq=9 ttl=50 time=42.4 ms
+64 bytes from 143.89.49.74: icmp_seq=8 ttl=46 time=249 ms
+64 bytes from 147.229.10.250: icmp_seq=8 ttl=49 time=133 ms
+64 bytes from 137.165.1.113: icmp_seq=9 ttl=48 time=37.5 ms
+64 bytes from 143.215.131.206: icmp_seq=9 ttl=50 time=50.9 ms
+64 bytes from 128.220.251.52: icmp_seq=9 ttl=50 time=30.2 ms
+64 bytes from 165.230.49.119: icmp_seq=9 ttl=47 time=19.7 ms
+64 bytes from 165.91.55.8: icmp_seq=9 ttl=52 time=42.9 ms
+64 bytes from 147.102.3.113: icmp_seq=8 ttl=42 time=169 ms
+64 bytes from 202.23.159.51: icmp_seq=8 ttl=41 time=217 ms
+64 bytes from 128.42.142.44: icmp_seq=9 ttl=51 time=49.9 ms
+64 bytes from 204.123.28.56: icmp_seq=9 ttl=54 time=69.0 ms
+64 bytes from 128.84.154.41: icmp_seq=9 ttl=50 time=25.8 ms
+64 bytes from 129.32.84.160: icmp_seq=9 ttl=52 time=22.0 ms
+64 bytes from 128.163.142.21: icmp_seq=9 ttl=50 time=50.3 ms
+64 bytes from 128.84.154.40: icmp_seq=9 ttl=50 time=25.8 ms
+64 bytes from 192.91.235.229: icmp_seq=9 ttl=47 time=23.8 ms
+64 bytes from 170.140.119.69: icmp_seq=9 ttl=53 time=47.7 ms
+64 bytes from 143.215.131.199: icmp_seq=9 ttl=50 time=50.5 ms
+64 bytes from 204.8.155.226: icmp_seq=9 ttl=50 time=32.5 ms
+64 bytes from 221.199.217.145: icmp_seq=8 ttl=47 time=229 ms
+64 bytes from 130.49.221.40: icmp_seq=9 ttl=52 time=31.1 ms
+64 bytes from 137.132.80.105: icmp_seq=8 ttl=42 time=263 ms
+64 bytes from 136.145.115.196: icmp_seq=8 ttl=47 time=195 ms
+64 bytes from 169.229.50.15: icmp_seq=9 ttl=49 time=86.6 ms
+64 bytes from 131.247.2.246: icmp_seq=9 ttl=51 time=56.6 ms
+64 bytes from 198.133.224.149: icmp_seq=9 ttl=50 time=37.2 ms
+64 bytes from 200.17.202.195: icmp_seq=8 ttl=46 time=165 ms
+64 bytes from 133.9.81.166: icmp_seq=8 ttl=45 time=185 ms
+64 bytes from 170.140.119.70: icmp_seq=9 ttl=53 time=49.3 ms
+64 bytes from 140.112.107.82: icmp_seq=8 ttl=46 time=293 ms
+64 bytes from 141.212.113.180: icmp_seq=9 ttl=51 time=32.9 ms
+64 bytes from 133.9.81.164: icmp_seq=8 ttl=45 time=185 ms
+64 bytes from 169.229.50.14: icmp_seq=9 ttl=49 time=86.3 ms
+64 bytes from 141.161.20.33: icmp_seq=9 ttl=48 time=24.8 ms
+64 bytes from 128.8.126.98: icmp_seq=9 ttl=47 time=26.9 ms
+64 bytes from 131.193.34.21: icmp_seq=9 ttl=54 time=32.0 ms
+64 bytes from 165.230.49.115: icmp_seq=9 ttl=48 time=19.7 ms
+64 bytes from 129.32.84.161: icmp_seq=9 ttl=52 time=22.6 ms
+64 bytes from 129.22.150.78: icmp_seq=9 ttl=46 time=30.7 ms
+64 bytes from 128.223.8.111: icmp_seq=9 ttl=51 time=99.9 ms
+64 bytes from 199.26.254.68: icmp_seq=9 ttl=51 time=24.2 ms
+64 bytes from 137.132.80.106: icmp_seq=8 ttl=42 time=257 ms
+64 bytes from 141.219.252.133: icmp_seq=9 ttl=53 time=46.4 ms
+64 bytes from 129.186.205.79: icmp_seq=9 ttl=53 time=45.0 ms
+64 bytes from 128.223.8.114: icmp_seq=9 ttl=52 time=99.1 ms
+64 bytes from 206.117.37.5: icmp_seq=9 ttl=47 time=99.6 ms
+64 bytes from 128.163.142.20: icmp_seq=9 ttl=50 time=51.4 ms
+64 bytes from 128.6.192.158: icmp_seq=9 ttl=49 time=19.7 ms
+64 bytes from 203.178.143.10: icmp_seq=8 ttl=41 time=224 ms
+64 bytes from 143.215.131.197: icmp_seq=9 ttl=50 time=50.4 ms
+64 bytes from 208.77.77.196: icmp_seq=9 ttl=48 time=90.7 ms
+64 bytes from 133.15.59.2: icmp_seq=8 ttl=45 time=196 ms
+64 bytes from 128.6.192.156: icmp_seq=9 ttl=49 time=19.6 ms
+64 bytes from 128.8.126.111: icmp_seq=9 ttl=47 time=26.9 ms
+64 bytes from 130.194.252.8: icmp_seq=8 ttl=44 time=251 ms
+64 bytes from 140.247.60.123: icmp_seq=9 ttl=52 time=32.7 ms
+64 bytes from 169.229.50.12: icmp_seq=9 ttl=49 time=86.1 ms
+64 bytes from 140.112.42.158: icmp_seq=8 ttl=45 time=282 ms
+64 bytes from 202.116.81.195: icmp_seq=8 ttl=45 time=316 ms
+64 bytes from 142.150.238.13: icmp_seq=9 ttl=52 time=30.9 ms
+64 bytes from 66.140.111.5: icmp_seq=9 ttl=52 time=58.4 ms
+64 bytes from 128.233.252.11: icmp_seq=9 ttl=51 time=91.1 ms
+64 bytes from 128.112.139.18: icmp_seq=9 ttl=50 time=31.7 ms
+64 bytes from 129.107.35.131: icmp_seq=9 ttl=51 time=52.3 ms
+64 bytes from 206.12.16.155: icmp_seq=9 ttl=51 time=108 ms
+64 bytes from 139.19.158.231: icmp_seq=9 ttl=42 time=122 ms
+64 bytes from 128.208.3.180: icmp_seq=9 ttl=51 time=94.9 ms
+64 bytes from 130.216.1.23: icmp_seq=8 ttl=49 time=226 ms
+64 bytes from 192.33.90.69: icmp_seq=9 ttl=52 time=109 ms
+64 bytes from 193.63.75.21: icmp_seq=9 ttl=49 time=90.3 ms
+64 bytes from 220.245.140.197: icmp_seq=8 ttl=49 time=325 ms
+64 bytes from 203.110.240.191: icmp_seq=8 ttl=40 time=266 ms
+64 bytes from 128.111.52.58: icmp_seq=9 ttl=46 time=104 ms
+64 bytes from 208.77.77.195: icmp_seq=9 ttl=48 time=92.6 ms
+64 bytes from 202.141.161.43: icmp_seq=8 ttl=46 time=242 ms
+64 bytes from 129.63.159.101: icmp_seq=9 ttl=47 time=25.9 ms
+64 bytes from 131.193.34.38: icmp_seq=9 ttl=54 time=73.5 ms
+64 bytes from 156.56.250.226: icmp_seq=9 ttl=49 time=54.5 ms
+64 bytes from 199.26.254.67: icmp_seq=9 ttl=51 time=60.6 ms
+64 bytes from 128.10.19.53: icmp_seq=9 ttl=49 time=53.8 ms
+64 bytes from 152.66.245.161: icmp_seq=9 ttl=48 time=138 ms
+64 bytes from 192.42.83.253: icmp_seq=9 ttl=52 time=32.1 ms
+64 bytes from 129.82.12.187: icmp_seq=9 ttl=52 time=83.2 ms
+64 bytes from 130.216.1.22: icmp_seq=8 ttl=49 time=227 ms
+64 bytes from 198.82.160.238: icmp_seq=9 ttl=50 time=33.2 ms
+64 bytes from 202.116.81.194: icmp_seq=8 ttl=46 time=323 ms
+64 bytes from 131.247.2.247: icmp_seq=9 ttl=51 time=56.5 ms
+64 bytes from 72.36.112.79: icmp_seq=9 ttl=50 time=42.4 ms
+64 bytes from 195.116.53.14: icmp_seq=9 ttl=51 time=116 ms
+64 bytes from 139.19.158.229: icmp_seq=9 ttl=42 time=123 ms
+64 bytes from 129.22.150.29: icmp_seq=9 ttl=46 time=30.6 ms
+64 bytes from 192.16.125.12: icmp_seq=9 ttl=47 time=119 ms
+64 bytes from 140.123.230.249: icmp_seq=8 ttl=49 time=235 ms
+64 bytes from 155.225.2.71: icmp_seq=9 ttl=47 time=45.6 ms
+64 bytes from 129.97.74.12: icmp_seq=9 ttl=50 time=37.5 ms
+64 bytes from 141.219.252.132: icmp_seq=9 ttl=53 time=47.0 ms
+64 bytes from 129.74.74.19: icmp_seq=9 ttl=51 time=59.9 ms
+64 bytes from 131.247.2.241: icmp_seq=9 ttl=52 time=56.7 ms
+64 bytes from 139.19.142.5: icmp_seq=9 ttl=42 time=124 ms
+64 bytes from 128.223.8.113: icmp_seq=9 ttl=52 time=99.5 ms
+64 bytes from 195.113.161.83: icmp_seq=9 ttl=52 time=130 ms
+64 bytes from 138.4.0.120: icmp_seq=9 ttl=49 time=111 ms
+64 bytes from 142.103.2.1: icmp_seq=9 ttl=49 time=86.8 ms
+64 bytes from 219.243.208.62: icmp_seq=8 ttl=47 time=278 ms
+64 bytes from 13.7.64.22: icmp_seq=9 ttl=53 time=81.0 ms
+64 bytes from 128.223.8.112: icmp_seq=9 ttl=52 time=99.8 ms
+64 bytes from 130.83.166.245: icmp_seq=9 ttl=47 time=112 ms
+64 bytes from 128.42.142.41: icmp_seq=9 ttl=51 time=49.7 ms
+64 bytes from 163.117.253.22: icmp_seq=9 ttl=49 time=119 ms
+64 bytes from 129.242.19.197: icmp_seq=9 ttl=45 time=150 ms
+64 bytes from 211.69.207.34: icmp_seq=8 ttl=43 time=298 ms
+64 bytes from 129.82.12.188: icmp_seq=9 ttl=52 time=90.9 ms
+64 bytes from 163.117.253.23: icmp_seq=9 ttl=49 time=121 ms
+64 bytes from 128.227.150.12: icmp_seq=9 ttl=52 time=57.8 ms
+64 bytes from 193.166.167.5: icmp_seq=9 ttl=48 time=128 ms
+64 bytes from 128.208.4.198: icmp_seq=9 ttl=51 time=94.5 ms
+64 bytes from 139.19.158.227: icmp_seq=9 ttl=42 time=123 ms
+64 bytes from 128.208.4.197: icmp_seq=9 ttl=51 time=94.5 ms
+64 bytes from 128.138.207.54: icmp_seq=9 ttl=46 time=61.2 ms
+64 bytes from 143.205.172.12: icmp_seq=9 ttl=41 time=135 ms
+64 bytes from 130.206.158.140: icmp_seq=9 ttl=47 time=129 ms
+64 bytes from 219.243.208.60: icmp_seq=8 ttl=48 time=271 ms
+64 bytes from 139.19.158.235: icmp_seq=9 ttl=42 time=123 ms
+64 bytes from 206.23.240.29: icmp_seq=9 ttl=45 time=69.5 ms
+64 bytes from 193.0.109.25: icmp_seq=9 ttl=43 time=142 ms
+64 bytes from 82.179.176.44: icmp_seq=9 ttl=40 time=159 ms
+64 bytes from 130.73.142.87: icmp_seq=9 ttl=51 time=108 ms
+64 bytes from 139.19.142.2: icmp_seq=9 ttl=42 time=121 ms
+64 bytes from 139.19.142.6: icmp_seq=9 ttl=42 time=123 ms
+64 bytes from 192.12.33.100: icmp_seq=9 ttl=47 time=108 ms
+64 bytes from 133.68.253.243: icmp_seq=9 ttl=46 time=193 ms
+64 bytes from 143.225.229.236: icmp_seq=9 ttl=45 time=128 ms
+64 bytes from 193.226.19.30: icmp_seq=9 ttl=48 time=157 ms
+64 bytes from 194.254.215.11: icmp_seq=9 ttl=48 time=134 ms
+64 bytes from 128.111.52.63: icmp_seq=9 ttl=46 time=105 ms
+64 bytes from 202.112.28.100: icmp_seq=8 ttl=45 time=318 ms
+64 bytes from 140.109.17.180: icmp_seq=9 ttl=51 time=206 ms
+64 bytes from 220.245.140.196: icmp_seq=8 ttl=48 time=310 ms
+64 bytes from 190.227.163.141: icmp_seq=9 ttl=48 time=193 ms
+64 bytes from 134.121.64.7: icmp_seq=9 ttl=45 time=102 ms
+64 bytes from 206.117.37.6: icmp_seq=9 ttl=47 time=100 ms
+64 bytes from 202.249.37.67: icmp_seq=9 ttl=50 time=180 ms
+64 bytes from 202.249.37.69: icmp_seq=9 ttl=50 time=199 ms
+64 bytes from 200.0.206.12: icmp_seq=9 ttl=47 time=177 ms
+64 bytes from 195.37.16.121: icmp_seq=9 ttl=45 time=132 ms
+64 bytes from 132.239.17.224: icmp_seq=9 ttl=45 time=111 ms
+64 bytes from 149.43.80.20: icmp_seq=10 ttl=64 time=0.152 ms
+
+--- 149.43.80.20 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1801ms
+rtt min/avg/max/mdev = 0.094/0.123/0.205/0.032 ms
+64 bytes from 128.36.233.154: icmp_seq=9 ttl=49 time=134 ms
+64 bytes from 194.29.178.5: icmp_seq=9 ttl=40 time=125 ms
+64 bytes from 139.30.240.192: icmp_seq=9 ttl=49 time=124 ms
+64 bytes from 193.1.170.136: icmp_seq=9 ttl=46 time=124 ms
+64 bytes from 212.235.189.115: icmp_seq=9 ttl=42 time=136 ms
+64 bytes from 193.0.109.23: icmp_seq=9 ttl=43 time=140 ms
+64 bytes from 133.15.59.1: icmp_seq=9 ttl=45 time=203 ms
+64 bytes from 204.8.155.227: icmp_seq=10 ttl=50 time=32.1 ms
+
+--- 204.8.155.227 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 32.120/32.559/33.030/0.328 ms
+64 bytes from 141.213.4.202: icmp_seq=10 ttl=51 time=32.0 ms
+
+--- 141.213.4.202 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 31.875/32.055/32.401/0.170 ms
+64 bytes from 138.232.66.174: icmp_seq=9 ttl=40 time=141 ms
+64 bytes from 133.68.253.242: icmp_seq=9 ttl=46 time=181 ms
+64 bytes from 80.65.237.10: icmp_seq=9 ttl=44 time=166 ms
+64 bytes from 93.180.0.114: icmp_seq=9 ttl=41 time=169 ms
+64 bytes from 213.131.1.101: icmp_seq=9 ttl=40 time=158 ms
+64 bytes from 192.91.235.230: icmp_seq=10 ttl=47 time=25.0 ms
+
+--- 192.91.235.230 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 25.037/25.158/25.312/0.170 ms
+64 bytes from 137.99.11.87: icmp_seq=10 ttl=45 time=32.0 ms
+
+--- 137.99.11.87 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1807ms
+rtt min/avg/max/mdev = 31.207/32.114/34.284/0.923 ms
+64 bytes from 140.192.249.204: icmp_seq=10 ttl=54 time=31.0 ms
+
+--- 140.192.249.204 ping statistics ---
+10 packets transmitted, 10 received, +9 duplicates, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 30.808/31.498/36.516/1.220 ms
+64 bytes from 200.129.132.18: icmp_seq=9 ttl=44 time=229 ms
+64 bytes from 129.237.161.194: icmp_seq=10 ttl=51 time=41.4 ms
+
+--- 129.237.161.194 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1807ms
+rtt min/avg/max/mdev = 41.371/41.695/43.295/0.553 ms
+64 bytes from 80.65.237.11: icmp_seq=9 ttl=44 time=166 ms
+64 bytes from 160.193.163.106: icmp_seq=9 ttl=43 time=193 ms
+64 bytes from 193.136.124.226: icmp_seq=9 ttl=41 time=161 ms
+64 bytes from 156.62.231.242: icmp_seq=9 ttl=50 time=215 ms
+64 bytes from 128.238.88.64: icmp_seq=10 ttl=53 time=32.2 ms
+
+--- 128.238.88.64 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1808ms
+rtt min/avg/max/mdev = 32.114/32.371/32.694/0.239 ms
+64 bytes from 165.242.90.129: icmp_seq=9 ttl=43 time=187 ms
+64 bytes from 72.36.112.71: icmp_seq=10 ttl=50 time=42.5 ms
+
+--- 72.36.112.71 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 42.421/42.843/43.926/0.499 ms
+64 bytes from 143.89.49.74: icmp_seq=9 ttl=46 time=249 ms
+64 bytes from 147.229.10.250: icmp_seq=9 ttl=49 time=133 ms
+64 bytes from 143.215.131.206: icmp_seq=10 ttl=50 time=50.7 ms
+
+--- 143.215.131.206 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 50.692/50.810/50.974/0.263 ms
+64 bytes from 137.165.1.113: icmp_seq=10 ttl=48 time=37.4 ms
+
+--- 137.165.1.113 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1807ms
+rtt min/avg/max/mdev = 37.471/42.127/80.729/12.877 ms
+64 bytes from 128.220.251.52: icmp_seq=10 ttl=50 time=30.3 ms
+
+--- 128.220.251.52 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 30.266/30.359/30.548/0.238 ms
+64 bytes from 165.230.49.119: icmp_seq=10 ttl=47 time=19.6 ms
+
+--- 165.230.49.119 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 19.637/19.747/20.003/0.204 ms
+64 bytes from 165.91.55.8: icmp_seq=10 ttl=52 time=42.9 ms
+
+--- 165.91.55.8 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 42.864/43.001/43.356/0.251 ms
+64 bytes from 147.102.3.113: icmp_seq=9 ttl=42 time=169 ms
+64 bytes from 128.42.142.44: icmp_seq=10 ttl=51 time=50.1 ms
+
+--- 128.42.142.44 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1802ms
+rtt min/avg/max/mdev = 49.893/49.993/50.156/0.165 ms
+64 bytes from 204.123.28.56: icmp_seq=10 ttl=54 time=69.1 ms
+
+--- 204.123.28.56 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 69.000/69.121/69.266/0.221 ms
+64 bytes from 129.32.84.160: icmp_seq=10 ttl=52 time=21.1 ms
+
+--- 129.32.84.160 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 21.117/21.666/22.421/0.432 ms
+64 bytes from 128.84.154.41: icmp_seq=10 ttl=50 time=25.8 ms
+
+--- 128.84.154.41 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 25.808/25.890/26.041/0.230 ms
+64 bytes from 128.163.142.21: icmp_seq=10 ttl=50 time=50.2 ms
+
+--- 128.163.142.21 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 50.237/50.413/50.831/0.210 ms
+64 bytes from 128.84.154.40: icmp_seq=10 ttl=50 time=25.8 ms
+
+--- 128.84.154.40 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1808ms
+rtt min/avg/max/mdev = 25.714/25.796/25.884/0.152 ms
+64 bytes from 202.23.159.51: icmp_seq=9 ttl=41 time=226 ms
+64 bytes from 192.91.235.229: icmp_seq=10 ttl=47 time=23.6 ms
+
+--- 192.91.235.229 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1808ms
+rtt min/avg/max/mdev = 23.615/23.796/24.273/0.197 ms
+64 bytes from 170.140.119.69: icmp_seq=10 ttl=53 time=47.7 ms
+64 bytes from 143.215.131.199: icmp_seq=10 ttl=50 time=50.7 ms
+
+--- 170.140.119.69 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1807ms
+rtt min/avg/max/mdev = 47.470/47.821/48.701/0.435 ms
+
+--- 143.215.131.199 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1808ms
+rtt min/avg/max/mdev = 50.555/50.664/50.782/0.124 ms
+64 bytes from 221.199.217.145: icmp_seq=9 ttl=47 time=228 ms
+64 bytes from 130.49.221.40: icmp_seq=10 ttl=52 time=30.7 ms
+
+64 bytes from 204.8.155.226: icmp_seq=10 ttl=50 time=32.2 ms
+
+--- 204.8.155.226 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1807ms
+rtt min/avg/max/mdev = 31.836/32.404/33.013/0.409 ms
+--- 130.49.221.40 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1807ms
+rtt min/avg/max/mdev = 30.520/30.710/31.110/0.257 ms
+64 bytes from 137.132.80.105: icmp_seq=9 ttl=42 time=263 ms
+64 bytes from 136.145.115.196: icmp_seq=9 ttl=47 time=196 ms
+64 bytes from 203.178.143.10: icmp_seq=9 ttl=42 time=191 ms
+64 bytes from 169.229.50.15: icmp_seq=10 ttl=49 time=86.8 ms
+
+--- 169.229.50.15 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 86.618/87.563/94.516/2.349 ms
+64 bytes from 198.133.224.149: icmp_seq=10 ttl=50 time=36.8 ms
+
+--- 198.133.224.149 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 36.774/37.009/37.325/0.280 ms
+64 bytes from 131.247.2.246: icmp_seq=10 ttl=51 time=56.9 ms
+
+--- 131.247.2.246 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 56.672/56.890/56.999/0.301 ms
+64 bytes from 200.17.202.195: icmp_seq=9 ttl=46 time=165 ms
+64 bytes from 133.9.81.166: icmp_seq=9 ttl=45 time=185 ms
+64 bytes from 170.140.119.70: icmp_seq=10 ttl=53 time=49.2 ms
+
+--- 170.140.119.70 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 49.209/49.356/49.553/0.114 ms
+64 bytes from 141.212.113.180: icmp_seq=10 ttl=51 time=33.2 ms
+
+--- 141.212.113.180 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 32.958/33.144/33.520/0.293 ms
+64 bytes from 133.9.81.164: icmp_seq=9 ttl=45 time=185 ms
+64 bytes from 169.229.50.14: icmp_seq=10 ttl=49 time=86.4 ms
+
+--- 169.229.50.14 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 86.250/86.444/86.914/0.320 ms
+64 bytes from 140.112.107.82: icmp_seq=9 ttl=46 time=298 ms
+64 bytes from 141.161.20.33: icmp_seq=10 ttl=48 time=24.7 ms
+
+--- 141.161.20.33 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1807ms
+rtt min/avg/max/mdev = 24.628/24.873/25.237/0.213 ms
+64 bytes from 128.8.126.98: icmp_seq=10 ttl=47 time=26.8 ms
+
+--- 128.8.126.98 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 26.590/26.789/26.962/0.173 ms
+64 bytes from 131.193.34.21: icmp_seq=10 ttl=54 time=32.1 ms
+
+--- 131.193.34.21 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 32.018/32.184/32.581/0.178 ms
+64 bytes from 165.230.49.115: icmp_seq=10 ttl=48 time=20.0 ms
+
+--- 165.230.49.115 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 19.677/19.939/20.440/0.248 ms
+64 bytes from 129.32.84.161: icmp_seq=10 ttl=52 time=21.1 ms
+
+--- 129.32.84.161 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 21.107/22.290/25.710/1.322 ms
+64 bytes from 129.22.150.78: icmp_seq=10 ttl=46 time=30.9 ms
+
+--- 129.22.150.78 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 30.275/31.035/31.639/0.410 ms
+64 bytes from 128.223.8.111: icmp_seq=10 ttl=51 time=99.7 ms
+
+--- 128.223.8.111 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 99.676/99.821/99.938/0.296 ms
+64 bytes from 220.245.140.197: icmp_seq=9 ttl=49 time=294 ms
+64 bytes from 199.26.254.68: icmp_seq=10 ttl=51 time=24.3 ms
+
+--- 199.26.254.68 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 24.254/24.392/24.738/0.145 ms
+64 bytes from 137.132.80.106: icmp_seq=9 ttl=42 time=257 ms
+64 bytes from 141.219.252.133: icmp_seq=10 ttl=53 time=46.2 ms
+
+--- 141.219.252.133 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 46.213/54.694/122.976/22.819 ms
+64 bytes from 129.186.205.79: icmp_seq=10 ttl=53 time=45.2 ms
+
+--- 129.186.205.79 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 45.074/45.184/45.375/0.239 ms
+64 bytes from 130.194.252.8: icmp_seq=9 ttl=44 time=245 ms
+64 bytes from 128.143.6.134: icmp_seq=5 ttl=52 time=1085 ms
+64 bytes from 128.223.8.114: icmp_seq=10 ttl=52 time=99.5 ms
+
+--- 128.223.8.114 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 99.130/99.361/99.502/0.218 ms
+64 bytes from 128.163.142.20: icmp_seq=10 ttl=50 time=51.5 ms
+
+--- 128.163.142.20 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 51.472/51.682/52.021/0.238 ms
+64 bytes from 206.117.37.5: icmp_seq=10 ttl=47 time=100 ms
+
+--- 206.117.37.5 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 89.047/97.510/102.318/3.824 ms
+64 bytes from 128.6.192.158: icmp_seq=10 ttl=49 time=19.6 ms
+
+--- 128.6.192.158 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1809ms
+rtt min/avg/max/mdev = 19.644/19.732/19.816/0.178 ms
+64 bytes from 143.215.131.197: icmp_seq=10 ttl=50 time=50.5 ms
+
+--- 143.215.131.197 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 50.173/50.446/50.602/0.309 ms
+64 bytes from 133.15.59.2: icmp_seq=9 ttl=45 time=195 ms
+64 bytes from 128.8.126.111: icmp_seq=10 ttl=47 time=26.1 ms
+
+--- 128.8.126.111 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 26.178/26.812/27.347/0.330 ms
+64 bytes from 208.77.77.196: icmp_seq=10 ttl=48 time=91.6 ms
+
+--- 208.77.77.196 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 80.027/88.421/92.930/3.873 ms
+64 bytes from 128.6.192.156: icmp_seq=10 ttl=49 time=19.6 ms
+
+--- 128.6.192.156 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1808ms
+rtt min/avg/max/mdev = 19.584/20.071/24.022/1.320 ms
+64 bytes from 140.247.60.123: icmp_seq=10 ttl=52 time=32.7 ms
+
+--- 140.247.60.123 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 32.745/32.853/33.007/0.171 ms
+64 bytes from 169.229.50.12: icmp_seq=10 ttl=49 time=86.3 ms
+
+--- 169.229.50.12 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1807ms
+rtt min/avg/max/mdev = 86.149/86.436/86.616/0.416 ms
+64 bytes from 202.116.81.195: icmp_seq=9 ttl=45 time=316 ms
+64 bytes from 142.150.238.13: icmp_seq=10 ttl=52 time=29.9 ms
+
+--- 142.150.238.13 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 29.782/36.271/80.000/14.640 ms
+64 bytes from 128.233.252.11: icmp_seq=10 ttl=51 time=91.3 ms
+
+--- 128.233.252.11 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 90.775/91.185/92.015/0.534 ms
+64 bytes from 66.140.111.5: icmp_seq=10 ttl=52 time=59.0 ms
+
+--- 66.140.111.5 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1807ms
+rtt min/avg/max/mdev = 58.466/58.673/59.073/0.226 ms
+64 bytes from 129.107.35.131: icmp_seq=10 ttl=51 time=48.8 ms
+
+--- 129.107.35.131 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 48.795/49.331/52.373/1.068 ms
+64 bytes from 140.112.42.158: icmp_seq=9 ttl=45 time=291 ms
+64 bytes from 128.112.139.18: icmp_seq=10 ttl=50 time=32.0 ms
+
+--- 128.112.139.18 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1809ms
+rtt min/avg/max/mdev = 31.616/31.913/32.420/0.255 ms
+64 bytes from 139.19.158.231: icmp_seq=10 ttl=42 time=123 ms
+
+--- 139.19.158.231 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 122.945/123.424/125.223/0.723 ms
+64 bytes from 206.12.16.155: icmp_seq=10 ttl=51 time=109 ms
+64 bytes from 128.208.3.180: icmp_seq=10 ttl=51 time=94.8 ms
+
+--- 128.208.3.180 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 94.656/94.975/95.899/0.339 ms
+
+--- 206.12.16.155 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 104.941/106.962/109.681/1.870 ms
+64 bytes from 130.216.1.23: icmp_seq=9 ttl=49 time=226 ms
+64 bytes from 192.33.90.69: icmp_seq=10 ttl=52 time=109 ms
+
+--- 192.33.90.69 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 108.989/109.293/110.755/0.578 ms
+64 bytes from 193.63.75.21: icmp_seq=10 ttl=49 time=90.2 ms
+
+--- 193.63.75.21 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 90.251/90.344/90.529/0.165 ms
+64 bytes from 203.110.240.191: icmp_seq=9 ttl=40 time=265 ms
+64 bytes from 128.111.52.58: icmp_seq=10 ttl=46 time=103 ms
+
+--- 128.111.52.58 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 101.193/103.346/104.568/1.239 ms
+64 bytes from 202.141.161.43: icmp_seq=9 ttl=46 time=242 ms
+64 bytes from 129.63.159.101: icmp_seq=10 ttl=47 time=26.8 ms
+
+--- 129.63.159.101 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 25.863/26.262/26.862/0.350 ms
+64 bytes from 156.56.250.226: icmp_seq=10 ttl=49 time=54.6 ms
+
+--- 156.56.250.226 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1807ms
+rtt min/avg/max/mdev = 54.384/54.545/54.769/0.331 ms
+64 bytes from 208.77.77.195: icmp_seq=10 ttl=48 time=94.6 ms
+
+--- 208.77.77.195 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 79.291/90.033/95.528/4.776 ms
+64 bytes from 152.66.245.161: icmp_seq=10 ttl=48 time=138 ms
+
+--- 152.66.245.161 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1807ms
+rtt min/avg/max/mdev = 138.510/138.969/139.816/0.642 ms
+64 bytes from 128.10.19.53: icmp_seq=10 ttl=49 time=54.5 ms
+
+--- 128.10.19.53 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 53.774/54.813/60.273/1.899 ms
+64 bytes from 192.42.83.253: icmp_seq=10 ttl=52 time=32.9 ms
+
+--- 192.42.83.253 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 31.957/32.217/32.970/0.303 ms
+64 bytes from 129.82.12.187: icmp_seq=10 ttl=52 time=83.3 ms
+
+--- 129.82.12.187 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 83.074/83.274/83.577/0.278 ms
+64 bytes from 130.216.1.22: icmp_seq=9 ttl=49 time=227 ms
+64 bytes from 198.82.160.238: icmp_seq=10 ttl=50 time=33.2 ms
+
+--- 198.82.160.238 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 33.262/33.394/33.537/0.118 ms
+64 bytes from 202.116.81.194: icmp_seq=9 ttl=46 time=323 ms
+64 bytes from 72.36.112.79: icmp_seq=10 ttl=50 time=42.3 ms
+
+--- 72.36.112.79 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1807ms
+rtt min/avg/max/mdev = 42.344/42.546/42.732/0.206 ms
+64 bytes from 131.247.2.247: icmp_seq=10 ttl=51 time=57.2 ms
+
+--- 131.247.2.247 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1807ms
+rtt min/avg/max/mdev = 56.554/56.978/58.123/0.523 ms
+64 bytes from 195.116.53.14: icmp_seq=10 ttl=51 time=116 ms
+
+--- 195.116.53.14 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 116.063/116.604/116.926/0.511 ms
+64 bytes from 139.19.158.229: icmp_seq=10 ttl=42 time=123 ms
+
+--- 139.19.158.229 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 123.009/123.605/124.490/0.594 ms
+64 bytes from 129.22.150.29: icmp_seq=10 ttl=46 time=31.0 ms
+
+--- 129.22.150.29 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 30.334/30.998/31.450/0.397 ms
+64 bytes from 192.16.125.12: icmp_seq=10 ttl=47 time=119 ms
+
+--- 192.16.125.12 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1808ms
+rtt min/avg/max/mdev = 119.553/119.708/120.149/0.494 ms
+64 bytes from 140.123.230.249: icmp_seq=9 ttl=49 time=235 ms
+64 bytes from 155.225.2.71: icmp_seq=10 ttl=47 time=45.6 ms
+
+--- 155.225.2.71 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 45.664/45.947/46.714/0.396 ms
+64 bytes from 129.97.74.12: icmp_seq=10 ttl=50 time=37.4 ms
+
+--- 129.97.74.12 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 37.412/37.680/37.912/0.182 ms
+64 bytes from 141.219.252.132: icmp_seq=10 ttl=53 time=46.4 ms
+
+--- 141.219.252.132 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 46.194/46.576/47.035/0.278 ms
+64 bytes from 129.74.74.19: icmp_seq=10 ttl=51 time=59.9 ms
+
+--- 129.74.74.19 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1802ms
+rtt min/avg/max/mdev = 59.844/59.994/60.187/0.288 ms
+64 bytes from 139.19.142.5: icmp_seq=10 ttl=42 time=123 ms
+
+--- 139.19.142.5 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 123.216/123.658/124.942/0.587 ms
+64 bytes from 128.223.8.113: icmp_seq=10 ttl=52 time=99.5 ms
+
+--- 128.223.8.113 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 99.388/99.551/99.651/0.068 ms
+64 bytes from 138.4.0.120: icmp_seq=10 ttl=49 time=111 ms
+
+--- 138.4.0.120 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 110.825/111.397/112.012/0.555 ms
+64 bytes from 131.247.2.241: icmp_seq=10 ttl=52 time=57.1 ms
+
+--- 131.247.2.241 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1809ms
+rtt min/avg/max/mdev = 56.631/56.827/57.126/0.251 ms
+64 bytes from 195.113.161.83: icmp_seq=10 ttl=52 time=130 ms
+
+--- 195.113.161.83 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 130.019/130.525/132.666/0.856 ms
+64 bytes from 142.103.2.1: icmp_seq=10 ttl=49 time=87.2 ms
+
+--- 142.103.2.1 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 86.685/86.968/87.593/0.374 ms
+64 bytes from 219.243.208.62: icmp_seq=9 ttl=47 time=278 ms
+64 bytes from 13.7.64.22: icmp_seq=10 ttl=53 time=81.1 ms
+
+--- 13.7.64.22 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1801ms
+rtt min/avg/max/mdev = 80.968/81.107/81.279/0.273 ms
+64 bytes from 128.223.8.112: icmp_seq=10 ttl=52 time=99.4 ms
+64 bytes from 129.82.12.188: icmp_seq=10 ttl=52 time=83.0 ms
+
+
+--- 128.223.8.112 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 99.460/99.708/99.995/0.159 ms
+--- 129.82.12.188 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1801ms
+rtt min/avg/max/mdev = 82.866/83.944/90.922/2.329 ms
+64 bytes from 130.83.166.245: icmp_seq=10 ttl=47 time=112 ms
+
+--- 130.83.166.245 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 112.369/112.603/112.799/0.470 ms
+64 bytes from 163.117.253.22: icmp_seq=10 ttl=49 time=120 ms
+
+--- 163.117.253.22 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1801ms
+rtt min/avg/max/mdev = 119.921/120.076/120.250/0.294 ms
+64 bytes from 128.42.142.41: icmp_seq=10 ttl=51 time=49.7 ms
+
+--- 128.42.142.41 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 49.714/49.948/50.623/0.369 ms
+64 bytes from 211.69.207.34: icmp_seq=9 ttl=43 time=297 ms
+64 bytes from 129.242.19.197: icmp_seq=10 ttl=45 time=150 ms
+
+--- 129.242.19.197 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 150.709/150.866/151.115/0.442 ms
+64 bytes from 163.117.253.23: icmp_seq=10 ttl=49 time=122 ms
+
+--- 163.117.253.23 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 121.471/122.010/122.374/0.530 ms
+64 bytes from 128.227.150.12: icmp_seq=10 ttl=52 time=58.2 ms
+
+--- 128.227.150.12 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1801ms
+rtt min/avg/max/mdev = 57.870/58.318/61.025/0.927 ms
+64 bytes from 193.166.167.5: icmp_seq=10 ttl=48 time=129 ms
+
+--- 193.166.167.5 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 128.834/129.121/129.596/0.319 ms
+64 bytes from 128.208.4.198: icmp_seq=10 ttl=51 time=94.7 ms
+
+--- 128.208.4.198 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 94.449/94.745/95.399/0.342 ms
+64 bytes from 139.19.158.227: icmp_seq=10 ttl=42 time=123 ms
+
+--- 139.19.158.227 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 123.071/123.798/124.823/0.804 ms
+64 bytes from 128.208.4.197: icmp_seq=10 ttl=51 time=94.5 ms
+
+--- 128.208.4.197 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 94.288/94.459/94.628/0.429 ms
+64 bytes from 206.23.240.29: icmp_seq=10 ttl=45 time=59.9 ms
+
+--- 206.23.240.29 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 59.379/65.541/76.921/5.535 ms
+64 bytes from 128.138.207.54: icmp_seq=10 ttl=46 time=61.4 ms
+
+--- 128.138.207.54 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 61.229/61.425/61.678/0.280 ms
+64 bytes from 143.205.172.12: icmp_seq=10 ttl=41 time=135 ms
+
+--- 143.205.172.12 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1801ms
+rtt min/avg/max/mdev = 134.977/135.086/135.334/0.345 ms
+64 bytes from 219.243.208.60: icmp_seq=9 ttl=48 time=271 ms
+64 bytes from 130.206.158.140: icmp_seq=10 ttl=47 time=129 ms
+
+--- 130.206.158.140 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 129.431/129.744/130.069/0.445 ms
+64 bytes from 199.26.254.67: icmp_seq=10 ttl=51 time=102 ms
+
+--- 199.26.254.67 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 25.611/43.169/102.656/22.558 ms
+64 bytes from 139.19.158.235: icmp_seq=10 ttl=42 time=123 ms
+
+--- 139.19.158.235 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1802ms
+rtt min/avg/max/mdev = 123.026/123.679/124.760/0.757 ms
+64 bytes from 193.0.109.25: icmp_seq=10 ttl=43 time=142 ms
+
+--- 193.0.109.25 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1800ms
+rtt min/avg/max/mdev = 141.827/142.067/142.364/0.499 ms
+64 bytes from 82.179.176.44: icmp_seq=10 ttl=40 time=159 ms
+
+--- 82.179.176.44 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 159.377/159.615/159.929/0.392 ms
+64 bytes from 130.73.142.87: icmp_seq=10 ttl=51 time=107 ms
+
+--- 130.73.142.87 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1801ms
+rtt min/avg/max/mdev = 107.766/108.031/108.291/0.441 ms
+64 bytes from 194.254.215.11: icmp_seq=10 ttl=48 time=123 ms
+
+--- 194.254.215.11 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 121.246/126.007/134.709/4.257 ms
+64 bytes from 139.19.142.6: icmp_seq=10 ttl=42 time=121 ms
+64 bytes from 139.19.142.2: icmp_seq=10 ttl=42 time=121 ms
+
+--- 139.19.142.2 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 121.675/122.268/123.351/0.791 ms
+
+--- 139.19.142.6 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1802ms
+rtt min/avg/max/mdev = 121.749/122.564/123.492/0.799 ms
+64 bytes from 133.68.253.243: icmp_seq=10 ttl=46 time=193 ms
+
+--- 133.68.253.243 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1798ms
+rtt min/avg/max/mdev = 192.681/193.280/194.510/0.686 ms
+64 bytes from 128.111.52.63: icmp_seq=10 ttl=46 time=99.5 ms
+
+--- 128.111.52.63 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 94.923/102.322/105.756/3.313 ms
+64 bytes from 143.225.229.236: icmp_seq=10 ttl=45 time=129 ms
+
+--- 143.225.229.236 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 128.646/128.886/129.341/0.462 ms
+64 bytes from 220.245.140.196: icmp_seq=9 ttl=48 time=303 ms
+64 bytes from 193.226.19.30: icmp_seq=10 ttl=48 time=158 ms
+
+--- 193.226.19.30 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 157.362/157.951/158.431/0.420 ms
+64 bytes from 192.12.33.100: icmp_seq=10 ttl=47 time=112 ms
+
+--- 192.12.33.100 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 106.167/109.446/119.466/3.762 ms
+64 bytes from 202.112.28.100: icmp_seq=9 ttl=45 time=318 ms
+64 bytes from 140.109.17.180: icmp_seq=10 ttl=51 time=207 ms
+
+--- 140.109.17.180 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 206.435/206.715/207.159/0.614 ms, pipe 2
+64 bytes from 190.227.163.141: icmp_seq=10 ttl=48 time=193 ms
+
+--- 190.227.163.141 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1798ms
+rtt min/avg/max/mdev = 192.941/193.356/193.916/0.650 ms
+64 bytes from 134.121.64.7: icmp_seq=10 ttl=45 time=102 ms
+
+--- 134.121.64.7 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 102.234/102.330/102.452/0.259 ms
+64 bytes from 202.249.37.69: icmp_seq=10 ttl=50 time=199 ms
+
+--- 202.249.37.69 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1799ms
+rtt min/avg/max/mdev = 199.210/199.377/199.511/0.220 ms
+64 bytes from 202.249.37.67: icmp_seq=10 ttl=50 time=180 ms
+
+--- 202.249.37.67 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 180.322/180.488/180.708/0.550 ms
+64 bytes from 206.117.37.6: icmp_seq=10 ttl=47 time=102 ms
+
+--- 206.117.37.6 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1802ms
+rtt min/avg/max/mdev = 98.014/99.868/102.408/1.527 ms
+64 bytes from 200.0.206.12: icmp_seq=10 ttl=47 time=179 ms
+
+--- 200.0.206.12 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 177.677/178.477/179.640/0.568 ms
+64 bytes from 195.37.16.121: icmp_seq=10 ttl=45 time=134 ms
+
+--- 195.37.16.121 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 131.569/137.403/146.218/4.887 ms
+64 bytes from 132.239.17.224: icmp_seq=10 ttl=45 time=110 ms
+
+--- 132.239.17.224 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 109.384/110.935/112.775/1.151 ms
+64 bytes from 130.253.21.121: icmp_seq=10 ttl=53 time=81.4 ms
+64 bytes from 194.29.178.5: icmp_seq=10 ttl=40 time=126 ms
+
+--- 194.29.178.5 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 125.253/125.818/126.864/0.481 ms
+64 bytes from 193.1.170.136: icmp_seq=10 ttl=46 time=124 ms
+
+--- 193.1.170.136 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 124.419/124.613/124.914/0.420 ms
+64 bytes from 212.235.189.115: icmp_seq=10 ttl=42 time=136 ms
+
+--- 212.235.189.115 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1801ms
+rtt min/avg/max/mdev = 135.988/136.191/136.893/0.512 ms
+64 bytes from 193.0.109.23: icmp_seq=10 ttl=43 time=140 ms
+
+--- 193.0.109.23 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 140.494/140.723/141.040/0.224 ms
+64 bytes from 139.30.240.192: icmp_seq=10 ttl=49 time=128 ms
+
+--- 139.30.240.192 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 124.377/126.582/128.395/1.682 ms
+64 bytes from 138.232.66.174: icmp_seq=10 ttl=40 time=141 ms
+
+--- 138.232.66.174 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1802ms
+rtt min/avg/max/mdev = 140.869/141.298/141.935/0.329 ms
+64 bytes from 133.68.253.242: icmp_seq=10 ttl=46 time=181 ms
+
+--- 133.68.253.242 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1802ms
+rtt min/avg/max/mdev = 181.068/181.288/181.512/0.236 ms
+64 bytes from 93.180.0.114: icmp_seq=10 ttl=41 time=170 ms
+
+--- 93.180.0.114 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 169.145/169.772/171.224/0.617 ms
+64 bytes from 80.65.237.10: icmp_seq=10 ttl=44 time=168 ms
+
+--- 80.65.237.10 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1802ms
+rtt min/avg/max/mdev = 163.902/165.619/168.040/1.267 ms
+64 bytes from 133.15.59.1: icmp_seq=10 ttl=45 time=206 ms
+
+--- 133.15.59.1 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1807ms
+rtt min/avg/max/mdev = 196.188/207.353/224.982/10.139 ms, pipe 2
+64 bytes from 213.131.1.101: icmp_seq=10 ttl=40 time=157 ms
+
+--- 213.131.1.101 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 157.541/158.517/160.351/0.993 ms
+64 bytes from 200.129.132.18: icmp_seq=10 ttl=44 time=229 ms
+
+--- 200.129.132.18 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 229.465/229.626/229.860/0.392 ms, pipe 2
+64 bytes from 160.193.163.106: icmp_seq=10 ttl=43 time=194 ms
+
+--- 160.193.163.106 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1798ms
+rtt min/avg/max/mdev = 193.494/193.844/194.605/0.359 ms
+64 bytes from 193.136.124.226: icmp_seq=10 ttl=41 time=161 ms
+
+--- 193.136.124.226 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 161.548/161.822/162.412/0.606 ms
+64 bytes from 156.62.231.242: icmp_seq=10 ttl=50 time=215 ms
+
+--- 156.62.231.242 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 215.440/223.556/285.186/20.701 ms, pipe 2
+64 bytes from 165.242.90.129: icmp_seq=10 ttl=43 time=188 ms
+
+--- 165.242.90.129 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1802ms
+rtt min/avg/max/mdev = 187.758/187.914/188.323/0.319 ms
+64 bytes from 80.65.237.11: icmp_seq=10 ttl=44 time=169 ms
+
+--- 80.65.237.11 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 162.245/164.558/169.817/2.430 ms
+64 bytes from 143.89.49.74: icmp_seq=10 ttl=46 time=249 ms
+
+--- 143.89.49.74 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 248.957/259.712/298.391/19.280 ms, pipe 2
+64 bytes from 147.229.10.250: icmp_seq=10 ttl=49 time=133 ms
+
+--- 147.229.10.250 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 133.779/134.218/134.848/0.438 ms
+64 bytes from 202.23.159.51: icmp_seq=10 ttl=41 time=211 ms
+
+--- 202.23.159.51 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1807ms
+rtt min/avg/max/mdev = 207.460/221.394/227.522/6.790 ms, pipe 2
+64 bytes from 147.102.3.113: icmp_seq=10 ttl=42 time=169 ms
+
+--- 147.102.3.113 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 169.221/169.381/169.619/0.229 ms
+64 bytes from 136.145.115.196: icmp_seq=10 ttl=47 time=190 ms
+
+--- 136.145.115.196 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1799ms
+rtt min/avg/max/mdev = 189.325/195.427/202.952/4.552 ms, pipe 2
+64 bytes from 137.132.80.105: icmp_seq=10 ttl=42 time=263 ms
+
+--- 137.132.80.105 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 263.519/263.677/264.285/0.599 ms, pipe 2
+64 bytes from 140.112.107.82: icmp_seq=10 ttl=46 time=291 ms
+
+--- 140.112.107.82 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 283.825/290.389/298.723/4.356 ms, pipe 2
+64 bytes from 200.17.202.195: icmp_seq=10 ttl=46 time=165 ms
+64 bytes from 133.9.81.166: icmp_seq=10 ttl=45 time=185 ms
+
+--- 133.9.81.166 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 185.339/185.609/185.937/0.605 ms
+64 bytes from 133.9.81.164: icmp_seq=10 ttl=45 time=186 ms
+
+--- 133.9.81.164 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 185.758/186.061/186.477/0.231 ms
+64 bytes from 221.199.217.145: icmp_seq=10 ttl=47 time=247 ms
+
+--- 221.199.217.145 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 228.456/232.802/251.542/8.346 ms, pipe 2
+64 bytes from 137.132.80.106: icmp_seq=10 ttl=42 time=257 ms
+
+--- 137.132.80.106 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1807ms
+rtt min/avg/max/mdev = 257.544/257.767/258.370/0.552 ms, pipe 2
+64 bytes from 220.245.140.197: icmp_seq=10 ttl=49 time=296 ms
+
+--- 220.245.140.197 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 291.336/301.270/325.143/9.199 ms, pipe 2
+64 bytes from 203.178.143.10: icmp_seq=10 ttl=42 time=212 ms
+
+--- 203.178.143.10 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1829ms
+rtt min/avg/max/mdev = 191.146/205.398/224.141/11.585 ms, pipe 2
+64 bytes from 130.194.252.8: icmp_seq=10 ttl=44 time=246 ms
+
+--- 130.194.252.8 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 245.588/246.305/251.077/1.663 ms, pipe 2
+64 bytes from 140.112.42.158: icmp_seq=10 ttl=45 time=283 ms
+
+--- 140.112.42.158 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 276.254/281.748/291.712/4.620 ms, pipe 2
+64 bytes from 202.116.81.195: icmp_seq=10 ttl=45 time=316 ms
+
+--- 202.116.81.195 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 315.998/316.130/316.395/0.373 ms, pipe 2
+64 bytes from 133.15.59.2: icmp_seq=10 ttl=45 time=204 ms
+
+--- 133.15.59.2 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1802ms
+rtt min/avg/max/mdev = 195.260/207.281/228.430/11.267 ms, pipe 2
+
+--- 131.193.34.38 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 1807ms
+rtt min/avg/max/mdev = 32.550/51.879/130.212/30.291 ms
+64 bytes from 130.216.1.23: icmp_seq=10 ttl=49 time=226 ms
+
+--- 130.216.1.23 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 226.557/226.712/227.327/0.523 ms, pipe 2
+64 bytes from 203.110.240.191: icmp_seq=10 ttl=40 time=265 ms
+
+--- 203.110.240.191 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 265.012/265.689/266.241/0.623 ms, pipe 2
+64 bytes from 202.141.161.43: icmp_seq=10 ttl=46 time=242 ms
+
+--- 202.141.161.43 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1808ms
+rtt min/avg/max/mdev = 242.129/242.204/242.359/0.543 ms, pipe 2
+64 bytes from 130.216.1.22: icmp_seq=10 ttl=49 time=227 ms
+
+--- 130.216.1.22 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1806ms
+rtt min/avg/max/mdev = 227.174/227.306/227.510/0.487 ms, pipe 2
+64 bytes from 202.116.81.194: icmp_seq=10 ttl=46 time=323 ms
+
+--- 130.253.21.121 ping statistics ---
+10 packets transmitted, 2 received, 80% packet loss, time 1839ms
+rtt min/avg/max/mdev = 81.182/81.305/81.429/0.310 ms
+
+--- 202.116.81.194 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1805ms
+rtt min/avg/max/mdev = 323.554/323.730/324.154/0.592 ms, pipe 2
+64 bytes from 140.123.230.249: icmp_seq=10 ttl=49 time=235 ms
+
+--- 140.123.230.249 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1808ms
+rtt min/avg/max/mdev = 235.410/235.533/235.670/0.386 ms, pipe 2
+64 bytes from 219.243.208.62: icmp_seq=10 ttl=47 time=278 ms
+
+--- 219.243.208.62 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 278.599/278.851/279.503/0.668 ms, pipe 2
+
+--- 128.36.233.154 ping statistics ---
+10 packets transmitted, 6 received, 40% packet loss, time 1806ms
+rtt min/avg/max/mdev = 134.451/134.617/134.881/0.444 ms
+64 bytes from 211.69.207.34: icmp_seq=10 ttl=43 time=297 ms
+
+--- 211.69.207.34 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1802ms
+rtt min/avg/max/mdev = 297.604/297.879/298.074/0.376 ms, pipe 2
+64 bytes from 219.243.208.60: icmp_seq=10 ttl=48 time=271 ms
+
+--- 219.243.208.60 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 271.096/271.353/271.975/0.754 ms, pipe 2
+64 bytes from 220.245.140.196: icmp_seq=10 ttl=48 time=298 ms
+
+--- 220.245.140.196 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1804ms
+rtt min/avg/max/mdev = 298.501/307.449/320.751/7.471 ms, pipe 2
+64 bytes from 202.112.28.100: icmp_seq=10 ttl=45 time=319 ms
+
+--- 202.112.28.100 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1803ms
+rtt min/avg/max/mdev = 318.468/318.786/319.541/0.669 ms, pipe 2
+PING 206.117.37.4 (206.117.37.4) 56(84) bytes of data.
+From 198.32.16.90 icmp_seq=8 Destination Host Unreachable
+From 198.32.16.90 icmp_seq=9 Destination Host Unreachable
+From 198.32.16.90 icmp_seq=10 Destination Host Unreachable
+
+--- 200.17.202.195 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 1813ms
+rtt min/avg/max/mdev = 165.140/165.461/165.813/0.480 ms
+64 bytes from 128.143.6.134: icmp_seq=6 ttl=52 time=1381 ms
+64 bytes from 128.143.6.134: icmp_seq=7 ttl=52 time=1320 ms
+64 bytes from 128.143.6.134: icmp_seq=8 ttl=52 time=1431 ms
+64 bytes from 128.143.6.134: icmp_seq=9 ttl=52 time=1557 ms
+64 bytes from 128.143.6.134: icmp_seq=10 ttl=52 time=1543 ms
+
+--- 128.143.6.134 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 1822ms
+rtt min/avg/max/mdev = 752.167/1173.338/1557.173/291.584 ms, pipe 6
+PING 192.6.26.31 (192.6.26.31) 56(84) bytes of data.
+
+--- 192.6.26.31 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+PING 132.72.23.11 (132.72.23.11) 56(84) bytes of data.
+
+--- 132.72.23.11 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+PING 192.6.26.33 (192.6.26.33) 56(84) bytes of data.
+
+--- 192.6.26.33 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+PING 128.252.19.18 (128.252.19.18) 56(84) bytes of data.
+
+PING 194.42.17.121 (194.42.17.121) 56(84) bytes of data.
+
+--- 128.252.19.18 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+--- 194.42.17.121 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+
+--- 206.117.37.4 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+, pipe 3
+PING 132.181.10.57 (132.181.10.57) 56(84) bytes of data.
+
+--- 132.181.10.57 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+PING 142.104.21.241 (142.104.21.241) 56(84) bytes of data.
+
+--- 142.104.21.241 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+PING 202.112.129.16 (202.112.129.16) 56(84) bytes of data.
+
+--- 202.112.129.16 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+PING 139.80.206.132 (139.80.206.132) 56(84) bytes of data.
+
+--- 139.80.206.132 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+PING 193.55.112.41 (193.55.112.41) 56(84) bytes of data.
+
+--- 193.55.112.41 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+PING 150.140.184.252 (150.140.184.252) 56(84) bytes of data.
+
+--- 150.140.184.252 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+PING 202.112.129.16 (202.112.129.16) 56(84) bytes of data.
+
+--- 202.112.129.16 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+PING 202.125.215.12 (202.125.215.12) 56(84) bytes of data.
+
+--- 202.125.215.12 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+PING 130.92.70.254 (130.92.70.254) 56(84) bytes of data.
+
+--- 130.92.70.254 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+PING 136.159.220.40 (136.159.220.40) 56(84) bytes of data.
+
+--- 136.159.220.40 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+PING 132.170.3.32 (132.170.3.32) 56(84) bytes of data.
+
+--- 132.170.3.32 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+PING 193.145.46.129 (193.145.46.129) 56(84) bytes of data.
+
+--- 193.145.46.129 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+PING 138.15.10.56 (138.15.10.56) 56(84) bytes of data.
+
+--- 138.15.10.56 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+PING 128.252.19.19 (128.252.19.19) 56(84) bytes of data.
+
+--- 128.252.19.19 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+PING 131.114.53.188 (131.114.53.188) 56(84) bytes of data.
+
+--- 131.114.53.188 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+PING 138.26.66.5 (138.26.66.5) 56(84) bytes of data.
+
+PING 129.93.229.138 (129.93.229.138) 56(84) bytes of data.
+
+--- 138.26.66.5 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+--- 129.93.229.138 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+PING 132.181.10.56 (132.181.10.56) 56(84) bytes of data.
+
+--- 132.181.10.56 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+
+
+--- 132.170.3.33 ping statistics ---
+rtt min/avg/max/mdev = 0.0/unknown/0.0/0.0 ms
+, pipe 2

@@ -1,0 +1,740 @@
+14:17:40.830286 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 171.67.237.232 (ff:ff:ff:ff:ff:ff) tell 172.24.74.17, length 28
+	0x0000:  ffff ffff ffff 00e0 8104 26d9 0806 0001
+	0x0010:  0800 0604 0001 00e0 8104 26d9 ac18 4a11
+	0x0020:  ffff ffff ffff ab43 ede8
+14:17:40.830437 ARP, Ethernet (len 6), IPv4 (len 4), Reply 171.67.237.232 is-at 00:a2:c7:bd:fe:c0, length 28
+	0x0000:  00e0 8104 26d9 00a2 c7bd fec0 0806 0001
+	0x0010:  0800 0604 0002 00a2 c7bd fec0 ab43 ede8
+	0x0020:  00e0 8104 26d9 ac18 4a11
+14:17:40.902607 IP (tos 0x0, ttl 49, id 6360, offset 0, flags [none], proto ICMP (1), length 84)
+    131.193.29.146 > 171.67.237.237: ICMP echo request, id 4278, seq 1, length 64
+	0x0000:  00a2 c7bd fec0 00e0 8104 26d9 0800 4500
+	0x0010:  0054 18d8 0000 3101 364d 83c1 1d92 ab43
+	0x0020:  eded 0800 6819 10b6 0001 6489 cb50 5a52
+	0x0030:  0a00 0809 0a0b 0c0d 0e0f 1011 1213 1415
+	0x0040:  1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	0x0050:  2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	0x0060:  3637
+14:17:41.523774 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 171.67.237.237 tell 171.67.237.236, length 28
+	0x0000:  ffff ffff ffff 006f 550d 2aa2 0806 0001
+	0x0010:  0800 0604 0001 006f 550d 2aa2 ab43 edec
+	0x0020:  0000 0000 0000 ab43 eded
+14:17:41.596184 ARP, Ethernet (len 6), IPv4 (len 4), Reply 171.67.237.237 is-at 00:58:fa:a7:41:22, length 28
+	0x0000:  006f 550d 2aa2 0058 faa7 4122 0806 0001
+	0x0010:  0800 0604 0002 0058 faa7 4122 ab43 eded
+	0x0020:  006f 550d 2aa2 ab43 edec
+14:17:41.865378 IP (tos 0x0, ttl 49, id 6366, offset 0, flags [none], proto ICMP (1), length 84)
+    131.193.29.146 > 171.67.237.237: ICMP echo request, id 4278, seq 2, length 64
+	0x0000:  00a2 c7bd fec0 00e0 8104 26d9 0800 4500
+	0x0010:  0054 18de 0000 3101 3647 83c1 1d92 ab43
+	0x0020:  eded 0800 75fb 10b6 0002 6589 cb50 4b6f
+	0x0030:  0a00 0809 0a0b 0c0d 0e0f 1011 1213 1415
+	0x0040:  1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	0x0050:  2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	0x0060:  3637
+14:17:41.865526 IP (tos 0x0, ttl 48, id 6366, offset 0, flags [none], proto ICMP (1), length 84)
+    131.193.29.146 > 171.67.237.237: ICMP echo request, id 4278, seq 2, length 64
+	0x0000:  0058 faa7 4122 006f 550d 2aa2 0800 4500
+	0x0010:  0054 18de 0000 3001 3747 83c1 1d92 ab43
+	0x0020:  eded 0800 75fb 10b6 0002 6589 cb50 4b6f
+	0x0030:  0a00 0809 0a0b 0c0d 0e0f 1011 1213 1415
+	0x0040:  1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	0x0050:  2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	0x0060:  3637
+14:17:41.939379 IP (tos 0x0, ttl 64, id 6366, offset 0, flags [none], proto ICMP (1), length 84)
+    171.67.237.237 > 131.193.29.146: ICMP echo reply, id 4278, seq 2, length 64
+	0x0000:  006f 550d 2aa2 0058 faa7 4122 0800 4500
+	0x0010:  0054 18de 0000 4001 2747 ab43 eded 83c1
+	0x0020:  1d92 0000 7dfb 10b6 0002 6589 cb50 4b6f
+	0x0030:  0a00 0809 0a0b 0c0d 0e0f 1011 1213 1415
+	0x0040:  1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	0x0050:  2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	0x0060:  3637
+14:17:42.524664 IP (tos 0x0, ttl 48, id 6360, offset 0, flags [none], proto ICMP (1), length 84)
+    131.193.29.146 > 171.67.237.237: ICMP echo request, id 4278, seq 1, length 64
+	0x0000:  0058 faa7 4122 006f 550d 2aa2 0800 4500
+	0x0010:  0054 18d8 0000 3001 374d 83c1 1d92 ab43
+	0x0020:  eded 0800 6819 10b6 0001 6489 cb50 5a52
+	0x0030:  0a00 0809 0a0b 0c0d 0e0f 1011 1213 1415
+	0x0040:  1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	0x0050:  2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	0x0060:  3637
+14:17:42.525491 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 172.24.74.17 tell 171.67.237.232, length 28
+	0x0000:  ffff ffff ffff 00a2 c7bd fec0 0806 0001
+	0x0010:  0800 0604 0001 00a2 c7bd fec0 ab43 ede8
+	0x0020:  0000 0000 0000 ac18 4a11
+14:17:42.616220 IP (tos 0x0, ttl 64, id 6360, offset 0, flags [none], proto ICMP (1), length 84)
+    171.67.237.237 > 131.193.29.146: ICMP echo reply, id 4278, seq 1, length 64
+	0x0000:  006f 550d 2aa2 0058 faa7 4122 0800 4500
+	0x0010:  0054 18d8 0000 4001 274d ab43 eded 83c1
+	0x0020:  1d92 0000 7019 10b6 0001 6489 cb50 5a52
+	0x0030:  0a00 0809 0a0b 0c0d 0e0f 1011 1213 1415
+	0x0040:  1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	0x0050:  2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	0x0060:  3637
+14:17:42.693652 ARP, Ethernet (len 6), IPv4 (len 4), Reply 172.24.74.17 is-at 00:e0:81:04:26:d9, length 46
+	0x0000:  00a2 c7bd fec0 00e0 8104 26d9 0806 0001
+	0x0010:  0800 0604 0002 00e0 8104 26d9 ac18 4a11
+	0x0020:  00a2 c7bd fec0 ab43 ede8 0000 0000 0000
+	0x0030:  0000 0000 0000 0000 0000 0000
+14:17:42.954115 IP (tos 0x0, ttl 49, id 6376, offset 0, flags [none], proto ICMP (1), length 84)
+    131.193.29.146 > 171.67.237.237: ICMP echo request, id 4278, seq 3, length 64
+	0x0000:  00a2 c7bd fec0 00e0 8104 26d9 0800 4500
+	0x0010:  0054 18e8 0000 3101 363d 83c1 1d92 ab43
+	0x0020:  eded 0800 09d8 10b6 0003 6689 cb50 b691
+	0x0030:  0a00 0809 0a0b 0c0d 0e0f 1011 1213 1415
+	0x0040:  1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	0x0050:  2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	0x0060:  3637
+14:17:42.954219 IP (tos 0x0, ttl 48, id 6376, offset 0, flags [none], proto ICMP (1), length 84)
+    131.193.29.146 > 171.67.237.237: ICMP echo request, id 4278, seq 3, length 64
+	0x0000:  0058 faa7 4122 006f 550d 2aa2 0800 4500
+	0x0010:  0054 18e8 0000 3001 373d 83c1 1d92 ab43
+	0x0020:  eded 0800 09d8 10b6 0003 6689 cb50 b691
+	0x0030:  0a00 0809 0a0b 0c0d 0e0f 1011 1213 1415
+	0x0040:  1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	0x0050:  2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	0x0060:  3637
+14:17:43.025669 IP (tos 0x0, ttl 64, id 6376, offset 0, flags [none], proto ICMP (1), length 84)
+    171.67.237.237 > 131.193.29.146: ICMP echo reply, id 4278, seq 3, length 64
+	0x0000:  006f 550d 2aa2 0058 faa7 4122 0800 4500
+	0x0010:  0054 18e8 0000 4001 273d ab43 eded 83c1
+	0x0020:  1d92 0000 11d8 10b6 0003 6689 cb50 b691
+	0x0030:  0a00 0809 0a0b 0c0d 0e0f 1011 1213 1415
+	0x0040:  1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	0x0050:  2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	0x0060:  3637
+14:17:43.025771 IP (tos 0x0, ttl 63, id 6376, offset 0, flags [none], proto ICMP (1), length 84)
+    171.67.237.237 > 131.193.29.146: ICMP echo reply, id 4278, seq 3, length 64
+	0x0000:  00e0 8104 26d9 00a2 c7bd fec0 0800 4500
+	0x0010:  0054 18e8 0000 3f01 283d ab43 eded 83c1
+	0x0020:  1d92 0000 11d8 10b6 0003 6689 cb50 b691
+	0x0030:  0a00 0809 0a0b 0c0d 0e0f 1011 1213 1415
+	0x0040:  1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	0x0050:  2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	0x0060:  3637
+14:17:43.526718 IP (tos 0x0, ttl 63, id 6360, offset 0, flags [none], proto ICMP (1), length 84)
+    171.67.237.237 > 131.193.29.146: ICMP echo reply, id 4278, seq 1, length 64
+	0x0000:  00e0 8104 26d9 00a2 c7bd fec0 0800 4500
+	0x0010:  0054 18d8 0000 3f01 284d ab43 eded 83c1
+	0x0020:  1d92 0000 7019 10b6 0001 6489 cb50 5a52
+	0x0030:  0a00 0809 0a0b 0c0d 0e0f 1011 1213 1415
+	0x0040:  1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	0x0050:  2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	0x0060:  3637
+14:17:43.527655 IP (tos 0x0, ttl 63, id 6366, offset 0, flags [none], proto ICMP (1), length 84)
+    171.67.237.237 > 131.193.29.146: ICMP echo reply, id 4278, seq 2, length 64
+	0x0000:  00e0 8104 26d9 00a2 c7bd fec0 0800 4500
+	0x0010:  0054 18de 0000 3f01 2847 ab43 eded 83c1
+	0x0020:  1d92 0000 7dfb 10b6 0002 6589 cb50 4b6f
+	0x0030:  0a00 0809 0a0b 0c0d 0e0f 1011 1213 1415
+	0x0040:  1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	0x0050:  2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	0x0060:  3637
+14:17:43.764069 IP (tos 0x0, ttl 49, id 6382, offset 0, flags [none], proto ICMP (1), length 84)
+    131.193.29.146 > 171.67.237.237: ICMP echo request, id 4278, seq 4, length 64
+	0x0000:  00a2 c7bd fec0 00e0 8104 26d9 0800 4500
+	0x0010:  0054 18ee 0000 3101 3637 83c1 1d92 ab43
+	0x0020:  eded 0800 1ad3 10b6 0004 6789 cb50 a495
+	0x0030:  0a00 0809 0a0b 0c0d 0e0f 1011 1213 1415
+	0x0040:  1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	0x0050:  2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	0x0060:  3637
+14:17:43.764172 IP (tos 0x0, ttl 48, id 6382, offset 0, flags [none], proto ICMP (1), length 84)
+    131.193.29.146 > 171.67.237.237: ICMP echo request, id 4278, seq 4, length 64
+	0x0000:  0058 faa7 4122 006f 550d 2aa2 0800 4500
+	0x0010:  0054 18ee 0000 3001 3737 83c1 1d92 ab43
+	0x0020:  eded 0800 1ad3 10b6 0004 6789 cb50 a495
+	0x0030:  0a00 0809 0a0b 0c0d 0e0f 1011 1213 1415
+	0x0040:  1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	0x0050:  2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	0x0060:  3637
+14:17:43.841878 IP (tos 0x0, ttl 64, id 6382, offset 0, flags [none], proto ICMP (1), length 84)
+    171.67.237.237 > 131.193.29.146: ICMP echo reply, id 4278, seq 4, length 64
+	0x0000:  006f 550d 2aa2 0058 faa7 4122 0800 4500
+	0x0010:  0054 18ee 0000 4001 2737 ab43 eded 83c1
+	0x0020:  1d92 0000 22d3 10b6 0004 6789 cb50 a495
+	0x0030:  0a00 0809 0a0b 0c0d 0e0f 1011 1213 1415
+	0x0040:  1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	0x0050:  2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	0x0060:  3637
+14:17:43.841978 IP (tos 0x0, ttl 63, id 6382, offset 0, flags [none], proto ICMP (1), length 84)
+    171.67.237.237 > 131.193.29.146: ICMP echo reply, id 4278, seq 4, length 64
+	0x0000:  00e0 8104 26d9 00a2 c7bd fec0 0800 4500
+	0x0010:  0054 18ee 0000 3f01 2837 ab43 eded 83c1
+	0x0020:  1d92 0000 22d3 10b6 0004 6789 cb50 a495
+	0x0030:  0a00 0809 0a0b 0c0d 0e0f 1011 1213 1415
+	0x0040:  1617 1819 1a1b 1c1d 1e1f 2021 2223 2425
+	0x0050:  2627 2829 2a2b 2c2d 2e2f 3031 3233 3435
+	0x0060:  3637
+14:18:00.137844 IP (tos 0x0, ttl 114, id 6421, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [udp sum ok] 
+>>> NBT UDP PACKET(137): QUERY; REQUEST; UNICAST
+TrnID=0xCAEC
+OpCode=0
+NmFlags=0x0
+Rcode=0
+QueryCount=1
+AnswerCount=0
+AuthorityCount=0
+AddressRecCount=0
+QuestionRecords:
+Name=*               NameType=0x00 (Workstation)
+QuestionType=0x21
+QuestionClass=0x1
+
+
+	0x0000:  00a2 c7bd fec0 00e0 8104 26d9 0800 4500
+	0x0010:  004e 1915 0000 7211 f505 83c1 1d92 ab43
+	0x0020:  eded 0089 0089 003a babd caec 0000 0001
+	0x0030:  0000 0000 0000 2043 4b41 4141 4141 4141
+	0x0040:  4141 4141 4141 4141 4141 4141 4141 4141
+	0x0050:  4141 4141 4141 4100 0021 0001
+14:18:00.137953 IP (tos 0x0, ttl 113, id 6421, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [udp sum ok] 
+>>> NBT UDP PACKET(137): QUERY; REQUEST; UNICAST
+TrnID=0xCAEC
+OpCode=0
+NmFlags=0x0
+Rcode=0
+QueryCount=1
+AnswerCount=0
+AuthorityCount=0
+AddressRecCount=0
+QuestionRecords:
+Name=*               NameType=0x00 (Workstation)
+QuestionType=0x21
+QuestionClass=0x1
+
+
+	0x0000:  0058 faa7 4122 006f 550d 2aa2 0800 4500
+	0x0010:  004e 1915 0000 7111 f605 83c1 1d92 ab43
+	0x0020:  eded 0089 0089 003a babd caec 0000 0001
+	0x0030:  0000 0000 0000 2043 4b41 4141 4141 4141
+	0x0040:  4141 4141 4141 4141 4141 4141 4141 4141
+	0x0050:  4141 4141 4141 4100 0021 0001
+14:18:00.209936 IP (tos 0x0, ttl 64, id 6421, offset 0, flags [none], proto ICMP (1), length 56)
+    171.67.237.237 > 131.193.29.146: ICMP 171.67.237.237 udp port 137 unreachable, length 36
+	IP (tos 0x0, ttl 113, id 6421, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [|SMB]
+	0x0000:  006f 550d 2aa2 0058 faa7 4122 0800 4500
+	0x0010:  0038 1915 0000 4001 272c ab43 eded 83c1
+	0x0020:  1d92 0303 40f3 0000 0000 4500 004e 1915
+	0x0030:  0000 7111 f605 83c1 1d92 ab43 eded 0089
+	0x0040:  0089 003a babd
+14:18:00.210047 IP (tos 0x0, ttl 63, id 6421, offset 0, flags [none], proto ICMP (1), length 56)
+    171.67.237.237 > 131.193.29.146: ICMP 171.67.237.237 udp port 137 unreachable, length 36
+	IP (tos 0x0, ttl 113, id 6421, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [|SMB]
+	0x0000:  00e0 8104 26d9 00a2 c7bd fec0 0800 4500
+	0x0010:  0038 1915 0000 3f01 282c ab43 eded 83c1
+	0x0020:  1d92 0303 40f3 0000 0000 4500 004e 1915
+	0x0030:  0000 7111 f605 83c1 1d92 ab43 eded 0089
+	0x0040:  0089 003a babd
+14:18:01.638227 IP (tos 0x0, ttl 114, id 6424, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [udp sum ok] 
+>>> NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+TrnID=0xCAEC
+OpCode=0
+NmFlags=0x1
+Rcode=0
+QueryCount=1
+AnswerCount=0
+AuthorityCount=0
+AddressRecCount=0
+QuestionRecords:
+Name=*               NameType=0x00 (Workstation)
+QuestionType=0x21
+QuestionClass=0x1
+
+
+	0x0000:  00a2 c7bd fec0 00e0 8104 26d9 0800 4500
+	0x0010:  004e 1918 0000 7211 f502 83c1 1d92 ab43
+	0x0020:  eded 0089 0089 003a baad caec 0010 0001
+	0x0030:  0000 0000 0000 2043 4b41 4141 4141 4141
+	0x0040:  4141 4141 4141 4141 4141 4141 4141 4141
+	0x0050:  4141 4141 4141 4100 0021 0001
+14:18:01.638338 IP (tos 0x0, ttl 113, id 6424, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [udp sum ok] 
+>>> NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+TrnID=0xCAEC
+OpCode=0
+NmFlags=0x1
+Rcode=0
+QueryCount=1
+AnswerCount=0
+AuthorityCount=0
+AddressRecCount=0
+QuestionRecords:
+Name=*               NameType=0x00 (Workstation)
+QuestionType=0x21
+QuestionClass=0x1
+
+
+	0x0000:  0058 faa7 4122 006f 550d 2aa2 0800 4500
+	0x0010:  004e 1918 0000 7111 f602 83c1 1d92 ab43
+	0x0020:  eded 0089 0089 003a baad caec 0010 0001
+	0x0030:  0000 0000 0000 2043 4b41 4141 4141 4141
+	0x0040:  4141 4141 4141 4141 4141 4141 4141 4141
+	0x0050:  4141 4141 4141 4100 0021 0001
+14:18:01.710475 IP (tos 0x0, ttl 64, id 6424, offset 0, flags [none], proto ICMP (1), length 56)
+    171.67.237.237 > 131.193.29.146: ICMP 171.67.237.237 udp port 137 unreachable, length 36
+	IP (tos 0x0, ttl 113, id 6424, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [|SMB]
+	0x0000:  006f 550d 2aa2 0058 faa7 4122 0800 4500
+	0x0010:  0038 1918 0000 4001 2729 ab43 eded 83c1
+	0x0020:  1d92 0303 4103 0000 0000 4500 004e 1918
+	0x0030:  0000 7111 f602 83c1 1d92 ab43 eded 0089
+	0x0040:  0089 003a baad
+14:18:01.710585 IP (tos 0x0, ttl 63, id 6424, offset 0, flags [none], proto ICMP (1), length 56)
+    171.67.237.237 > 131.193.29.146: ICMP 171.67.237.237 udp port 137 unreachable, length 36
+	IP (tos 0x0, ttl 113, id 6424, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [|SMB]
+	0x0000:  00e0 8104 26d9 00a2 c7bd fec0 0800 4500
+	0x0010:  0038 1918 0000 3f01 2829 ab43 eded 83c1
+	0x0020:  1d92 0303 4103 0000 0000 4500 004e 1918
+	0x0030:  0000 7111 f602 83c1 1d92 ab43 eded 0089
+	0x0040:  0089 003a baad
+14:18:03.137043 IP (tos 0x0, ttl 114, id 6435, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [udp sum ok] 
+>>> NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+TrnID=0xCAEC
+OpCode=0
+NmFlags=0x1
+Rcode=0
+QueryCount=1
+AnswerCount=0
+AuthorityCount=0
+AddressRecCount=0
+QuestionRecords:
+Name=*               NameType=0x00 (Workstation)
+QuestionType=0x21
+QuestionClass=0x1
+
+
+	0x0000:  00a2 c7bd fec0 00e0 8104 26d9 0800 4500
+	0x0010:  004e 1923 0000 7211 f4f7 83c1 1d92 ab43
+	0x0020:  eded 0089 0089 003a baad caec 0010 0001
+	0x0030:  0000 0000 0000 2043 4b41 4141 4141 4141
+	0x0040:  4141 4141 4141 4141 4141 4141 4141 4141
+	0x0050:  4141 4141 4141 4100 0021 0001
+14:18:03.137149 IP (tos 0x0, ttl 113, id 6435, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [udp sum ok] 
+>>> NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+TrnID=0xCAEC
+OpCode=0
+NmFlags=0x1
+Rcode=0
+QueryCount=1
+AnswerCount=0
+AuthorityCount=0
+AddressRecCount=0
+QuestionRecords:
+Name=*               NameType=0x00 (Workstation)
+QuestionType=0x21
+QuestionClass=0x1
+
+
+	0x0000:  0058 faa7 4122 006f 550d 2aa2 0800 4500
+	0x0010:  004e 1923 0000 7111 f5f7 83c1 1d92 ab43
+	0x0020:  eded 0089 0089 003a baad caec 0010 0001
+	0x0030:  0000 0000 0000 2043 4b41 4141 4141 4141
+	0x0040:  4141 4141 4141 4141 4141 4141 4141 4141
+	0x0050:  4141 4141 4141 4100 0021 0001
+14:18:03.209362 IP (tos 0x0, ttl 64, id 6435, offset 0, flags [none], proto ICMP (1), length 56)
+    171.67.237.237 > 131.193.29.146: ICMP 171.67.237.237 udp port 137 unreachable, length 36
+	IP (tos 0x0, ttl 113, id 6435, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [|SMB]
+	0x0000:  006f 550d 2aa2 0058 faa7 4122 0800 4500
+	0x0010:  0038 1923 0000 4001 271e ab43 eded 83c1
+	0x0020:  1d92 0303 4103 0000 0000 4500 004e 1923
+	0x0030:  0000 7111 f5f7 83c1 1d92 ab43 eded 0089
+	0x0040:  0089 003a baad
+14:18:03.209468 IP (tos 0x0, ttl 63, id 6435, offset 0, flags [none], proto ICMP (1), length 56)
+    171.67.237.237 > 131.193.29.146: ICMP 171.67.237.237 udp port 137 unreachable, length 36
+	IP (tos 0x0, ttl 113, id 6435, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [|SMB]
+	0x0000:  00e0 8104 26d9 00a2 c7bd fec0 0800 4500
+	0x0010:  0038 1923 0000 3f01 281e ab43 eded 83c1
+	0x0020:  1d92 0303 4103 0000 0000 4500 004e 1923
+	0x0030:  0000 7111 f5f7 83c1 1d92 ab43 eded 0089
+	0x0040:  0089 003a baad
+14:18:31.431664 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 171.67.237.232 (ff:ff:ff:ff:ff:ff) tell 172.24.74.17, length 28
+	0x0000:  ffff ffff ffff 00e0 8104 26d9 0806 0001
+	0x0010:  0800 0604 0001 00e0 8104 26d9 ac18 4a11
+	0x0020:  ffff ffff ffff ab43 ede8
+14:18:31.431763 ARP, Ethernet (len 6), IPv4 (len 4), Reply 171.67.237.232 is-at 00:a2:c7:bd:fe:c0, length 28
+	0x0000:  00e0 8104 26d9 00a2 c7bd fec0 0806 0001
+	0x0010:  0800 0604 0002 00a2 c7bd fec0 ab43 ede8
+	0x0020:  00e0 8104 26d9 ac18 4a11
+14:18:31.503282 IP (tos 0x0, ttl 1, id 6678, offset 0, flags [none], proto ICMP (1), length 92)
+    131.193.29.146 > 171.67.237.237: ICMP echo request, id 1, seq 43, length 72
+	0x0000:  00a2 c7bd fec0 00e0 8104 26d9 0800 4500
+	0x0010:  005c 1a16 0000 0101 6507 83c1 1d92 ab43
+	0x0020:  eded 0800 f7d3 0001 002b 0000 0000 0000
+	0x0030:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0040:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0050:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0060:  0000 0000 0000 0000 0000
+14:18:31.573659 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 172.24.74.17 tell 171.67.237.232, length 28
+	0x0000:  ffff ffff ffff 00a2 c7bd fec0 0806 0001
+	0x0010:  0800 0604 0001 00a2 c7bd fec0 ab43 ede8
+	0x0020:  0000 0000 0000 ac18 4a11
+14:18:31.646885 ARP, Ethernet (len 6), IPv4 (len 4), Reply 172.24.74.17 is-at 00:e0:81:04:26:d9, length 46
+	0x0000:  00a2 c7bd fec0 00e0 8104 26d9 0806 0001
+	0x0010:  0800 0604 0002 00e0 8104 26d9 ac18 4a11
+	0x0020:  00a2 c7bd fec0 ab43 ede8 0000 0000 0000
+	0x0030:  0000 0000 0000 0000 0000 0000
+14:18:32.574611 IP (tos 0x0, ttl 64, id 1, offset 0, flags [none], proto ICMP (1), length 56)
+    171.67.237.232 > 131.193.29.146: ICMP time exceeded in-transit, length 36
+	IP (tos 0x0, id 6678, offset 0, flags [none], proto ICMP (1), length 92, bad cksum 6507 (->6607)!)
+    131.193.29.146 > 171.67.237.237: ICMP echo request, id 1, seq 43, length 72
+	0x0000:  00e0 8104 26d9 00a2 c7bd fec0 0800 4500
+	0x0010:  0038 0001 0000 4001 4045 ab43 ede8 83c1
+	0x0020:  1d92 0b00 f5ff 0000 0000 4500 005c 1a16
+	0x0030:  0000 0001 6507 83c1 1d92 ab43 eded 0800
+	0x0040:  f7d3 0001 002b
+14:18:35.432432 IP (tos 0x0, ttl 1, id 6703, offset 0, flags [none], proto ICMP (1), length 92)
+    131.193.29.146 > 171.67.237.237: ICMP echo request, id 1, seq 44, length 72
+	0x0000:  00a2 c7bd fec0 00e0 8104 26d9 0800 4500
+	0x0010:  005c 1a2f 0000 0101 64ee 83c1 1d92 ab43
+	0x0020:  eded 0800 f7d2 0001 002c 0000 0000 0000
+	0x0030:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0040:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0050:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0060:  0000 0000 0000 0000 0000
+14:18:35.432615 IP (tos 0x0, ttl 64, id 2, offset 0, flags [none], proto ICMP (1), length 56)
+    171.67.237.232 > 131.193.29.146: ICMP time exceeded in-transit, length 36
+	IP (tos 0x0, id 6703, offset 0, flags [none], proto ICMP (1), length 92, bad cksum 64ee (->65ee)!)
+    131.193.29.146 > 171.67.237.237: ICMP echo request, id 1, seq 44, length 72
+	0x0000:  00e0 8104 26d9 00a2 c7bd fec0 0800 4500
+	0x0010:  0038 0002 0000 4001 4044 ab43 ede8 83c1
+	0x0020:  1d92 0b00 f5ff 0000 0000 4500 005c 1a2f
+	0x0030:  0000 0001 64ee 83c1 1d92 ab43 eded 0800
+	0x0040:  f7d2 0001 002c
+14:18:39.430970 IP (tos 0x0, ttl 1, id 6709, offset 0, flags [none], proto ICMP (1), length 92)
+    131.193.29.146 > 171.67.237.237: ICMP echo request, id 1, seq 45, length 72
+	0x0000:  00a2 c7bd fec0 00e0 8104 26d9 0800 4500
+	0x0010:  005c 1a35 0000 0101 64e8 83c1 1d92 ab43
+	0x0020:  eded 0800 f7d1 0001 002d 0000 0000 0000
+	0x0030:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0040:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0050:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0060:  0000 0000 0000 0000 0000
+14:18:39.431113 IP (tos 0x0, ttl 64, id 3, offset 0, flags [none], proto ICMP (1), length 56)
+    171.67.237.232 > 131.193.29.146: ICMP time exceeded in-transit, length 36
+	IP (tos 0x0, id 6709, offset 0, flags [none], proto ICMP (1), length 92, bad cksum 64e8 (->65e8)!)
+    131.193.29.146 > 171.67.237.237: ICMP echo request, id 1, seq 45, length 72
+	0x0000:  00e0 8104 26d9 00a2 c7bd fec0 0800 4500
+	0x0010:  0038 0003 0000 4001 4043 ab43 ede8 83c1
+	0x0020:  1d92 0b00 f5ff 0000 0000 4500 005c 1a35
+	0x0030:  0000 0001 64e8 83c1 1d92 ab43 eded 0800
+	0x0040:  f7d1 0001 002d
+14:18:43.432299 IP (tos 0x0, ttl 2, id 6717, offset 0, flags [none], proto ICMP (1), length 92)
+    131.193.29.146 > 171.67.237.237: ICMP echo request, id 1, seq 46, length 72
+	0x0000:  00a2 c7bd fec0 00e0 8104 26d9 0800 4500
+	0x0010:  005c 1a3d 0000 0201 63e0 83c1 1d92 ab43
+	0x0020:  eded 0800 f7d0 0001 002e 0000 0000 0000
+	0x0030:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0040:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0050:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0060:  0000 0000 0000 0000 0000
+14:18:43.585889 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 171.67.237.237 tell 171.67.237.236, length 28
+	0x0000:  ffff ffff ffff 006f 550d 2aa2 0806 0001
+	0x0010:  0800 0604 0001 006f 550d 2aa2 ab43 edec
+	0x0020:  0000 0000 0000 ab43 eded
+14:18:43.656386 ARP, Ethernet (len 6), IPv4 (len 4), Reply 171.67.237.237 is-at 00:58:fa:a7:41:22, length 28
+	0x0000:  006f 550d 2aa2 0058 faa7 4122 0806 0001
+	0x0010:  0800 0604 0002 0058 faa7 4122 ab43 eded
+	0x0020:  006f 550d 2aa2 ab43 edec
+14:18:44.586878 IP (tos 0x0, ttl 1, id 6717, offset 0, flags [none], proto ICMP (1), length 92)
+    131.193.29.146 > 171.67.237.237: ICMP echo request, id 1, seq 46, length 72
+	0x0000:  0058 faa7 4122 006f 550d 2aa2 0800 4500
+	0x0010:  005c 1a3d 0000 0101 64e0 83c1 1d92 ab43
+	0x0020:  eded 0800 f7d0 0001 002e 0000 0000 0000
+	0x0030:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0040:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0050:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0060:  0000 0000 0000 0000 0000
+14:18:44.682962 IP (tos 0x0, ttl 64, id 6717, offset 0, flags [none], proto ICMP (1), length 92)
+    171.67.237.237 > 131.193.29.146: ICMP echo reply, id 1, seq 46, length 72
+	0x0000:  006f 550d 2aa2 0058 faa7 4122 0800 4500
+	0x0010:  005c 1a3d 0000 4001 25e0 ab43 eded 83c1
+	0x0020:  1d92 0000 ffd0 0001 002e 0000 0000 0000
+	0x0030:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0040:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0050:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0060:  0000 0000 0000 0000 0000
+14:18:44.683077 IP (tos 0x0, ttl 63, id 6717, offset 0, flags [none], proto ICMP (1), length 92)
+    171.67.237.237 > 131.193.29.146: ICMP echo reply, id 1, seq 46, length 72
+	0x0000:  00e0 8104 26d9 00a2 c7bd fec0 0800 4500
+	0x0010:  005c 1a3d 0000 3f01 26e0 ab43 eded 83c1
+	0x0020:  1d92 0000 ffd0 0001 002e 0000 0000 0000
+	0x0030:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0040:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0050:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0060:  0000 0000 0000 0000 0000
+14:18:44.832718 IP (tos 0x0, ttl 2, id 6723, offset 0, flags [none], proto ICMP (1), length 92)
+    131.193.29.146 > 171.67.237.237: ICMP echo request, id 1, seq 47, length 72
+	0x0000:  00a2 c7bd fec0 00e0 8104 26d9 0800 4500
+	0x0010:  005c 1a43 0000 0201 63da 83c1 1d92 ab43
+	0x0020:  eded 0800 f7cf 0001 002f 0000 0000 0000
+	0x0030:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0040:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0050:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0060:  0000 0000 0000 0000 0000
+14:18:44.832821 IP (tos 0x0, ttl 1, id 6723, offset 0, flags [none], proto ICMP (1), length 92)
+    131.193.29.146 > 171.67.237.237: ICMP echo request, id 1, seq 47, length 72
+	0x0000:  0058 faa7 4122 006f 550d 2aa2 0800 4500
+	0x0010:  005c 1a43 0000 0101 64da 83c1 1d92 ab43
+	0x0020:  eded 0800 f7cf 0001 002f 0000 0000 0000
+	0x0030:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0040:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0050:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0060:  0000 0000 0000 0000 0000
+14:18:44.902320 IP (tos 0x0, ttl 64, id 6723, offset 0, flags [none], proto ICMP (1), length 92)
+    171.67.237.237 > 131.193.29.146: ICMP echo reply, id 1, seq 47, length 72
+	0x0000:  006f 550d 2aa2 0058 faa7 4122 0800 4500
+	0x0010:  005c 1a43 0000 4001 25da ab43 eded 83c1
+	0x0020:  1d92 0000 ffcf 0001 002f 0000 0000 0000
+	0x0030:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0040:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0050:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0060:  0000 0000 0000 0000 0000
+14:18:44.902420 IP (tos 0x0, ttl 63, id 6723, offset 0, flags [none], proto ICMP (1), length 92)
+    171.67.237.237 > 131.193.29.146: ICMP echo reply, id 1, seq 47, length 72
+	0x0000:  00e0 8104 26d9 00a2 c7bd fec0 0800 4500
+	0x0010:  005c 1a43 0000 3f01 26da ab43 eded 83c1
+	0x0020:  1d92 0000 ffcf 0001 002f 0000 0000 0000
+	0x0030:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0040:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0050:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0060:  0000 0000 0000 0000 0000
+14:18:45.044145 IP (tos 0x0, ttl 2, id 6726, offset 0, flags [none], proto ICMP (1), length 92)
+    131.193.29.146 > 171.67.237.237: ICMP echo request, id 1, seq 48, length 72
+	0x0000:  00a2 c7bd fec0 00e0 8104 26d9 0800 4500
+	0x0010:  005c 1a46 0000 0201 63d7 83c1 1d92 ab43
+	0x0020:  eded 0800 f7ce 0001 0030 0000 0000 0000
+	0x0030:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0040:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0050:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0060:  0000 0000 0000 0000 0000
+14:18:45.044254 IP (tos 0x0, ttl 1, id 6726, offset 0, flags [none], proto ICMP (1), length 92)
+    131.193.29.146 > 171.67.237.237: ICMP echo request, id 1, seq 48, length 72
+	0x0000:  0058 faa7 4122 006f 550d 2aa2 0800 4500
+	0x0010:  005c 1a46 0000 0101 64d7 83c1 1d92 ab43
+	0x0020:  eded 0800 f7ce 0001 0030 0000 0000 0000
+	0x0030:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0040:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0050:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0060:  0000 0000 0000 0000 0000
+14:18:45.205996 IP (tos 0x0, ttl 64, id 6726, offset 0, flags [none], proto ICMP (1), length 92)
+    171.67.237.237 > 131.193.29.146: ICMP echo reply, id 1, seq 48, length 72
+	0x0000:  006f 550d 2aa2 0058 faa7 4122 0800 4500
+	0x0010:  005c 1a46 0000 4001 25d7 ab43 eded 83c1
+	0x0020:  1d92 0000 ffce 0001 0030 0000 0000 0000
+	0x0030:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0040:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0050:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0060:  0000 0000 0000 0000 0000
+14:18:45.206098 IP (tos 0x0, ttl 63, id 6726, offset 0, flags [none], proto ICMP (1), length 92)
+    171.67.237.237 > 131.193.29.146: ICMP echo reply, id 1, seq 48, length 72
+	0x0000:  00e0 8104 26d9 00a2 c7bd fec0 0800 4500
+	0x0010:  005c 1a46 0000 3f01 26d7 ab43 eded 83c1
+	0x0020:  1d92 0000 ffce 0001 0030 0000 0000 0000
+	0x0030:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0040:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0050:  0000 0000 0000 0000 0000 0000 0000 0000
+	0x0060:  0000 0000 0000 0000 0000
+14:18:45.417943 IP (tos 0x0, ttl 114, id 6729, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [udp sum ok] 
+>>> NBT UDP PACKET(137): QUERY; REQUEST; UNICAST
+TrnID=0xCAFC
+OpCode=0
+NmFlags=0x0
+Rcode=0
+QueryCount=1
+AnswerCount=0
+AuthorityCount=0
+AddressRecCount=0
+QuestionRecords:
+Name=*               NameType=0x00 (Workstation)
+QuestionType=0x21
+QuestionClass=0x1
+
+
+	0x0000:  00a2 c7bd fec0 00e0 8104 26d9 0800 4500
+	0x0010:  004e 1a49 0000 7211 f3d1 83c1 1d92 ab43
+	0x0020:  eded 0089 0089 003a baad cafc 0000 0001
+	0x0030:  0000 0000 0000 2043 4b41 4141 4141 4141
+	0x0040:  4141 4141 4141 4141 4141 4141 4141 4141
+	0x0050:  4141 4141 4141 4100 0021 0001
+14:18:45.418039 IP (tos 0x0, ttl 113, id 6729, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [udp sum ok] 
+>>> NBT UDP PACKET(137): QUERY; REQUEST; UNICAST
+TrnID=0xCAFC
+OpCode=0
+NmFlags=0x0
+Rcode=0
+QueryCount=1
+AnswerCount=0
+AuthorityCount=0
+AddressRecCount=0
+QuestionRecords:
+Name=*               NameType=0x00 (Workstation)
+QuestionType=0x21
+QuestionClass=0x1
+
+
+	0x0000:  0058 faa7 4122 006f 550d 2aa2 0800 4500
+	0x0010:  004e 1a49 0000 7111 f4d1 83c1 1d92 ab43
+	0x0020:  eded 0089 0089 003a baad cafc 0000 0001
+	0x0030:  0000 0000 0000 2043 4b41 4141 4141 4141
+	0x0040:  4141 4141 4141 4141 4141 4141 4141 4141
+	0x0050:  4141 4141 4141 4100 0021 0001
+14:18:45.547259 IP (tos 0x0, ttl 64, id 6729, offset 0, flags [none], proto ICMP (1), length 56)
+    171.67.237.237 > 131.193.29.146: ICMP 171.67.237.237 udp port 137 unreachable, length 36
+	IP (tos 0x0, ttl 113, id 6729, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [|SMB]
+	0x0000:  006f 550d 2aa2 0058 faa7 4122 0800 4500
+	0x0010:  0038 1a49 0000 4001 25f8 ab43 eded 83c1
+	0x0020:  1d92 0303 4103 0000 0000 4500 004e 1a49
+	0x0030:  0000 7111 f4d1 83c1 1d92 ab43 eded 0089
+	0x0040:  0089 003a baad
+14:18:45.547360 IP (tos 0x0, ttl 63, id 6729, offset 0, flags [none], proto ICMP (1), length 56)
+    171.67.237.237 > 131.193.29.146: ICMP 171.67.237.237 udp port 137 unreachable, length 36
+	IP (tos 0x0, ttl 113, id 6729, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [|SMB]
+	0x0000:  00e0 8104 26d9 00a2 c7bd fec0 0800 4500
+	0x0010:  0038 1a49 0000 3f01 26f8 ab43 eded 83c1
+	0x0020:  1d92 0303 4103 0000 0000 4500 004e 1a49
+	0x0030:  0000 7111 f4d1 83c1 1d92 ab43 eded 0089
+	0x0040:  0089 003a baad
+14:18:46.913808 IP (tos 0x0, ttl 114, id 6732, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [udp sum ok] 
+>>> NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+TrnID=0xCAFC
+OpCode=0
+NmFlags=0x1
+Rcode=0
+QueryCount=1
+AnswerCount=0
+AuthorityCount=0
+AddressRecCount=0
+QuestionRecords:
+Name=*               NameType=0x00 (Workstation)
+QuestionType=0x21
+QuestionClass=0x1
+
+
+	0x0000:  00a2 c7bd fec0 00e0 8104 26d9 0800 4500
+	0x0010:  004e 1a4c 0000 7211 f3ce 83c1 1d92 ab43
+	0x0020:  eded 0089 0089 003a ba9d cafc 0010 0001
+	0x0030:  0000 0000 0000 2043 4b41 4141 4141 4141
+	0x0040:  4141 4141 4141 4141 4141 4141 4141 4141
+	0x0050:  4141 4141 4141 4100 0021 0001
+14:18:46.913910 IP (tos 0x0, ttl 113, id 6732, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [udp sum ok] 
+>>> NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+TrnID=0xCAFC
+OpCode=0
+NmFlags=0x1
+Rcode=0
+QueryCount=1
+AnswerCount=0
+AuthorityCount=0
+AddressRecCount=0
+QuestionRecords:
+Name=*               NameType=0x00 (Workstation)
+QuestionType=0x21
+QuestionClass=0x1
+
+
+	0x0000:  0058 faa7 4122 006f 550d 2aa2 0800 4500
+	0x0010:  004e 1a4c 0000 7111 f4ce 83c1 1d92 ab43
+	0x0020:  eded 0089 0089 003a ba9d cafc 0010 0001
+	0x0030:  0000 0000 0000 2043 4b41 4141 4141 4141
+	0x0040:  4141 4141 4141 4141 4141 4141 4141 4141
+	0x0050:  4141 4141 4141 4100 0021 0001
+14:18:46.985738 IP (tos 0x0, ttl 64, id 6732, offset 0, flags [none], proto ICMP (1), length 56)
+    171.67.237.237 > 131.193.29.146: ICMP 171.67.237.237 udp port 137 unreachable, length 36
+	IP (tos 0x0, ttl 113, id 6732, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [|SMB]
+	0x0000:  006f 550d 2aa2 0058 faa7 4122 0800 4500
+	0x0010:  0038 1a4c 0000 4001 25f5 ab43 eded 83c1
+	0x0020:  1d92 0303 4113 0000 0000 4500 004e 1a4c
+	0x0030:  0000 7111 f4ce 83c1 1d92 ab43 eded 0089
+	0x0040:  0089 003a ba9d
+14:18:46.985842 IP (tos 0x0, ttl 63, id 6732, offset 0, flags [none], proto ICMP (1), length 56)
+    171.67.237.237 > 131.193.29.146: ICMP 171.67.237.237 udp port 137 unreachable, length 36
+	IP (tos 0x0, ttl 113, id 6732, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [|SMB]
+	0x0000:  00e0 8104 26d9 00a2 c7bd fec0 0800 4500
+	0x0010:  0038 1a4c 0000 3f01 26f5 ab43 eded 83c1
+	0x0020:  1d92 0303 4113 0000 0000 4500 004e 1a4c
+	0x0030:  0000 7111 f4ce 83c1 1d92 ab43 eded 0089
+	0x0040:  0089 003a ba9d
+14:18:48.415301 IP (tos 0x0, ttl 114, id 6736, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [udp sum ok] 
+>>> NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+TrnID=0xCAFC
+OpCode=0
+NmFlags=0x1
+Rcode=0
+QueryCount=1
+AnswerCount=0
+AuthorityCount=0
+AddressRecCount=0
+QuestionRecords:
+Name=*               NameType=0x00 (Workstation)
+QuestionType=0x21
+QuestionClass=0x1
+
+
+	0x0000:  00a2 c7bd fec0 00e0 8104 26d9 0800 4500
+	0x0010:  004e 1a50 0000 7211 f3ca 83c1 1d92 ab43
+	0x0020:  eded 0089 0089 003a ba9d cafc 0010 0001
+	0x0030:  0000 0000 0000 2043 4b41 4141 4141 4141
+	0x0040:  4141 4141 4141 4141 4141 4141 4141 4141
+	0x0050:  4141 4141 4141 4100 0021 0001
+14:18:48.415409 IP (tos 0x0, ttl 113, id 6736, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [udp sum ok] 
+>>> NBT UDP PACKET(137): QUERY; REQUEST; BROADCAST
+TrnID=0xCAFC
+OpCode=0
+NmFlags=0x1
+Rcode=0
+QueryCount=1
+AnswerCount=0
+AuthorityCount=0
+AddressRecCount=0
+QuestionRecords:
+Name=*               NameType=0x00 (Workstation)
+QuestionType=0x21
+QuestionClass=0x1
+
+
+	0x0000:  0058 faa7 4122 006f 550d 2aa2 0800 4500
+	0x0010:  004e 1a50 0000 7111 f4ca 83c1 1d92 ab43
+	0x0020:  eded 0089 0089 003a ba9d cafc 0010 0001
+	0x0030:  0000 0000 0000 2043 4b41 4141 4141 4141
+	0x0040:  4141 4141 4141 4141 4141 4141 4141 4141
+	0x0050:  4141 4141 4141 4100 0021 0001
+14:18:48.486108 IP (tos 0x0, ttl 64, id 6736, offset 0, flags [none], proto ICMP (1), length 56)
+    171.67.237.237 > 131.193.29.146: ICMP 171.67.237.237 udp port 137 unreachable, length 36
+	IP (tos 0x0, ttl 113, id 6736, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [|SMB]
+	0x0000:  006f 550d 2aa2 0058 faa7 4122 0800 4500
+	0x0010:  0038 1a50 0000 4001 25f1 ab43 eded 83c1
+	0x0020:  1d92 0303 4113 0000 0000 4500 004e 1a50
+	0x0030:  0000 7111 f4ca 83c1 1d92 ab43 eded 0089
+	0x0040:  0089 003a ba9d
+14:18:48.486204 IP (tos 0x0, ttl 63, id 6736, offset 0, flags [none], proto ICMP (1), length 56)
+    171.67.237.237 > 131.193.29.146: ICMP 171.67.237.237 udp port 137 unreachable, length 36
+	IP (tos 0x0, ttl 113, id 6736, offset 0, flags [none], proto UDP (17), length 78)
+    131.193.29.146.137 > 171.67.237.237.137: [|SMB]
+	0x0000:  00e0 8104 26d9 00a2 c7bd fec0 0800 4500
+	0x0010:  0038 1a50 0000 3f01 26f1 ab43 eded 83c1
+	0x0020:  1d92 0303 4113 0000 0000 4500 004e 1a50
+	0x0030:  0000 7111 f4ca 83c1 1d92 ab43 eded 0089
+	0x0040:  0089 003a ba9d

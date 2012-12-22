@@ -1,0 +1,243 @@
+Cleaning files...
+rm -f mul_o0
+rm -f mul_o3
+Compiling...
+gcc -g matrix_mult.c -O3 -o mul_o3
+gcc -g matrix_mult.c -O0 -o mul_o0
+Run started...
+Solution 1
+echo "{"
+{
+./mul_o0 1024 o
+
+{
+Program Name: ./mul_o0
+Program Mode: Original
+[ N = 1024 ]
+Time taken to multiply = 22481057 usecs ( 22481.057 msecs)
+}
+./mul_o3 1024 o
+
+{
+Program Name: ./mul_o3
+Program Mode: Original
+[ N = 1024 ]
+Time taken to multiply = 19367262 usecs ( 19367.262 msecs)
+}
+echo "}"
+}
+Solution 2
+echo "{"
+{
+
+{
+Program Name: ./mul_o3
+Program Mode: Original
+[ N = 16 ]
+Time taken to multiply = 9 usecs ( 0.009 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Original
+[ N = 32 ]
+Time taken to multiply = 76 usecs ( 0.076 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Original
+[ N = 64 ]
+Time taken to multiply = 702 usecs ( 0.702 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Original
+[ N = 128 ]
+Time taken to multiply = 5392 usecs ( 5.392 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Original
+[ N = 256 ]
+Time taken to multiply = 43546 usecs ( 43.546 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Original
+[ N = 512 ]
+Time taken to multiply = 391895 usecs ( 391.895 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Original
+[ N = 1024 ]
+Time taken to multiply = 18846603 usecs ( 18846.603 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Original
+[ N = 2048 ]
+Time taken to multiply = 154781242 usecs ( 154781.242 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Original
+[ N = 4096 ]
+Time taken to multiply = 1534255701 usecs ( 1534255.701 msecs)
+}
+echo "}"
+}
+Solution 3
+echo "{"
+{
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 8
+[ N = 16 ]
+Time taken to multiply = 10 usecs ( 0.010 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 8
+[ N = 32 ]
+Time taken to multiply = 72 usecs ( 0.072 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 8
+[ N = 64 ]
+Time taken to multiply = 576 usecs ( 0.576 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 8
+[ N = 128 ]
+Time taken to multiply = 4564 usecs ( 4.564 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 8
+[ N = 256 ]
+Time taken to multiply = 37785 usecs ( 37.785 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 8
+[ N = 512 ]
+Time taken to multiply = 306194 usecs ( 306.194 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 8
+[ N = 1024 ]
+Time taken to multiply = 2869651 usecs ( 2869.651 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 8
+[ N = 2048 ]
+Time taken to multiply = 25655339 usecs ( 25655.339 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 8
+[ N = 4096 ]
+Time taken to multiply = 209512499 usecs ( 209512.499 msecs)
+}
+echo "}"
+}
+Solution 4
+echo "{"
+{
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 4
+[ N = 2048 ]
+Time taken to multiply = 42541350 usecs ( 42541.350 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 8
+[ N = 2048 ]
+Time taken to multiply = 25774283 usecs ( 25774.283 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 16
+[ N = 2048 ]
+Time taken to multiply = 19602135 usecs ( 19602.135 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 32
+[ N = 2048 ]
+Time taken to multiply = 19806338 usecs ( 19806.338 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 64
+[ N = 2048 ]
+Time taken to multiply = 21133251 usecs ( 21133.251 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 128
+[ N = 2048 ]
+Time taken to multiply = 20953109 usecs ( 20953.109 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 256
+[ N = 2048 ]
+Time taken to multiply = 21342604 usecs ( 21342.604 msecs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 512
+[ N = 2048 ]
+Time taken to multiply = 103157211 usecs ( 103157.211 msecs)
+}
+echo "}"
+}
+...Run complete

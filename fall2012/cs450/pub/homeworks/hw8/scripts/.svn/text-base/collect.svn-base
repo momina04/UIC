@@ -1,0 +1,10 @@
+rm logs/* 
+
+# change twoips to just ips to run it on all hosts 
+
+for host in `cat data/twoips.txt`; do 
+ echo "Now collecting from $host";
+ ssh -o ConnectTimeout=5 -T uic_cs450@$host < scripts/remotecmd > logs/$host.log 
+done
+
+

@@ -1,0 +1,70 @@
+------------------------------------------------------------------------
+r120 | ragarw8 | 2012-11-04 17:07:15 -0600 (Sun, 04 Nov 2012) | 2 lines
+
+Close fixed
+
+------------------------------------------------------------------------
+r119 | ragarw8 | 2012-11-04 17:02:00 -0600 (Sun, 04 Nov 2012) | 3 lines
+
+working on rev110.
+todo: make close more reliable
+
+------------------------------------------------------------------------
+r117 | ragarw8 | 2012-11-04 07:09:04 -0600 (Sun, 04 Nov 2012) | 2 lines
+
+hacky close, works with prob .9 and buffer 100, sender completes most of the times
+
+------------------------------------------------------------------------
+r116 | ragarw8 | 2012-11-04 06:34:20 -0600 (Sun, 04 Nov 2012) | 3 lines
+
+SR implementation with sliding window at sender, fixed window size for nw
+need to fix close()
+
+------------------------------------------------------------------------
+r111 | ragarw8 | 2012-11-01 20:54:36 -0500 (Thu, 01 Nov 2012) | 2 lines
+
+cqueue output expected
+
+------------------------------------------------------------------------
+r110 | ragarw8 | 2012-10-31 03:24:51 -0500 (Wed, 31 Oct 2012) | 2 lines
+
+5.5 consistent, checkpoint for submission
+
+------------------------------------------------------------------------
+r109 | ragarw8 | 2012-10-31 02:42:57 -0500 (Wed, 31 Oct 2012) | 2 lines
+
+WIndow customizable....the revision before this gives 5.5
+
+------------------------------------------------------------------------
+r108 | ragarw8 | 2012-10-31 02:27:36 -0500 (Wed, 31 Oct 2012) | 2 lines
+
+need to increase cqueue size, windowsize at both sender and rxer
+
+------------------------------------------------------------------------
+r106 | ragarw8 | 2012-10-31 01:07:51 -0500 (Wed, 31 Oct 2012) | 2 lines
+
+made change in decrease_window_size...decrement by 1
+
+------------------------------------------------------------------------
+r105 | ragarw8 | 2012-10-31 00:21:21 -0500 (Wed, 31 Oct 2012) | 2 lines
+
+Not allowing window of more than 100 packets
+
+------------------------------------------------------------------------
+r102 | ragarw8 | 2012-10-30 22:47:30 -0500 (Tue, 30 Oct 2012) | 2 lines
+
+checkpoint 1...worked with .8 prob, 1000lines
+
+------------------------------------------------------------------------
+r101 | ragarw8 | 2012-10-30 21:31:53 -0500 (Tue, 30 Oct 2012) | 4 lines
+
+Modified cqueue...tested it.
+some changes in hw6
+checkpoint for sharing
+
+------------------------------------------------------------------------
+r99 | ragarw8 | 2012-10-30 00:52:08 -0500 (Tue, 30 Oct 2012) | 2 lines
+
+Adding to svn....was not there already
+
+------------------------------------------------------------------------

@@ -1,0 +1,158 @@
+TEST FOR ping
+=====================================
+ping to routher eth0:
+PING 171.67.236.112 (171.67.236.112) 56(84) bytes of data.
+64 bytes from 171.67.236.112: icmp_req=4 ttl=47 time=185 ms
+64 bytes from 171.67.236.112: icmp_req=2 ttl=47 time=2754 ms
+64 bytes from 171.67.236.112: icmp_req=3 ttl=47 time=1846 ms
+64 bytes from 171.67.236.112: icmp_req=5 ttl=47 time=198 ms
+64 bytes from 171.67.236.112: icmp_req=6 ttl=47 time=186 ms
+64 bytes from 171.67.236.112: icmp_req=7 ttl=47 time=194 ms
+64 bytes from 171.67.236.112: icmp_req=8 ttl=47 time=186 ms
+64 bytes from 171.67.236.112: icmp_req=9 ttl=47 time=199 ms
+64 bytes from 171.67.236.112: icmp_req=10 ttl=47 time=178 ms
+
+--- 171.67.236.112 ping statistics ---
+10 packets transmitted, 9 received, 10% packet loss, time 9010ms
+rtt min/avg/max/mdev = 178.919/659.046/2754.547/903.186 ms, pipe 3
+
+
+ping to routher server 1:
+PING 171.67.236.117 (171.67.236.117) 56(84) bytes of data.
+64 bytes from 171.67.236.117: icmp_req=2 ttl=46 time=574 ms
+64 bytes from 171.67.236.117: icmp_req=1 ttl=46 time=1703 ms
+64 bytes from 171.67.236.117: icmp_req=3 ttl=46 time=271 ms
+64 bytes from 171.67.236.117: icmp_req=4 ttl=46 time=268 ms
+64 bytes from 171.67.236.117: icmp_req=5 ttl=46 time=276 ms
+64 bytes from 171.67.236.117: icmp_req=6 ttl=46 time=279 ms
+64 bytes from 171.67.236.117: icmp_req=7 ttl=46 time=282 ms
+64 bytes from 171.67.236.117: icmp_req=8 ttl=46 time=273 ms
+64 bytes from 171.67.236.117: icmp_req=9 ttl=46 time=269 ms
+64 bytes from 171.67.236.117: icmp_req=10 ttl=46 time=273 ms
+
+--- 171.67.236.117 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9014ms
+rtt min/avg/max/mdev = 268.386/447.327/1703.240/428.100 ms, pipe 2
+
+
+ping to routher server 2:
+PING 171.67.236.119 (171.67.236.119) 56(84) bytes of data.
+64 bytes from 171.67.236.119: icmp_req=2 ttl=46 time=420 ms
+64 bytes from 171.67.236.119: icmp_req=1 ttl=46 time=2052 ms
+64 bytes from 171.67.236.119: icmp_req=3 ttl=46 time=269 ms
+64 bytes from 171.67.236.119: icmp_req=4 ttl=46 time=275 ms
+64 bytes from 171.67.236.119: icmp_req=5 ttl=46 time=274 ms
+64 bytes from 171.67.236.119: icmp_req=6 ttl=46 time=278 ms
+64 bytes from 171.67.236.119: icmp_req=7 ttl=46 time=267 ms
+64 bytes from 171.67.236.119: icmp_req=8 ttl=46 time=264 ms
+64 bytes from 171.67.236.119: icmp_req=9 ttl=46 time=364 ms
+64 bytes from 171.67.236.119: icmp_req=10 ttl=46 time=1967 ms
+
+--- 171.67.236.119 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9013ms
+rtt min/avg/max/mdev = 264.909/643.666/2052.742/685.272 ms, pipe 3
+
+
+
+
+TEST FOR traceroute
+=====================================
+traceroute to routher eth0:
+traceroute to 171.67.236.112 (171.67.236.112), 30 hops max, 60 byte packets
+ 1  TG862.local (10.0.0.1)  4.876 ms  5.494 ms  6.403 ms
+ 2  c-76-29-40-1.hsd1.il.comcast.net (76.29.40.1)  59.466 ms  79.147 ms *
+ 3  te-2-1-ur01.chicago302.il.chicago.comcast.net (68.86.116.129)  52.203 ms  52.200 ms  51.992 ms
+ 4  * * te-2-3-ur02.chicago302.il.chicago.comcast.net (68.87.229.78)  50.942 ms
+ 5  te-2-5-0-2-ar01.area4.il.chicago.comcast.net (68.86.189.137)  55.049 ms  56.414 ms  56.128 ms
+ 6  he-3-7-0-0-cr01.350ecermak.il.ibone.comcast.net (68.86.90.53)  56.067 ms  19.233 ms  22.186 ms
+ 7  pos-1-8-0-0-pe01.350ecermak.il.ibone.comcast.net (68.86.87.166)  21.845 ms  23.436 ms  23.182 ms
+ 8  xe-2-2-0.792.chic0.tr-cps.internet2.edu (137.164.130.237)  54.849 ms  57.710 ms  57.514 ms
+ 9  137.164.129.2 (137.164.129.2)  71.434 ms  76.545 ms  76.362 ms
+10  xe-1-0-0.0.paix0.tr-cps.internet2.edu (64.57.20.222)  95.028 ms  97.402 ms  97.169 ms
+11  xe-1-1-0.482--2152.paix0.tr-cps.internet2.edu (137.164.131.62)  85.578 ms  90.480 ms  88.786 ms
+12  dc-svl-core1--svl-px1-10ge-1.cenic.net (137.164.46.204)  89.844 ms  88.127 ms  90.966 ms
+13  dc-svl-agg1--svl-core1-10ge.cenic.net (137.164.47.120)  90.746 ms  89.938 ms  88.551 ms
+14  dc-stanford--svl-agg1-10ge.cenic.net (137.164.50.158)  93.134 ms  87.830 ms  91.058 ms
+15  boundarya-rtr.Stanford.EDU (68.65.168.33)  94.875 ms  87.349 ms  89.472 ms
+16  serv-rtr.Stanford.EDU (68.65.168.100)  95.666 ms  94.874 ms  86.354 ms
+17  * * *
+18  171.67.236.112 (171.67.236.112)  326.653 ms  409.803 ms  492.222 ms
+19  171.67.236.112 (171.67.236.112)  490.216 ms !P  508.139 ms !P  485.695 ms !P
+
+
+traceroute  to routher server 1:
+traceroute to 171.67.236.117 (171.67.236.117), 30 hops max, 60 byte packets
+ 1  TG862.local (10.0.0.1)  11.269 ms  12.924 ms  15.844 ms
+ 2  c-76-29-40-1.hsd1.il.comcast.net (76.29.40.1)  94.343 ms  94.136 ms  94.201 ms
+ 3  te-2-1-ur01.chicago302.il.chicago.comcast.net (68.86.116.129)  44.851 ms *  44.399 ms
+ 4  te-2-3-ur02.chicago302.il.chicago.comcast.net (68.87.229.78)  44.347 ms  45.601 ms  45.405 ms
+ 5  te-2-5-0-2-ar01.area4.il.chicago.comcast.net (68.86.189.137)  48.652 ms  48.458 ms  48.276 ms
+ 6  * he-3-9-0-0-cr01.350ecermak.il.ibone.comcast.net (68.86.90.45)  16.396 ms  37.443 ms
+ 7  pos-1-1-0-0-pe01.350ecermak.il.ibone.comcast.net (68.86.86.38)  36.538 ms *  36.132 ms
+ 8  xe-2-2-0.792.chic0.tr-cps.internet2.edu (137.164.130.237)  25.962 ms  25.782 ms  25.670 ms
+ 9  137.164.129.2 (137.164.129.2)  103.168 ms  102.975 ms  102.954 ms
+10  xe-1-0-0.0.paix0.tr-cps.internet2.edu (64.57.20.222)  98.252 ms  89.583 ms  93.286 ms
+11  137.164.131.94 (137.164.131.94)  93.099 ms  85.757 ms  92.039 ms
+12  dc-svl-core1--svl-px1-10ge-3.cenic.net (137.164.46.14)  93.861 ms  94.001 ms  93.768 ms
+13  dc-svl-agg1--svl-core1-10ge.cenic.net (137.164.47.120)  91.168 ms  91.099 ms *
+14  dc-stanford--svl-agg1-10ge.cenic.net (137.164.50.158)  98.528 ms  93.412 ms  93.739 ms
+15  boundarya-rtr.Stanford.EDU (68.65.168.33)  89.696 ms  89.596 ms  86.652 ms
+16  serv-rtr.Stanford.EDU (68.65.168.100)  87.367 ms  92.364 ms *
+17  * * *
+18  171.67.236.112 (171.67.236.112)  184.626 ms  272.943 ms  364.556 ms
+19  171.67.236.117 (171.67.236.117)  1777.594 ms  1841.312 ms  1851.072 ms
+
+
+traceroute to routher server 2:
+traceroute to 171.67.236.119 (171.67.236.119), 30 hops max, 60 byte packets
+ 1  TG862.local (10.0.0.1)  11.062 ms  12.766 ms  15.220 ms
+ 2  * * *
+ 3  68.86.116.129 (68.86.116.129)  28.220 ms  28.020 ms *
+ 4  68.86.189.146 (68.86.189.146)  35.418 ms  40.636 ms  40.429 ms
+ 5  68.87.211.9 (68.87.211.9)  43.170 ms  45.649 ms  49.626 ms
+ 6  68.86.90.53 (68.86.90.53)  51.926 ms  27.511 ms  27.199 ms
+ 7  68.86.86.38 (68.86.86.38)  29.713 ms  61.319 ms  65.960 ms
+ 8  xe-2-2-0.792.chic0.tr-cps.internet2.edu (137.164.130.237)  63.081 ms  67.093 ms  66.857 ms
+ 9  137.164.129.2 (137.164.129.2)  116.191 ms  126.017 ms *
+10  xe-1-0-0.0.paix0.tr-cps.internet2.edu (64.57.20.222)  140.890 ms  143.853 ms *
+11  137.164.131.94 (137.164.131.94)  146.007 ms  148.137 ms  147.850 ms
+12  dc-svl-core1--svl-px1-10ge-2.cenic.net (137.164.46.12)  124.710 ms  86.437 ms  93.154 ms
+13  dc-svl-agg1--svl-core1-10ge.cenic.net (137.164.47.120)  92.557 ms  92.369 ms  92.389 ms
+14  dc-stanford--svl-agg1-10ge.cenic.net (137.164.50.158)  92.486 ms  92.282 ms *
+15  boundarya-rtr.Stanford.EDU (68.65.168.33)  93.975 ms  93.920 ms *
+16  serv-rtr.Stanford.EDU (68.65.168.100)  91.530 ms  91.137 ms  92.841 ms
+17  * * *
+18  171.67.236.112 (171.67.236.112)  290.949 ms  383.557 ms *
+19  171.67.236.119 (171.67.236.119)  775.538 ms  778.432 ms  775.115 ms
+
+
+
+
+TEST FOR server files
+=====================================
+server page:
+<html>
+<head><title>App Server Homepage</title></head>
+<body>
+<h2>VNS App Server Website</h2>
+
+<p>You've successfully loaded a small (<600B) webpage hosted on your VNS
+topology's application server!</p>
+
+<p>To stress your router a little more, try these:
+<ul>
+	<li>The <a href="photos.html">photos page</a> has 3 photos (~0.5MB total).
+Your browser will (probably) simultaneously download these all at once.</li>
+	<li>Download this <a href="big.jpg">big photo</a> to see how your router
+handles larger file transfers.</li>
+	<li>Look at <a href="src_info.dyn">this dynamic page</a> to see where you're sending packing from.</li>
+</ul>
+</p>
+</body>
+</html>
+
+
+server small image md5sum:
+1bd991e884f1288a1ddb47e41107ba73  ashleigh_falls_offshoot.jpg
+
+

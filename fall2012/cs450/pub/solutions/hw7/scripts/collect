@@ -1,0 +1,7 @@
+rm logs/* 
+
+for host in `cat data/ips.txt`; do 
+ ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o ConnectTimeout=5 -T uic_cs450@$host < scripts/pingall > logs/$host.log &
+done
+wait
+

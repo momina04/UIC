@@ -409,6 +409,7 @@ cache_char2policy(char c)		/* replacement policy as a char */
   case 'l': return LRU;
   case 'r': return Random;
   case 'f': return FIFO;
+  case 'm': return MRU;
   default: fatal("bogus replacement policy, `%c'", c);
   }
 }
@@ -427,6 +428,7 @@ cache_config(struct cache_t *cp,	/* cache instance */
 	  cp->policy == LRU ? "LRU"
 	  : cp->policy == Random ? "Random"
 	  : cp->policy == FIFO ? "FIFO"
+	  : cp->policy == MRU ? "MRU"
 	  : (abort(), ""));
 }
 
@@ -581,6 +583,12 @@ cache_access(struct cache_t *cp,	/* cache to access */
       repl = CACHE_BINDEX(cp, cp->sets[set].blks, bindex);
     }
     break;
+  case  MRU:
+    {
+    repl = cp->sets[set].way_head;
+    update_way_list(&cp->sets[set], repl, Tail);
+    }
+    break;
   default:
     panic("bogus replacement policy");
   }
@@ -670,6 +678,13 @@ cache_access(struct cache_t *cp,	/* cache to access */
 
   /* if LRU replacement and this is not the first element of list, reorder */
   if (blk->way_prev && cp->policy == LRU)
+    {
+      /* move this block to head of the way (MRU) list */
+      update_way_list(&cp->sets[set], blk, Head);
+    }
+
+  /* if MRU replacement and this is not the last element of list, reorder */
+  if (blk->way_prev && cp->policy == MRU)
     {
       /* move this block to head of the way (MRU) list */
       update_way_list(&cp->sets[set], blk, Head);

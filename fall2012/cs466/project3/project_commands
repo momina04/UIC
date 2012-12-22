@@ -1,0 +1,6 @@
+[07:10 PM]ritesh@ritesh-linux ~/uic/fall2012/cs466/project3$ time make run >stdout 2>stderr
+
+real    95m21.834s
+user    93m54.808s
+sys     0m3.588s
+

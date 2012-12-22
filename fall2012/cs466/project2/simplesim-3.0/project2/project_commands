@@ -1,0 +1,4 @@
+time ./sim-outorder -fastfwd 500000000 -max:inst 300000000 -cache:dl1 dl1:128:32:4:m equake.ss < equake.in >project2/output_stdout_mru 2>project2/output_stderr_mru
+time ./sim-outorder -fastfwd 500000000 -max:inst 300000000 -cache:dl1 dl1:128:32:4:l equake.ss < equake.in >project2/output_stdout_lru 2>project2/output_stderr_lru
+time ./sim-outorder -fastfwd 500000000 -max:inst 300000000 -cache:dl1 dl1:128:32:4:f equake.ss < equake.in >project2/output_stdout_fifo 2>project2/output_stderr_fifo
+time ./sim-outorder -fastfwd 500000000 -max:inst 300000000 -cache:dl1 dl1:128:32:4:r equake.ss < equake.in >project2/output_stdout_random 2>project2/output_stderr_random

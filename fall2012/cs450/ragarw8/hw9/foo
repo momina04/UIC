@@ -1,0 +1,30 @@
+sr_router.c: In function ‘sr_handlepacket’:
+sr_router.c:120:14: warning: assignment makes pointer from integer without a cast [enabled by default]
+sr_router.c:121:5: warning: format ‘%x’ expects argument of type ‘unsigned int’, but argument 2 has type ‘enum arp_type *’ [-Wformat]
+sr_router.c:124:17: warning: comparison between pointer and integer [enabled by default]
+sr_router.c:130:22: warning: comparison between pointer and integer [enabled by default]
+sr_router.c:136:9: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘enum arp_type *’ [-Wformat]
+sr_router.c: In function ‘handle_arp’:
+sr_router.c:206:47: warning: initialization from incompatible pointer type [enabled by default]
+sr_router.c:218:51: warning: initialization from incompatible pointer type [enabled by default]
+sr_router.c:224:17: warning: pointer targets in passing argument 2 of ‘sr_send_packet’ differ in signedness [-Wpointer-sign]
+sr_router.h:137:5: note: expected ‘uint8_t *’ but argument is of type ‘char *’
+sr_router.c: In function ‘handle_ip’:
+sr_router.c:250:10: warning: passing argument 1 of ‘checksum’ from incompatible pointer type [enabled by default]
+sr_router.h:159:10: note: expected ‘uint16_t *’ but argument is of type ‘struct ip *’
+sr_router.c: In function ‘icmp_send’:
+sr_router.c:364:9: warning: pointer targets in passing argument 4 of ‘network_send_packet’ differ in signedness [-Wpointer-sign]
+sr_router.h:195:5: note: expected ‘uint8_t *’ but argument is of type ‘char *’
+sr_router.c:368:9: warning: pointer targets in passing argument 5 of ‘network_send_packet_from’ differ in signedness [-Wpointer-sign]
+sr_router.h:184:6: note: expected ‘uint8_t *’ but argument is of type ‘char *’
+sr_router.c: In function ‘network_send_packet_from’:
+sr_router.c:508:38: warning: pointer targets in passing argument 4 of ‘router_send_ethernet_frame’ differ in signedness [-Wpointer-sign]
+sr_router.h:205:5: note: expected ‘uint8_t *’ but argument is of type ‘char *’
+sr_router.c: In function ‘router_queue_ethernet_frame’:
+sr_router.c:584:43: warning: initialization from incompatible pointer type [enabled by default]
+sr_router.c:586:9: warning: passing argument 2 of ‘sr_get_interface’ from incompatible pointer type [enabled by default]
+sr_if.h:48:15: note: expected ‘const char *’ but argument is of type ‘struct sr_if *’
+sr_router.c:592:9: warning: pointer targets in passing argument 2 of ‘sr_send_packet’ differ in signedness [-Wpointer-sign]
+sr_router.h:137:5: note: expected ‘uint8_t *’ but argument is of type ‘char *’
+sr_router.c:592:9: warning: passing argument 4 of ‘sr_send_packet’ from incompatible pointer type [enabled by default]
+sr_router.h:137:5: note: expected ‘const char *’ but argument is of type ‘struct sr_if *’

@@ -11,14 +11,6 @@
 #include "hw6.h"
 #include "cqueue.c"
 
-enum USER{
-    UNKNOWN = 0,
-    SENDER =1,
-    RECEIVER =2
-}user;
-
-
-
 char *sender_queue;
 unsigned int window_size;
 unsigned int rx_window_size;
@@ -27,8 +19,6 @@ unsigned int rx_start_seq_no;
 unsigned int rtt;
 unsigned int deviation;
 struct timeval timeout;
-
-#define WINDOW 300
 
 struct sockaddr_in peeraddr;
 
@@ -105,9 +95,6 @@ void send_all_unacked_packets_again(int sock){
 
 void rel_send(int sock, void *buf, int len)
 {
-    if(user == UNKNOWN){
-        user = SENDER;
-    }
     int flag_ack_checked;
     int flag_packet_dropped;
  	// make the packet = header + buf
@@ -134,7 +121,7 @@ void rel_send(int sock, void *buf, int len)
     doQInsert((char *)s);
 
 	// 1. If queue has no. of elements  == window size or if this is the close packet
-    if(getCurrentQSize() == window_size || len == 0){
+    if(getCurrentQSize() == window_size){
         int ack_count;
         ack_count = 0;
 	//      wait for acks from all
@@ -156,7 +143,7 @@ void rel_send(int sock, void *buf, int len)
                 send_all_unacked_packets_again(sock);
                 flag_packet_dropped = 1;
                 // if we timed out, send again double the timeout value
-                msec_to_timeval(min(1000,2*timeval_to_msec(&timeout)), &timeout);
+                msec_to_timeval(min(5000,2*timeval_to_msec(&timeout)), &timeout);
                 /*
                 fprintf(stderr,"\rSent Packet %d with rtt %d dev %d timeout %d ms           ",sequence_number,rtt, deviation,timeval_to_msec(&timeout));
                 sendto(sock, packet, sizeof(struct hw6_hdr)+len, 0,(struct sockaddr*)&peeraddr,sizeof(peeraddr));
@@ -266,26 +253,13 @@ int rel_socket(int domain, int type, int protocol) {
 
 void increase_window_size()
 {
-    if(window_size == WINDOW){ //Max window size
-        return;
-    }
-    if(window_size >= 51){ //slow down
-        window_size += 1;
-    }
-    else{
-        window_size *= 2;
-    }
-    
-    //safety :double check
-    if(window_size > WINDOW){
-        window_size = WINDOW;
-    }
+    window_size *= 2;
 }
 
 void decrease_window_size()
 {
     if(window_size > 1)
-        window_size -= 1;
+        window_size /= 2;
 }
 
 unsigned int last_packet_seq_no_sent_up = -1;
@@ -296,7 +270,7 @@ struct rxerQelements{
     char packet[MAX_PACKET];
     char ack_sent:1;
     int packet_len;
-}rlist[WINDOW];
+}rlist[100];
 
 //will return -1, if not found, otherwise will return the index, which can be used with getNthElement
 int isPacketAvailableinQueueold(int seq_no) //user by rel_recv
@@ -331,12 +305,9 @@ int isPacketAvailableinQueue(int seq_no) //user by rel_recv
         
 
 int rel_recv(int sock, void * buffer, size_t length) {
-    if(user == UNKNOWN){
-        user = RECEIVER;
-    }
     static int first_time = 1;
     if(first_time == 1){
-        for(int i=0; i<WINDOW; i++){  //insert WINDOW blank elements in queue
+        for(int i=0; i<100; i++){  //insert 100 blank elements in queue
             struct rxerQelements *r;
             r = calloc(1,sizeof(struct rxerQelements));
             r->magic = 'R';
@@ -363,7 +334,7 @@ int rel_recv(int sock, void * buffer, size_t length) {
         setsockopt(sock, SOL_SOCKET, SO_RCVTIMEO, NULL, 0); //wait indefinetly
         int recv_count = recvfrom(sock, packet, MAX_PACKET, 0, (struct sockaddr*)&peeraddr, &addrlen);
         fprintf(stderr,"Got packet: %d                  \r\n",ntohl(hdr->sequence_number));
-        if(ntohl(hdr->sequence_number) <= (last_packet_seq_no_sent_up + WINDOW -1)) // -1 to be safe, if cqueue uses full elemements than change it to -0
+        if(ntohl(hdr->sequence_number) <= (last_packet_seq_no_sent_up + 100 -1)) // -1 to be safe, if cqueue uses full elemements than change it to -0
         {
             struct hw6_hdr ack;
             ack.flags = ACK;
@@ -417,15 +388,29 @@ int rel_close(int sock) {
     fprintf(stderr, "<RITESH>, rel_close called.\n");
     fprintf(stderr, "<RITESH>, rel_close: sending close and waiting for ack of close packet(packet_len = 0).\n");
 
-    if(user == SENDER){
-        // an empty packet signifies end of file
-        rel_send(sock,0,0);
-    }
+	// an empty packet signifies end of file
+	rel_send(sock,0,0);
 
 	fprintf(stderr,"\nSent EOF. Now in final wait state.\n");
     fprintf(stderr, "<RITESH>, rel_close: rel_send ended, waiting for 2 more seconds to process close packet.\n");
 
-    fprintf(stderr, "<RITESH>, rel_close: exiting\n");
+	struct timeval t;
+	t.tv_sec = 2;
+	t.tv_usec = 0;
+
+	setsockopt(sock, SOL_SOCKET, SO_RCVTIMEO, &t, sizeof(t));
+	int wait_start = current_msec();
+	
+	// why wait for not more than 2 secs? In the below case, the ack might have been lost, and we dont want to wait unnecessarily at step 5.
+    /* 
+     * Scenario: 1. Sender sends close, 2. rxer sends ack(it is lost), 3. rxer sends close, 4. sender recives close in rel_send(), 
+     * 5. Sender will wait for ack of the packet it has sent, and will not receive it (in this case).
+     */
+	// wait for 2 seconds
+	while(current_msec() - wait_start < 2000) {		
+		rel_recv(sock,0,0);
+	}
+    fprintf(stderr, "<RITESH>, rel_close: exiting after waiting for 2 secs or packet recieved.\n");
 
 	close(sock);
 }

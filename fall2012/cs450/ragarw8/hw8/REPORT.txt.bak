@@ -1,0 +1,14 @@
+Here is my report
+1. Following are the 30 AS:es that are the most frequently occurring ASNs between our hosts:
+46, 73, 101, 174, 237, 680, 766, 2153, 2603, 2637, 2907, 3356, 3582, 4538, 5661, 6509, 7660, 9264, 10466, 10578, 10886, 11096, 11537, 19401, 19782, 20965, 22388, 23911, 38018, 38022.
+
+2. Following are the 30 AS:es that have the largest 'degree' or 'number of neighboring ASNs':
+101, 174, 209, 237, 701, 1299, 2603, 2907, 2914, 3356, 3549, 4134, 6453, 6461, 6509, 6762, 6939, 7018, 7539, 7843, 10310, 10578, 11164, 11537, 13193, 19401, 19782, 20388, 20965, 40387.
+
+3. Following are the 30 AS:es that have the largest number of observed hosts:
+174, 209, 680, 701, 1239, 1299, 2152, 2516, 2828, 2914, 3257, 3356, 3549, 4134, 4538, 4637, 5511, 6327, 6453, 6461, 6762, 6939, 7018, 7843, 7922, 10026, 10310, 11164, 15412, 20965.
+
+4. Following are the AS:es that occur in all three lists above:
+174, 3356, 20965.
+These AS:es happen to belong to Cogent Communications(174) , Level 3 communications(3356)  and  RIPE(20965)
+Ref:http://bgp.he.net/AS20965#_whois

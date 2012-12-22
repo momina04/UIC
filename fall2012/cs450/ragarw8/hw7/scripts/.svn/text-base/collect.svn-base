@@ -1,0 +1,37 @@
+#!/bin/bash
+source "scripts/variables"
+rm logs/* 
+
+
+rm scripts/remotecmd_*
+for host in `cat $ip_file`; do 
+#{
+    #rm scripts/remotecmd_"$host" #done above
+    for h in `cat $ip_file`; do 
+    #{
+        if [ $h == $host ]; then
+        #{
+            echo "echo "Will not ping self"" >> scripts/remotecmd_"$host"
+
+        #}
+        else
+        #{
+            #echo "ping -c $ping_count $h &" >> scripts/remotecmd_"$host"
+            #echo "ping -c 10 $h  > logs/$h.ping" >> scripts/remotecmd
+            #echo "ping  -w 5 -c $ping_count $h &" >> scripts/remotecmd_"$host"
+            echo "ping -i 0.2 -W 10 -c $ping_count $h &" >> scripts/remotecmd_"$host"
+        #}
+        fi
+    #}
+    done
+            echo "wait" >> scripts/remotecmd_"$host"
+            #echo "exit" >> scripts/remotecmd_"$host"
+    #echo "wait" >> scripts/remotecmd
+    echo "Script file generated"
+    echo "Now collecting from $host";
+    timeout 120 ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o ConnectTimeout=10 -T uic_cs450@$host  < scripts/remotecmd_"$host"  > logs/$host.ping &
+#}
+done
+wait
+#cleanup
+rm scripts/remotecmd*

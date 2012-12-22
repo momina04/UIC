@@ -1,0 +1,361 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+ARCH	Makefile	/^ARCH =  -D_SOLARIS_$/;"	m
+ARCH	Makefile	/^ARCH = -D_CYGWIN_$/;"	m
+ARCH	Makefile	/^ARCH = -D_DARWIN_$/;"	m
+ARCH	Makefile	/^ARCH = -D_LINUX_$/;"	m
+ARPHDR_ETHER	sr_protocol.h	136;"	d
+ARP_ATTEMPTS	sr_router.h	36;"	d
+ARP_CACHE_RESIDENCY_TIME	sr_router.h	38;"	d
+ARP_HTYPE	sr_router.c	/^enum ARP_HTYPE {$/;"	g	file:
+ARP_HTYPE_ETHERNET	sr_router.c	/^    ARP_HTYPE_ETHERNET = 0x01$/;"	e	enum:ARP_HTYPE	file:
+ARP_HTYPE_UNKNOWN	sr_router.c	/^    ARP_HTYPE_UNKNOWN = 0,$/;"	e	enum:ARP_HTYPE	file:
+ARP_PTYPE	sr_router.c	/^enum ARP_PTYPE {$/;"	g	file:
+ARP_PTYPE_IP	sr_router.c	/^    ARP_PTYPE_IP = 0x0800$/;"	e	enum:ARP_PTYPE	file:
+ARP_PTYPE_UNKNOWN	sr_router.c	/^    ARP_PTYPE_UNKNOWN = 0,$/;"	e	enum:ARP_PTYPE	file:
+ARP_REPLY	sr_protocol.h	171;"	d
+ARP_REQUEST	sr_protocol.h	170;"	d
+ARP_TABLE_SIZE	sr_router.h	33;"	d
+ARP_TIMEOUT	sr_router.h	35;"	d
+AUTH_KEY_LEN	sr_vns_comm.c	243;"	d	file:
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -o0 -Wall -std=gnu99 -D_DEBUG_ $(ARCH)$/;"	m
+Computed	sha1.h	/^    int Computed;               \/* Is the digest computed?          *\/$/;"	m	struct:SHA1Context
+Corrupted	sha1.h	/^    int Corrupted;              \/* Is the message digest corruped?  *\/$/;"	m	struct:SHA1Context
+DEFAULT_AUTH_KEY_FILE	sr_main.c	42;"	d	file:
+DEFAULT_HOST	sr_main.c	44;"	d	file:
+DEFAULT_PORT	sr_main.c	43;"	d	file:
+DEFAULT_RTABLE	sr_main.c	46;"	d	file:
+DEFAULT_SERVER	sr_main.c	45;"	d	file:
+DEFAULT_TOPO	sr_main.c	47;"	d	file:
+Debug	sr_router.h	15;"	d
+Debug	sr_router.h	23;"	d
+DebugIP	sr_router.h	16;"	d
+DebugMAC	sr_router.h	19;"	d
+DebugMAC	sr_router.h	24;"	d
+ETHERNET_TYPE_ARP	sr_router.c	/^    ETHERNET_TYPE_ARP=0x0806,$/;"	e	enum:arp_type	file:
+ETHERNET_TYPE_IP	sr_router.c	/^    ETHERNET_TYPE_IP=0x0800$/;"	e	enum:arp_type	file:
+ETHERTYPE_ARP	sr_protocol.h	167;"	d
+ETHERTYPE_IP	sr_protocol.h	163;"	d
+ETHER_ADDR_LEN	sr_protocol.h	107;"	d
+ETH_HEADER_LEN	sr_router.h	41;"	d
+ETH_MAX_DATA_LEN	sr_router.h	44;"	d
+ETH_MAX_LEN	sr_router.h	47;"	d
+ETH_MIN_LEN	sr_router.h	50;"	d
+FALSE	sr_protocol.h	187;"	d
+HWETHER	vnscommand.h	117;"	d
+HWETHIP	vnscommand.h	118;"	d
+HWFIXEDIP	vnscommand.h	116;"	d
+HWINTERFACE	vnscommand.h	112;"	d
+HWINUSE	vnscommand.h	115;"	d
+HWMASK	vnscommand.h	119;"	d
+HWSPEED	vnscommand.h	113;"	d
+HWSUBNET	vnscommand.h	114;"	d
+ICMP_CODE_HOST_UNREACH	sr_protocol.h	152;"	d
+ICMP_CODE_NET_UNREACH	sr_protocol.h	151;"	d
+ICMP_CODE_PORT_UNREACH	sr_protocol.h	154;"	d
+ICMP_CODE_PROTO_UNREACH	sr_protocol.h	153;"	d
+ICMP_CODE_TTL_EXPIRED	sr_protocol.h	155;"	d
+ICMP_HEADER_LEN	sr_protocol.h	160;"	d
+ICMP_TYPE_DEST_UNREACH	sr_protocol.h	146;"	d
+ICMP_TYPE_ECHO_REPLY	sr_protocol.h	145;"	d
+ICMP_TYPE_ECHO_REQUEST	sr_protocol.h	147;"	d
+ICMP_TYPE_TIME_EXCEEDED	sr_protocol.h	148;"	d
+IDSIZE	vnscommand.h	17;"	d
+INIT_TTL	sr_router.h	31;"	d
+IPPROTO_ICMP	sr_protocol.h	140;"	d
+IPV4_HEADER_LEN	sr_protocol.h	159;"	d
+IPV4_HEADER_LEN	sr_router.h	52;"	d
+IPV4_VER	sr_router.c	241;"	d	file:
+IP_ADDR_LEN	sr_router.c	160;"	d	file:
+IP_DF	sr_protocol.h	97;"	d
+IP_MAXPACKET	sr_protocol.h	44;"	d
+IP_MF	sr_protocol.h	98;"	d
+IP_OFFMASK	sr_protocol.h	99;"	d
+IP_PROTO_ICMP	sr_protocol.h	158;"	d
+IP_RF	sr_protocol.h	96;"	d
+LIBS	Makefile	/^LIBS= $(SOCK) -lm -lpthread$/;"	m
+LINKTYPE_ETHERNET	sr_dumper.h	24;"	d
+Length_High	sha1.h	/^    unsigned Length_High;       \/* Message length in bits           *\/$/;"	m	struct:SHA1Context
+Length_Low	sha1.h	/^    unsigned Length_Low;        \/* Message length in bits           *\/$/;"	m	struct:SHA1Context
+MAXHWENTRIES	vnscommand.h	129;"	d
+Message_Block	sha1.h	/^    unsigned char Message_Block[64]; \/* 512-bit message blocks      *\/$/;"	m	struct:SHA1Context
+Message_Block_Index	sha1.h	/^    int Message_Block_Index;    \/* Index into message block array   *\/$/;"	m	struct:SHA1Context
+Message_Digest	sha1.h	/^    unsigned Message_Digest[5]; \/* Message Digest (output)          *\/$/;"	m	struct:SHA1Context
+OSTYPE	Makefile	/^OSTYPE = $(shell uname)$/;"	m
+OUTSTANDING_ARP_LIMIT	sr_router.h	34;"	d
+PACKET_DUMP_SIZE	sr_router.h	32;"	d
+PACKET_TIMEOUT	sr_router.h	37;"	d
+PCAP_ETHA_LEN	sr_dumper.h	19;"	d
+PCAP_PROTO_LEN	sr_dumper.h	20;"	d
+PCAP_VERSION_MAJOR	sr_dumper.h	17;"	d
+PCAP_VERSION_MINOR	sr_dumper.h	18;"	d
+PFLAGS	Makefile	/^PFLAGS= -follow-child-processes=yes -cache-dir=\/tmp\/${USER}$/;"	m
+PURIFY	Makefile	/^PURIFY= purify ${PFLAGS}$/;"	m
+SHA1CircularShift	sha1.c	46;"	d	file:
+SHA1Context	sha1.h	/^typedef struct SHA1Context$/;"	s
+SHA1Context	sha1.h	/^} SHA1Context;$/;"	t
+SHA1Input	sha1.c	/^void SHA1Input(     SHA1Context         *context,$/;"	f
+SHA1PadMessage	sha1.c	/^void SHA1PadMessage(SHA1Context *context)$/;"	f
+SHA1ProcessMessageBlock	sha1.c	/^void SHA1ProcessMessageBlock(SHA1Context *context)$/;"	f
+SHA1Reset	sha1.c	/^void SHA1Reset(SHA1Context *context)$/;"	f
+SHA1Result	sha1.c	/^int SHA1Result(SHA1Context *context)$/;"	f
+SHA1_LEN	sr_vns_comm.c	244;"	d	file:
+SOCK	Makefile	/^SOCK = -lnsl -lresolv$/;"	m
+SOCK	Makefile	/^SOCK = -lnsl -lsocket -lresolv$/;"	m
+SOCK	Makefile	/^SOCK = -lresolv$/;"	m
+SR_PROTOCOL_H	sr_protocol.h	34;"	d
+SR_ROUTER_H	sr_router.h	2;"	d
+TCPDUMP_MAGIC	sr_dumper.h	22;"	d
+TRUE	sr_protocol.h	186;"	d
+UNKNOWN	sr_router.c	/^    UNKNOWN = 0,$/;"	e	enum:arp_type	file:
+VERSION_INFO	sr_main.c	41;"	d	file:
+VNSBANNER	vnscommand.h	14;"	d
+VNSCLOSE	vnscommand.h	12;"	d
+VNSHWINFO	vnscommand.h	15;"	d
+VNSOPEN	vnscommand.h	11;"	d
+VNSPACKET	vnscommand.h	13;"	d
+VNS_AUTH_REPLY	vnscommand.h	140;"	d
+VNS_AUTH_REQUEST	vnscommand.h	139;"	d
+VNS_AUTH_STATUS	vnscommand.h	141;"	d
+VNS_OPEN_TEMPLATE	vnscommand.h	138;"	d
+VNS_RTABLE	vnscommand.h	137;"	d
+_RMUTEX_H_	rmutex.h	9;"	d
+_SHA1_H_	sha1.h	25;"	d
+__BIG_ENDIAN	sr_protocol.h	55;"	d
+__BYTE_ORDER	sr_protocol.h	59;"	d
+__BYTE_ORDER	sr_protocol.h	64;"	d
+__BYTE_ORDER	sr_protocol.h	69;"	d
+__BYTE_ORDER	sr_protocol.h	74;"	d
+__EXTENSIONS__	sr_main.c	17;"	d	file:
+__LITTLE_ENDIAN	sr_protocol.h	52;"	d
+__USE_MISC	sr_rt.c	19;"	d	file:
+__VNSCOMMAND_H	vnscommand.h	9;"	d
+addr	sr_if.h	/^    addr_mac_t addr;$/;"	m	struct:sr_if
+addr_mac_t	sr_protocol.h	/^} __attribute__ ((packed)) addr_mac_t;$/;"	t
+aq	sr_router.h	/^    struct arp_response_queue_entry aq[OUTSTANDING_ARP_LIMIT];$/;"	m	struct:sr_instance
+ar_hln	sr_protocol.h	/^    unsigned char   ar_hln;             \/* length of hardware address   *\/$/;"	m	struct:sr_arphdr
+ar_hln	sr_router.h	/^    unsigned char ar_hln;       \/* Length of hardware address.  *\/$/;"	m	struct:arphdr_eth
+ar_hrd	sr_protocol.h	/^    unsigned short  ar_hrd;             \/* format of hardware address   *\/$/;"	m	struct:sr_arphdr
+ar_hrd	sr_router.h	/^    unsigned short int ar_hrd;      \/* Format of hardware address.  *\/$/;"	m	struct:arphdr_eth
+ar_op	sr_protocol.h	/^    unsigned short  ar_op;              \/* ARP opcode (command)         *\/$/;"	m	struct:sr_arphdr
+ar_op	sr_router.h	/^    unsigned short int ar_op;       \/* ARP opcode (command).  *\/$/;"	m	struct:arphdr_eth
+ar_pln	sr_protocol.h	/^    unsigned char   ar_pln;             \/* length of protocol address   *\/$/;"	m	struct:sr_arphdr
+ar_pln	sr_router.h	/^    unsigned char ar_pln;       \/* Length of protocol address.  *\/$/;"	m	struct:arphdr_eth
+ar_pro	sr_protocol.h	/^    unsigned short  ar_pro;             \/* format of protocol address   *\/$/;"	m	struct:sr_arphdr
+ar_pro	sr_router.h	/^    unsigned short int ar_pro;      \/* Format of protocol address.  *\/$/;"	m	struct:arphdr_eth
+ar_sha	sr_protocol.h	/^    addr_mac_t    ar_sha;   \/* sender hardware address      *\/$/;"	m	struct:sr_arphdr
+ar_sha	sr_router.h	/^    unsigned char ar_sha[ETHER_ADDR_LEN];   \/* Sender hardware address.  *\/$/;"	m	struct:arphdr_eth
+ar_sip	sr_protocol.h	/^    uint32_t        ar_sip;             \/* sender IP address            *\/$/;"	m	struct:sr_arphdr
+ar_sip	sr_router.h	/^    unsigned char ar_sip[4];      \/* Sender IP address.  *\/$/;"	m	struct:arphdr_eth
+ar_tha	sr_protocol.h	/^    addr_mac_t  ar_tha;   \/* target hardware address      *\/$/;"	m	struct:sr_arphdr
+ar_tha	sr_router.h	/^    unsigned char ar_tha[ETHER_ADDR_LEN];   \/* Target hardware address.  *\/$/;"	m	struct:arphdr_eth
+ar_tip	sr_protocol.h	/^    uint32_t        ar_tip;             \/* target IP address            *\/$/;"	m	struct:sr_arphdr
+ar_tip	sr_router.h	/^    unsigned char ar_tip[4];      \/* Target IP address.  *\/$/;"	m	struct:arphdr_eth
+arp_queue_caretaker	arp_caretaker.c	/^void *  arp_queue_caretaker(void * router){$/;"	f
+arp_queue_lock	sr_router.h	/^    rmutex_t arp_queue_lock;$/;"	m	struct:sr_instance
+arp_response_queue_entry	sr_router.h	/^struct arp_response_queue_entry{$/;"	s
+arp_table_get_entry	arp_caretaker.c	/^int arp_table_get_entry(struct sr_instance * sr, uint32_t ip, addr_mac_t * addr){$/;"	f
+arp_table_set_entry	arp_caretaker.c	/^int arp_table_set_entry(struct sr_instance * sr, uint32_t ip, addr_mac_t macaddr)$/;"	f
+arp_type	sr_router.c	/^enum arp_type{$/;"	g	file:
+arphdr_eth	sr_router.h	/^struct arphdr_eth$/;"	s
+arptable	sr_router.h	/^    struct arptable_entry arptable[ARP_TABLE_SIZE];$/;"	m	struct:sr_instance
+arptable_entry	sr_router.h	/^struct arptable_entry{$/;"	s
+arptable_lock	sr_router.h	/^    rmutex_t arptable_lock;$/;"	m	struct:sr_instance
+auth_key_fn	sr_router.h	/^    char auth_key_fn[64]; \/* auth key filename *\/$/;"	m	struct:sr_instance
+auth_ok	vnscommand.h	/^    uint8_t  auth_ok;$/;"	m
+c_auth_reply	vnscommand.h	/^}__attribute__ ((__packed__)) c_auth_reply;$/;"	t
+c_auth_request	vnscommand.h	/^}__attribute__ ((__packed__)) c_auth_request;$/;"	t
+c_auth_status	vnscommand.h	/^}__attribute__ ((__packed__)) c_auth_status;$/;"	t
+c_banner	vnscommand.h	/^}__attribute__ ((__packed__)) c_banner;$/;"	t
+c_base	vnscommand.h	/^}__attribute__ ((__packed__)) c_base;$/;"	t
+c_close	vnscommand.h	/^}__attribute__ ((__packed__)) c_close;$/;"	t
+c_hw_entry	vnscommand.h	/^}__attribute__ ((__packed__)) c_hw_entry;$/;"	t
+c_hwinfo	vnscommand.h	/^}__attribute__ ((__packed__)) c_hwinfo;$/;"	t
+c_hwrequest	vnscommand.h	/^}__attribute__ ((__packed__)) c_hwrequest;$/;"	t
+c_open	vnscommand.h	/^}__attribute__ ((__packed__)) c_open;$/;"	t
+c_open_template	vnscommand.h	/^}__attribute__ ((__packed__)) c_open_template;$/;"	t
+c_packet_ethernet_header	vnscommand.h	/^}__attribute__ ((__packed__)) c_packet_ethernet_header;$/;"	t
+c_packet_header	vnscommand.h	/^}__attribute__ ((__packed__)) c_packet_header;$/;"	t
+c_rtable	vnscommand.h	/^}__attribute__ ((__packed__)) c_rtable;$/;"	t
+c_src_filter	vnscommand.h	/^}__attribute__ ((__packed__)) c_src_filter;$/;"	t
+caplen	sr_dumper.h	/^    uint32_t caplen;         \/* length of portion present *\/$/;"	m	struct:pcap_sf_pkthdr
+caplen	sr_dumper.h	/^  uint32_t caplen;          \/* length of portion present *\/$/;"	m	struct:pcap_pkthdr
+checksum	sr_router.c	/^uint16_t checksum( uint16_t* buf, unsigned len ) {$/;"	f
+checksum_icmp	sr_router.c	/^uint16_t checksum_icmp( hdr_icmp_t* icmp_hdr, unsigned total_len ) {$/;"	f
+checksum_ip	sr_router.c	/^uint16_t checksum_ip( struct ip * hdr ) {$/;"	f
+code	sr_protocol.h	/^    uint8_t code;$/;"	m
+control_cv	rmutex.h	/^    pthread_cond_t  control_cv;$/;"	m
+control_mutex	rmutex.h	/^    pthread_mutex_t control_mutex;$/;"	m
+dest	sr_rt.h	/^    struct in_addr dest;$/;"	m	struct:sr_rt
+ethaddr	sr_router.h	/^    addr_mac_t ethaddr;$/;"	m	struct:arptable_entry
+ether_dhost	sr_protocol.h	/^    addr_mac_t ether_dhost;    \/* destination ethernet address *\/$/;"	m	struct:sr_ethernet_hdr
+ether_dhost	vnscommand.h	/^    uint8_t  ether_dhost[6];$/;"	m
+ether_shost	sr_protocol.h	/^    addr_mac_t ether_shost;    \/* source ethernet address *\/$/;"	m	struct:sr_ethernet_hdr
+ether_shost	vnscommand.h	/^    uint8_t  ether_shost[6];$/;"	m
+ether_to_me	sr_router.c	/^int ether_to_me(addr_mac_t  * my_address, addr_mac_t * addr_s){$/;"	f
+ether_type	sr_protocol.h	/^    uint16_t ether_type;                     \/* packet type ID *\/$/;"	m	struct:sr_ethernet_hdr
+ether_type	vnscommand.h	/^    uint16_t ether_type;$/;"	m
+expiry	sr_router.h	/^    time_t expiry;$/;"	m	struct:arp_response_queue_entry
+expiry	sr_router.h	/^    time_t expiry;$/;"	m	struct:arptable_entry
+expiry	sr_router.h	/^    time_t expiry;$/;"	m	struct:pending_packet_queue_entry
+gw	sr_rt.h	/^    struct in_addr gw;$/;"	m	struct:sr_rt
+handle_arp	sr_router.c	/^int handle_arp(struct sr_instance * sr, uint8_t * packet, unsigned int len, char * interface)$/;"	f
+handle_ip	sr_router.c	/^int handle_ip(struct sr_instance *sr, uint8_t * packet,unsigned int len,char * interface)$/;"	f
+hdr_icmp_t	sr_protocol.h	/^} hdr_icmp_t;$/;"	t
+host	sr_router.h	/^    char host[32]; \/* host name *\/$/;"	m	struct:sr_instance
+icmp_handle_packet	sr_router.c	/^void icmp_handle_packet(struct sr_instance * router,$/;"	f
+icmp_send	sr_router.c	/^void icmp_send( struct sr_instance * router, uint32_t dst, uint32_t src, uint8_t* icmp_payload, \/* or just the data to send back *\/$/;"	f
+if_list	sr_router.h	/^    struct sr_if* if_list; \/* list of interfaces *\/$/;"	m	struct:sr_instance
+iface	sr_router.h	/^    char * iface;$/;"	m	struct:arp_response_queue_entry
+iface	sr_router.h	/^    char * iface;$/;"	m	struct:pending_packet_queue_entry
+interface	sr_rt.h	/^    char   interface[sr_IFACE_NAMELEN];$/;"	m	struct:sr_rt
+ip	sr_if.h	/^    uint32_t ip;$/;"	m	struct:sr_if
+ip	sr_protocol.h	/^struct ip$/;"	s
+ip	sr_router.h	/^    uint32_t ip;$/;"	m	struct:arp_response_queue_entry
+ip	sr_router.h	/^    uint32_t ip;$/;"	m	struct:pending_packet_queue_entry
+ip	vnscommand.h	/^    uint32_t ip;$/;"	m
+ip_dst	sr_protocol.h	/^    struct in_addr ip_src, ip_dst;	\/* source and dest address *\/$/;"	m	struct:ip
+ip_hl	sr_protocol.h	/^    unsigned int ip_hl:4;		\/* header length *\/$/;"	m	struct:ip
+ip_id	sr_protocol.h	/^    uint16_t ip_id;			\/* identification *\/$/;"	m	struct:ip
+ip_len	sr_protocol.h	/^    uint16_t ip_len;			\/* total length *\/$/;"	m	struct:ip
+ip_off	sr_protocol.h	/^    uint16_t ip_off;			\/* fragment offset field *\/$/;"	m	struct:ip
+ip_p	sr_protocol.h	/^    uint8_t ip_p;			\/* protocol *\/$/;"	m	struct:ip
+ip_src	sr_protocol.h	/^    struct in_addr ip_src, ip_dst;	\/* source and dest address *\/$/;"	m	struct:ip
+ip_sum	sr_protocol.h	/^    uint16_t ip_sum;			\/* checksum *\/$/;"	m	struct:ip
+ip_to_me	sr_router.c	/^int ip_to_me(struct sr_instance * sr, uint32_t dst)$/;"	f
+ip_tos	sr_protocol.h	/^    uint8_t ip_tos;			\/* type of service *\/$/;"	m	struct:ip
+ip_ttl	sr_protocol.h	/^    uint8_t ip_ttl;			\/* time to live *\/$/;"	m	struct:ip
+ip_v	sr_protocol.h	/^    unsigned int ip_v:4;		\/* version *\/$/;"	m	struct:ip
+ipaddr	sr_router.h	/^    uint32_t ipaddr;$/;"	m	struct:arptable_entry
+len	sr_dumper.h	/^    uint32_t len;            \/* length this packet (off wire) *\/$/;"	m	struct:pcap_sf_pkthdr
+len	sr_dumper.h	/^  uint32_t len;             \/* length this packet (off wire) *\/$/;"	m	struct:pcap_pkthdr
+linktype	sr_dumper.h	/^  uint32_t   linktype;      \/* data link type (LINKTYPE_*) *\/$/;"	m	struct:pcap_file_header
+lock_depth	rmutex.h	/^    int lock_depth;          \/* 0 means not locked or owned   *\/$/;"	m
+logfile	sr_router.h	/^    FILE* logfile;$/;"	m	struct:sr_instance
+mBannerMessage	vnscommand.h	/^    char     mBannerMessage[256];$/;"	m
+mErrorMessage	vnscommand.h	/^    char     mErrorMessage[256];$/;"	m
+mHWInfo	vnscommand.h	/^    c_hw_entry mHWInfo[MAXHWENTRIES];$/;"	m
+mInterfaceName	vnscommand.h	/^    char     mInterfaceName[16];$/;"	m
+mKey	vnscommand.h	/^    uint32_t mKey;$/;"	m
+mLen	vnscommand.h	/^    uint32_t     mLen;$/;"	m
+mLen	vnscommand.h	/^    uint32_t   mLen;$/;"	m
+mLen	vnscommand.h	/^    uint32_t mLen;$/;"	m
+mPass	vnscommand.h	/^    char     mPass[IDSIZE];$/;"	m
+mType	vnscommand.h	/^    uint32_t     mType;$/;"	m
+mType	vnscommand.h	/^    uint32_t   mType;$/;"	m
+mType	vnscommand.h	/^    uint32_t mType;        \/* = VNSOPEN *\/$/;"	m
+mType	vnscommand.h	/^    uint32_t mType;$/;"	m
+mUID	vnscommand.h	/^    char     mUID[IDSIZE]; \/* User id (e.g. "appenz"), for information only *\/$/;"	m
+mVirtualHostID	vnscommand.h	/^    char         mVirtualHostID[IDSIZE];$/;"	m
+mVirtualHostID	vnscommand.h	/^    char     mVirtualHostID[IDSIZE]; \/* Id of the simulated router (e.g.$/;"	m
+mVirtualHostID	vnscommand.h	/^    char     mVirtualHostID[IDSIZE];$/;"	m
+magic	sr_dumper.h	/^  uint32_t   magic;         \/* magic number *\/$/;"	m	struct:pcap_file_header
+main	sr_main.c	/^int main(int argc, char **argv)$/;"	f
+mask	sr_rt.h	/^    struct in_addr mask;$/;"	m	struct:sr_rt
+min	sr_dumper.h	26;"	d
+min	sr_router.h	11;"	d
+msg	vnscommand.h	/^    char     msg[0];$/;"	m
+name	sr_if.h	/^    char name[sr_IFACE_NAMELEN];$/;"	m	struct:sr_if
+network_send_packet	sr_router.c	/^int network_send_packet( struct sr_instance * router,$/;"	f
+network_send_packet_from	sr_router.c	/^int  network_send_packet_from( struct sr_instance* router,$/;"	f
+next	sr_if.h	/^    struct sr_if* next;$/;"	m	struct:sr_if
+next	sr_rt.h	/^    struct sr_rt* next;$/;"	m	struct:sr_rt
+num_masked_bits	vnscommand.h	/^    uint8_t  num_masked_bits;$/;"	m
+octet	sr_protocol.h	/^    uint8_t octet[ETHER_ADDR_LEN];$/;"	m
+owner	rmutex.h	/^    pthread_t owner;         \/* thread id of the owner        *\/$/;"	m
+pad	vnscommand.h	/^    uint16_t pad;          \/* unused *\/$/;"	m
+payload	sr_router.h	/^    uint8_t * payload;$/;"	m	struct:pending_packet_queue_entry
+payload_len	sr_router.h	/^    unsigned payload_len;$/;"	m	struct:pending_packet_queue_entry
+pcap_file_header	sr_dumper.h	/^struct pcap_file_header {$/;"	s
+pcap_pkthdr	sr_dumper.h	/^struct pcap_pkthdr {$/;"	s
+pcap_sf_pkthdr	sr_dumper.h	/^struct pcap_sf_pkthdr {$/;"	s
+pcap_timeval	sr_dumper.h	/^struct pcap_timeval {$/;"	s
+pending_packet_queue_entry	sr_router.h	/^struct pending_packet_queue_entry{$/;"	s
+pq	sr_router.h	/^    struct pending_packet_queue_entry pq[OUTSTANDING_ARP_LIMIT];$/;"	m	struct:sr_instance
+queue_ethernet_wait_arp	arp_caretaker.c	/^void queue_ethernet_wait_arp(struct sr_instance * sr,$/;"	f
+req_remaining	sr_router.h	/^    int req_remaining;$/;"	m	struct:arp_response_queue_entry
+rmutex_destroy	rmutex.c	/^void rmutex_destroy( rmutex_t* lock ) {$/;"	f
+rmutex_init	rmutex.c	/^void rmutex_init( rmutex_t* lock ) {$/;"	f
+rmutex_lock	rmutex.c	/^void rmutex_lock( rmutex_t* lock ) {$/;"	f
+rmutex_t	rmutex.h	/^} rmutex_t;$/;"	t
+rmutex_unlock	rmutex.c	/^void rmutex_unlock( rmutex_t* lock ) {$/;"	f
+router_lookup_interface_via_ip	sr_router.c	/^struct sr_if * router_lookup_interface_via_ip( struct sr_instance * sr, uint32_t dst )$/;"	f
+router_queue_ethernet_frame	sr_router.c	/^int router_queue_ethernet_frame(struct sr_instance * sr,$/;"	f
+router_send_ethernet_frame	sr_router.c	/^int router_send_ethernet_frame( struct sr_instance * router,$/;"	f
+routing_table	sr_router.h	/^    struct sr_rt* routing_table; \/* routing table *\/$/;"	m	struct:sr_instance
+rtable	vnscommand.h	/^    char     rtable[0];$/;"	m
+rtable_find_route	sr_router.c	/^struct sr_rt * rtable_find_route( struct sr_instance * sr,uint32_t dst_ip )$/;"	f
+salt	vnscommand.h	/^    uint8_t  salt[0];$/;"	m
+sf_write_header	sr_dumper.c	/^sf_write_header(FILE *fp, int linktype, int thiszone, int snaplen)$/;"	f	file:
+short1	sr_protocol.h	/^    unsigned short short1; \/* network order *\/$/;"	m
+short2	sr_protocol.h	/^    unsigned short short2; \/* network order *\/$/;"	m
+sigfigs	sr_dumper.h	/^  uint32_t   sigfigs;       \/* accuracy of timestamps *\/$/;"	m	struct:pcap_file_header
+snaplen	sr_dumper.h	/^  uint32_t   snaplen;       \/* max length saved portion of each pkt *\/$/;"	m	struct:pcap_file_header
+sockfd	sr_router.h	/^    int  sockfd;   \/* socket to server *\/$/;"	m	struct:sr_instance
+speed	sr_if.h	/^    uint32_t speed;$/;"	m	struct:sr_if
+sr_DEPS	Makefile	/^sr_DEPS = $(patsubst %.c,.%.d,$(sr_SRCS))$/;"	m
+sr_IFACE_NAMELEN	sr_if.h	28;"	d
+sr_INTERFACE_H	sr_if.h	13;"	d
+sr_OBJS	Makefile	/^sr_OBJS = $(patsubst %.c,%.o,$(sr_SRCS))$/;"	m
+sr_RT_H	sr_rt.h	13;"	d
+sr_SRCS	Makefile	/^sr_SRCS = sr_router.c sr_main.c  \\$/;"	m
+sr_add_interface	sr_if.c	/^void sr_add_interface(struct sr_instance* sr, const char* name)$/;"	f
+sr_add_rt_entry	sr_rt.c	/^void sr_add_rt_entry(struct sr_instance* sr, struct in_addr dest,$/;"	f
+sr_addr	sr_router.h	/^    struct sockaddr_in sr_addr; \/* address to server *\/$/;"	m	struct:sr_instance
+sr_arp_req_not_for_us	sr_vns_comm.c	/^int  sr_arp_req_not_for_us(struct sr_instance* sr,$/;"	f
+sr_arphdr	sr_protocol.h	/^struct sr_arphdr $/;"	s
+sr_connect_to_server	sr_vns_comm.c	/^int sr_connect_to_server(struct sr_instance* sr,unsigned short port,$/;"	f
+sr_destroy_instance	sr_main.c	/^static void sr_destroy_instance(struct sr_instance* sr)$/;"	f	file:
+sr_dump	sr_dumper.c	/^sr_dump(FILE *fp, const struct pcap_pkthdr *h, const unsigned char *sp)$/;"	f
+sr_dump_close	sr_dumper.c	/^sr_dump_close(FILE *fp)$/;"	f
+sr_dump_open	sr_dumper.c	/^sr_dump_open(const char *fname, int thiszone, int snaplen)$/;"	f
+sr_ether_addrs_match_interface	sr_vns_comm.c	/^sr_ether_addrs_match_interface( struct sr_instance* sr, \/* borrowed *\/$/;"	f	file:
+sr_ethernet_hdr	sr_protocol.h	/^struct sr_ethernet_hdr$/;"	s
+sr_get_interface	sr_if.c	/^struct sr_if* sr_get_interface(struct sr_instance* sr, const char* name)$/;"	f
+sr_handle_auth_request	sr_vns_comm.c	/^int sr_handle_auth_request(struct sr_instance* sr, c_auth_request* req) {$/;"	f
+sr_handle_auth_status	sr_vns_comm.c	/^int sr_handle_auth_status(struct sr_instance* sr, c_auth_status* status) {$/;"	f
+sr_handle_hwinfo	sr_vns_comm.c	/^int sr_handle_hwinfo(struct sr_instance* sr, c_hwinfo* hwinfo)$/;"	f
+sr_handle_rtable	sr_vns_comm.c	/^int sr_handle_rtable(struct sr_instance* sr, c_rtable* rtable) {$/;"	f
+sr_handlepacket	sr_router.c	/^void sr_handlepacket(struct sr_instance* sr, $/;"	f
+sr_if	sr_if.h	/^struct sr_if$/;"	s
+sr_init	sr_router.c	/^void sr_init(struct sr_instance* sr) $/;"	f
+sr_init_instance	sr_main.c	/^static void sr_init_instance(struct sr_instance* sr)$/;"	f	file:
+sr_instance	sr_router.h	/^struct sr_instance$/;"	s
+sr_load_rt	sr_rt.c	/^int sr_load_rt(struct sr_instance* sr,const char* filename)$/;"	f
+sr_load_rt_wrap	sr_main.c	/^static void sr_load_rt_wrap(struct sr_instance* sr, char* rtable) {$/;"	f	file:
+sr_log_packet	sr_vns_comm.c	/^void sr_log_packet(struct sr_instance* sr, uint8_t* buf, int len )$/;"	f
+sr_print_if	sr_if.c	/^void sr_print_if(struct sr_if* iface)$/;"	f
+sr_print_if_list	sr_if.c	/^void sr_print_if_list(struct sr_instance* sr)$/;"	f
+sr_print_routing_entry	sr_rt.c	/^void sr_print_routing_entry(struct sr_rt* entry)$/;"	f
+sr_print_routing_table	sr_rt.c	/^void sr_print_routing_table(struct sr_instance* sr)$/;"	f
+sr_read_from_server	sr_vns_comm.c	/^int sr_read_from_server(struct sr_instance* sr \/* borrowed *\/)$/;"	f
+sr_read_from_server_expect	sr_vns_comm.c	/^int sr_read_from_server_expect(struct sr_instance* sr \/* borrowed *\/, int expected_cmd)$/;"	f
+sr_rt	sr_rt.h	/^struct sr_rt$/;"	s
+sr_send_packet	sr_vns_comm.c	/^int sr_send_packet(struct sr_instance* sr \/* borrowed *\/,$/;"	f
+sr_set_ether_addr	sr_if.c	/^void sr_set_ether_addr(struct sr_instance* sr, const unsigned char* addr)$/;"	f
+sr_set_ether_ip	sr_if.c	/^void sr_set_ether_ip(struct sr_instance* sr, uint32_t ip_nbo)$/;"	f
+sr_set_user	sr_main.c	/^void sr_set_user(struct sr_instance* sr)$/;"	f
+sr_verify_routing_table	sr_main.c	/^int sr_verify_routing_table(struct sr_instance* sr)$/;"	f
+srcFilters	vnscommand.h	/^    c_src_filter srcFilters[0];$/;"	m
+sum	sr_protocol.h	/^    unsigned short sum;$/;"	m
+templateName	vnscommand.h	/^    char         templateName[30];$/;"	m
+thiszone	sr_dumper.h	/^  int     thiszone;      \/* gmt to local correction *\/ $/;"	m	struct:pcap_file_header
+topoID	vnscommand.h	/^    uint16_t topoID;       \/* Id of the topology we want to run on *\/$/;"	m
+topo_id	sr_router.h	/^    unsigned short topo_id;$/;"	m	struct:sr_instance
+ts	sr_dumper.h	/^    struct pcap_timeval ts;     \/* time stamp *\/$/;"	m	struct:pcap_sf_pkthdr
+ts	sr_dumper.h	/^  struct timeval ts;     \/* time stamp  *\/$/;"	m	struct:pcap_pkthdr
+tv_sec	sr_dumper.h	/^    int tv_sec;           \/* seconds *\/$/;"	m	struct:pcap_timeval
+tv_usec	sr_dumper.h	/^    int tv_usec;          \/* microseconds *\/$/;"	m	struct:pcap_timeval
+type	sr_protocol.h	/^    uint8_t type;$/;"	m
+usage	sr_main.c	/^static void usage(char* argv0)$/;"	f	file:
+user	sr_router.h	/^    char user[32]; \/* user name *\/$/;"	m	struct:sr_instance
+username	vnscommand.h	/^    char     username[0];$/;"	m
+usernameLen	vnscommand.h	/^    uint32_t usernameLen;$/;"	m
+value	vnscommand.h	/^    char     value[32];$/;"	m
+version_major	sr_dumper.h	/^  uint16_t version_major; \/* version number major *\/$/;"	m	struct:pcap_file_header
+version_minor	sr_dumper.h	/^  uint16_t version_minor; \/* version number minor *\/$/;"	m	struct:pcap_file_header

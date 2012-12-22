@@ -1,0 +1,96 @@
+diff --git a/fall2012/cs466/project2/simplesim-3.0/cache.c b/fall2012/cs466/project2/simplesim-3.0/cache.c
+index f9036c6..072b6a5 100644
+--- a/fall2012/cs466/project2/simplesim-3.0/cache.c
++++ b/fall2012/cs466/project2/simplesim-3.0/cache.c
+@@ -409,6 +409,7 @@ cache_char2policy(char c)		/* replacement policy as a char */
+   case 'l': return LRU;
+   case 'r': return Random;
+   case 'f': return FIFO;
++  case 'm': return MRU;
+   default: fatal("bogus replacement policy, `%c'", c);
+   }
+ }
+@@ -427,6 +428,7 @@ cache_config(struct cache_t *cp,	/* cache instance */
+ 	  cp->policy == LRU ? "LRU"
+ 	  : cp->policy == Random ? "Random"
+ 	  : cp->policy == FIFO ? "FIFO"
++	  : cp->policy == MRU ? "MRU"
+ 	  : (abort(), ""));
+ }
+ 
+@@ -581,6 +583,12 @@ cache_access(struct cache_t *cp,	/* cache to access */
+       repl = CACHE_BINDEX(cp, cp->sets[set].blks, bindex);
+     }
+     break;
++  case  MRU:
++    {
++        repl = cp->sets[set].way_tail;
++        update_way_list(&cp->sets[set], repl, Tail);
++    }
++    break;
+   default:
+     panic("bogus replacement policy");
+   }
+@@ -675,6 +683,13 @@ cache_access(struct cache_t *cp,	/* cache to access */
+       update_way_list(&cp->sets[set], blk, Head);
+     }
+ 
++  /* if MRU replacement and this is not the last element of list, reorder */
++  if (blk->way_next && cp->policy == MRU)
++    {
++      /* move this block to head of the way (MRU) list */
++      update_way_list(&cp->sets[set], blk, Tail);
++    }
++
+   /* tag is unchanged, so hash links (if they exist) are still valid */
+ 
+   /* record the last block to hit */
+diff --git a/fall2012/cs466/project2/simplesim-3.0/cache.h b/fall2012/cs466/project2/simplesim-3.0/cache.h
+index 28c66f9..1eda5a3 100644
+--- a/fall2012/cs466/project2/simplesim-3.0/cache.h
++++ b/fall2012/cs466/project2/simplesim-3.0/cache.h
+@@ -102,7 +102,8 @@
+ enum cache_policy {
+   LRU,		/* replace least recently used block (perfect LRU) */
+   Random,	/* replace a random block */
+-  FIFO		/* replace the oldest block in the set */
++  FIFO,		/* replace the oldest block in the set */
++  MRU       /* replace the most recently used block */
+ };
+ 
+ /* block status values */
+diff --git a/fall2012/cs466/project2/simplesim-3.0/libexo/libexo.a b/fall2012/cs466/project2/simplesim-3.0/libexo/libexo.a
+index 08fcdde..72cc086 100644
+Binary files a/fall2012/cs466/project2/simplesim-3.0/libexo/libexo.a and b/fall2012/cs466/project2/simplesim-3.0/libexo/libexo.a differ
+diff --git a/fall2012/cs466/project2/simplesim-3.0/sim-cache b/fall2012/cs466/project2/simplesim-3.0/sim-cache
+index 4c49218..ea19981 100755
+Binary files a/fall2012/cs466/project2/simplesim-3.0/sim-cache and b/fall2012/cs466/project2/simplesim-3.0/sim-cache differ
+diff --git a/fall2012/cs466/project2/simplesim-3.0/sim-cache.c b/fall2012/cs466/project2/simplesim-3.0/sim-cache.c
+index 3e77e0a..c000ea0 100644
+--- a/fall2012/cs466/project2/simplesim-3.0/sim-cache.c
++++ b/fall2012/cs466/project2/simplesim-3.0/sim-cache.c
+@@ -280,7 +280,7 @@ sim_reg_options(struct opt_odb_t *odb)	/* options database */
+ "    <nsets>  - number of sets in the cache\n"
+ "    <bsize>  - block size of the cache\n"
+ "    <assoc>  - associativity of the cache\n"
+-"    <repl>   - block replacement strategy, 'l'-LRU, 'f'-FIFO, 'r'-random\n"
++"    <repl>   - block replacement strategy, 'l'-LRU, 'f'-FIFO, 'r'-random, 'm'-MRU\n"
+ "\n"
+ "    Examples:   -cache:dl1 dl1:4096:32:1:l\n"
+ "                -dtlb dtlb:128:4096:32:r\n"
+diff --git a/fall2012/cs466/project2/simplesim-3.0/sim-outorder b/fall2012/cs466/project2/simplesim-3.0/sim-outorder
+index d3d63d6..4b65b5e 100755
+Binary files a/fall2012/cs466/project2/simplesim-3.0/sim-outorder and b/fall2012/cs466/project2/simplesim-3.0/sim-outorder differ
+diff --git a/fall2012/cs466/project2/simplesim-3.0/sim-outorder.c b/fall2012/cs466/project2/simplesim-3.0/sim-outorder.c
+index 80b29bf..8bca3e4 100644
+--- a/fall2012/cs466/project2/simplesim-3.0/sim-outorder.c
++++ b/fall2012/cs466/project2/simplesim-3.0/sim-outorder.c
+@@ -749,7 +749,7 @@ sim_reg_options(struct opt_odb_t *odb)
+ "    <nsets>  - number of sets in the cache\n"
+ "    <bsize>  - block size of the cache\n"
+ "    <assoc>  - associativity of the cache\n"
+-"    <repl>   - block replacement strategy, 'l'-LRU, 'f'-FIFO, 'r'-random\n"
++"    <repl>   - block replacement strategy, 'l'-LRU, 'f'-FIFO, 'r'-random, 'm'-MRU\n"
+ "\n"
+ "    Examples:   -cache:dl1 dl1:4096:32:1:l\n"
+ "                -dtlb dtlb:128:4096:32:r\n"

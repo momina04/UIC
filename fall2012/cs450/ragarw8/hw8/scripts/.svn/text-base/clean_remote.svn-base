@@ -1,0 +1,7 @@
+#!/bin/bash
+for host in `cat data/ips.txt`; do 
+#{
+    ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o ConnectTimeout=10 -T uic_cs450@$host  rm -rf ~/ragarw8 &
+#}
+done
+wait

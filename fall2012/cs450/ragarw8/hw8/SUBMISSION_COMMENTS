@@ -1,0 +1,50 @@
+collect...
+{
+for each host
+{
+ -traceroute every host.
+ -collect per pair traceroute...FILE HostAB.traceroute //for Hosts A and B
+}
+}
+
+post process
+{
+ -using nc find AS names for all IPs, remove duplicate AS names(choose first name or use to seperate multiple names for that IP)..file ip_ASNs.txt
+ -map all ips to ASNs(take care of duplicate ASNs) in every pair trace route...file HostAB.post
+ -remove duplicate ASNs in a single pair trace route..file  HostAB.post2 (input: HostAB.post1)
+}
+
+
+
+Once the data is collected, we need to process it to learn the following statistics:
+What 30 AS:es are the most frequently occurring ASNs between our hosts? Take care not to double-count ASNs when they appear more than once in a route.
+ -concatenate all files HostAB.post2 into a single file..count the no. of uniq ASN names..sort based on count..provide last 30 entries as answer
+ 
+
+
+What 30 AS:es have the largest `degree' or 'number of neighboring ASNs'.
+use file HostAB.post2
+ -for each AS in ip_ASNs.txt
+  {
+    find the line no. on which AS occurs in(all the files HostAB.post2)
+    if(lineno is first line)
+        add ASN in next line to the list of its neighbours ASNname.neighbours 
+    if(lineno is last line)
+        add ASN in previous line to the list of its neighbours ASNname.neighbours 
+    if(lineno is the middleline) //assert
+        add ASN in previous and next line to the list of its neighbours ASNname.neighbours
+  }
+ -remove duplicates lines from each neighbours files to FILE ASNname.unique_neighbours
+ wc -l *.unique_neighbours|sort -n -k 1|tail -n 30
+
+What 30 AS:es have the largest number of observed hosts?
+-use files HostAB.post
+-concatenate all of them in a single file
+-uniq -c |will give you counts of host for each uniq ASN Name
+-sort -n -k1 |tail -n 30
+
+
+What AS:es occur in all three lists above? Try googling for "ASxxxxx" to find out what networks these are!
+Get below answer
+A intersection B intersection C
+http://bgp.he.net/AS2907

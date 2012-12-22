@@ -1,0 +1,21 @@
+set confirm off
+b sr_init
+b ether_to_me
+b sr_handlepacket
+b handle_arp
+b handle_ip
+b checksum_ip
+b checksum
+b icmp_send
+b router_lookup_interface_via_ip
+b send_packet
+b ip_to_me
+b icmp_handle_packet
+b checksum_icmp
+b network_send_packet_from
+b rtable_find_route
+b router_send_ethernet_frame
+b router_queue_ethernet_frame
+dis 1
+
+run

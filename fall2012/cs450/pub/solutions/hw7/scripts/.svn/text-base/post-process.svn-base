@@ -1,0 +1,8 @@
+rm data/raw.txt
+for host in `cat data/ips.txt`; do 
+ cat logs/$host.log | tr '/' ' ' | awk '/ping statistics/ {to=$2} /min avg max/ {print from,to,$7}' from=$host >> data/raw.txt;
+done
+
+gawk 'ARGIND==1{loc[$1]=$2" "$3;next} loc[$1] && loc[$2] {print $0,loc[$1],loc[$2]}' data/IP_locations.txt data/raw.txt |\
+perl scripts/gcdistall.pl | tr '/' ' ' > data/post-processed.txt 
+

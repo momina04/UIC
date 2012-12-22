@@ -1,7 +1,7 @@
 10
 
 dir
-122
+180
 svn://cs450.cs.uic.edu/f12/ragarw8/hw4/bencode-tools-2011-03-15
 svn://cs450.cs.uic.edu/f12/ragarw8
 
@@ -60,40 +60,6 @@ ragarw8
 
 15398
 
-bencat.c
-file
-
-
-
-
-2012-10-23T03:59:50.709849Z
-fcc6e5c3d15659860e891d6003476ae7
-2012-10-07T05:47:35.526592Z
-45
-ragarw8
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4583
-
 Makefile
 file
 
@@ -127,6 +93,40 @@ ragarw8
 
 
 976
+
+bencat.c
+file
+
+
+
+
+2012-10-23T03:59:50.709849Z
+fcc6e5c3d15659860e891d6003476ae7
+2012-10-07T05:47:35.526592Z
+45
+ragarw8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4583
 
 typevalidator.py
 file
@@ -162,14 +162,14 @@ ragarw8
 
 6044
 
-bencodetest.c
+LICENSE.bencode
 file
 
 
 
 
 2012-10-23T03:59:50.705849Z
-e2aa1dfd54c38eceffde2502404039d4
+f579cfa4c0428615f08f16a8fc053ffe
 2012-10-07T05:47:35.526592Z
 45
 ragarw8
@@ -194,7 +194,7 @@ ragarw8
 
 
 
-10408
+1507
 
 bencode.c
 file
@@ -230,14 +230,14 @@ ragarw8
 
 22816
 
-LICENSE.bencode
+bencodetest.c
 file
 
 
 
 
 2012-10-23T03:59:50.705849Z
-f579cfa4c0428615f08f16a8fc053ffe
+e2aa1dfd54c38eceffde2502404039d4
 2012-10-07T05:47:35.526592Z
 45
 ragarw8
@@ -262,7 +262,7 @@ ragarw8
 
 
 
-1507
+10408
 
 configure
 file

@@ -1,0 +1,223 @@
+Cleaning files...
+rm -f mul_o0
+rm -f mul_o3
+Compiling...
+gcc -g matrix_mult.c -O3 -o mul_o3
+gcc -g matrix_mult.c -O0 -o mul_o0
+Run started...
+./mul_o0 1024 o
+
+{
+Program Name: ./mul_o0
+Program Mode: Original
+[ N = 1024 ]
+Time taken to multiply = 19715 msecs ( 19.715000 secs)
+}
+./mul_o3 1024 o
+
+{
+Program Name: ./mul_o3
+Program Mode: Original
+[ N = 1024 ]
+Time taken to multiply = 15177 msecs ( 15.177000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Original
+[ N = 16 ]
+Time taken to multiply = 0 msecs ( 0.000000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Original
+[ N = 32 ]
+Time taken to multiply = 0 msecs ( 0.000000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Original
+[ N = 64 ]
+Time taken to multiply = 1 msecs ( 0.001000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Original
+[ N = 128 ]
+Time taken to multiply = 5 msecs ( 0.005000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Original
+[ N = 256 ]
+Time taken to multiply = 45 msecs ( 0.045000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Original
+[ N = 512 ]
+Time taken to multiply = 388 msecs ( 0.388000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Original
+[ N = 1024 ]
+Time taken to multiply = 15126 msecs ( 15.126000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Original
+[ N = 2048 ]
+Time taken to multiply = 133138 msecs ( 133.138000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Original
+[ N = 4096 ]
+Time taken to multiply = 1576058 msecs ( 1576.058000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 8
+[ N = 16 ]
+Time taken to multiply = 0 msecs ( 0.000000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 8
+[ N = 32 ]
+Time taken to multiply = 0 msecs ( 0.000000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 8
+[ N = 64 ]
+Time taken to multiply = 1 msecs ( 0.001000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 8
+[ N = 128 ]
+Time taken to multiply = 4 msecs ( 0.004000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 8
+[ N = 256 ]
+Time taken to multiply = 50 msecs ( 0.050000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 8
+[ N = 512 ]
+Time taken to multiply = 353 msecs ( 0.353000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 8
+[ N = 1024 ]
+Time taken to multiply = 3062 msecs ( 3.062000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 8
+[ N = 2048 ]
+Time taken to multiply = 27527 msecs ( 27.527000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 8
+[ N = 4096 ]
+Time taken to multiply = 218065 msecs ( 218.065000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 4
+[ N = 2048 ]
+Time taken to multiply = 41494 msecs ( 41.494000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 8
+[ N = 2048 ]
+Time taken to multiply = 25750 msecs ( 25.750000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 16
+[ N = 2048 ]
+Time taken to multiply = 19564 msecs ( 19.564000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 32
+[ N = 2048 ]
+Time taken to multiply = 20026 msecs ( 20.026000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 64
+[ N = 2048 ]
+Time taken to multiply = 20987 msecs ( 20.987000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 128
+[ N = 2048 ]
+Time taken to multiply = 20870 msecs ( 20.870000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 256
+[ N = 2048 ]
+Time taken to multiply = 21410 msecs ( 21.410000 secs)
+}
+
+{
+Program Name: ./mul_o3
+Program Mode: Blocking
+Blocking Factor: 512
+[ N = 2048 ]
+Time taken to multiply = 102707 msecs ( 102.707000 secs)
+}
+...Run complete

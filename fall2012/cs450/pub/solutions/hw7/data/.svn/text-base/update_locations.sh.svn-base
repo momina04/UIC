@@ -1,0 +1,1 @@
+wget http://www.planet-lab.org/xml/sites.xml -O - |  xmlstarlet sel -t --match "//HOST" -v "@NAME" -o " " -v "../@LATITUDE" -o " " -v "../@LONGITUDE" -o " " -v "@IP" -n | awk '{name=$1;lat=$2;lon=$3;"host "name" |grep address" | getline; close("host "name" |grep address"); ip=$4; print ip,lat,lon,name}' > IP_locations.txt

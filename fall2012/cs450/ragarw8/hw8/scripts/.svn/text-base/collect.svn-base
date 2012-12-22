@@ -1,0 +1,53 @@
+#!/bin/bash
+rm logs/*
+
+#{
+for host in `cat data/ips.txt`; do 
+#{
+    echo "rm -rf ~/ragarw8" > scripts/remotecmd_"$host"
+    echo "mkdir ~/ragarw8" >> scripts/remotecmd_"$host"
+    for h in `cat data/ips.txt`; do 
+    #{
+        if [ $h == $host ]; then
+        #{
+            echo "echo "Will not traceroute to self $h"" >> scripts/remotecmd_"$host"
+
+        #}
+        else
+        #{
+            echo "traceroute -z 1 -q 1 -n $h > ~/ragarw8/"$host"_"$h".traceroute &" >> scripts/remotecmd_"$host"
+        #}
+        fi
+    #}
+    done
+    echo "wait" >> scripts/remotecmd_"$host"
+    echo "cd ~/ragarw8/;tar -cvzf "$host".tgz *.traceroute > /dev/null" >> scripts/remotecmd_"$host"
+    echo "Script file generated"
+    echo "Now collecting from $host";
+    timeout 300 ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o ConnectTimeout=10 -T uic_cs450@$host  < scripts/remotecmd_"$host" &
+#}
+done
+wait
+#cleanup
+rm scripts/remotecmd*
+#}
+
+#sleep 15 ...give some time for traceroutes to complete?
+#Transfer logs to local machine
+for host in `cat data/ips.txt`; do 
+#{
+    timeout 45 scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o ConnectTimeout=10 uic_cs450@"$host":~/ragarw8/"$host".tgz logs/ &
+#}
+done
+wait
+
+#Extract all files
+cd logs
+for file in `ls *.tgz`
+do
+    tar -xvzf $file&
+done
+wait
+cd ..
+
+scripts/clean_remote

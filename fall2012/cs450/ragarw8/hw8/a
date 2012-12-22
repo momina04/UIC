@@ -1,0 +1,75 @@
+#!/bin/bash
+#{
+echo "here -1"
+date
+for trace in `ls logs/*.traceroute` #takes about 4 minutes
+do
+    source=`echo $trace|sed -e 's/logs\/\(.*\)_.*/\1/'` 
+    echo $source > ${trace/route/s} #add source ip to traceroute
+    tail -n +2 $trace|awk '{print $2}' >> ${trace/route/s}
+
+    gawk 'ARGIND==1 {asn[$2]=$1; next} asn[$1] {print asn[$1]} END{print "-"}' logs/all_ips_asn   ${trace/route/s}>  ${trace/route/s}.asn&
+
+    cat  ${trace/route/s}.asn|uniq >> logs/ASNsinRoutes2 #this is needed for answer2
+    cat  ${trace/route/s}.asn|grep -v '-'|sort -n|uniq >> logs/ASNsinRoutes
+done
+#rm logs/*.traceroute
+#}
+echo "here -1"
+date
+
+exit
+cat logs/*.traces|grep "[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*"|sort -n > logs/all_ips
+echo "begin" > logs/all_ips.unique
+uniq logs/all_ips >> logs/all_ips.unique
+echo "end" >> logs/all_ips.unique
+echo "here0"
+date
+nc whois.cymru.com 43 <logs/all_ips.unique | tail -n +2|grep -v ^NA|awk -F '|' 'BEGIN{prevIP="none"}{if(prevIP!=$2){ print $1,$2} prevIP=$2}'|sed -e 's/\s\s*/ /g'  > logs/all_ips_asn #Contains IP to ASN mapping
+
+echo "here1"
+date
+#{
+for trace in `ls logs/*.traces` #take 4-5 minutes #this loop maps all ips in traces to its ASN numbers
+do
+    gawk 'ARGIND==1 {asn[$2]=$1; next} asn[$1] {print asn[$1]} END{print "-"}' logs/all_ips_asn  $trace> $trace.asn&
+done
+echo "here2"
+date
+wait
+touch logs/ASNsinRoutes
+rm logs/ASNsinRoutes
+touch logs/ASNsinRoutes2
+rm logs/ASNsinRoutes2
+for asn_trace in `ls logs/*.asn` #takes 4-5 minutes
+do
+    cat $asn_trace|uniq >> logs/ASNsinRoutes2 #this is needed for answer2
+    cat $asn_trace|grep -v '-'|sort -n|uniq >> logs/ASNsinRoutes
+done
+sort -n logs/ASNsinRoutes|uniq -c|sort -n|tail -30 > data/answer1.pre
+echo "here3"
+date
+#}
+
+
+#{
+awk 'BEGIN {prev="-"} { print $1,prev; print prev,$1;prev=$1 }'  logs/ASNsinRoutes2 |grep -v '-'|sort -n|uniq|cut -f1 -d' '|uniq -c|sort -n|tail -30 > data/answer2.pre
+#}
+echo "here4"
+date
+
+#{
+#gawk 'ARGIND==1 {asn[$2]=$1; next} asn[$1] {print asn[$1]}' logs/all_ips_asn  logs/*.traces > logs/ASNsinRoutes_duplicates #approach 1
+#OR
+cat logs/*.asn|grep -v '-' > logs/ASNsinRoutes_duplicates #approach (quicker, but requires ips to be mapped to asns)
+
+sort -n logs/ASNsinRoutes_duplicates|uniq -c|sort -n|tail -30 > data/answer3.pre
+##}
+echo "here5"
+date
+
+#Form final answers
+sed -e 's/^\s*//g' data/answer1.pre|cut -d ' ' -f2|sort -n > data/answer1
+sed -e 's/^\s*//g' data/answer2.pre|cut -d ' ' -f2|sort -n > data/answer2
+sed -e 's/^\s*//g' data/answer3.pre|cut -d ' ' -f2|sort -n > data/answer3
+cat data/answer1 data/answer2 data/answer3|sort -n|uniq -c|sort -n|awk '$1==3'|awk '{print $2}'|sort -n > data/answer4

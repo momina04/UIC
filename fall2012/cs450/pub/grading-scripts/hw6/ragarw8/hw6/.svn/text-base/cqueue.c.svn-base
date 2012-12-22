@@ -1,7 +1,7 @@
 #include<stdio.h>
 
-int front = -1,rear = -1,queue_size = 301;
-char* arr[301];
+int front = -1,rear = -1,queue_size = 101;
+char* arr[101];
 
 
 int isQEmpty(){

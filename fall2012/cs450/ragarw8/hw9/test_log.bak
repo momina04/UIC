@@ -1,0 +1,182 @@
+Pinging Application Servers
+{
+{
+PING 171.67.237.237 (171.67.237.237) 56(84) bytes of data.
+64 bytes from 171.67.237.237: icmp_req=3 ttl=46 time=458 ms
+64 bytes from 171.67.237.237: icmp_req=1 ttl=46 time=3053 ms
+64 bytes from 171.67.237.237: icmp_req=2 ttl=46 time=2140 ms
+64 bytes from 171.67.237.237: icmp_req=4 ttl=46 time=321 ms
+64 bytes from 171.67.237.237: icmp_req=5 ttl=46 time=282 ms
+
+--- 171.67.237.237 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4003ms
+rtt min/avg/max/mdev = 282.898/1251.344/3053.887/1137.712 ms, pipe 4
+}
+{
+PING 171.67.237.239 (171.67.237.239) 56(84) bytes of data.
+64 bytes from 171.67.237.239: icmp_req=2 ttl=46 time=284 ms
+64 bytes from 171.67.237.239: icmp_req=1 ttl=46 time=1858 ms
+64 bytes from 171.67.237.239: icmp_req=3 ttl=46 time=285 ms
+64 bytes from 171.67.237.239: icmp_req=4 ttl=46 time=267 ms
+64 bytes from 171.67.237.239: icmp_req=5 ttl=46 time=278 ms
+
+--- 171.67.237.239 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4012ms
+rtt min/avg/max/mdev = 267.353/594.958/1858.852/631.981 ms, pipe 2
+}
+}
+Pinging Router Interfaces
+{
+{
+PING 171.67.237.232 (171.67.237.232) 56(84) bytes of data.
+64 bytes from 171.67.237.232: icmp_req=1 ttl=47 time=181 ms
+64 bytes from 171.67.237.232: icmp_req=2 ttl=47 time=188 ms
+64 bytes from 171.67.237.232: icmp_req=3 ttl=47 time=202 ms
+64 bytes from 171.67.237.232: icmp_req=4 ttl=47 time=176 ms
+64 bytes from 171.67.237.232: icmp_req=5 ttl=47 time=198 ms
+
+--- 171.67.237.232 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4007ms
+rtt min/avg/max/mdev = 176.924/189.627/202.852/9.895 ms
+}
+{
+PING 171.67.237.236 (171.67.237.236) 56(84) bytes of data.
+64 bytes from 171.67.237.236: icmp_req=1 ttl=47 time=184 ms
+64 bytes from 171.67.237.236: icmp_req=2 ttl=47 time=192 ms
+64 bytes from 171.67.237.236: icmp_req=3 ttl=47 time=180 ms
+64 bytes from 171.67.237.236: icmp_req=4 ttl=47 time=187 ms
+64 bytes from 171.67.237.236: icmp_req=5 ttl=47 time=197 ms
+
+--- 171.67.237.236 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4047ms
+rtt min/avg/max/mdev = 180.412/188.473/197.495/5.963 ms
+}
+{
+PING 171.67.237.238 (171.67.237.238) 56(84) bytes of data.
+64 bytes from 171.67.237.238: icmp_req=1 ttl=47 time=199 ms
+64 bytes from 171.67.237.238: icmp_req=2 ttl=47 time=184 ms
+64 bytes from 171.67.237.238: icmp_req=3 ttl=47 time=185 ms
+64 bytes from 171.67.237.238: icmp_req=4 ttl=47 time=228 ms
+64 bytes from 171.67.237.238: icmp_req=5 ttl=47 time=182 ms
+
+--- 171.67.237.238 ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4007ms
+rtt min/avg/max/mdev = 182.165/195.899/228.332/17.418 ms
+}
+}
+Tracerouting Application Servers
+{
+{
+traceroute to 171.67.237.237 (171.67.237.237), 30 hops max, 60 byte packets
+ 1  TG862.local (10.0.0.1)  3.893 ms  7.933 ms  8.786 ms
+ 2  c-76-29-40-1.hsd1.il.comcast.net (76.29.40.1)  24.425 ms  24.342 ms  30.722 ms
+ 3  te-2-1-ur01.chicago302.il.chicago.comcast.net (68.86.116.129)  21.126 ms  20.832 ms  21.829 ms
+ 4  te-2-3-ur02.chicago302.il.chicago.comcast.net (68.87.229.78)  20.209 ms  21.200 ms  21.133 ms
+ 5  te-2-5-0-2-ar01.area4.il.chicago.comcast.net (68.86.189.137)  21.276 ms  20.898 ms  27.065 ms
+ 6  he-3-6-0-0-cr01.350ecermak.il.ibone.comcast.net (68.86.95.9)  26.071 ms  25.275 ms  41.482 ms
+ 7  pos-1-1-0-0-pe01.350ecermak.il.ibone.comcast.net (68.86.86.38)  30.798 ms  30.668 ms  30.485 ms
+ 8  xe-2-2-0.792.chic0.tr-cps.internet2.edu (137.164.130.237)  40.231 ms  40.158 ms  39.904 ms
+ 9  137.164.129.2 (137.164.129.2)  76.656 ms  77.044 ms  77.574 ms
+10  xe-1-0-0.0.paix0.tr-cps.internet2.edu (64.57.20.222)  97.748 ms  97.630 ms  97.413 ms
+11  xe-1-1-0.482--2152.paix0.tr-cps.internet2.edu (137.164.131.62)  97.225 ms  100.453 ms  107.148 ms
+12  dc-svl-core1--svl-px1-10ge-3.cenic.net (137.164.46.14)  99.390 ms  99.896 ms  103.064 ms
+13  dc-svl-agg1--svl-core1-10ge.cenic.net (137.164.47.120)  86.072 ms  86.467 ms  94.143 ms
+14  dc-stanford--svl-agg1-10ge.cenic.net (137.164.50.158)  93.979 ms  92.952 ms  99.856 ms
+15  68.65.168.33 (68.65.168.33)  101.179 ms  85.281 ms  94.454 ms
+16  * 68.65.168.100 (68.65.168.100)  94.028 ms  94.958 ms
+17  * * *
+18  * 171.67.237.232 (171.67.237.232)  182.208 ms  271.327 ms
+19  171.67.237.237 (171.67.237.237)  485.572 ms *  1993.821 ms
+}
+{
+traceroute to 171.67.237.239 (171.67.237.239), 30 hops max, 60 byte packets
+ 1  TG862.local (10.0.0.1)  6.098 ms  7.705 ms  8.856 ms
+ 2  c-76-29-40-1.hsd1.il.comcast.net (76.29.40.1)  33.622 ms  35.864 ms  42.015 ms
+ 3  te-2-1-ur01.chicago302.il.chicago.comcast.net (68.86.116.129)  25.308 ms  25.110 ms  25.079 ms
+ 4  te-8-4-ur02.chicago302.il.chicago.comcast.net (68.86.189.146)  28.646 ms  30.058 ms  29.850 ms
+ 5  68.87.211.9 (68.87.211.9)  34.222 ms *  33.947 ms
+ 6  he-3-7-0-0-cr01.350ecermak.il.ibone.comcast.net (68.86.90.53)  33.353 ms  27.450 ms  25.240 ms
+ 7  pos-1-8-0-0-pe01.350ecermak.il.ibone.comcast.net (68.86.87.166)  22.077 ms  21.829 ms *
+ 8  xe-2-2-0.792.chic0.tr-cps.internet2.edu (137.164.130.237)  80.850 ms  80.611 ms  80.559 ms
+ 9  137.164.129.2 (137.164.129.2)  96.229 ms  96.035 ms  80.593 ms
+10  xe-1-0-0.0.paix0.tr-cps.internet2.edu (64.57.20.222)  97.917 ms  97.603 ms  97.596 ms
+11  137.164.131.94 (137.164.131.94)  97.381 ms  97.415 ms  87.803 ms
+12  dc-svl-core1--svl-px1-10ge-2.cenic.net (137.164.46.12)  97.438 ms  97.260 ms  96.999 ms
+13  dc-svl-agg1--svl-core1-10ge.cenic.net (137.164.47.120)  93.794 ms  96.135 ms  95.934 ms
+14  dc-stanford--svl-agg1-10ge.cenic.net (137.164.50.158)  96.307 ms  96.098 ms  96.010 ms
+15  boundarya-rtr.Stanford.EDU (68.65.168.33)  87.083 ms  96.323 ms  95.784 ms
+16  serv-rtr.Stanford.EDU (68.65.168.100)  92.633 ms  95.306 ms  92.215 ms
+17  * * *
+18  171.67.237.232 (171.67.237.232)  1493.501 ms  1619.078 ms  1618.890 ms
+19  171.67.237.239 (171.67.237.239)  1827.529 ms  1841.294 ms  1825.428 ms
+}
+}
+Tracerouting Router Interfaces
+{
+{
+traceroute to 171.67.237.232 (171.67.237.232), 30 hops max, 60 byte packets
+ 1  TG862.local (10.0.0.1)  5.526 ms  9.625 ms  12.845 ms
+ 2  c-76-29-40-1.hsd1.il.comcast.net (76.29.40.1)  34.922 ms  34.933 ms  40.366 ms
+ 3  te-2-1-ur01.chicago302.il.chicago.comcast.net (68.86.116.129)  27.193 ms  27.877 ms *
+ 4  te-2-3-ur02.chicago302.il.chicago.comcast.net (68.87.229.78)  26.134 ms  27.146 ms  27.113 ms
+ 5  te-2-5-0-2-ar01.area4.il.chicago.comcast.net (68.86.189.137)  32.670 ms  32.665 ms *
+ 6  he-3-7-0-0-cr01.350ecermak.il.ibone.comcast.net (68.86.90.53)  32.417 ms  21.473 ms  20.320 ms
+ 7  pos-1-8-0-0-pe01.350ecermak.il.ibone.comcast.net (68.86.87.166)  37.203 ms  36.942 ms  36.910 ms
+ 8  xe-2-2-0.792.chic0.tr-cps.internet2.edu (137.164.130.237)  21.314 ms  21.126 ms  21.074 ms
+ 9  137.164.129.2 (137.164.129.2)  138.697 ms  138.508 ms  140.267 ms
+10  xe-1-0-0.0.paix0.tr-cps.internet2.edu (64.57.20.222)  151.768 ms  152.274 ms  153.719 ms
+11  137.164.131.94 (137.164.131.94)  94.536 ms  95.917 ms  99.754 ms
+12  dc-svl-core1--svl-px1-10ge-3.cenic.net (137.164.46.14)  99.422 ms  99.388 ms  90.295 ms
+13  dc-svl-agg1--svl-core1-10ge.cenic.net (137.164.47.120)  92.779 ms  95.207 ms  88.162 ms
+14  dc-stanford--svl-agg1-10ge.cenic.net (137.164.50.158)  90.696 ms  90.462 ms  90.022 ms
+15  boundarya-rtr.Stanford.EDU (68.65.168.33)  89.946 ms  88.872 ms  86.063 ms
+16  serv-rtr.Stanford.EDU (68.65.168.100)  91.472 ms  88.240 ms  93.214 ms
+17  * * *
+18  171.67.237.232 (171.67.237.232)  203.962 ms  257.775 ms  337.541 ms
+19  171.67.237.232 (171.67.237.232)  331.385 ms !P  335.152 ms !P  334.933 ms !P
+}
+{
+traceroute to 171.67.237.236 (171.67.237.236), 30 hops max, 60 byte packets
+ 1  TG862.local (10.0.0.1)  8.078 ms  9.318 ms  10.007 ms
+ 2  * c-76-29-40-1.hsd1.il.comcast.net (76.29.40.1)  18.051 ms  39.328 ms
+ 3  te-2-1-ur01.chicago302.il.chicago.comcast.net (68.86.116.129)  23.920 ms  23.713 ms  23.660 ms
+ 4  te-8-3-ur02.chicago302.il.chicago.comcast.net (68.87.230.178)  27.520 ms *  27.099 ms
+ 5  te-2-5-0-1-ar01.area4.il.chicago.comcast.net (68.87.210.81)  32.077 ms *  34.736 ms
+ 6  * he-3-5-0-0-cr01.350ecermak.il.ibone.comcast.net (68.86.95.237)  27.379 ms  27.025 ms
+ 7  pos-1-2-0-0-pe01.350ecermak.il.ibone.comcast.net (68.86.86.78)  23.798 ms  23.603 ms  23.211 ms
+ 8  xe-2-2-0.792.chic0.tr-cps.internet2.edu (137.164.130.237)  21.366 ms  21.147 ms  21.091 ms
+ 9  * 137.164.129.2 (137.164.129.2)  74.195 ms  75.566 ms
+10  xe-1-0-0.0.paix0.tr-cps.internet2.edu (64.57.20.222)  92.374 ms  91.109 ms  90.882 ms
+11  * 137.164.131.94 (137.164.131.94)  89.862 ms  92.825 ms
+12  * dc-svl-core1--svl-px1-10ge-2.cenic.net (137.164.46.12)  95.389 ms  95.124 ms
+13  dc-svl-agg1--svl-core1-10ge.cenic.net (137.164.47.120)  85.477 ms  86.496 ms  87.624 ms
+14  dc-stanford--svl-agg1-10ge.cenic.net (137.164.50.158)  90.941 ms  96.160 ms *
+15  boundarya-rtr.Stanford.EDU (68.65.168.33)  99.052 ms  93.299 ms  93.235 ms
+16  serv-rtr.Stanford.EDU (68.65.168.100)  88.022 ms  95.310 ms  100.554 ms
+17  * * *
+18  171.67.237.232 (171.67.237.232)  2033.366 ms *  2127.292 ms
+19  171.67.237.236 (171.67.237.236)  2116.595 ms !P  2092.649 ms !P  218.423 ms !P
+}
+{
+traceroute to 171.67.237.238 (171.67.237.238), 30 hops max, 60 byte packets
+ 1  TG862.local (10.0.0.1)  5.750 ms  3.959 ms  6.462 ms
+ 2  76.29.40.1 (76.29.40.1)  19.620 ms  55.264 ms  55.253 ms
+ 3  68.86.116.129 (68.86.116.129)  28.539 ms  46.344 ms *
+ 4  68.87.210.78 (68.87.210.78)  18.728 ms  27.515 ms  48.985 ms
+ 5  68.87.230.173 (68.87.230.173)  53.354 ms  53.338 ms  53.279 ms
+ 6  68.86.90.49 (68.86.90.49)  53.219 ms *  23.880 ms
+ 7  68.86.86.78 (68.86.86.78)  37.223 ms  42.500 ms  46.165 ms
+ 8  xe-2-2-0.792.chic0.tr-cps.internet2.edu (137.164.130.237)  39.164 ms  38.958 ms *
+ 9  137.164.129.2 (137.164.129.2)  76.740 ms  76.522 ms  76.457 ms
+10  xe-1-0-0.0.paix0.tr-cps.internet2.edu (64.57.20.222)  94.648 ms  115.163 ms  120.938 ms
+11  * xe-1-1-0.482--2152.paix0.tr-cps.internet2.edu (137.164.131.62)  120.427 ms  120.510 ms
+12  dc-svl-core1--svl-px1-10ge-1.cenic.net (137.164.46.204)  120.210 ms  88.543 ms  84.950 ms
+13  dc-svl-agg1--svl-core1-10ge.cenic.net (137.164.47.120)  90.412 ms  101.426 ms  101.017 ms
+14  dc-stanford--svl-agg1-10ge.cenic.net (137.164.50.158)  100.963 ms  100.896 ms  100.516 ms
+15  boundarya-rtr.Stanford.EDU (68.65.168.33)  100.803 ms  100.557 ms *
+16  serv-rtr.Stanford.EDU (68.65.168.100)  99.887 ms  101.817 ms  101.533 ms
+17  * * *
+18  171.67.237.232 (171.67.237.232)  2143.503 ms  2144.029 ms  2099.162 ms
+19  171.67.237.238 (171.67.237.238)  2117.509 ms !P  2099.032 ms !P  2118.316 ms !P
+}
+}

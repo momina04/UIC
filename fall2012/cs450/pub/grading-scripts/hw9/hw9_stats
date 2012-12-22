@@ -1,0 +1,85 @@
+#!/bin/bash
+
+usage="Usage: hw9_stat <username> <stat file> [time]"
+
+echo "grading $1 ..."
+
+if [ $# -lt 2 ]; then
+   echo $usage
+   exit 1
+fi
+
+mkdir -p $1
+cd $1
+
+time=${4:-"HEAD"}
+
+TERM=f12
+svn co -r $time svn://cs450.cs.uic.edu/$TERM/$1/hw9
+
+
+if [ -d hw9 ]; then 
+	cd hw9
+	cp ../../auth_key .
+	cp ../../rtable .
+	make
+else
+	echo "Not submitted..."
+	exit 1
+fi
+
+statfile=$2
+rm $statfile
+
+
+./sr -s vns-1.stanford.edu -t 1309 -u amusa > router_output.txt 2>&1 &
+
+echo "TEST FOR ping" >> $statfile
+echo "=====================================" >> $statfile
+echo "ping to routher eth0:" >> $statfile
+ping -c 10 171.67.236.112 >> $statfile
+echo -e "\n" >> $statfile
+
+echo "ping to routher server 1:" >> $statfile
+ping -c 10 171.67.236.117 >> $statfile
+echo -e "\n" >> $statfile
+
+echo "ping to routher server 2:" >> $statfile
+ping -c 10 171.67.236.119 >> $statfile
+echo -e "\n" >> $statfile
+
+echo -e "\n" >> $statfile
+echo "TEST FOR traceroute" >> $statfile
+echo "=====================================" >> $statfile
+echo "traceroute to routher eth0:" >> $statfile
+traceroute 171.67.236.112 >> $statfile
+echo -e "\n" >> $statfile
+
+echo "traceroute  to routher server 1:" >> $statfile
+traceroute 171.67.236.117 >> $statfile
+echo -e "\n" >> $statfile
+
+echo "traceroute to routher server 2:" >> $statfile
+traceroute 171.67.236.119 >> $statfile
+echo -e "\n" >> $statfile
+
+echo -e "\n" >> $statfile
+echo "TEST FOR server files" >> $statfile
+echo "=====================================" >> $statfile
+
+echo "server page:" >> $statfile
+wget -T 15 -t 2 -O server_page.html 171.67.236.117
+cat server_page.html >> $statfile
+echo -e "\n" >> $statfile
+
+echo "server small image md5sum:" >> $statfile
+wget -T 15 -t 2 http://171.67.236.119/ashleigh_falls_offshoot.jpg
+md5sum ashleigh_falls_offshoot.jpg >> $statfile
+echo -e "\n" >> $statfile
+
+killall sr
+
+
+
+
+

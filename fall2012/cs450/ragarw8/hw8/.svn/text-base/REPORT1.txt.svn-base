@@ -1,0 +1,12 @@
+Here is my report
+1. Following are the 30 AS:es that are the most frequently occurring ASNs between our hosts:
+46, 73, 101, 174, 237, 680, 766, 2153, 2603, 2637, 2907, 3356, 3582, 4538, 5661, 6509, 7660, 9264, 10466, 10578, 10886, 11096, 11537, 14085, 19401, 19782, 20965, 22388, 23911, 38022.
+
+2. Following are the 30 AS:es that have the largest 'degree' or 'number of neighboring ASNs':
+101, 174, 209, 701, 1299, 2153, 2603, 2637, 2907, 2914, 3356, 3549, 4134, 4538, 6509, 6762, 6939, 7018, 7539, 7843, 10310, 10578, 11164, 11537, 13193, 19401, 19782, 20965, 23911, 40387.
+
+3. Following are the 30 AS:es that have the largest number of observed hosts:
+27, 137, 174, 237, 680, 766, 2153, 2552, 2603, 2637, 2907, 3356, 3582, 4538, 5661, 6509, 6939, 7575, 7660, 10437, 10578, 10886, 11096, 11537, 13193, 17716, 19401, 20965, 23911, 36375.
+
+4. Following are the AS:es that occur in all three lists above:
+174, 2153, 2603, 2637, 2907, 3356, 4538, 6509, 10578, 11537, 19401, 20965, 23911.

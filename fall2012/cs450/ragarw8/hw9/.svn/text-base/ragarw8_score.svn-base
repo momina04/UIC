@@ -1,0 +1,8 @@
+1/1: ping to the router interface eth0
+1/1: ping to the servers
+1.5/1.5: traceroute to the router interface eth0
+1.5/1.5: traceroute to the servers (verified from video)
+0.5/0.5: server page recieved correctly by wget
+0.5/0.5: one small image from the server received correctly by wget
+
+Total score: 6

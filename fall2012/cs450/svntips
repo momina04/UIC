@@ -1,0 +1,17 @@
+svn checkout svn://cs450.cs.uic.edu/f12/ragarw8 --username ragarw8
+svn checkout svn://cs450.cs.uic.edu/pub
+
+username: ragarw8
+password: 6787ac
+secret identifier: 8f762f
+
+svn add hw1
+svn commit -m "Added my first homework directory"
+svn status
+svn log
+svn revert
+
+svn export svn://cs450.cs.uic.edu/pub/homeworks/hw1
+svn add hw1
+
+

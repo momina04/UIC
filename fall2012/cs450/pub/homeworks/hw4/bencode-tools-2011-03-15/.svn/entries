@@ -1,7 +1,7 @@
 10
 
 dir
-78
+88
 svn://cs450.cs.uic.edu/pub/homeworks/hw4/bencode-tools-2011-03-15
 svn://cs450.cs.uic.edu/pub
 
@@ -25,43 +25,6 @@ jakob
 
 
 edf16cb2-0caf-467b-968c-e42bbb5eced4
-
-include
-dir
-
-bencode.py
-file
-
-
-
-
-2012-10-07T07:18:01.728212Z
-9b20dc41f1c143dabb545ed4974a2575
-2012-09-27T03:10:14.473030Z
-41
-jakob
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8258
 
 README
 file
@@ -504,4 +467,41 @@ jakob
 
 
 1002
+
+include
+dir
+
+bencode.py
+file
+
+
+
+
+2012-10-07T07:18:01.728212Z
+9b20dc41f1c143dabb545ed4974a2575
+2012-09-27T03:10:14.473030Z
+41
+jakob
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8258
 

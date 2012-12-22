@@ -1,0 +1,2 @@
+Block to be replaced in MRU
+struct cache_blk_t *last_blk; /* cache block last accessed */

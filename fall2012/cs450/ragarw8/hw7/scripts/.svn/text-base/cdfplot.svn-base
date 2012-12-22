@@ -1,0 +1,15 @@
+file=data/cdf.txt
+
+gnuplot <<EOF
+ # use this line on a mac
+ # set term aqua font 'garamond, 18'
+
+ # these lines to make a ps file. remove them to get an on-screen plot on a linux box
+ set term postscript 18 lw 2.0
+ set output "cdfplot.ps"
+
+ set ylabel "CDF Plot:Round Trip time(ms)"
+ set xlabel "Distance(kms)"
+ plot [:] [:] "$file" using (\$1):(\$2) title 'CDF Probability: RTT(ms)' with lines
+EOF
+pstopdf cdfplot.ps

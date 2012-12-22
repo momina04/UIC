@@ -1,0 +1,7 @@
+# change twoips to just ips to run it on all hosts
+#ip_file='data/twoips.txt'
+ip_file='data/ips.txt'
+
+#-c option for ping
+ping_count=10
+

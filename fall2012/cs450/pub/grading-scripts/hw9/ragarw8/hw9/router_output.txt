@@ -1,0 +1,2520 @@
+Client amusa connecting to Server vns-1.stanford.edu:3250
+Requesting topology 1309
+eth0	HWaddr 00:69:1d:cd:ab:a5
+	inet addr 171.67.236.112
+eth1	HWaddr 00:05:9e:3d:36:9b
+	inet addr 171.67.236.116
+eth2	HWaddr 00:97:0c:58:63:88
+	inet addr 171.67.236.118
+**************************************
+VNS Welcome Message
+**************************************
+System status should be normal. Enjoy!
+Queueing ARP packet to go out eth0
+arp request already queued for this IP
+crafting arp packet from eth0
+sr_send_packet sending arp request out interface eth0 with length 42
+found destination in arp cache, sending packet
+found destination in arp cache, sending packet
+Queueing ARP packet to go out eth1
+crafting arp packet from eth1
+sr_send_packet sending arp request out interface eth1 with length 42
+found destination in arp cache, sending packet
+Using VNS sr stub code revised 2010-01-21 (rev 0.23)
+Loading routing table
+---------------------------------------------
+Destination	Gateway		Mask	Iface
+0.0.0.0		172.24.74.17	0.0.0.0	eth0
+171.67.236.117		171.67.236.117	255.255.255.255	eth1
+171.67.236.119		171.67.236.119	255.255.255.255	eth2
+---------------------------------------------
+successfully authenticated as amusa
+Router interfaces:
+ <-- Ready to process packets --> 
+*** -> Received ethernet frame of length 42 on interface eth0 
+ETHERNET Type =  806
+Received ARP Packet
+Received ARP Request
+Sending ARP Reply to 0:e0:81:4:26:d9...
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+IP: Received ICMP Packet of length 64
+ICMP: Sending ICMP Echo reply
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+IP: Received ICMP Packet of length 64
+ICMP: Sending ICMP Echo reply
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  806
+Received ARP Packet
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+IP: Received ICMP Packet of length 64
+ICMP: Sending ICMP Echo reply
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+IP: Received ICMP Packet of length 64
+ICMP: Sending ICMP Echo reply
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+IP: Received ICMP Packet of length 64
+ICMP: Sending ICMP Echo reply
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+IP: Received ICMP Packet of length 64
+ICMP: Sending ICMP Echo reply
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+IP: Received ICMP Packet of length 64
+ICMP: Sending ICMP Echo reply
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+IP: Received ICMP Packet of length 64
+ICMP: Sending ICMP Echo reply
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+IP: Received ICMP Packet of length 64
+ICMP: Sending ICMP Echo reply
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.117 via interface eth1
+*** -> Received ethernet frame of length 42 on interface eth1 
+ETHERNET Type =  806
+Received ARP Packet
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.117 via interface eth1
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth1 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth1 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.117 via interface eth1
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth1 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.117 via interface eth1
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth1 
+ETHERNET Type =  Queueing ARP packet to go out eth2
+crafting arp packet from eth2
+sr_send_packet sending arp request out interface eth2 with length 42
+found destination in arp cache, sending packet
+800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.117 via interface eth1
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth1 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.117 via interface eth1
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth1 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.117 via interface eth1
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth1 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.117 via interface eth1
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth1 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.117 via interface eth1
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth1 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.117 via interface eth1
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth1 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+*** -> Received ethernet frame of length 42 on interface eth2 
+ETHERNET Type =  806
+Received ARP Packet
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Queueing ARP packet to go out eth0
+crafting arp packet from eth0
+sr_send_packet sending arp request out interface eth0 with length 42
+found destination in arp cache, sending packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 42 on interface eth0 
+ETHERNET Type =  806
+Received ARP Packet
+Received ARP Request
+Sending ARP Reply to 0:e0:81:4:26:d9...
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 98 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  806
+Received ARP Packet
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Sending ICMP TTL exceeded to 171.67.236.112 for dest 171.67.236.112
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Sending ICMP TTL exceeded to 171.67.236.112 for dest 171.67.236.112
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Sending ICMP TTL exceeded to 171.67.236.112 for dest 171.67.236.112
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+IP: Router addressed non ICMP message. Sending ICMP Protocol Unreachable...
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+IP: Router addressed non ICMP message. Sending ICMP Protocol Unreachable...
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+IP: Router addressed non ICMP message. Sending ICMP Protocol Unreachable...
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+IP: Router addressed non ICMP message. Sending ICMP Protocol Unreachable...
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+IP: Router addressed non ICMP message. Sending ICMP Protocol Unreachable...
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+IP: Router addressed non ICMP message. Sending ICMP Protocol Unreachable...
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+IP: Router addressed non ICMP message. Sending ICMP Protocol Unreachable...
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHQueueing ARP packet to go out eth1
+arp request already queued for this IP
+arp request already queued for this IP
+arp request already queued for this IP
+arp request already queued for this IP
+arp request already queued for this IP
+crafting arp packet from eth1
+sr_send_packet sending arp request out interface eth1 with length 42
+arp request already queued for this IP
+found destination in arp cache, sending packet
+found destination in arp cache, sending packet
+found destination in arp cache, sending packet
+found destination in arp cache, sending packet
+found destination in arp cache, sending packet
+found destination in arp cache, sending packet
+found destination in arp cache, sending packet
+Queueing ARP packet to go out eth2
+crafting arp packet from eth2
+sr_send_packet sending arp request out interface eth2 with length 42
+ERNET Type =  800
+Received IP Packet
+IP: Router addressed non ICMP message. Sending ICMP Protocol Unreachable...
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+IP: Router addressed non ICMP message. Sending ICMP Protocol Unreachable...
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+IP: Router addressed non ICMP message. Sending ICMP Protocol Unreachable...
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Sending ICMP TTL exceeded to 171.67.236.117 for dest 171.67.236.117
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Sending ICMP TTL exceeded to 171.67.236.117 for dest 171.67.236.117
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.117 via interface eth1
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Sending ICMP TTL exceeded to 171.67.236.117 for dest 171.67.236.117
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.117 via interface eth1
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.117 via interface eth1
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.117 via interface eth1
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.117 via interface eth1
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.117 via interface eth1
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.117 via interface eth1
+*** -> Received ethernet frame of length 42 on interface eth1 
+ETHERNET Type =  806
+Received ARP Packet
+*** -> Received ethernet frame of length 70 on interface eth1 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 70 on interface eth1 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 70 on interface eth1 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 70 on interface eth1 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 70 on interface eth1 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 70 on interface eth1 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 70 on interface eth1 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 42 on interface eth0 
+ETHERNET Type =  806
+Received ARP Packet
+Received ARP Request
+Sending ARP Reply to 0:e0:81:4:26:d9...
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+*** -> Received ethernet frame of length 42 on interface eth2 
+ETHERNET Type =  806
+Received ARP Pacfound destination in arp cache, sending packet
+Queueing ARP packet to go out eth0
+crafting arp packet from eth0
+sr_send_packet sending arp request out interface eth0 with length 42
+found destination in arp cache, sending packet
+Queueing ARP packet to go out eth1
+crafting arp packet from eth1
+sr_send_packet sending arp request out interface eth1 with length 42
+ket
+*** -> Received ethernet frame of length 70 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 67.228.235.156 via interface eth0
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  806
+Received ARP Packet
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Sending ICMP TTL exceeded to 171.67.236.119 for dest 171.67.236.119
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Sending ICMP TTL exceeded to 171.67.236.119 for dest 171.67.236.119
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 70 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 70 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 70 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 70 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 70 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 70 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 70 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 70 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 70 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.117 via interface eth1
+*** -> Received ethernet frame of length 42 on interface eth1 
+ETHERNET Type =  806
+Received ARP Packet
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.2found destination in arp cache, sending packet
+36.117 via interface eth1
+ARP Cache Hit.
+*** -> Received ethernet frame of length 54 on interface eth1 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.117 via interface eth1
+ARP Cache Hit.
+*** -> Received ethernet frame of length 168 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.117 via interface eth1
+ARP Cache Hit.
+*** -> Received ethernet frame of length 754 on interface eth1 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.117 via interface eth1
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.117 via interface eth1
+ARP Cache Hit.
+*** -> Received ethernet frame of length 54 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 54 on interface eth1 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 195 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 42 on interface eth0 
+ETHERNET Type =  806
+Received ARP Packet
+Received ARP Request
+Sending ARP Reply to 0:e0:81:4:26:d9...
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0Queueing ARP packet to go out eth2
+arp request already queued for this IP
+arp request already queued for this IP
+arp request already queued for this IP
+arp request already queued for this IP
+arp request already queued for this IP
+crafting arp packet from eth2
+sr_send_packet sending arp request out interface eth2 with length 42
+found destination in arp cache, sending packet
+found destination in arp cache, sending packet
+found destination in arp cache, sending packet
+found destination in arp cache, sending packet
+found destination in arp cache, sending packet
+found destination in arp cache, sending packet
+Queueing ARP packet to go out eth0
+
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+*** -> Received ethernet frame of length 42 on interface eth2 
+ETHERNET Type =  806
+Received ARP Packet
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNETarp request already queued for this IP
+arp request already queued for this IP
+arp request already queued for this IP
+arp request already queued for this IP
+arp request already queued for this IP
+arp request already queued for this IP
+arp request already queued for this IP
+arp request already queued for this IP
+arp request already queued for this IP
+arp packet queue full, dropping packet
+arp packet queue full, dropping packet
+arp packet queue full, dropping packet
+arp packet queue full, dropping packet
+arp packet queue full, dropping packet
+arp packet queue full, dropping packet
+arp packet queue full, dropping packet
+arp packet queue full, dropping packet
+arp packet queue full, dropping packet
+arp packet queue full, dropping packet
+arp packet queue full, dropping packet
+arp packet queue full, dropping packet
+arp packet queue full, dropping packet
+arp packet queue full, dropping packet
+arp packet queue full, dropping packet
+arp packet queue full, dropping packet
+arp packet queue full, dropping packet
+arp packet queue full, dropping packet
+ Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+arp packet queue full, dropping packet
+arp packet queue full, dropping packet
+arp packet queue full, dropping packet
+arp packet queue full, dropping packet
+arp packet queue full, dropping packet
+crafting arp packet from eth0
+sr_send_packet sending arp request out interface eth0 with length 42
+found destination in arp cache, sending packet
+found destination in arp cache, sending packet
+found destination in arp cache, sending packet
+found destination in arp cache, sending packet
+found destination in arp cache, sending packet
+found destination in arp cache, sending packet
+found destination in arp cache, sending packet
+found destination in arp cache, sending packet
+found destination in arp cache, sending packet
+found destination in arp cache, sending packet
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  806
+Received ARP Packet
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 74 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 54 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 217 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 60 on interface eth0 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 171.67.236.119 via interface eth2
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache Hit.
+*** -> Received ethernet frame of length 1514 on interface eth2 
+ETHERNET Type =  800
+Received IP Packet
+Best route for 76.29.44.138 via interface eth0
+ARP Cache

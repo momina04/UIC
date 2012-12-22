@@ -1,0 +1,184 @@
+Wifi MAC ADDRESS
+
+9C-4E-36-52-45-95
+
+ssh -i ~/.ssh/id_rsa uic_cs450@planetlab-2.cs.uic.edu
+
+http://en.wikipedia.org/wiki/Standard_deviation
+
+
+-will list ips in order
+cat logs/200.129.132.18.ping |grep statistics|awk '{print $2}'
+
+-will display averages
+cat logs/200.129.132.18.ping|grep mdev|awk '{print $4}'|tr '/' ' '|awk '{print $2}'
+
+
+-will extract location from file of given ip from IP_locations file
+cat data/IP_locations.txt |grep $IP|awk '{print $2,$3}'
+
+
+-cut .pings
+ls *.ping -1 |cut -d '.' -f1,2,3,4
+
+
+
+-search and replace .ping in a file
+ls *.ping -1 > a
+sed -i 's/.ping//' a
+
+
+-averaging duplicates
+cat logs/all_data3.post3|awk 'BEGIN{print "BEGIN";distance="none";avg_rtt="none"}{if(distance!="none") {print distance,avg_rtt};distance=$1;avg_rtt=$2} END {print "END";print distance,avg_rtt}'
+
+Wifi MAC ADDRESS
+
+9C-4E-36-52-45-95
+
+ssh -i ~/.ssh/id_rsa uic_cs450@planetlab-2.cs.uic.edu
+
+http://en.wikipedia.org/wiki/Standard_deviation
+
+
+-will list ips in order
+cat logs/200.129.132.18.ping |grep statistics|awk '{print $2}'
+
+-will display averages
+cat logs/200.129.132.18.ping|grep mdev|awk '{print $4}'|tr '/' ' '|awk '{print $2}'
+
+
+-will extract location from file of given ip from IP_locations file
+cat data/IP_locations.txt |grep $IP|awk '{print $2,$3}'
+
+
+-cut .pings
+ls *.ping -1 |cut -d '.' -f1,2,3,4
+
+
+
+-search and replace .ping in a file
+ls *.ping -1 > a
+sed -i 's/.ping//' a
+
+
+-averaging duplicates
+cat logs/all_data3.post3|awk 'BEGIN{print "BEGIN";distance="none";avg_rtt="none"}{if(distance!="none") {print distance,avg_rtt};distance=$1;avg_rtt=$2} END {print 
+
+"END";print distance,avg_rtt}'
+
+
+
+no connectivity to any other node 194.42.17.12
+
+
+
+
+script gets hanged on (took 3 samples)
+220.245.140.196
+220.245.140.197
+130.253.21.121
+
+
+
+plot '~/d' using 1:2 with lines
+
+
+cat *.ping|sed -e 's/.*100%.*/rtt min\/avg\/max\/mdev = 0.0\/unknown\/0.0\/0.0 ms/g'
+
+
+rtt min/avg/max/mdev = 124.504/124.860/125.328/0.443 ms
+
+
+
+get max rtt
+sort -n -k2  data/post-processed.txt |tail -1|cut -f2 -d ' '
+get min rtt
+sort -n -k2  data/post-processed.txt |head -1|cut -f2 -d ' '
+
+
+1890
+
+
+
+cat data/post-processed.txt|awk '{ print x}' x=`echo $a`
+
+
+#calculate mean of speed of bits
+cat data/post-processed.txt|awk 'BEGIN {sum=0} {if($2 != 0){speed = (84*2*8)/$2;sum += speed; print $1,$2,speed}} END {print sum/NR}'
+
+
+#extract mean
+mean=`tail -1 data/post-processed_with_speed.txt`
+
+#calculate sd
+head -n -1 data/post-processed_with_speed.txt|awk 'BEGIN {sum=0}{print $1,$2,$3,$3-mean; sum+=($3-mean)*($3-mean)} END {print sqrt(sum/NR)}' mean=`tail -1 data/post-
+
+processed_with_speed.txt` > data/post-processed_with_speed_variance.txt
+
+
+#standard deviation
+sd=`tail -1 data/post-processed_with_speed_variance.txt`
+
+
+#
+
+
+logs/all_data1.post4 contains all the scrutinized samples, with duplicates removed using uniq of distance and rtt pairs, and all uknown rtts removed
+
+
+
+
+1.logs collected on 13 November 10:45 PM (timeout 120)
+
+
+
+
+{
+    ip whose location is not estimated correctly b planet lab
+    204.8.155.227
+    -42.35 -71.1
+    reported in argentina, actually in Boston,MA
+
+
+    140.112.107.82
+    -23.5 121.0
+    Reported in australia, actually in Taipei, Taiwan
+
+
+
+    200.0.206.12
+    1.0 1.0
+    Reported in North Atlantic ocean, actually in Rio de Janeiro - RJ, Brazil
+
+
+     grep 4965 logs/*.ping_dis*
+     vi logs/132.239.17.22* data/IP_locations.txt -p
+
+     logs/192.91.235.229.ping_distances.post1:9369.6
+     logs/192.91.235.230.ping_distances.post1:9369.6
+     logs/194.42.17.121.ping_distances.post1:9369.2
+     logs/200.129.132.18.ping_distances.post1:9369.2
+     logs/204.8.155.227.ping_distances.post1:9369.6
+     logs/204.8.155.227.ping_distances.post1:9369.6
+
+     logs/128.111.52.58.ping_distances.post1:12723.1
+     logs/128.111.52.63.ping_distances.post1:12723.1
+
+
+     12797 14 914071
+     9226 8 1153250
+     10684 8 1335500
+     5401 4 1350250
+     4965 3 1655000 <..proceed from here above and the distances file up
+     12558 6 2093000
+     12723 6 2120500
+     9369 4 2342250
+     5400 2 2700000
+     9431 1 9431000
+}
+
+
+{
+    low connectivity
+    grep 11555 logs/*ave*
+}
