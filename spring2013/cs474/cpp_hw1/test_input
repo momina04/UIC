@@ -1,0 +1,20 @@
+a t1 af1 al1 8 8
+a t2 af1 al1 9 9
+a t4 af2 al2 11 11
+a t5 af3 al3 12 12
+a t6 af4 al4 13 13
+a t3 af1 al1 10 10
+l
+d af1 al1 
+l
+a t5 af2 al2
+a t6 af4 al4 14 14
+l
+r t5 af3 al3
+l
+a t7 af5 al5 15 15
+c t7
+l
+c t7
+l
+q
