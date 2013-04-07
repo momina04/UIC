@@ -5,6 +5,12 @@ CERROR=foo
 string: string.cpp
 	$(CC) $(CFLAGS) -c string.cpp -o string.o 2>$(CERROR)
 
+test_string: test_string.cpp string
+	$(CC) $(CFLAGS)  test_string.cpp string.o -o test_string.o 2>$(CERROR)
+	echo "vinay"|valgrind --tool=memcheck ./test_string.o >valgrind_test_string_stdout 2>valgrind_test_string_stderr
+
+test_string_valgrind: test_string
+
 painting: painting.cpp
 	$(CC) $(CFLAGS) -c painting.cpp -o painting.o 2>$(CERROR)
 
@@ -26,7 +32,11 @@ all: hw1
 run: clean all
 	./hw1 <test_input >output
 
-clean:
+test_clean:
+	rm test_string.o
+
+
+clean: test_clean
 	@echo Cleaning
 	rm -f painting.o linked_list.o artist.o hw1
 	rm -f foo
