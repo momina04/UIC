@@ -27,7 +27,7 @@ class String
 {
     private:
         char *value;
-        int size;
+        unsigned int size;
 
         void allocate_and_copy_from_cstring(const char * const);
         void allocate_and_copy_from_string(const String &);
@@ -57,10 +57,10 @@ class String
 
         ~String();
         friend ostream& operator<<(ostream&, const String&);
-        friend istream& operator>>(istream&, const String& );
+        friend istream& operator>>(istream&, String& );
 };
 
 ostream& operator<<(ostream&, const String&);
-istream& operator>>(istream&, const String& );
+istream& operator>>(istream&, String& );
 
 #endif
