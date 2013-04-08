@@ -201,7 +201,7 @@ ostream& operator<<(ostream& cout, const string_t& str)
 
 istream& operator>>(istream& cin, string_t& str)
 {
-    char tmp[100];
+    char tmp[256];
     cin>>tmp;
     str=tmp;
     return cin;
