@@ -21,32 +21,30 @@
 
 #include <cstddef>
 #include <iostream>
+#include "string.h"
 
 using namespace std;
 
 template <class item_t>
 class linked_list_t{
-    public:
         class node_t
         {
             private:
-                const item_t &_val;
+                const item_t _val;
                 node_t *_next;
             public:
-                node_t(const item_t& item) { _val = item; _next = NULL; }
-                item_t& val() { return _val;}
+                node_t(const item_t& item):_val(item) { _next = NULL; }
+                const item_t& val() { return _val;}
                 node_t * next() { return _next;}
-                void next(const node_t * const n) {_next = n;}
-                ~node_t() {delete &val;}
-        };
-    private:
+                void next(node_t *node) {_next = node;}
+                ~node_t() {}
+        }*first_node;
         unsigned int size;
-        node_t *first_node;
 
     public:
         linked_list_t();
         linked_list_t(const linked_list_t &);
-        item_t* search(const item_t &);
+        const item_t* search(const item_t &);
 
         bool empty();
         void add_first(const item_t &);
@@ -55,11 +53,17 @@ class linked_list_t{
         bool remove(const item_t &);
         ~linked_list_t();
 
-        friend ostream& operator<<(ostream&, const linked_list_t&);
+        const item_t* operator[](unsigned int idx);
+
+        template<class T>
+        friend ostream& operator<< (ostream&, const linked_list_t <T>&);
 };
 
 
 template <class item_t>
 ostream& operator<<(ostream&, const linked_list_t<item_t>&);
+
+template class linked_list_t <int>;
+//template class linked_list_t <string_t>;
 
 #endif

@@ -2,7 +2,7 @@ CC=g++
 CFLAGS=-Wall -g
 CERROR=foo
 
-string: string.cpp
+string: string.cpp string.h
 	$(CC) $(CFLAGS) -c string.cpp -o string.o 2>$(CERROR)
 
 test_string: test_string.cpp string
@@ -10,7 +10,7 @@ test_string: test_string.cpp string
 	echo "test_string_input"|valgrind --tool=memcheck ./test_string.o >valgrind_test_string_stdout 2>valgrind_test_string_stderr
 	vi -p valgrind_test_string*
 
-linked_list: linked_list.cpp
+linked_list: linked_list.cpp linked_list.h
 	$(CC) $(CFLAGS) -c linked_list.cpp -o linked_list.o 2>$(CERROR)
 
 test_linked_list: test_linked_list.cpp linked_list string

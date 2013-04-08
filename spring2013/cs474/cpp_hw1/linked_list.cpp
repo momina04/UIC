@@ -18,6 +18,7 @@
 
 #include "linked_list.h"
 #include <cstddef>
+#include <assert.h>
 
 using namespace std;
 
@@ -32,16 +33,19 @@ template <class item_t>
 linked_list_t<item_t>::linked_list_t(const linked_list_t &list)
 {
     node_t *curr = NULL;
+    first_node = NULL;
+    size = 0;
     curr = list.first_node;
     while(curr){
         this->add_priority(curr->val());
+        //this->add_first(curr->val());
         curr = curr -> next();
     }
     size = list.size;
 }
 
 template <class item_t>
-item_t* linked_list_t<item_t>::search(const item_t &item)
+const item_t* linked_list_t<item_t>::search(const item_t &item)
 {
     node_t *curr = NULL;
     curr = first_node;
@@ -149,11 +153,24 @@ linked_list_t<item_t>::~linked_list_t()
 }
 
 template <class item_t>
+const item_t* linked_list_t<item_t>::operator[](unsigned int idx)
+{
+    node_t *curr = NULL;
+    if(idx>=size) return NULL;
+    curr = first_node;
+    for(unsigned int i=0;i<idx;i++){
+        assert(curr!=NULL);
+        curr=curr->next();
+    }
+    return &curr->val();
+}
+
+template <class item_t>
 ostream& operator<<(ostream& cout, const linked_list_t<item_t>& list)
 {
     typename linked_list_t<item_t>::node_t *curr;
     curr = list.first_node;
-    cout<<"size = "<<list.size<<" - ";
+    cout<<"size = "<<list.size<<" : ";
     while(curr){
         cout<<curr->val()<<" -> ";
         curr = curr->next();

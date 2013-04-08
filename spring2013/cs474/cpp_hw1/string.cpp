@@ -104,7 +104,7 @@ string_t& string_t::operator+=(const char * const str)
     return *this;
 }
 
-bool string_t::operator==(const string_t& str)
+bool string_t::operator==(const string_t& str) const
 {
     if(size == str.size && strncmp(value,str.value,size)==0)
     {
@@ -113,7 +113,7 @@ bool string_t::operator==(const string_t& str)
     return false;
 }
 
-bool string_t::operator==(const char * const str)
+bool string_t::operator==(const char * const str) const
 {
     if(size == strlen(str) && strncmp(value,str,size)==0)
     {
@@ -124,17 +124,17 @@ bool string_t::operator==(const char * const str)
 
 #define NOT_EQUAL(a,b) !(a == b)
 
-bool string_t::operator!=(const string_t& str)
+bool string_t::operator!=(const string_t& str) const
 {
     return NOT_EQUAL(*this,str);
 }
 
-bool string_t::operator!=(const char * const str)
+bool string_t::operator!=(const char * const str) const
 {
     return NOT_EQUAL(*this,str);
 }
 
-bool string_t::operator<(const string_t& str)
+bool string_t::operator<(const string_t& str) const
 {
     if(strncmp(value,str.value,(size>str.size?size:str.size)) < 0)
     {
@@ -144,7 +144,7 @@ bool string_t::operator<(const string_t& str)
 
 }
 
-bool string_t::operator<(const char * const str)
+bool string_t::operator<(const char * const str) const
 {
     if(strncmp(value,str,(size>strlen(str)?size:strlen(str))) < 0)
     {
@@ -155,34 +155,34 @@ bool string_t::operator<(const char * const str)
 
 #define LESS_EQUAL(a,b) (a<b || a ==b)
 
-bool string_t::operator<=(const string_t& str)
+bool string_t::operator<=(const string_t& str) const
 {
     return LESS_EQUAL(*this,str);
 }
 
-bool string_t::operator<=(const char * const str)
+bool string_t::operator<=(const char * const str) const
 {
     return LESS_EQUAL(*this,str);
 }
 
 #define GREATER(a,b) !(a<=b)
-bool string_t::operator>(const string_t& str)
+bool string_t::operator>(const string_t& str) const
 {
     return GREATER(*this,str);
 }
 
-bool string_t::operator>(const char * const str)
+bool string_t::operator>(const char * const str) const
 {
     return GREATER(*this,str);
 }
 
 #define GREATER_EQUAL(a,b) (a>b || a==b)
-bool string_t::operator>=(const string_t& str)
+bool string_t::operator>=(const string_t& str) const
 {
     return GREATER_EQUAL(*this, str);
 }
 
-bool string_t::operator>=(const char * const str)
+bool string_t::operator>=(const char * const str) const
 {
     return GREATER_EQUAL(*this, str);
 }
