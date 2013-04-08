@@ -21,14 +21,32 @@
 
 #include "string.h"
 #include "artist.h"
+#include <iostream>
 
+using namespace std;
+class artist_t;
 class painting_t{
     private:
-        string_t title;
-        artist_t &artist;
-        unsigned int height,width;
-        
+        const string_t title;
+        const artist_t &artist;
+        const int height;
+        const int width;
+
     public:
+        /* No default constructor as we have a reference of artist. */
+        painting_t(const painting_t &);
+        painting_t(const string_t &,
+                   const artist_t &artist,
+                   const unsigned int, 
+                   const unsigned int);
+
+        bool operator<(const painting_t&) const;
+        bool operator==(const painting_t&) const;
+        bool operator<=(const painting_t&) const;
+
+        friend ostream& operator<<(ostream &, const painting_t &);
 };
+
+ostream& operator<<(ostream &, const painting_t &);
 
 #endif

@@ -66,7 +66,7 @@ string_t& string_t::operator=(const char * const str)
     return *this;
 }
 
-string_t string_t::operator+(const string_t& str)
+string_t string_t::operator+(const string_t& str) const
 {
     string_t result;
     delete[] result.value;
@@ -78,7 +78,7 @@ string_t string_t::operator+(const string_t& str)
     return result;
 }
 
-string_t string_t::operator+(const char * const str)
+string_t string_t::operator+(const char * const str) const
 {
     string_t result;
     delete[] result.value;
@@ -195,7 +195,7 @@ string_t::~string_t()
 
 ostream& operator<<(ostream& cout, const string_t& str)
 {
-    cout<<str.value<<str.size;
+    cout<<str.value;
     return cout;
 }
 

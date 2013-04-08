@@ -38,8 +38,8 @@ class string_t
         string_t(const char * const);
         string_t& operator=(const string_t&);
         string_t& operator=(const char * const);
-        string_t operator+(const string_t&);
-        string_t operator+(const char * const);
+        string_t operator+(const string_t&) const;
+        string_t operator+(const char * const) const;
         string_t& operator+=(const string_t&);
         string_t& operator+=(const char * const);
         bool operator==(const string_t&) const;

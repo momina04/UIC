@@ -42,6 +42,7 @@ class linked_list_t{
         unsigned int size;
 
     public:
+        unsigned int get_size();
         linked_list_t();
         linked_list_t(const linked_list_t &);
         const item_t* search(const item_t &);

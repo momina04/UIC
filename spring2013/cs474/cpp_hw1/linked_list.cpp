@@ -16,11 +16,20 @@
  * =====================================================================================
  */
 
+#ifndef LINKED_LIST_CPP
+#define LINKED_LIST_CPP
+
 #include "linked_list.h"
 #include <cstddef>
 #include <assert.h>
 
 using namespace std;
+
+template <class item_t>
+unsigned int linked_list_t<item_t>::get_size()
+{
+    return size;
+}
 
 template <class item_t>
 linked_list_t<item_t>::linked_list_t()
@@ -178,3 +187,5 @@ ostream& operator<<(ostream& cout, const linked_list_t<item_t>& list)
     cout<<"NULL.";
     return cout;
 }
+
+#endif
