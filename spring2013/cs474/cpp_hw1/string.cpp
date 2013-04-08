@@ -201,7 +201,8 @@ ostream& operator<<(ostream& cout, const string_t& str)
 
 istream& operator>>(istream& cin, string_t& str)
 {
-    cin>>str.value;
-    str.size = strlen(str.value);
+    char tmp[100];
+    cin>>tmp;
+    str=tmp;
     return cin;
 }

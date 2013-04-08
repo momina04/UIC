@@ -37,7 +37,6 @@ int main (int argc, char *argv[])
     cout<<m<<endl;
     cout<<i + m + i + j + k + l + m + "test1" + "test2"<<endl;
     cout<<i + m + i + j + k + l + m<<endl;
-
     i="random";
     j="seed";
     assert(i!=j || cout<<"i!=j failed"<<endl);
@@ -71,13 +70,27 @@ int main (int argc, char *argv[])
     assert(k!=l);
     assert(l!=k);
 
+    string_t s[]={"abc","pqr"};
+    cout<<s[0]<<endl;
+    cout<<s[1]<<endl;
+
+    string_t *ss=new string_t;
+    *ss="alpha";
+    cout<<*ss<<endl;
+    delete ss;
+
+    string_t *st=new string_t[2];
+    st[0]="ll";
+    st[1]="pl";
+    cout<<st[0]<<endl;
+    cout<<st[1]<<endl;
+    delete []st;
 //    assert(k == l);
 //    l="abhishek";
 //    assert(k == l);
 //    i=j;
  //   assert(i == j);
     //assert(j != k);
-
 
     
     return 0;
