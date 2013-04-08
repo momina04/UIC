@@ -30,7 +30,7 @@ class linked_list_t{
         class node_t
         {
             private:
-                const item_t _val;
+                const item_t &_val;
                 node_t *_next;
             public:
                 node_t(const item_t& item):_val(item) { _next = NULL; }
