@@ -24,7 +24,7 @@ using namespace std;
 
 int main (int argc, char *argv[])
 {
-    String i("ritesh "),j(i),k="abhishek ",l=k,m;
+    string_t i("ritesh "),j(i),k="abhishek ",l=k,m;
     cout<<i<<j<<k<<l<<endl;
     i="anuj ";
     cout<<i<<j<<k<<l<<endl;

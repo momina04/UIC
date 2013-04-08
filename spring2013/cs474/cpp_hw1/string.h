@@ -3,7 +3,7 @@
  *
  *       Filename:  string.h
  *
- *    Description:  Class for String
+ *    Description:  Class for string_t
  *
  *        Version:  1.0
  *        Created:  04/05/2013 01:41:10 AM
@@ -23,44 +23,44 @@
 
 using namespace std;
 
-class String
+class string_t
 {
     private:
         char *value;
         unsigned int size;
 
         void allocate_and_copy_from_cstring(const char * const);
-        void allocate_and_copy_from_string(const String &);
+        void allocate_and_copy_from_string(const string_t &);
 
     public:
-        String();
-        String(const String&);
-        String(const char * const);
-        String& operator=(const String&);
-        String& operator=(const char * const);
-        String operator+(const String&);
-        String operator+(const char * const);
-        String& operator+=(const String&); //a
-        String& operator+=(const char * const); //a
-        bool operator==(const String&);
+        string_t();
+        string_t(const string_t&);
+        string_t(const char * const);
+        string_t& operator=(const string_t&);
+        string_t& operator=(const char * const);
+        string_t operator+(const string_t&);
+        string_t operator+(const char * const);
+        string_t& operator+=(const string_t&);
+        string_t& operator+=(const char * const);
+        bool operator==(const string_t&);
         bool operator==(const char * const);
-        bool operator!=(const String&); //a
-        bool operator!=(const char * const); //a
-        bool operator<(const String&); //a
-        bool operator<(const char * const); //a
-        bool operator<=(const String&); //a
-        bool operator<=(const char * const); //a
-        bool operator>(const String&); //a
-        bool operator>(const char * const); //a
-        bool operator>=(const String&); //a
-        bool operator>=(const char * const); //a
+        bool operator!=(const string_t&);
+        bool operator!=(const char * const);
+        bool operator<(const string_t&); 
+        bool operator<(const char * const);
+        bool operator<=(const string_t&);
+        bool operator<=(const char * const);
+        bool operator>(const string_t&); 
+        bool operator>(const char * const); 
+        bool operator>=(const string_t&); 
+        bool operator>=(const char * const); 
 
-        ~String();
-        friend ostream& operator<<(ostream&, const String&);
-        friend istream& operator>>(istream&, String& );
+        ~string_t();
+        friend ostream& operator<<(ostream&, const string_t&);
+        friend istream& operator>>(istream&, string_t& );
 };
 
-ostream& operator<<(ostream&, const String&);
-istream& operator>>(istream&, String& );
+ostream& operator<<(ostream&, const string_t&);
+istream& operator>>(istream&, string_t& );
 
 #endif

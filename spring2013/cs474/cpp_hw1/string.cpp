@@ -18,7 +18,7 @@
 
 #include "string.h"
 #include <string.h>
-void String::allocate_and_copy_from_cstring(const char * const str)
+void string_t::allocate_and_copy_from_cstring(const char * const str)
 {
     size = strlen(str);
     value = new char[size + 1];
@@ -26,7 +26,7 @@ void String::allocate_and_copy_from_cstring(const char * const str)
     value[size] = '\0';
 }
 
-void String::allocate_and_copy_from_string(const String &str)
+void string_t::allocate_and_copy_from_string(const string_t &str)
 {
     size = str.size;
     value = new char[size + 1];
@@ -34,41 +34,41 @@ void String::allocate_and_copy_from_string(const String &str)
     value[size] = '\0';
 }
 
-String::String()
+string_t::string_t()
 {
     value = new char[1];
     size = 0;
     value[0] = '\0';
 }
 
-String::String(const String& str)
+string_t::string_t(const string_t& str)
 {
     allocate_and_copy_from_string(str);
 }
 
-String::String(const char * const str)
+string_t::string_t(const char * const str)
 {
     allocate_and_copy_from_cstring(str);
 }
 
 
-String& String::operator=(const String& str)
+string_t& string_t::operator=(const string_t& str)
 {
     delete[] value;
     allocate_and_copy_from_string(str);
     return *this;
 }
 
-String& String::operator=(const char * const str)
+string_t& string_t::operator=(const char * const str)
 {
     delete[] value;
     allocate_and_copy_from_cstring(str);
     return *this;
 }
 
-String String::operator+(const String& str)
+string_t string_t::operator+(const string_t& str)
 {
-    String result;
+    string_t result;
     delete[] result.value;
     result.size = size + str.size;
     result.value = new char [result.size + 1];
@@ -78,9 +78,9 @@ String String::operator+(const String& str)
     return result;
 }
 
-String String::operator+(const char * const str)
+string_t string_t::operator+(const char * const str)
 {
-    String result;
+    string_t result;
     delete[] result.value;
     result.size = size + strlen(str);
     result.value = new char [result.size + 1];
@@ -92,19 +92,19 @@ String String::operator+(const char * const str)
 
 #define PLUS_EQUALS(dest,src) dest = dest + src
 
-String& String::operator+=(const String& str)
+string_t& string_t::operator+=(const string_t& str)
 {
     PLUS_EQUALS(*this, str);
     return *this;
 }
 
-String& String::operator+=(const char * const str)
+string_t& string_t::operator+=(const char * const str)
 {
     PLUS_EQUALS(*this, str);
     return *this;
 }
 
-bool String::operator==(const String& str)
+bool string_t::operator==(const string_t& str)
 {
     if(size == str.size && strncmp(value,str.value,size)==0)
     {
@@ -113,7 +113,7 @@ bool String::operator==(const String& str)
     return false;
 }
 
-bool String::operator==(const char * const str)
+bool string_t::operator==(const char * const str)
 {
     if(size == strlen(str) && strncmp(value,str,size)==0)
     {
@@ -124,17 +124,17 @@ bool String::operator==(const char * const str)
 
 #define NOT_EQUAL(a,b) !(a == b)
 
-bool String::operator!=(const String& str)
+bool string_t::operator!=(const string_t& str)
 {
     return NOT_EQUAL(*this,str);
 }
 
-bool String::operator!=(const char * const str)
+bool string_t::operator!=(const char * const str)
 {
     return NOT_EQUAL(*this,str);
 }
 
-bool String::operator<(const String& str)
+bool string_t::operator<(const string_t& str)
 {
     if(strncmp(value,str.value,(size>str.size?size:str.size)) < 0)
     {
@@ -144,7 +144,7 @@ bool String::operator<(const String& str)
 
 }
 
-bool String::operator<(const char * const str)
+bool string_t::operator<(const char * const str)
 {
     if(strncmp(value,str,(size>strlen(str)?size:strlen(str))) < 0)
     {
@@ -155,51 +155,51 @@ bool String::operator<(const char * const str)
 
 #define LESS_EQUAL(a,b) (a<b || a ==b)
 
-bool String::operator<=(const String& str)
+bool string_t::operator<=(const string_t& str)
 {
     return LESS_EQUAL(*this,str);
 }
 
-bool String::operator<=(const char * const str)
+bool string_t::operator<=(const char * const str)
 {
     return LESS_EQUAL(*this,str);
 }
 
 #define GREATER(a,b) !(a<=b)
-bool String::operator>(const String& str)
+bool string_t::operator>(const string_t& str)
 {
     return GREATER(*this,str);
 }
 
-bool String::operator>(const char * const str)
+bool string_t::operator>(const char * const str)
 {
     return GREATER(*this,str);
 }
 
 #define GREATER_EQUAL(a,b) (a>b || a==b)
-bool String::operator>=(const String& str)
+bool string_t::operator>=(const string_t& str)
 {
     return GREATER_EQUAL(*this, str);
 }
 
-bool String::operator>=(const char * const str)
+bool string_t::operator>=(const char * const str)
 {
     return GREATER_EQUAL(*this, str);
 }
 
 
-String::~String()
+string_t::~string_t()
 {
     delete[] value;
 }
 
-ostream& operator<<(ostream& cout, const String& str)
+ostream& operator<<(ostream& cout, const string_t& str)
 {
     cout<<str.value<<str.size;
     return cout;
 }
 
-istream& operator>>(istream& cin, String& str)
+istream& operator>>(istream& cin, string_t& str)
 {
     cin>>str.value;
     str.size = strlen(str.value);
