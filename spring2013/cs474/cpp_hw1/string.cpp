@@ -59,12 +59,6 @@ string_t& string_t::operator=(const string_t& str)
     return *this;
 }
 
-string_t& string_t::operator=(const char * const str)
-{
-    delete[] value;
-    allocate_and_copy_from_cstring(str);
-    return *this;
-}
 
 string_t string_t::operator+(const string_t& str) const
 {
@@ -78,17 +72,6 @@ string_t string_t::operator+(const string_t& str) const
     return result;
 }
 
-string_t string_t::operator+(const char * const str) const
-{
-    string_t result;
-    delete[] result.value;
-    result.size = size + strlen(str);
-    result.value = new char [result.size + 1];
-    strncpy(result.value, value, size);
-    result.value[size] = '\0';
-    strncat(result.value, str, strlen(str)); /* Does not make sense to use strncat if str is not NULL terminated. since size will be detected using a NULL character */
-    return result;
-}
 
 #define PLUS_EQUALS(dest,src) dest = dest + src
 
@@ -98,24 +81,10 @@ string_t& string_t::operator+=(const string_t& str)
     return *this;
 }
 
-string_t& string_t::operator+=(const char * const str)
-{
-    PLUS_EQUALS(*this, str);
-    return *this;
-}
 
 bool string_t::operator==(const string_t& str) const
 {
     if(size == str.size && strncmp(value,str.value,size)==0)
-    {
-        return true;
-    }
-    return false;
-}
-
-bool string_t::operator==(const char * const str) const
-{
-    if(size == strlen(str) && strncmp(value,str,size)==0)
     {
         return true;
     }
@@ -129,10 +98,6 @@ bool string_t::operator!=(const string_t& str) const
     return NOT_EQUAL(*this,str);
 }
 
-bool string_t::operator!=(const char * const str) const
-{
-    return NOT_EQUAL(*this,str);
-}
 
 bool string_t::operator<(const string_t& str) const
 {
@@ -144,23 +109,10 @@ bool string_t::operator<(const string_t& str) const
 
 }
 
-bool string_t::operator<(const char * const str) const
-{
-    if(strncmp(value,str,(size>strlen(str)?size:strlen(str))) < 0)
-    {
-        return true;
-    }
-    return false;
-}
 
 #define LESS_EQUAL(a,b) (a<b || a ==b)
 
 bool string_t::operator<=(const string_t& str) const
-{
-    return LESS_EQUAL(*this,str);
-}
-
-bool string_t::operator<=(const char * const str) const
 {
     return LESS_EQUAL(*this,str);
 }
@@ -171,10 +123,6 @@ bool string_t::operator>(const string_t& str) const
     return GREATER(*this,str);
 }
 
-bool string_t::operator>(const char * const str) const
-{
-    return GREATER(*this,str);
-}
 
 #define GREATER_EQUAL(a,b) (a>b || a==b)
 bool string_t::operator>=(const string_t& str) const
@@ -182,10 +130,6 @@ bool string_t::operator>=(const string_t& str) const
     return GREATER_EQUAL(*this, str);
 }
 
-bool string_t::operator>=(const char * const str) const
-{
-    return GREATER_EQUAL(*this, str);
-}
 
 string_t::operator char*()
 {
