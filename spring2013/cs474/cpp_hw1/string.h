@@ -55,6 +55,8 @@ class string_t
         bool operator>=(const string_t&) const; 
         bool operator>=(const char * const) const; 
 
+        operator char*();
+
         ~string_t();
         friend ostream& operator<<(ostream&, const string_t&);
         friend istream& operator>>(istream&, string_t& );

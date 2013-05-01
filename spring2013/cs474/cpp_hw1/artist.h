@@ -35,9 +35,9 @@ class artist_t{
         artist_t(const artist_t &);
         unsigned int get_cnt_paintings() const; 
 
-        void add_painting(painting_t &painting);
-        bool remove_painting(painting_t &painting);
-        const painting_t * search_painting(painting_t &painting);
+        void add_painting(const painting_t &painting);
+        bool remove_painting(const painting_t &painting);
+        const painting_t * search_painting(const painting_t &painting) const;
 
         bool operator <(artist_t&);
         bool operator ==(artist_t&);

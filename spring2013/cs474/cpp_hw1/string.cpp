@@ -187,6 +187,14 @@ bool string_t::operator>=(const char * const str) const
     return GREATER_EQUAL(*this, str);
 }
 
+string_t::operator char*()
+{
+    char *ret_str;
+    ret_str = new char[size + 1];
+    strncpy(ret_str, value, size); /* Does not make sense to use strncpy if str is not NULL terminated. since size will be detected using a NULL character */
+    ret_str[size] = '\0';
+    return ret_str; /* warning: the client should deallocate the memory to avoid leaks. */
+}
 
 string_t::~string_t()
 {

@@ -25,7 +25,7 @@ artist: artist.cpp artist.h painting
 	$(CC) $(CFLAGS) -c artist.cpp -o artist.o 2>$(CERROR)
 
 painting_manager: painting_manager.cpp painting_manager.h string linked_list painting artist
-	$(CC) $(CFLAGS) -c painting_manager.cpp string.o linked_list.o painting.o artist.o -o painting_manager.o 2>$(CERROR)
+	$(CC) $(CFLAGS) -fpermissive -c painting_manager.cpp string.o linked_list.o painting.o artist.o -o painting_manager.o 2>$(CERROR)
 
 hw1: hw1.cpp painting linked_list artist
 	@echo "Compiler       : $(CC)"

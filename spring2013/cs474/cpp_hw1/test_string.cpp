@@ -93,5 +93,11 @@ int main (int argc, char *argv[])
     //assert(j != k);
 
     
+    string_t ijkl("ritesh ");
+    char *stuv;
+    cout<<ijkl<<endl;
+    stuv=(char *)ijkl;
+    cout<<stuv<<endl;
+    delete[] stuv;
     return 0;
 }/* main */

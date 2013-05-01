@@ -54,7 +54,7 @@ linked_list_t<item_t>::linked_list_t(const linked_list_t &list)
 }
 
 template <class item_t>
-const item_t* linked_list_t<item_t>::search(const item_t &item)
+const item_t* linked_list_t<item_t>::search(const item_t &item) const
 {
     node_t *curr = NULL;
     curr = first_node;

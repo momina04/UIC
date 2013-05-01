@@ -28,6 +28,7 @@ using namespace std;
 
 int main (int argc, char *argv[])
 {
+//    linked_list_t<int>::node_t n; //compiler error node_t is private
     const int *x;
    linked_list_t<int> list;  //list
 //   linked_list_t<string> list; 
