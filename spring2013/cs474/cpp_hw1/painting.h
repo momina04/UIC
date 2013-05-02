@@ -32,6 +32,9 @@ class painting_t{
         const int height;
         const int width;
 
+    protected:
+        static int unique_id;
+
     public:
         /* No default constructor as we have a reference of artist. */
         painting_t(const painting_t &);
@@ -46,6 +49,7 @@ class painting_t{
 
         friend ostream& operator<<(ostream &, const painting_t &);
 };
+
 
 ostream& operator<<(ostream &, const painting_t &);
 

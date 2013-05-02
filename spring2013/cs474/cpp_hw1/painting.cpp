@@ -18,6 +18,8 @@
 
 #include "painting.h"
 
+int painting_t::unique_id = 77654;
+
 painting_t::painting_t(const painting_t &painting):artist(painting.artist),
                                                     title(painting.title),
                                                      height(painting.height),

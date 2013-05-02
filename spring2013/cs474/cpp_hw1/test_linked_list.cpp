@@ -22,7 +22,7 @@
 #include "linked_list.h"
 #include "linked_list.cpp"
 #include "painting.h"
-#include "artist.h"
+//#include "artist.h"
 
 using namespace std;
 

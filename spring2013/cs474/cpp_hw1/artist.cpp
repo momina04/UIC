@@ -3,7 +3,7 @@
  *
  *       Filename:  artist.cpp
  *
- *    Description:  Implementation of artist clas
+ *    Description:  Implementation of artist class
  *
  *        Version:  1.0
  *        Created:  04/08/2013 04:17:41 PM
@@ -27,9 +27,9 @@ artist_t::artist_t(const string_t& last_name,
     cnt_paintings = 0;
 }
 
-artist_t::artist_t(const artist_t &artist):painting_list(artist.painting_list),last_name(last_name),first_name(first_name)
+artist_t::artist_t(const artist_t &artist):painting_list(artist.painting_list),last_name(artist.last_name),first_name(artist.first_name)
 {
-    cnt_paintings = artist.get_cnt_paintings();
+    cnt_paintings = artist.cnt_paintings;
 }
 
 unsigned int artist_t::get_cnt_paintings() const
