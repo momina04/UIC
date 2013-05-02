@@ -167,7 +167,7 @@ const item_t* linked_list_t<item_t>::operator[](unsigned int idx)
     node_t *curr = NULL;
     if(idx>=size) return NULL;
     curr = first_node;
-    for(unsigned int i=0;i<idx;i++){
+    for(unsigned int i=0; i<idx; i++){
         assert(curr!=NULL);
         curr=curr->next();
     }

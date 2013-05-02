@@ -37,7 +37,9 @@ class linked_list_t{
                 const item_t& val() { return _val;}
                 node_t * next() { return _next;}
                 void next(node_t *node) {_next = node;}
-                ~node_t() {}
+                ~node_t() {//delete &val;//responsibility of client to deallocate 
+                }
+
         }*first_node;
         unsigned int size;
 

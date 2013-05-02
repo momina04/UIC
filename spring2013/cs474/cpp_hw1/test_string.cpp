@@ -43,6 +43,7 @@ int main (int argc, char *argv[])
     j=m;
     assert(j==m || cout<<"j==m failed"<<endl);
     k="amit ";
+    assert(k=="amit ");
     assert(j==k || cout<<"j==k failed"<<endl);
     assert(i+j != k+j);
     assert(i+i == i+i);
