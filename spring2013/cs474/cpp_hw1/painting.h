@@ -54,6 +54,7 @@ class painting_t{
         virtual void display() const;
 
         virtual painting_t& vcopy() const;
+        virtual ~painting_t();
 
         friend ostream& operator<<(ostream &, const painting_t &);
 };

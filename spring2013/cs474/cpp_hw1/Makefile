@@ -38,7 +38,7 @@ hw2: hw2.cpp painting linked_list artist string painting_manager
 	$(CC) $(CFLAGS) hw2.cpp painting.o linked_list.o artist.o  painting_manager.o string.o -o hw2 2>$(CERROR)
 
 all: hw2
-	valgrind --tool=memcheck ./hw2 >valgrind_test_hw2_stdout 2>valgrind_test_hw2_stderr
+	valgrind --tool=memcheck --leak-check=full ./hw2 >valgrind_test_hw2_stdout 2>valgrind_test_hw2_stderr
 	vi -p valgrind_test_hw2_*
 
 run: clean all

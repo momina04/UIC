@@ -84,3 +84,7 @@ ostream& operator<<(ostream &cout, const painting_t &painting)
     cout<<"). ";
     return cout;
 }
+
+painting_t::~painting_t()
+{
+}
