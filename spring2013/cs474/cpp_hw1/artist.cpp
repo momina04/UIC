@@ -21,6 +21,7 @@
 #include "artist.h"
 #include "string.h"
 #include "landscape.h"
+#include "still_life.h"
 
 artist_t::artist_t(const string_t& last_name, 
                    const string_t& first_name):last_name(last_name),first_name(first_name)
@@ -37,6 +38,13 @@ unsigned int artist_t::get_cnt_paintings() const
 {
     return cnt_paintings;
 } 
+
+void artist_t::artist_add_painting_still_life(const still_life_t &still_life)
+{
+    painting_t &p = *(new still_life_t(still_life));
+    painting_list.add_priority(p);
+    cnt_paintings++;
+}
 
 void artist_t::artist_add_painting_landscape(const landscape_t &landscape)
 {

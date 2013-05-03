@@ -1,9 +1,9 @@
 /*
  * =====================================================================================
  *
- *       Filename:  landscape.h
+ *       Filename:  still_life.h
  *
- *    Description:  Landscape derived from painting_t
+ *    Description:  Still_life derived from painting_t
  *
  *        Version:  1.0
  *        Created:  05/03/2013 05:46:57 AM
@@ -17,8 +17,8 @@
  */
 
 
-#ifndef LANDSCAPE_H
-#define LANDSCAPE_H 
+#ifndef STILL_LIFE_H
+#define STILL_LIFE_H 
 
 #include "painting.h"
 #include "artist.h"
@@ -27,28 +27,36 @@
 
 using namespace std;
 
-class landscape_t:public painting_t {
+class still_life_t:public painting_t {
    
-    string_t country;
+    string_t color_type;
     public:
-    landscape_t(string_t title,
+    still_life_t(string_t title,
                  const artist_t &artist,
                   int height,
                    int width,
-                    string_t country_):painting_t(title,artist,height,width), country(country_){
+                    int color_type_no):painting_t(title,artist,height,width){
+
+        if(color_type_no==1){
+            color_type="Water Colors";
+        }
+        else{
+            color_type="Oil Based Colors";
+        }
+
     }
 
-    landscape_t(const landscape_t & landscape):painting_t(landscape), country(landscape.country){
+    still_life_t(const still_life_t & still_life):painting_t(still_life), color_type(still_life.color_type){
     }
 
     void display() const
     {
-        cout<<"@Landscape@,"<<country;
+        cout<<"@still_life@,"<<color_type;
     }
 
-    landscape_t& vcopy() const
+    still_life_t& vcopy() const
     {
-        return *(new landscape_t(*this));
+        return *(new still_life_t(*this));
     }
  
 };

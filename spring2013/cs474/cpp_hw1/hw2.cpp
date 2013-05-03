@@ -24,6 +24,9 @@
 
 using namespace std;
 
+#define WATER_COLORS 1
+#define OIL_COLORS 2
+
 int main (int argc, char *argv[])
 {
     painting_manager_t system;
@@ -38,7 +41,9 @@ int main (int argc, char *argv[])
     assert(system.add_painting("p1","agarwal","ritesh",10,20));
     assert(system.add_painting("p1","agarwal","ritesh",10,20));
     assert(system.add_painting_landscape("pL","agarwal","ritesh",20,20,"America"));
-//    assert(system.remove_painting(77659));
+    assert(system.add_painting_still_life("pSW","agarwal","ritesh",30,20,WATER_COLORS));
+    assert(system.add_painting_still_life("pSO","agarwal","ritesh",40,20,OIL_COLORS));
+    assert(system.remove_painting(77659));
 //    assert(!system.remove_painting(77659));
 //    assert(system.remove_painting(77663));
 //    assert(system.remove_painting(77661));

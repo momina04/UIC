@@ -38,6 +38,7 @@ class painting_manager_t{
         bool add_artist(string_t artist_last_name, string_t artist_first_name);
         bool add_painting(string_t title, string_t  artist_last_name, string_t artist_first_name, unsigned int height, unsigned int width);
         bool add_painting_landscape(string_t title, string_t  artist_last_name, string_t artist_first_name, unsigned int height, unsigned int width, string_t country);
+        bool add_painting_still_life(string_t title, string_t  artist_last_name, string_t artist_first_name, unsigned int height, unsigned int width, int color_type);
         bool clear_artist(string_t artist_last_name, string_t artist_first_name);
         bool remove_painting(int id);
         bool copy_artist(string_t artist_last_name, string_t artist_first_name, string_t artist_last_name_new, string_t artist_first_name_new);
