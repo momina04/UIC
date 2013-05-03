@@ -53,6 +53,10 @@ int main (int argc, char *argv[])
 //    assert(system.remove_painting(77666));
     assert(!system.copy_artist("agarwal","ritesh","agarwal","ritesh"));
 //    assert(!system.remove_painting(77666));
+    assert(system.remove_painting(77672));
+    assert(system.remove_painting(77673));
+    assert(!system.remove_painting(77672));
+    assert(!system.remove_painting(77673));
 
     cout<<system<<endl;
 
