@@ -20,6 +20,7 @@
 
 int painting_t::unique_id = 77654;
 
+
 painting_t::painting_t(const painting_t &painting):artist(painting.artist),
                                                     title(painting.title),
                                                      height(painting.height),
@@ -34,6 +35,17 @@ painting_t::painting_t(const string_t &title,
                                                   title(title),
                                                    height(height),
                                                     width(width),id(unique_id++)
+{
+}
+
+painting_t::painting_t(const string_t &title, 
+                       const artist_t &artist,
+                       const unsigned int height, 
+                       const unsigned int width,
+                       const int id_):artist(artist),
+                                                  title(title),
+                                                   height(height),
+                                                    width(width),id(id_)
 {
 }
 

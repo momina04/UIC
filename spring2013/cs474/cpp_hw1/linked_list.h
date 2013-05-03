@@ -54,6 +54,7 @@ class linked_list_t{
         void add_priority(const item_t &);
         bool remove_first();
         bool remove(const item_t &);
+        void deleteAll();
         ~linked_list_t();
 
         const item_t* operator[](unsigned int idx);

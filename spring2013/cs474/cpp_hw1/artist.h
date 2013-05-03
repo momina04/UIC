@@ -38,10 +38,11 @@ class artist_t{
         void artist_add_painting(const painting_t &painting);
         bool artist_remove_painting(const painting_t &painting);
         const painting_t * artist_search_painting(const painting_t &painting) const;
+        void delete_all_paintings();
 
-        bool operator <(artist_t&) const;
-        bool operator ==(artist_t&) const;
-        bool operator <=(artist_t&) const;
+        bool operator <(const artist_t&) const;
+        bool operator ==(const artist_t&) const;
+        bool operator <=(const artist_t&) const;
 
         ~artist_t();
 

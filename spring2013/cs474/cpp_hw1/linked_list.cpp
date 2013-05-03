@@ -67,6 +67,18 @@ const item_t* linked_list_t<item_t>::search(const item_t &item) const
 }
 
 template <class item_t>
+void linked_list_t<item_t>::deleteAll()
+{
+    const item_t *item;
+    while(!empty())
+    {
+        item = (*this)[0];
+        remove_first();
+        delete item;
+    }
+}
+
+template <class item_t>
 inline bool linked_list_t<item_t>::empty()
 {
     return (size == 0);

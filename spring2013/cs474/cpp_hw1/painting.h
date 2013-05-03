@@ -37,11 +37,17 @@ class painting_t{
 
     public:
         /* No default constructor as we have a reference of artist. */
+        painting_t(const int id);//for search
         painting_t(const painting_t &);
         painting_t(const string_t &,
                    const artist_t &artist,
                    const unsigned int, 
                    const unsigned int);
+        painting_t(const string_t &title, 
+                       const artist_t &artist,
+                       const unsigned int height, 
+                       const unsigned int width,
+                       const int id_);
 
         bool operator<(const painting_t&) const;
         bool operator==(const painting_t&) const;

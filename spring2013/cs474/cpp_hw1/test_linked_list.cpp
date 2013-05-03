@@ -266,6 +266,8 @@ int main (int argc, char *argv[])
     /*Artist*/
     linked_list_t<artist_t> artist_list;
     artist_list.add_first(a1);
+    assert(*(artist_list[0])==a1);
+    assert(!(*(artist_list[0])==a2));
 
     a1.artist_add_painting(p1);
     a1.artist_add_painting(p1);
@@ -279,7 +281,7 @@ int main (int argc, char *argv[])
     
     cout<<artist_list;
     cout<<endl<<a1<<endl;
-    artist_t a9(a1);
+//    artist_t a9(a1);
 //    cout<<a9<<endl;
     return 0;
 }/* main */

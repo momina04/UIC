@@ -62,18 +62,23 @@ const painting_t * artist_t::artist_search_painting(const painting_t &painting) 
     return p;
 }
 
-bool artist_t::operator <(artist_t& artist) const
+void artist_t::delete_all_paintings()
+{
+    painting_list.deleteAll();
+}
+
+bool artist_t::operator <(const artist_t& artist) const
 {
     return (last_name + first_name) < (artist.last_name + artist.first_name);
 }
 
-bool artist_t::operator ==(artist_t& artist) const
+bool artist_t::operator ==(const artist_t& artist) const
 {
     return (last_name + first_name) == (artist.last_name + artist.first_name);
 }
 
 #define LESS_EQUAL(a,b) (a<b || a ==b)
-bool artist_t::operator <=(artist_t& artist) const
+bool artist_t::operator <=(const artist_t& artist) const
 {
     return LESS_EQUAL(*this,artist);
 }

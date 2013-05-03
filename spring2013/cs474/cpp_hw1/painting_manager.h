@@ -30,15 +30,16 @@ class painting_manager_t{
         linked_list_t<artist_t> artist_list;
         unsigned int cnt_artist;
         
+        const artist_t* search_artist(const artist_t &artist);
     public:
         painting_manager_t();
 //        painting_manager_t(const painting_manager_t &painting_manager);
         unsigned int get_cnt_artist() const;
         bool add_artist(string_t artist_last_name, string_t artist_first_name);
         bool add_painting(string_t &title, string_t & artist_last_name, string_t &artist_first_name, unsigned int height, unsigned int width);
-        bool remove_painting(string_t &title);
-        artist_t* search_painting(string_t &title);
-        void copy_painting(string_t &title);
+        bool clear_artist(string_t &artist_last_name, string_t &artist_first_name);
+        bool remove_painting(int id);
+        void painting_manager_t::copy_painting(string_t &title);
 
         ~painting_manager_t();
 

@@ -41,12 +41,22 @@ unsigned int painting_manager_t::get_cnt_artist() const
     return cnt_artist;
 }
 
+const artist_t* painting_manager_t::search_artist(const artist_t &artist)
+{
+    unsigned int idx;
+    for(idx=0;idx<cnt_artist;idx++){
+        if(*(artist_list[idx])==artist)
+            return artist_list[idx];
+    }
+    return NULL;
+}
+
 bool painting_manager_t::add_artist(string_t artist_last_name, string_t artist_first_name)
 {
     const artist_t artist(artist_last_name, artist_first_name);
     const artist_t *a1=NULL;
-    a1=artist_list.search(artist);
-    /*
+    a1=search_artist(artist);
+    
     if(a1){
         return false;
     }
@@ -54,81 +64,66 @@ bool painting_manager_t::add_artist(string_t artist_last_name, string_t artist_f
         artist_list.add_first(artist);
         return true;
     }
-    */
-}
+};
 
 bool painting_manager_t::add_painting(string_t &title, string_t & artist_last_name, string_t &artist_first_name, unsigned int height, unsigned int width)
 {
-//    const artist_t *a = NULL;
-//    const artist_t dummy_artist(artist_last_name,artist_first_name);
-//    a = artist_list.search(dummy_artist);
-//    if(a){ /* IF artist exists in system */
-//        (*a).add_painting(painting_t(title,*a,height,width));
-//        return true;
-//    }
-//    else
-//    { /* IF artist is a new artist */
-//        *a = new artist_t(artist_last_name,artist_first_name);
-//        cnt_artist++;
-//        artist_list.add(*a);
-//        a->add_painting(painting_t(title,a,height,width));
-//    }
-//    return false;
-//
+    const artist_t *a = NULL;
+    const artist_t dummy_artist(artist_last_name,artist_first_name);
+    a = artist_list.search(dummy_artist);
+    if(a){ /* IF artist exists in system */
+        (*a).artist_add_painting(painting_t(title,*a,height,width));
+        return true;
+    }
+    else
+    { /* IF artist is a new artist */
+        a = new artist_t(artist_last_name,artist_first_name);
+        artist_list.add_first(*a);
+        a->artist_add_painting(painting_t(title,*a,height,width));
+        cnt_artist++;
+        return false;
+    }
 }
 
-bool painting_manager_t::remove_painting(string_t &title)
+
+
+bool painting_manager_t::clear_artist(string_t &artist_last_name, string_t &artist_first_name)
 {
-//    const painting_t *painting = NULL;
-//    const artist_t *a;
-//    a=search_painting(title);
-//    if(a)
-//    {
-//        a->remove_painting(*painting);
-//        if(a->get_cnt_paintings() == 0){
-//        }
-//        //todo: if artist has no more paintings then remove artist also
-//        return true;
-//    }
-//    return false;
+    const artist_t dummy_artist(artist_last_name, artist_first_name);
+    const artist_t *a;
+    a=search_artist(dummy_artist);
+    if(a) {
+        a->delete_all_paintings();
+        return true;
+    }
+    else{
+        return false;
+    }
 }
 
-artist_t* search_painting(string_t &title)
+bool painting_manager_t::remove_painting(int id)
 {
-//    const painting_t *painting = NULL;
-//    const artist_t dummy_artist("dummy","dummy");
-//    painting_t p(title,dummy_artist,0,0);;
-//    const artist_t *a = NULL;
-//
-//    for(int i=0;i<cnt_artist;i++){
-//        a = artist_list[i];
-//        if(!a) break;
-//        painting=a->search_painting(p);
-//        if(painting != NULL) break;
-//    }
-//
-//    if(painting)
-//    {
-//        return a;
-//    }
-//    return NULL
+    artist_t dummy_artist("","");
+    painting_t dummy_painting("",dummy_artist,0,0,id);
+    unsigned int idx;
+    const artist_t *a1=NULL;
+    for(idx=0;idx<cnt_artist;idx++){
+        a1 = artist_list[idx];
+        if(a1 && a1->artist_search_painting(dummy_painting))
+            break;
+    }
+    if(a1==NULL) return false;
+    const painting_t *p1 = NULL;
+    a1->artist_remove_painting(dummy_painting);
+    return true;
 }
-
 
 void painting_manager_t::copy_painting(string_t &title)
 {
 }
 
 painting_manager_t::~painting_manager_t(){
-//    const artist_t *a;
-//    unsigned int s;
-//    s = artist_list.get_size();
-//    for(unsigned int i=0;i<s;i++){
-//        a=artist_list[i];
-//        if(a){
-//            delete a;
-//        }
-//    }
+    artist_list.deleteAll();
 }
 
 ostream& operator<<(ostream& cout, const painting_manager_t& painting_manager)
