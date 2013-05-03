@@ -26,14 +26,14 @@
 using namespace std;
 class artist_t;
 class painting_t{
-    private:
+    protected:
         const string_t title;
         const artist_t &artist;
         const int height;
         const int width;
 
-    protected:
         static int unique_id;
+        const int id;
 
     public:
         /* No default constructor as we have a reference of artist. */

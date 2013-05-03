@@ -32,11 +32,12 @@ class painting_manager_t{
         
     public:
         painting_manager_t();
- //       painting_manager_t(const painting_manager_t &painting_manager);
+//        painting_manager_t(const painting_manager_t &painting_manager);
         unsigned int get_cnt_artist() const;
+        bool add_artist(string_t artist_last_name, string_t artist_first_name);
         bool add_painting(string_t &title, string_t & artist_last_name, string_t &artist_first_name, unsigned int height, unsigned int width);
         bool remove_painting(string_t &title);
-        bool delete_artist(string_t &artist_last_name, string_t &artist_first_name);
+        artist_t* search_painting(string_t &title);
         void copy_painting(string_t &title);
 
         ~painting_manager_t();

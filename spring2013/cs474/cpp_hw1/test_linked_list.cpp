@@ -216,9 +216,9 @@ int main (int argc, char *argv[])
     painting_t p2(sp2,a1,12,30);
     painting_t p3(sp1,a1,20,11);
     painting_t p4(p1);
-   assert(!(p1==p2));
-   assert(p1==p3);
-   assert(p1==p4);
+//   assert(!(p1==p2));
+//   assert(p1==p3);
+//   assert(p1==p4);
    assert(p1<=p4);
    assert(p1<=p2);
    assert(p1<p2);
@@ -233,29 +233,28 @@ int main (int argc, char *argv[])
    listP.add_priority(p2);
    listP.add_priority(p3);
    cout<<listP<<endl;
-
     cout<<endl<<endl<<"Artist"<<endl;
 //    cout<<a1<<endl;
-    a1.add_painting(p1);
-    a1.add_painting(p2);
-    a1.add_painting(p3);
-    a1.add_painting(p4);
-    a1.add_painting(p1);
+    a1.artist_add_painting(p1);
+    a1.artist_add_painting(p2);
+    a1.artist_add_painting(p3);
+    a1.artist_add_painting(p4);
+    a1.artist_add_painting(p1);
     cout<<a1<<endl;
     const painting_t *psearch;
-    assert(*(psearch=a1.search_painting(p2))==p2);
-    a1.remove_painting(p2);
-    assert((psearch=a1.search_painting(p2))==NULL);
+//    assert(*(psearch=a1.artist_search_painting(p2))==p2);
+//    a1.artist_remove_painting(p2);
+//    assert((psearch=a1.artist_search_painting(p2))==NULL);
+//    cout<<a1<<endl;
+//    a1.artist_remove_painting(p1);
     cout<<a1<<endl;
-    a1.remove_painting(p1);
+//    a1.artist_remove_painting(p1);
     cout<<a1<<endl;
-    a1.remove_painting(p1);
+//    a1.artist_remove_painting(p1);
     cout<<a1<<endl;
-    a1.remove_painting(p1);
+//    a1.artist_remove_painting(p1);
     cout<<a1<<endl;
-    a1.remove_painting(p1);
-    cout<<a1<<endl;
-    assert(!(a1.remove_painting(p1)));
+//    assert(!(a1.artist_remove_painting(p1)));
     artist_t a2("agarwal","vinay");
     assert(a1==a1);
     assert(!(a1==a2));
@@ -263,6 +262,25 @@ int main (int argc, char *argv[])
     assert(!(a2<a1));
     assert(a1<=a2);
     assert(!(a2<=a1));
+
+    /*Artist*/
+    linked_list_t<artist_t> artist_list;
+    artist_list.add_first(a1);
+
+    a1.artist_add_painting(p1);
+    a1.artist_add_painting(p1);
+    a1.artist_add_painting(p2);
+    a1.artist_add_painting(p3);
+    a1.artist_add_painting(p4);
+
+    const painting_t *pptr;
+    pptr=a1.artist_search_painting(p1);
+    assert(pptr==NULL);
+    
+    cout<<artist_list;
+    cout<<endl<<a1<<endl;
+    artist_t a9(a1);
+//    cout<<a9<<endl;
     return 0;
 }/* main */
 

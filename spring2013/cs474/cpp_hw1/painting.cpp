@@ -23,7 +23,7 @@ int painting_t::unique_id = 77654;
 painting_t::painting_t(const painting_t &painting):artist(painting.artist),
                                                     title(painting.title),
                                                      height(painting.height),
-                                                      width(painting.width)
+                                                      width(painting.width),id(unique_id++)
 {
 }
 
@@ -33,18 +33,18 @@ painting_t::painting_t(const string_t &title,
                        const unsigned int width):artist(artist),
                                                   title(title),
                                                    height(height),
-                                                    width(width)
+                                                    width(width),id(unique_id++)
 {
 }
 
 bool painting_t::operator<(const painting_t& painting) const
 {
-    return (title < painting.title);
+    return (id < painting.id);
 }
 
 bool painting_t::operator==(const painting_t& painting) const
 {
-    return (title == painting.title);
+    return (id == painting.id);
 }
 
 #define LESS_EQUAL(a,b) (a<b || a ==b)
@@ -56,6 +56,6 @@ bool painting_t::operator<=(const painting_t& painting) const
 ostream& operator<<(ostream &cout, const painting_t &painting)
 {
     //cout<<"Painting("<<painting.title<<","<<painting.artist.name_string()<<","<<painting.height<<","<<painting.width<<"). ";
-    cout<<"Painting("<<painting.title<<","<<painting.height<<","<<painting.width<<"). ";
+    cout<<"Painting("<<"#"<<painting.id<<","<<painting.title<<","<<painting.height<<","<<painting.width<<"). ";
     return cout;
 }
