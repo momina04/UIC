@@ -53,6 +53,8 @@ class painting_t{
         bool operator<=(const painting_t&) const;
         virtual void display() const;
 
+        virtual painting_t& vcopy() const;
+
         friend ostream& operator<<(ostream &, const painting_t &);
 };
 

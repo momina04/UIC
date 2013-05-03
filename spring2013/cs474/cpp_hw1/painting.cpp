@@ -71,6 +71,11 @@ void painting_t::display() const
     /*do nothing in base class */
 }
 
+painting_t& painting_t::vcopy() const
+{
+    return *(new painting_t(*this));
+}
+
 ostream& operator<<(ostream &cout, const painting_t &painting)
 {
     //cout<<"Painting("<<painting.title<<","<<painting.artist.name_string()<<","<<painting.height<<","<<painting.width<<"). ";

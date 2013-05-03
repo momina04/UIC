@@ -18,10 +18,10 @@ test_linked_list: test_linked_list.cpp linked_list string painting artist
 	valgrind --tool=memcheck ./test_linked_list.o >valgrind_test_linked_list_stdout 2>valgrind_test_linked_list_stderr
 	vi -p valgrind_test_linked_list*
 
-painting: painting.cpp painting.h artist
+painting: painting.cpp painting.h  landscape
 	$(CC) $(CFLAGS) -c painting.cpp -o painting.o 2>$(CERROR)
 
-landscape: landscape.h painting
+landscape: landscape.h 
 	$(CC) $(CFLAGS) -c landscape.h -o landscape.o 2>$(CERROR)
 
 artist: artist.cpp artist.h painting landscape

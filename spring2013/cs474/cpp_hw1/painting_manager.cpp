@@ -94,14 +94,14 @@ bool painting_manager_t::add_painting_landscape(string_t title, string_t  artist
     const artist_t dummy_artist(artist_last_name,artist_first_name);
     a = artist_list.search(dummy_artist);
     if(a){ /* IF artist exists in system */
-        (*a).artist_add_painting(landscape_t(title,*a,height,width,country));
+        (*a).artist_add_painting_landscape(landscape_t(title,*a,height,width,country));
         return true;
     }
     else
     { /* IF artist is a new artist */
         a = new artist_t(artist_last_name,artist_first_name);
         artist_list.add_first(*a);
-        a->artist_add_painting(landscape_t(title,*a,height,width,country));
+        a->artist_add_painting_landscape(landscape_t(title,*a,height,width,country));
         cnt_artist++;
         return true;
     }

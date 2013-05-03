@@ -46,8 +46,7 @@ linked_list_t<item_t>::linked_list_t(const linked_list_t &list)
     size = 0;
     curr = list.first_node;
     while(curr){
-        this->add_priority(*(new item_t(curr->val())));
-//        this->add_first(curr->val());
+        this->add_priority(curr->val().vcopy());
         curr = curr -> next();
     }
     size = list.size;
