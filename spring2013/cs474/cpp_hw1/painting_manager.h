@@ -36,10 +36,11 @@ class painting_manager_t{
 //        painting_manager_t(const painting_manager_t &painting_manager);
         unsigned int get_cnt_artist() const;
         bool add_artist(string_t artist_last_name, string_t artist_first_name);
-        bool add_painting(string_t &title, string_t & artist_last_name, string_t &artist_first_name, unsigned int height, unsigned int width);
-        bool clear_artist(string_t &artist_last_name, string_t &artist_first_name);
+        bool add_painting(string_t title, string_t  artist_last_name, string_t artist_first_name, unsigned int height, unsigned int width);
+        bool add_painting_landscape(string_t title, string_t  artist_last_name, string_t artist_first_name, unsigned int height, unsigned int width, string_t country);
+        bool clear_artist(string_t artist_last_name, string_t artist_first_name);
         bool remove_painting(int id);
-        void painting_manager_t::copy_painting(string_t &title);
+        bool copy_artist(string_t artist_last_name, string_t artist_first_name, string_t artist_last_name_new, string_t artist_first_name_new);
 
         ~painting_manager_t();
 

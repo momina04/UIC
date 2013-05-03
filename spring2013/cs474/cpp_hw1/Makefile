@@ -21,23 +21,28 @@ test_linked_list: test_linked_list.cpp linked_list string painting artist
 painting: painting.cpp painting.h artist
 	$(CC) $(CFLAGS) -c painting.cpp -o painting.o 2>$(CERROR)
 
-artist: artist.cpp artist.h painting
-	$(CC) $(CFLAGS) -c artist.cpp -o artist.o 2>$(CERROR)
+landscape: landscape.h painting
+	$(CC) $(CFLAGS) -c landscape.h -o landscape.o 2>$(CERROR)
+
+artist: artist.cpp artist.h painting landscape
+	$(CC) $(CFLAGS) -c artist.cpp painting.o landscape.o -o artist.o 2>$(CERROR)
 
 painting_manager: painting_manager.cpp painting_manager.h string linked_list painting artist
 	$(CC) $(CFLAGS) -fpermissive -c painting_manager.cpp string.o linked_list.o painting.o artist.o -o painting_manager.o 2>$(CERROR)
 
-hw1: hw1.cpp painting linked_list artist
+hw2: hw2.cpp painting linked_list artist string painting_manager
 	@echo "Compiler       : $(CC)"
 	@echo "Compiler Flags : $(CFLAGS)"
 	@echo "Error File     : $(CERROR)"
-	@echo "Compiling hw1.cpp"
-	$(CC) $(CFLAGS) hw1.cpp painting.o linked_list.o artist.o -o hw1 2>$(CERROR)
+	@echo "Compiling hw2.cpp"
+	$(CC) $(CFLAGS) hw2.cpp painting.o linked_list.o artist.o  painting_manager.o string.o -o hw2 2>$(CERROR)
 
-all: hw1
+all: hw2
+	valgrind --tool=memcheck ./hw2 >valgrind_test_hw2_stdout 2>valgrind_test_hw2_stderr
+	vi -p valgrind_test_hw2_*
 
 run: clean all
-	./hw1 <test_input >output
+	./hw2 <test_input >output
 
 test_clean:
 	rm test_string.o
@@ -45,7 +50,7 @@ test_clean:
 
 clean: test_clean
 	@echo Cleaning
-	rm -f painting.o linked_list.o artist.o hw1
+	rm -f painting.o linked_list.o artist.o hw2
 	rm -f foo
 	@echo Clean Complete.
 

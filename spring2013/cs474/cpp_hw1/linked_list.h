@@ -67,7 +67,7 @@ class linked_list_t{
 template <class item_t>
 ostream& operator<<(ostream&, const linked_list_t<item_t>&);
 
-template class linked_list_t <int>;
+//template class linked_list_t <int>;
 //template class linked_list_t <string_t>;
 
 #endif

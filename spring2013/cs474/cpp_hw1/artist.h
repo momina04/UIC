@@ -22,6 +22,7 @@
 #include "linked_list.h"
 #include "linked_list.cpp"
 #include "painting.h"
+
 class painting_t;
 class artist_t{
     private:
@@ -36,6 +37,7 @@ class artist_t{
         unsigned int get_cnt_paintings() const; 
 
         void artist_add_painting(const painting_t &painting);
+//        void artist_add_painting_landscape(const landscape_t &landscape);
         bool artist_remove_painting(const painting_t &painting);
         const painting_t * artist_search_painting(const painting_t &painting) const;
         void delete_all_paintings();
@@ -47,6 +49,7 @@ class artist_t{
         ~artist_t();
 
         friend ostream& operator<<(ostream &, const artist_t &);
+        friend class painting_manager_t;
 };
 
 ostream& operator<<(ostream &, const artist_t &);

@@ -16,6 +16,7 @@
  * =====================================================================================
  */
 
+#include "string.h"
 #include "painting.h"
 
 int painting_t::unique_id = 77654;
@@ -65,9 +66,16 @@ bool painting_t::operator<=(const painting_t& painting) const
     return LESS_EQUAL(*this,painting);
 }
 
+void painting_t::display() const
+{
+    /*do nothing in base class */
+}
+
 ostream& operator<<(ostream &cout, const painting_t &painting)
 {
     //cout<<"Painting("<<painting.title<<","<<painting.artist.name_string()<<","<<painting.height<<","<<painting.width<<"). ";
-    cout<<"Painting("<<"#"<<painting.id<<","<<painting.title<<","<<painting.height<<","<<painting.width<<"). ";
+    cout<<"Painting("<<"#"<<painting.id<<","<<painting.title<<","<<painting.height<<","<<painting.width<<",";
+    painting.display();
+    cout<<"). ";
     return cout;
 }

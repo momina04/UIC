@@ -19,6 +19,7 @@
 #include "painting_manager.h"
 #include "linked_list.h"
 #include "linked_list.cpp"
+#include "landscape.h"
 
 painting_manager_t::painting_manager_t()
 {
@@ -61,12 +62,13 @@ bool painting_manager_t::add_artist(string_t artist_last_name, string_t artist_f
         return false;
     }
     else {
-        artist_list.add_first(artist);
+        artist_list.add_first(*(new artist_t(artist)));
+        cnt_artist++;
         return true;
     }
 };
 
-bool painting_manager_t::add_painting(string_t &title, string_t & artist_last_name, string_t &artist_first_name, unsigned int height, unsigned int width)
+bool painting_manager_t::add_painting(string_t title, string_t  artist_last_name, string_t artist_first_name, unsigned int height, unsigned int width)
 {
     const artist_t *a = NULL;
     const artist_t dummy_artist(artist_last_name,artist_first_name);
@@ -81,13 +83,33 @@ bool painting_manager_t::add_painting(string_t &title, string_t & artist_last_na
         artist_list.add_first(*a);
         a->artist_add_painting(painting_t(title,*a,height,width));
         cnt_artist++;
-        return false;
+        return true;
     }
+    return false;
+}
+
+bool painting_manager_t::add_painting_landscape(string_t title, string_t  artist_last_name, string_t artist_first_name, unsigned int height, unsigned int width, string_t country)
+{
+    const artist_t *a = NULL;
+    const artist_t dummy_artist(artist_last_name,artist_first_name);
+    a = artist_list.search(dummy_artist);
+    if(a){ /* IF artist exists in system */
+        (*a).artist_add_painting(landscape_t(title,*a,height,width,country));
+        return true;
+    }
+    else
+    { /* IF artist is a new artist */
+        a = new artist_t(artist_last_name,artist_first_name);
+        artist_list.add_first(*a);
+        a->artist_add_painting(landscape_t(title,*a,height,width,country));
+        cnt_artist++;
+        return true;
+    }
+    return false;
 }
 
 
-
-bool painting_manager_t::clear_artist(string_t &artist_last_name, string_t &artist_first_name)
+bool painting_manager_t::clear_artist(string_t artist_last_name, string_t artist_first_name)
 {
     const artist_t dummy_artist(artist_last_name, artist_first_name);
     const artist_t *a;
@@ -106,20 +128,37 @@ bool painting_manager_t::remove_painting(int id)
     artist_t dummy_artist("","");
     painting_t dummy_painting("",dummy_artist,0,0,id);
     unsigned int idx;
+    bool flag_found=false;
     const artist_t *a1=NULL;
     for(idx=0;idx<cnt_artist;idx++){
         a1 = artist_list[idx];
         if(a1 && a1->artist_search_painting(dummy_painting))
+        {
+            flag_found = true;
             break;
+        }
     }
-    if(a1==NULL) return false;
+    if(flag_found==false) return false;
     const painting_t *p1 = NULL;
     a1->artist_remove_painting(dummy_painting);
     return true;
 }
 
-void painting_manager_t::copy_painting(string_t &title)
+bool painting_manager_t::copy_artist(string_t artist_last_name, string_t artist_first_name, string_t artist_last_name_new, string_t artist_first_name_new)
 {
+    if(artist_last_name + artist_first_name == artist_last_name_new + artist_first_name_new) return false;
+    const artist_t *a1;
+    a1 = search_artist(artist_t(artist_last_name, artist_first_name));
+    if(a1== NULL){
+        return false;
+    }
+    else{
+        artist_t *a2 = new artist_t(*a1);
+        a2->last_name = artist_last_name_new;
+        a2->first_name = artist_first_name_new;
+        artist_list.add_first(*a2);
+        cnt_artist++;
+    }
 }
 
 painting_manager_t::~painting_manager_t(){
@@ -128,6 +167,6 @@ painting_manager_t::~painting_manager_t(){
 
 ostream& operator<<(ostream& cout, const painting_manager_t& painting_manager)
 {
-//    cout<<"PaintingManager: "<<painting_manager.cnt_artist<<" artists{ "<<painting_manager.artist_list<<" }."; 
-//    return cout;
+    cout<<"PaintingManager: "<<painting_manager.cnt_artist<<" artists{ "<<painting_manager.artist_list<<" }."; 
+    return cout;
 }

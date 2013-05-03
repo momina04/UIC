@@ -37,7 +37,6 @@ class painting_t{
 
     public:
         /* No default constructor as we have a reference of artist. */
-        painting_t(const int id);//for search
         painting_t(const painting_t &);
         painting_t(const string_t &,
                    const artist_t &artist,
@@ -52,6 +51,7 @@ class painting_t{
         bool operator<(const painting_t&) const;
         bool operator==(const painting_t&) const;
         bool operator<=(const painting_t&) const;
+        virtual void display() const;
 
         friend ostream& operator<<(ostream &, const painting_t &);
 };

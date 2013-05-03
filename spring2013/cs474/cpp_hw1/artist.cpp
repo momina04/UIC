@@ -37,6 +37,15 @@ unsigned int artist_t::get_cnt_paintings() const
     return cnt_paintings;
 } 
 
+/*
+void artist_t::artist_add_painting_landscape(const landscape_t &landscape)
+{
+    painting_t *p = new landscape_t(landscape);
+    painting_list.add_priority(*p);
+    cnt_paintings++;
+}
+*/
+
 void artist_t::artist_add_painting(const painting_t &painting)
 {
     painting_t *p = new painting_t(painting);
@@ -65,6 +74,7 @@ const painting_t * artist_t::artist_search_painting(const painting_t &painting) 
 void artist_t::delete_all_paintings()
 {
     painting_list.deleteAll();
+    cnt_paintings=0;
 }
 
 bool artist_t::operator <(const artist_t& artist) const
