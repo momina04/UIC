@@ -26,6 +26,7 @@
 
 class landscape_t;
 class still_life_t;
+class potrait_t;
 class painting_t;
 class artist_t{
     private:
@@ -42,6 +43,7 @@ class artist_t{
         void artist_add_painting(const painting_t &painting);
         void artist_add_painting_landscape(const landscape_t &landscape);
         void artist_add_painting_still_life(const still_life_t &still_life);
+        void artist_add_painting_potrait(const potrait_t &potrait);
         bool artist_remove_painting(const painting_t &painting);
         const painting_t * artist_search_painting(const painting_t &painting) const;
         void delete_all_paintings();

@@ -21,6 +21,7 @@
 #include "linked_list.cpp"
 #include "landscape.h"
 #include "still_life.h"
+#include "potrait.h"
 
 painting_manager_t::painting_manager_t()
 {
@@ -123,6 +124,26 @@ bool painting_manager_t::add_painting_still_life(string_t title, string_t  artis
         a = new artist_t(artist_last_name,artist_first_name);
         artist_list.add_first(*a);
         a->artist_add_painting_still_life(still_life_t(title,*a,height,width,color_type));
+        cnt_artist++;
+        return true;
+    }
+    return false;
+}
+
+bool painting_manager_t::add_painting_potrait(string_t title, string_t  artist_last_name, string_t artist_first_name, unsigned int height, unsigned int width, linked_list_t<string_t> &people)
+{
+    const artist_t *a = NULL;
+    const artist_t dummy_artist(artist_last_name,artist_first_name);
+    a = artist_list.search(dummy_artist);
+    if(a){ /* IF artist exists in system */
+        (*a).artist_add_painting_potrait(potrait_t(title,*a,height,width,people));
+        return true;
+    }
+    else
+    { /* IF artist is a new artist */
+        a = new artist_t(artist_last_name,artist_first_name);
+        artist_list.add_first(*a);
+        a->artist_add_painting_potrait(potrait_t(title,*a,height,width,people));
         cnt_artist++;
         return true;
     }

@@ -130,6 +130,12 @@ bool string_t::operator>=(const string_t& str) const
     return GREATER_EQUAL(*this, str);
 }
 
+const string_t & string_t::vcopy() const
+{
+    //return *(new string_t(*this));
+    return *this;
+}
+
 //string_t::operator char*()
 //{
 //    char *ret_str;

@@ -46,6 +46,8 @@ class string_t
         bool operator>(const string_t&) const; 
         bool operator>=(const string_t&) const; 
 
+        const string_t & vcopy() const;
+
 //        operator char*();
 
         ~string_t();

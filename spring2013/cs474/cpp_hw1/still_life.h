@@ -51,7 +51,7 @@ class still_life_t:public painting_t {
 
     void display() const
     {
-        cout<<"@still_life@,"<<color_type;
+        cout<<"@Still Life@,"<<color_type;
     }
 
     still_life_t& vcopy() const

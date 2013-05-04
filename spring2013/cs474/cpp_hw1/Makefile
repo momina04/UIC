@@ -18,7 +18,7 @@ test_linked_list: test_linked_list.cpp linked_list string painting artist
 	valgrind --tool=memcheck ./test_linked_list.o >valgrind_test_linked_list_stdout 2>valgrind_test_linked_list_stderr
 	vi -p valgrind_test_linked_list*
 
-painting: painting.cpp painting.h  landscape still_life
+painting: painting.cpp painting.h  landscape still_life potrait
 	$(CC) $(CFLAGS) -c painting.cpp -o painting.o 2>$(CERROR)
 
 landscape: landscape.h 
@@ -27,8 +27,11 @@ landscape: landscape.h
 still_life: still_life.h 
 	$(CC) $(CFLAGS) -c still_life.h -o still_life.o 2>$(CERROR)
 
-artist: artist.cpp artist.h painting landscape still_life
-	$(CC) $(CFLAGS) -c artist.cpp painting.o landscape.o still_life.o -o artist.o 2>$(CERROR)
+potrait: potrait.h 
+	$(CC) $(CFLAGS) -c potrait.h -o potrait.o 2>$(CERROR)
+
+artist: artist.cpp artist.h painting landscape potrait
+	$(CC) $(CFLAGS) -c artist.cpp painting.o landscape.o still_life.o potrait.o -o artist.o 2>$(CERROR)
 
 painting_manager: painting_manager.cpp painting_manager.h string linked_list painting artist
 	$(CC) $(CFLAGS) -fpermissive -c painting_manager.cpp string.o linked_list.o painting.o artist.o -o painting_manager.o 2>$(CERROR)
@@ -41,7 +44,7 @@ hw2: hw2.cpp painting linked_list artist string painting_manager
 	$(CC) $(CFLAGS) hw2.cpp painting.o linked_list.o artist.o  painting_manager.o string.o -o hw2 2>$(CERROR)
 
 all: hw2
-	valgrind --tool=memcheck --leak-check=full ./hw2 >valgrind_test_hw2_stdout 2>valgrind_test_hw2_stderr
+	valgrind  --tool=memcheck --leak-check=full ./hw2 >valgrind_test_hw2_stdout 2>valgrind_test_hw2_stderr
 	vi -p valgrind_test_hw2_*
 
 run: clean all
