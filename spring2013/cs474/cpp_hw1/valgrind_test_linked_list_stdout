@@ -1,0 +1,48 @@
+size = 0 : NULL.
+size = 0 : NULL.
+size = 3 : 0 -> 1 -> 1 -> NULL.
+size = 3 : 0 -> 1 -> 1 -> NULL.
+size = 8 : 0 -> 1 -> 1 -> 2 -> 3 -> 4 -> 7 -> 8 -> NULL.
+size = 3 : 0 -> 1 -> 1 -> NULL.
+size = 8 : 0 -> 1 -> 1 -> 2 -> 3 -> 4 -> 7 -> 8 -> NULL.
+0,1,1,2,3,4,7,8
+size = 0 : NULL.
+size = 6 : 1 -> 2 -> 3 -> 4 -> 7 -> 8 -> NULL.
+size = 5 : 1 -> 2 -> 4 -> 7 -> 8 -> NULL.
+size = 4 : 1 -> 2 -> 7 -> 8 -> NULL.
+size = 3 : 1 -> 2 -> 7 -> NULL.
+size = 2 : 1 -> 7 -> NULL.
+size = 1 : 1 -> NULL.
+size = 1 : 1 -> NULL.
+size = 0 : NULL.
+
+
+String test below
+size = 0 : NULL.
+size = 1 : abc -> NULL.
+size = 0 : NULL.
+size = 2 : abc -> pqr -> NULL.
+size = 2 : abc -> pqr -> NULL.
+size = 2 : abc -> pqr -> NULL.
+size = 2 : abc -> pqr -> NULL.
+size = 2 : abc -> pqr -> NULL.
+mark1
+abc,pqr
+size = 3 : abc -> abc -> pqr -> NULL.
+size = 2 : abc -> pqr -> NULL.
+size = 0 : NULL.
+Painting(#77654,p1,10,20). 
+Painting(#77655,p2,12,30). 
+Painting(#77656,p1,20,11). 
+Painting(#77657,p1,10,20). 
+size = 4 : Painting(#77654,p1,10,20).  -> Painting(#77655,p2,12,30).  -> Painting(#77656,p1,20,11).  -> Painting(#77657,p1,10,20).  -> NULL.
+
+
+Artist
+Artist[agarwal,ritesh >>> 5 Paintings(size = 5 : Painting(#77658,p1,10,20).  -> Painting(#77659,p2,12,30).  -> Painting(#77660,p1,20,11).  -> Painting(#77661,p1,10,20).  -> Painting(#77662,p1,10,20).  -> NULL.) ].
+Artist[agarwal,ritesh >>> 5 Paintings(size = 5 : Painting(#77658,p1,10,20).  -> Painting(#77659,p2,12,30).  -> Painting(#77660,p1,20,11).  -> Painting(#77661,p1,10,20).  -> Painting(#77662,p1,10,20).  -> NULL.) ].
+Artist[agarwal,ritesh >>> 5 Paintings(size = 5 : Painting(#77658,p1,10,20).  -> Painting(#77659,p2,12,30).  -> Painting(#77660,p1,20,11).  -> Painting(#77661,p1,10,20).  -> Painting(#77662,p1,10,20).  -> NULL.) ].
+Artist[agarwal,ritesh >>> 5 Paintings(size = 5 : Painting(#77658,p1,10,20).  -> Painting(#77659,p2,12,30).  -> Painting(#77660,p1,20,11).  -> Painting(#77661,p1,10,20).  -> Painting(#77662,p1,10,20).  -> NULL.) ].
+Artist[agarwal,ritesh >>> 5 Paintings(size = 5 : Painting(#77658,p1,10,20).  -> Painting(#77659,p2,12,30).  -> Painting(#77660,p1,20,11).  -> Painting(#77661,p1,10,20).  -> Painting(#77662,p1,10,20).  -> NULL.) ].
+size = 1 : Artist[agarwal,ritesh >>> 10 Paintings(size = 10 : Painting(#77658,p1,10,20).  -> Painting(#77659,p2,12,30).  -> Painting(#77660,p1,20,11).  -> Painting(#77661,p1,10,20).  -> Painting(#77662,p1,10,20).  -> Painting(#77663,p1,10,20).  -> Painting(#77664,p1,10,20).  -> Painting(#77665,p2,12,30).  -> Painting(#77666,p1,20,11).  -> Painting(#77667,p1,10,20).  -> NULL.) ]. -> NULL.
+Artist[agarwal,ritesh >>> 10 Paintings(size = 10 : Painting(#77658,p1,10,20).  -> Painting(#77659,p2,12,30).  -> Painting(#77660,p1,20,11).  -> Painting(#77661,p1,10,20).  -> Painting(#77662,p1,10,20).  -> Painting(#77663,p1,10,20).  -> Painting(#77664,p1,10,20).  -> Painting(#77665,p2,12,30).  -> Painting(#77666,p1,20,11).  -> Painting(#77667,p1,10,20).  -> NULL.) ].

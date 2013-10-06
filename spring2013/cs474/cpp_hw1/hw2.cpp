@@ -37,9 +37,13 @@ int main (int argc, char *argv[])
     linked_list_t<string_t> people;
 
     people.add_first(j1);
-    people.add_first(j2);
-    people.add_first(j3);
-    people.add_first(j4);
+//    people.add_first(j2);
+//    people.add_first(j3);
+//    people.add_first(j4);
+    assert(system.add_painting_potrait("pP","agarwal","ritesh",15,23,people));
+    cout<<system<<endl;
+
+    return 0;
 
     assert(system.add_artist("agarwal","ritesh"));
     assert(!system.add_artist("agarwal","ritesh"));

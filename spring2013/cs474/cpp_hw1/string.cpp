@@ -132,7 +132,7 @@ bool string_t::operator>=(const string_t& str) const
 
 const string_t & string_t::vcopy() const
 {
-    //return *(new string_t(*this));
+    return *(new string_t(*this));
     return *this;
 }
 

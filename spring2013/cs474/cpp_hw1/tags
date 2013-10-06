@@ -1,0 +1,151 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+ARTIST_H	artist.h	20;"	d
+CC	Makefile	/^CC=g++$/;"	m
+CERROR	Makefile	/^CERROR=foo$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-Wall -g$/;"	m
+GREATER	string.cpp	120;"	d	file:
+GREATER_EQUAL	string.cpp	127;"	d	file:
+LANDSCAPE_H	landscape.h	21;"	d
+LESS_EQUAL	artist.cpp	105;"	d	file:
+LESS_EQUAL	painting.cpp	63;"	d	file:
+LESS_EQUAL	string.cpp	113;"	d	file:
+LINKED_LIST_CPP	linked_list.cpp	20;"	d	file:
+LINKED_LIST_H	linked_list.h	20;"	d
+NOT_EQUAL	string.cpp	94;"	d	file:
+OIL_COLORS	hw2.cpp	30;"	d	file:
+PAINTING_H	painting.h	20;"	d
+PAINTING_MANAGER	painting_manager.h	20;"	d
+PLUS_EQUALS	string.cpp	76;"	d	file:
+POTRAIT_H	potrait.h	21;"	d
+STILL_LIFE_H	still_life.h	21;"	d
+STRING_H	string.h	20;"	d
+WATER_COLORS	hw2.cpp	29;"	d	file:
+_next	linked_list.h	/^                node_t *_next;$/;"	m	class:linked_list_t::node_t
+_val	linked_list.h	/^                const item_t &_val;$/;"	m	class:linked_list_t::node_t
+abstract_class	i.cpp	/^class abstract_class$/;"	c	file:
+add_artist	painting_manager.cpp	/^bool painting_manager_t::add_artist(string_t artist_last_name, string_t artist_first_name)$/;"	f	class:painting_manager_t
+add_first	linked_list.cpp	/^void linked_list_t<item_t>::add_first(const item_t &item)$/;"	f	class:linked_list_t
+add_painting	painting_manager.cpp	/^bool painting_manager_t::add_painting(string_t title, string_t  artist_last_name, string_t artist_first_name, unsigned int height, unsigned int width)$/;"	f	class:painting_manager_t
+add_painting_landscape	painting_manager.cpp	/^bool painting_manager_t::add_painting_landscape(string_t title, string_t  artist_last_name, string_t artist_first_name, unsigned int height, unsigned int width, string_t country)$/;"	f	class:painting_manager_t
+add_painting_potrait	painting_manager.cpp	/^bool painting_manager_t::add_painting_potrait(string_t title, string_t  artist_last_name, string_t artist_first_name, unsigned int height, unsigned int width, linked_list_t<string_t> &people)$/;"	f	class:painting_manager_t
+add_painting_still_life	painting_manager.cpp	/^bool painting_manager_t::add_painting_still_life(string_t title, string_t  artist_last_name, string_t artist_first_name, unsigned int height, unsigned int width, int color_type)$/;"	f	class:painting_manager_t
+add_priority	linked_list.cpp	/^void linked_list_t<item_t>::add_priority(const item_t &item)$/;"	f	class:linked_list_t
+allocate_and_copy_from_cstring	string.cpp	/^void string_t::allocate_and_copy_from_cstring(const char * const str)$/;"	f	class:string_t
+allocate_and_copy_from_string	string.cpp	/^void string_t::allocate_and_copy_from_string(const string_t &str)$/;"	f	class:string_t
+artist	painting.h	/^        const artist_t &artist;$/;"	m	class:painting_t
+artist_add_painting	artist.cpp	/^void artist_t::artist_add_painting(const painting_t &painting)$/;"	f	class:artist_t
+artist_add_painting_landscape	artist.cpp	/^void artist_t::artist_add_painting_landscape(const landscape_t &landscape)$/;"	f	class:artist_t
+artist_add_painting_potrait	artist.cpp	/^void artist_t::artist_add_painting_potrait(const potrait_t &potrait)$/;"	f	class:artist_t
+artist_add_painting_still_life	artist.cpp	/^void artist_t::artist_add_painting_still_life(const still_life_t &still_life)$/;"	f	class:artist_t
+artist_list	painting_manager.h	/^        linked_list_t<artist_t> artist_list;$/;"	m	class:painting_manager_t
+artist_remove_painting	artist.cpp	/^bool artist_t::artist_remove_painting(const painting_t &painting)$/;"	f	class:artist_t
+artist_search_painting	artist.cpp	/^const painting_t * artist_t::artist_search_painting(const painting_t &painting) const$/;"	f	class:artist_t
+artist_t	artist.cpp	/^artist_t::artist_t(const artist_t &artist):painting_list(artist.painting_list),last_name(artist.last_name),first_name(artist.first_name)$/;"	f	class:artist_t
+artist_t	artist.cpp	/^artist_t::artist_t(const string_t& last_name, $/;"	f	class:artist_t
+artist_t	artist.h	/^class artist_t{$/;"	c
+clear_artist	painting_manager.cpp	/^bool painting_manager_t::clear_artist(string_t artist_last_name, string_t artist_first_name)$/;"	f	class:painting_manager_t
+cnt_artist	painting_manager.h	/^        unsigned int cnt_artist;$/;"	m	class:painting_manager_t
+cnt_paintings	artist.h	/^        unsigned int cnt_paintings;$/;"	m	class:artist_t
+color_type	still_life.h	/^    string_t color_type;$/;"	m	class:still_life_t
+copy_artist	painting_manager.cpp	/^bool painting_manager_t::copy_artist(string_t artist_last_name, string_t artist_first_name, string_t artist_last_name_new, string_t artist_first_name_new)$/;"	f	class:painting_manager_t
+country	landscape.h	/^    string_t country;$/;"	m	class:landscape_t
+deleteAll	linked_list.cpp	/^void linked_list_t<item_t>::deleteAll()$/;"	f	class:linked_list_t
+delete_all_paintings	artist.cpp	/^void artist_t::delete_all_paintings()$/;"	f	class:artist_t
+display	landscape.h	/^    void display() const$/;"	f	class:landscape_t
+display	painting.cpp	/^void painting_t::display() const$/;"	f	class:painting_t
+display	potrait.h	/^    void display() const$/;"	f	class:potrait_t
+display	still_life.h	/^    void display() const$/;"	f	class:still_life_t
+empty	linked_list.cpp	/^inline bool linked_list_t<item_t>::empty()$/;"	f	class:linked_list_t
+first_name	artist.h	/^        const string_t first_name;$/;"	m	class:artist_t
+first_node	linked_list.h	/^        }*first_node;$/;"	m	class:linked_list_t
+get_cnt_artist	painting_manager.cpp	/^unsigned int painting_manager_t::get_cnt_artist() const$/;"	f	class:painting_manager_t
+get_cnt_paintings	artist.cpp	/^unsigned int artist_t::get_cnt_paintings() const$/;"	f	class:artist_t
+get_size	linked_list.cpp	/^unsigned int linked_list_t<item_t>::get_size()$/;"	f	class:linked_list_t
+height	painting.h	/^        const int height;$/;"	m	class:painting_t
+id	painting.h	/^        const int id;$/;"	m	class:painting_t
+landscape_t	landscape.h	/^    landscape_t(const landscape_t & landscape):painting_t(landscape), country(landscape.country){$/;"	f	class:landscape_t
+landscape_t	landscape.h	/^    landscape_t(string_t title,$/;"	f	class:landscape_t
+landscape_t	landscape.h	/^class landscape_t:public painting_t {$/;"	c
+last_name	artist.h	/^        const string_t last_name;$/;"	m	class:artist_t
+linked_list_t	linked_list.cpp	/^linked_list_t<item_t>::linked_list_t()$/;"	f	class:linked_list_t
+linked_list_t	linked_list.cpp	/^linked_list_t<item_t>::linked_list_t(const linked_list_t &list)$/;"	f	class:linked_list_t
+linked_list_t	linked_list.h	/^class linked_list_t{$/;"	c
+main	a.cpp	/^int main (int argc, char *argv[])$/;"	f
+main	hw2.cpp	/^int main (int argc, char *argv[])$/;"	f
+main	i.cpp	/^int main (int argc, char *argv[])$/;"	f
+main	test_linked_list.cpp	/^int main (int argc, char *argv[])$/;"	f
+main	test_string.cpp	/^int main (int argc, char *argv[])$/;"	f
+main	test_string_conv.cpp	/^int main (int argc, char *argv[])$/;"	f
+next	linked_list.h	/^                node_t * next() { return _next;}$/;"	f	class:linked_list_t::node_t
+next	linked_list.h	/^                void next(node_t *node) {_next = node;}$/;"	f	class:linked_list_t::node_t
+node_t	linked_list.h	/^                node_t(const item_t& item):_val(item) { _next = NULL; }$/;"	f	class:linked_list_t::node_t
+node_t	linked_list.h	/^        class node_t$/;"	c	class:linked_list_t
+operator !=	string.cpp	/^bool string_t::operator!=(const string_t& str) const$/;"	f	class:string_t
+operator +	string.cpp	/^string_t string_t::operator+(const string_t& str) const$/;"	f	class:string_t
+operator +=	string.cpp	/^string_t& string_t::operator+=(const string_t& str)$/;"	f	class:string_t
+operator <	artist.cpp	/^bool artist_t::operator <(const artist_t& artist) const$/;"	f	class:artist_t
+operator <	painting.cpp	/^bool painting_t::operator<(const painting_t& painting) const$/;"	f	class:painting_t
+operator <	string.cpp	/^bool string_t::operator<(const string_t& str) const$/;"	f	class:string_t
+operator <<	artist.cpp	/^ostream& operator<<(ostream &cout, const artist_t &artist)$/;"	f
+operator <<	linked_list.cpp	/^ostream& operator<<(ostream& cout, const linked_list_t<item_t>& list)$/;"	f
+operator <<	painting.cpp	/^ostream& operator<<(ostream &cout, const painting_t &painting)$/;"	f
+operator <<	painting_manager.cpp	/^ostream& operator<<(ostream& cout, const painting_manager_t& painting_manager)$/;"	f
+operator <<	string.cpp	/^ostream& operator<<(ostream& cout, const string_t& str)$/;"	f
+operator <=	artist.cpp	/^bool artist_t::operator <=(const artist_t& artist) const$/;"	f	class:artist_t
+operator <=	painting.cpp	/^bool painting_t::operator<=(const painting_t& painting) const$/;"	f	class:painting_t
+operator <=	string.cpp	/^bool string_t::operator<=(const string_t& str) const$/;"	f	class:string_t
+operator =	string.cpp	/^string_t& string_t::operator=(const string_t& str)$/;"	f	class:string_t
+operator ==	artist.cpp	/^bool artist_t::operator ==(const artist_t& artist) const$/;"	f	class:artist_t
+operator ==	painting.cpp	/^bool painting_t::operator==(const painting_t& painting) const$/;"	f	class:painting_t
+operator ==	string.cpp	/^bool string_t::operator==(const string_t& str) const$/;"	f	class:string_t
+operator >	string.cpp	/^bool string_t::operator>(const string_t& str) const$/;"	f	class:string_t
+operator >=	string.cpp	/^bool string_t::operator>=(const string_t& str) const$/;"	f	class:string_t
+operator >>	string.cpp	/^istream& operator>>(istream& cin, string_t& str)$/;"	f
+operator []	linked_list.cpp	/^const item_t* linked_list_t<item_t>::operator[](unsigned int idx)$/;"	f	class:linked_list_t
+painting_list	artist.h	/^        linked_list_t<painting_t> painting_list;$/;"	m	class:artist_t
+painting_manager_t	painting_manager.cpp	/^painting_manager_t::painting_manager_t()$/;"	f	class:painting_manager_t
+painting_manager_t	painting_manager.h	/^class painting_manager_t{$/;"	c
+painting_t	painting.cpp	/^painting_t::painting_t(const painting_t &painting):artist(painting.artist),$/;"	f	class:painting_t
+painting_t	painting.cpp	/^painting_t::painting_t(const string_t &title, $/;"	f	class:painting_t
+painting_t	painting.h	/^class painting_t{$/;"	c
+people	potrait.h	/^    linked_list_t <string_t> people;$/;"	m	class:potrait_t
+potrait_t	potrait.h	/^    potrait_t(const potrait_t & potrait):painting_t(potrait), people(potrait.people){$/;"	f	class:potrait_t
+potrait_t	potrait.h	/^    potrait_t(string_t title,$/;"	f	class:potrait_t
+potrait_t	potrait.h	/^class potrait_t:public painting_t {$/;"	c
+remove	linked_list.cpp	/^bool linked_list_t<item_t>::remove(const item_t &item)$/;"	f	class:linked_list_t
+remove_first	linked_list.cpp	/^bool linked_list_t<item_t>::remove_first()$/;"	f	class:linked_list_t
+remove_painting	painting_manager.cpp	/^bool painting_manager_t::remove_painting(int id)$/;"	f	class:painting_manager_t
+search	linked_list.cpp	/^const item_t* linked_list_t<item_t>::search(const item_t &item) const$/;"	f	class:linked_list_t
+search_artist	painting_manager.cpp	/^const artist_t* painting_manager_t::search_artist(const artist_t &artist)$/;"	f	class:painting_manager_t
+size	linked_list.h	/^        unsigned int size;$/;"	m	class:linked_list_t
+size	string.h	/^        unsigned int size;$/;"	m	class:string_t
+still_life_t	still_life.h	/^    still_life_t(const still_life_t & still_life):painting_t(still_life), color_type(still_life.color_type){$/;"	f	class:still_life_t
+still_life_t	still_life.h	/^    still_life_t(string_t title,$/;"	f	class:still_life_t
+still_life_t	still_life.h	/^class still_life_t:public painting_t {$/;"	c
+string_t	string.cpp	/^string_t::string_t()$/;"	f	class:string_t
+string_t	string.cpp	/^string_t::string_t(const char * const str)$/;"	f	class:string_t
+string_t	string.cpp	/^string_t::string_t(const string_t& str)$/;"	f	class:string_t
+string_t	string.h	/^class string_t$/;"	c
+title	painting.h	/^        const string_t title;$/;"	m	class:painting_t
+unique_id	painting.cpp	/^int painting_t::unique_id = 77654;$/;"	m	class:painting_t	file:
+unique_id	painting.h	/^        static int unique_id;$/;"	m	class:painting_t
+val	linked_list.h	/^                const item_t& val() { return _val;}$/;"	f	class:linked_list_t::node_t
+value	string.h	/^        char *value;$/;"	m	class:string_t
+vcopy	landscape.h	/^    landscape_t& vcopy() const$/;"	f	class:landscape_t
+vcopy	painting.cpp	/^painting_t& painting_t::vcopy() const$/;"	f	class:painting_t
+vcopy	potrait.h	/^    potrait_t& vcopy() const$/;"	f	class:potrait_t
+vcopy	still_life.h	/^    still_life_t& vcopy() const$/;"	f	class:still_life_t
+vcopy	string.cpp	/^string_t & string_t::vcopy() const$/;"	f	class:string_t
+width	painting.h	/^        const int width;$/;"	m	class:painting_t
+~artist_t	artist.cpp	/^artist_t::~artist_t()$/;"	f	class:artist_t
+~linked_list_t	linked_list.cpp	/^linked_list_t<item_t>::~linked_list_t()$/;"	f	class:linked_list_t
+~node_t	linked_list.h	/^                ~node_t() {\/\/delete &val;\/\/responsibility of client to deallocate $/;"	f	class:linked_list_t::node_t
+~painting_manager_t	painting_manager.cpp	/^painting_manager_t::~painting_manager_t(){$/;"	f	class:painting_manager_t
+~painting_t	painting.cpp	/^painting_t::~painting_t()$/;"	f	class:painting_t
+~potrait_t	potrait.h	/^    ~potrait_t()$/;"	f	class:potrait_t
+~string_t	string.cpp	/^string_t::~string_t()$/;"	f	class:string_t

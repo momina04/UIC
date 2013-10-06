@@ -1,0 +1,26 @@
+==27053== Memcheck, a memory error detector
+==27053== Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.
+==27053== Using Valgrind-3.7.0 and LibVEX; rerun with -h for copyright info
+==27053== Command: ./hw2
+==27053== 
+==27053== 
+==27053== HEAP SUMMARY:
+==27053==     in use at exit: 13 bytes in 2 blocks
+==27053==   total heap usage: 32 allocs, 30 frees, 293 bytes allocated
+==27053== 
+==27053== 13 (8 direct, 5 indirect) bytes in 1 blocks are definitely lost in loss record 2 of 2
+==27053==    at 0x402B9B4: operator new(unsigned int) (in /usr/lib/valgrind/vgpreload_memcheck-x86-linux.so)
+==27053==    by 0x804BD3B: string_t::vcopy() const (string.cpp:135)
+==27053==    by 0x8048E12: linked_list_t<string_t>::linked_list_t(linked_list_t<string_t> const&) (linked_list.cpp:49)
+==27053==    by 0x804AE0F: painting_manager_t::add_painting_potrait(string_t, string_t, string_t, unsigned int, unsigned int, linked_list_t<string_t>) (painting_manager.cpp:145)
+==27053==    by 0x8048B68: main (hw2.cpp:43)
+==27053== 
+==27053== LEAK SUMMARY:
+==27053==    definitely lost: 8 bytes in 1 blocks
+==27053==    indirectly lost: 5 bytes in 1 blocks
+==27053==      possibly lost: 0 bytes in 0 blocks
+==27053==    still reachable: 0 bytes in 0 blocks
+==27053==         suppressed: 0 bytes in 0 blocks
+==27053== 
+==27053== For counts of detected and suppressed errors, rerun with: -v
+==27053== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
