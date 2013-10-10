@@ -1,5 +1,0 @@
-ring_minimum1.c: In function ‘read_input’:
-ring_minimum1.c:15:5: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
-ring_minimum1.c:15:11: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
-ring_minimum1.c:19:9: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
-ring_minimum1.c:19:9: warning: incompatible implicit declaration of built-in function ‘exit’ [enabled by default]

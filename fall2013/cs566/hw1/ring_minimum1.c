@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
         /* Let Process with Rank 0, initialize the array. */
         for(int i=0; i<8; i++)
         {
-            array[i]=i+1;
+            array[i]=i+2;
         }
     }
 
