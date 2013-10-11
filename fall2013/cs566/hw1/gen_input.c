@@ -33,6 +33,7 @@ int main(int argc, char *argv[]) {
     no = rand()%100 + 1;
     printf("%d ", no);
   }
+  printf("\n");
  
   return 0;
 }
