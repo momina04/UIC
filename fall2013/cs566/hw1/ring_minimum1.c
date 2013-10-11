@@ -1,4 +1,5 @@
 #include <mpi.h>
+#include <stdlib.h>
 #include <stdio.h>
 
 /* 
@@ -32,26 +33,18 @@ void read_input(int **array_in, int *n_in)
 int main(int argc, char *argv[])
 {
     int id, p, n; /* id = rank of processor, p = no. of processes, n = no. of numbers */
-    int array[30];
-   // int *array = NULL;
+    int *array = NULL ;
     MPI_Status status;
     int numbers[2];
-    printf("checkpoint0\n");
-    fflush(stdout);
-    //read_input(&array, &n);
+
 
 
     MPI_Init(&argc, &argv);
     MPI_Comm_size(MPI_COMM_WORLD, &p);
     MPI_Comm_rank(MPI_COMM_WORLD, &id);
-    printf("checkpoint1\n");
 
-    if(id==0){
-        /* Let Process with Rank 0, initialize the array. */
-        for(int i=0; i<8; i++)
-        {
-            array[i]=i+2;
-        }
+    if(id == 0){
+        read_input(&array, &n);
     }
 
     /* Scatter Data to processors */
@@ -69,8 +62,9 @@ int main(int argc, char *argv[])
     printf("ID : %d, No. of Processes: %d, no1 = %d, no2 = %d\n",id, p, no1, no2);
 
 
-    //if(array!=NULL)
-    //   
+    if(id==0)
+        free(array);
+
     MPI_Finalize();
     return 0;
 }
