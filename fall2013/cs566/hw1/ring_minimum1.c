@@ -42,6 +42,7 @@ int main(int argc, char *argv[])
     MPI_Init(&argc, &argv);
     MPI_Comm_size(MPI_COMM_WORLD, &p);
     MPI_Comm_rank(MPI_COMM_WORLD, &id);
+    printf("---ID : %d, No. of Processes: %d\n",id, p);
 
     if(id == 0){
         read_input(&array, &n);
@@ -55,12 +56,35 @@ int main(int argc, char *argv[])
                 MPI_COMM_WORLD);
 
 
+
     int no1, no2;
     no1 = numbers[0];
     no2 = numbers[1];
 
     printf("ID : %d, No. of Processes: %d, no1 = %d, no2 = %d\n",id, p, no1, no2);
 
+    MPI_Gather(&no1, 1 /* everyone sends 1 byte to root */, MPI_INT, 
+                array, 1 /* root receives 1 byte from everyone */, MPI_INT, 0 /* id of root node */,
+                MPI_COMM_WORLD);
+
+
+    if(id == 0 )
+    {
+        printf("Gather at root(no1): ");
+        for(int i=0;i<p; i++)
+            printf("%d,",array[i]);
+    }
+    printf("\b.\n");
+
+    int min_no;
+    MPI_Reduce(&no2 /* everyone sends 1 byte to root */, &min_no /* root receives 1 byte from everyone and applies reduction operation on the way*/ ,1 /*1 byte */, MPI_INT, 
+               MPI_MIN , 0 /* id of root node */, MPI_COMM_WORLD);
+
+
+    if(id == 0 )
+    {
+        printf("Min Reduce at root(no2) = %d\n", min_no);
+    }
 
     if(id==0)
         free(array);
