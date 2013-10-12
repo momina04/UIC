@@ -11,12 +11,14 @@ clean:
 	 ssh ragarw8@argo.cc.uic.edu "touch mpi_stdout; touch mpi_stderr; rm mpi_std*; touch mpi_stdout; touch mpi_stderr; touch mpi.o; rm mpi.o; touch input; rm input"
 
 upload: ring_minimum1.c script.sh input_gen
-	scp ring_minimum1.c ragarw8@argo.cc.uic.edu:~
+	scp *.c ragarw8@argo.cc.uic.edu:~
+	#scp ring_minimum1.c ragarw8@argo.cc.uic.edu:~
 	scp script.sh ragarw8@argo.cc.uic.edu:~
 	scp input ragarw8@argo.cc.uic.edu:~
 
-compile: ring_minimum1.c
-	ssh ragarw8@argo.cc.uic.edu /usr/common/mpich2/bin/mpicc ring_minimum1.c  -o mpi.o -std=gnu99 2>foo
+compile: ring_minimum1.c hw1-ring.c
+	#ssh ragarw8@argo.cc.uic.edu /usr/common/mpich2/bin/mpicc ring_minimum1.c  -o mpi.o -std=gnu99 2>foo
+	ssh ragarw8@argo.cc.uic.edu /usr/common/mpich2/bin/mpicc hw1-ring.c  -o mpi.o -std=gnu99 2>foo
 
 submit: input_gen
 	@echo "N=$(N), P=$(P), K=$(K)"

@@ -30,7 +30,7 @@ int main(int argc, char *argv[]) {
  
  
   for (c = 1; c <= n; c++) {
-    no = rand()%100 + 1;
+    no = rand()%200 + 1;
     printf("%d ", no);
   }
   printf("\n");
