@@ -44,16 +44,32 @@ int main(int argc, char *argv[])
     MPI_Comm_rank(MPI_COMM_WORLD, &id);
     printf("---ID : %d, No. of Processes: %d\n",id, p);
 
+    int dims[]={p};
+    int periods[]={1 /* true */ };
+    int reorder = 1 /* false */;
+    MPI_Comm ring_comm;
+
+    if(MPI_Cart_create(MPI_COMM_WORLD, 1,  dims, periods, reorder, &ring_comm) < 0){
+        perror("Error 0rhtes\n");
+        MPI_Finalize();
+    }
+    int old_id;
+
+    MPI_Comm_rank(MPI_COMM_WORLD, &old_id);
+    MPI_Comm_rank(ring_comm, &id);
+    printf("Checkpoint1 - id %d, %d\n",id,old_id);
+
     if(id == 0){
         read_input(&array, &n);
     }
+
 
     /* Scatter Data to processors */
     /* Root node will send data whereas 
      * Others will receive */
     MPI_Scatter(array, 2 /*Send 2 bytes to everyone */, MPI_INT, 
                 numbers, 2 /* Receive 2 bytes from root */, MPI_INT, 0 /* id of root node */,
-                MPI_COMM_WORLD);
+                ring_comm);
 
 
 
@@ -65,7 +81,7 @@ int main(int argc, char *argv[])
 
     MPI_Gather(&no1, 1 /* everyone sends 1 byte to root */, MPI_INT, 
                 array, 1 /* root receives 1 byte from everyone */, MPI_INT, 0 /* id of root node */,
-                MPI_COMM_WORLD);
+                ring_comm);
 
 
     if(id == 0 )
@@ -78,7 +94,7 @@ int main(int argc, char *argv[])
 
     int min_no;
     MPI_Reduce(&no2 /* everyone sends 1 byte to root */, &min_no /* root receives 1 byte from everyone and applies reduction operation on the way*/ ,1 /*1 byte */, MPI_INT, 
-               MPI_MIN , 0 /* id of root node */, MPI_COMM_WORLD);
+               MPI_MIN , 0 /* id of root node */, ring_comm);
 
 
     if(id == 0 )
