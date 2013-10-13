@@ -17,8 +17,8 @@ upload: ring_minimum1.c script.sh input_gen
 	scp input ragarw8@argo.cc.uic.edu:~
 
 compile: ring_minimum1.c hw1-ring.c
-	#ssh ragarw8@argo.cc.uic.edu /usr/common/mpich2/bin/mpicc ring_minimum1.c  -o mpi.o -std=gnu99 2>foo
-	ssh ragarw8@argo.cc.uic.edu /usr/common/mpich2/bin/mpicc hw1-ring.c  -o mpi.o -std=gnu99 2>foo
+	#ssh ragarw8@argo.cc.uic.edu /usr/common/mpich2/bin/mpicc ring_minimum1.c  -o mpi.o -std=gnu99 -lm 2>foo
+	ssh ragarw8@argo.cc.uic.edu /usr/common/mpich2/bin/mpicc hw1-ring.c  -o mpi.o -std=gnu99 -lm 2>foo
 
 submit: input_gen
 	@echo "N=$(N), P=$(P), K=$(K)"

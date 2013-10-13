@@ -5,6 +5,26 @@
 
 int id, p; /* id = rank of processor, p = no. of processes */
 
+typedef struct work_t{
+    int no1, no2;
+}work_t;
+
+typedef struct work_result_t{
+    int min_no;
+}work_result_t;
+
+
+void do_work(work_t work, work_result_t *work_result)
+{
+    int no1, no2;
+
+    no1 = work.no1;
+    no2 = work.no2;
+
+    work_result->min_no = no1 < no2? no1: no2;
+    return ;
+}/* do_work */
+
 /* 
  * ===  FUNCTION  ======================================================================
  *         Name:  read_input(int **array_in, int *n)
@@ -58,13 +78,19 @@ void master(MPI_Comm ring_comm)
                     numbers, 2 /* Receive 2 bytes from self */, MPI_INT, 0 /* id of root node */,
                     ring_comm);
 
-        int no1, no2;
-        no1 = numbers[0];
-        no2 = numbers[1];
+
+
+        work_t work;
+        work_result_t work_result;
+
+        work.no1 = numbers[0];
+        work.no2 = numbers[1];
 
         int min_no;
 
-        min_no = no1<no2?no1:no2;
+        do_work(work, &work_result);
+
+        min_no = work_result.min_no;
 
         MPI_Reduce(&min_no, &lowest_no /* root receives 1 number from everyone and applies reduction operation on the way*/ ,1 /*1 number */, MPI_INT, 
                 MPI_MIN , 0 /* id of root node */,
@@ -102,12 +128,11 @@ void slave(MPI_Comm ring_comm)
                     numbers, 2 /* Receive 2 bytes from root */, MPI_INT, 0 /* id of root node */,
                     ring_comm);
 
-        int no1, no2;
-        no1 = numbers[0];
-        no2 = numbers[1];
-
         int min_no;
-        min_no = no1<no2?no1:no2;
+        work_t work;
+        work_result_t work_result;
+        do_work(work, &work_result);
+        min_no = work_result.min_no;
 
         /* Slaves send the minimum of two numbers */
         MPI_Reduce(&min_no /* everyone sends 1 number to root */, NULL ,1 /* 1 number */, MPI_INT, 
@@ -148,6 +173,7 @@ int main(int argc, char *argv[])
     else{
         slave(ring_comm);
     }
+
 
     MPI_Finalize();
     return 0;
