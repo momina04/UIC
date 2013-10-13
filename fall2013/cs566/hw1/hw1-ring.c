@@ -130,6 +130,8 @@ void slave(MPI_Comm ring_comm)
 
         int min_no;
         work_t work;
+        work.no1 = numbers[0];
+        work.no2 = numbers[1];
         work_result_t work_result;
         do_work(work, &work_result);
         min_no = work_result.min_no;
@@ -147,6 +149,7 @@ int main(int argc, char *argv[])
 {
     MPI_Status status;
 
+    double start_time, end_time;
 
 
     MPI_Init(&argc, &argv);
@@ -167,6 +170,9 @@ int main(int argc, char *argv[])
 
     MPI_Comm_rank(ring_comm, &id);
 
+    MPI_Barrier(ring_comm);
+    start_time = MPI_Wtime();
+
     if(id == 0){
         master(ring_comm);
     }
@@ -174,6 +180,13 @@ int main(int argc, char *argv[])
         slave(ring_comm);
     }
 
+
+    MPI_Barrier(ring_comm);
+    end_time = MPI_Wtime();
+
+
+    if(id == 0)
+        printf("Total time taken by parallel algorithm = %.6f\n", (end_time - start_time));
 
     MPI_Finalize();
     return 0;
