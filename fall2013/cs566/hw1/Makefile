@@ -17,8 +17,8 @@ upload: ring_minimum1.c script.sh input_gen
 
 compile: ring_minimum1.c hw1-ring.c
 	#ssh ragarw8@argo.cc.uic.edu /usr/common/mpich2/bin/mpicc ring_minimum1.c  -o mpi.o -std=gnu99 -lm 2>foo
-	@ssh ragarw8@argo.cc.uic.edu /usr/common/mpich2/bin/mpicc hw1-ring.c  -o mpi.o -std=gnu99 -lm 2>foo
-	#@ssh ragarw8@argo.cc.uic.edu /usr/common/mpich2/bin/mpicc hw1-hypercube.c  -o mpi.o -std=gnu99 -lm 2>foo
+	#@ssh ragarw8@argo.cc.uic.edu /usr/common/mpich2/bin/mpicc hw1-ring.c  -o mpi.o -std=gnu99 -lm 2>foo
+	@ssh ragarw8@argo.cc.uic.edu /usr/common/mpich2/bin/mpicc hw1-hypercube-method2.c  -o mpi.o -std=gnu99 -lm 2>foo
 
 submit: input_gen
 	@scp input ragarw8@argo.cc.uic.edu:~
@@ -31,8 +31,8 @@ submit: input_gen
 
 tail:
 	#@ssh ragarw8@argo.cc.uic.edu tail --retry mpi_std*
-	ssh argo.cc.uic.edu 'while [ ! -s mpi_stdout ];   do   printf "" ; done; cat mpi_stdout'
-	ssh argo.cc.uic.edu 'echo $(N) $(K) $(P) `cat mpi_stdout|tail -1|cut -f 8 -d " "`' >> result_file_ring
+	ssh argo.cc.uic.edu 'while [ ! -s mpi_stdout ];   do   printf "" ; done'
+	ssh argo.cc.uic.edu 'echo $(N) $(K) $(P) `cat mpi_stdout|tail -1|cut -f 8 -d " "`' >> result_file_hypercube
 cat:
 	@ssh ragarw8@argo.cc.uic.edu cat mpi_std*
 	@echo "[CAT'ED]"
