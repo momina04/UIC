@@ -164,7 +164,7 @@ int main(int argc, char *argv[])
 
     MPI_Comm_rank(ring_comm, &id);
 
-    MPI_Barrier(ring_comm);
+    MPI_Barrier(MPI_COMM_WORLD);
     start_time = MPI_Wtime();
 
     if(id == 0){
@@ -175,7 +175,7 @@ int main(int argc, char *argv[])
     }
 
 
-    MPI_Barrier(ring_comm);
+    MPI_Barrier(MPI_COMM_WORLD);
     end_time = MPI_Wtime();
 
 

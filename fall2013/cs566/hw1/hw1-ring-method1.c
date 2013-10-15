@@ -6,8 +6,7 @@
 int id, p; /* id = rank of processor, p = no. of processes */
 
 typedef struct work_t{
-    int *numbers;
-    int n;
+    int no1, no2;
 }work_t;
 
 typedef struct work_result_t{
@@ -17,15 +16,12 @@ typedef struct work_result_t{
 
 void do_work(work_t work, work_result_t *work_result)
 {
-    int min;
+    int no1, no2;
 
-    min = work.numbers[0];
-    for(int i=1; i<work.n; i++){
-        if(work.numbers[i] < min) 
-            min = work.numbers[i];
-    }
+    no1 = work.no1;
+    no2 = work.no2;
 
-    work_result->min_no = min;
+    work_result->min_no = no1 < no2? no1: no2;
     return ;
 }/* do_work */
 
@@ -63,40 +59,55 @@ void master(MPI_Comm ring_comm)
     int n;
     int *array = NULL;
     int *subarray = NULL;
-    int *numbers;
+    int numbers[2];
     int lowest_no = 0;
     int lowest_no_so_far = 0;
 
     read_input(&array, &n);
 
-
     /* Let the slaves know too how many numbers we have to work on. */
     MPI_Bcast(&n /* Bcast n to everyone */, 1, MPI_INT, 0, ring_comm);
 
-    numbers = malloc(sizeof(int) * (n/p));
-    /* Scatter Data to processors including self */
-    MPI_Scatter(array, n/p  /*Send n/p numbers to everyone from array */, MPI_INT, 
-                numbers, n/p /* Receive n/p numbers from self */, MPI_INT, 0 /* id of root node */,
+    lowest_no_so_far = array[0]; /* Assume the first number is the lowest */
+    subarray = array;
+
+    for(int i=0; i<floorf((float)n/(2*p)); i++){
+
+        /* Scatter Data to processors including self */
+        MPI_Scatter(subarray, 2 /*Send 2 bytes to everyone from array */, MPI_INT, 
+                    numbers, 2 /* Receive 2 bytes from self */, MPI_INT, 0 /* id of root node */,
+                    ring_comm);
+
+
+
+        work_t work;
+        work_result_t work_result;
+
+        work.no1 = numbers[0];
+        work.no2 = numbers[1];
+
+        int min_no;
+
+        do_work(work, &work_result);
+
+        min_no = work_result.min_no;
+
+        MPI_Reduce(&min_no, &lowest_no /* root receives 1 number from everyone and applies reduction operation on the way*/ ,1 /*1 number */, MPI_INT, 
+                MPI_MIN , 0 /* id of root node */,
                 ring_comm);
 
-    work_t work;
-    work_result_t work_result;
+        if(lowest_no < lowest_no_so_far) lowest_no_so_far = lowest_no;
 
-    work.n = n/p;
-    work.numbers = numbers;
+        //printf("Min [ ");
+        for(int j=0; j<p*2; j+=2){
+            //printf("(%d, %d) ,",subarray[j], subarray[j+1]);
+        }
+        //printf("\b ] = %d.\n", lowest_no);
+        //printf("Lowest no so far is %d\n", lowest_no_so_far);
 
-
-    int min_no;
-
-    do_work(work, &work_result);
-
-    min_no = work_result.min_no;
-
-    MPI_Reduce(&min_no, &lowest_no /* root receives 1 number from everyone and applies reduction operation on the way*/ ,1 /*1 number */, MPI_INT, 
-            MPI_MIN , 0 /* id of root node */,
-            ring_comm);
-
-    printf("Lowest no is %d.\n", lowest_no);
+        subarray = subarray + p*2;
+    }/*for*/
+    printf("Lowest no is %d.\n", lowest_no_so_far);
 
     free(array);
     return ;
@@ -105,36 +116,31 @@ void master(MPI_Comm ring_comm)
 
 void slave(MPI_Comm ring_comm)
 {
-    int *numbers;
+    int numbers[2];
     int n;
 
     /* Receive n from root node */
     MPI_Bcast(&n /* Receive n from root */, 1 /* rx 1 number */ , MPI_INT, 0, ring_comm);
 
-    numbers = malloc(sizeof(int) * (n/p));
+    for(int i=0; i<floorf((float)n/(2*p)); i++){
+        /* Receive 2 numbers from root */
+        MPI_Scatter(NULL, 2 /*Send 2 bytes to everyone from array */, MPI_INT, 
+                    numbers, 2 /* Receive 2 bytes from root */, MPI_INT, 0 /* id of root node */,
+                    ring_comm);
 
-    /* Receive n/p numbers from root */
-    MPI_Scatter(NULL, n/p /*Send 2 bytes to everyone from array */, MPI_INT, 
-                numbers, n/p /* Receive 2 bytes from root */, MPI_INT, 0 /* id of root node */,
+        int min_no;
+        work_t work;
+        work.no1 = numbers[0];
+        work.no2 = numbers[1];
+        work_result_t work_result;
+        do_work(work, &work_result);
+        min_no = work_result.min_no;
+
+        /* Slaves send the minimum of two numbers */
+        MPI_Reduce(&min_no /* everyone sends 1 number to root */, NULL ,1 /* 1 number */, MPI_INT, 
+                MPI_MIN , 0 /* id of root node */, 
                 ring_comm);
-
-    work_t work;
-    work_result_t work_result;
-
-    work.n = n/p;
-    work.numbers = numbers;
-
-
-    int min_no;
-
-    do_work(work, &work_result);
-
-    min_no = work_result.min_no;
-
-    /* Slaves send the minimum of two numbers */
-    MPI_Reduce(&min_no /* everyone sends 1 number to root */, NULL ,1 /* 1 number */, MPI_INT, 
-            MPI_MIN , 0 /* id of root node */, 
-            ring_comm);
+    }/*for*/
 
     return ;
 }/* slave */
