@@ -31,7 +31,7 @@ submit: input_gen
 
 tail:
 	#@ssh ragarw8@argo.cc.uic.edu tail --retry mpi_std*
-	ssh argo.cc.uic.edu 'while [ ! -s mpi_stdout ];   do   printf "" ; done'
+	ssh argo.cc.uic.edu 'while [ ! -s mpi_stdout ];   do   printf "" ; done; cat mpi_stdout' >> stdout_all
 	ssh argo.cc.uic.edu 'echo $(N) $(K) $(P) `cat mpi_stdout|tail -1|cut -f 8 -d " "`' >> result_file_hypercube
 cat:
 	@ssh ragarw8@argo.cc.uic.edu cat mpi_std*

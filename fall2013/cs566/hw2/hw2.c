@@ -17,7 +17,7 @@ typedef struct work_result_t{
 
 
 
-int det(int *mat, int order)
+int LU_det(int *mat, int order)
 {
     int debug = 0;
     double cofact[order], determinant, **temp;
@@ -85,7 +85,7 @@ int det(int *mat, int order)
 void do_work(work_t work, work_result_t *work_result)
 {
     int d;
-    d = det(work.numbers, work.n);
+    d = LU_det(work.numbers, work.n);
     work_result->det = d;
     return ;
 }/* do_work */
@@ -181,8 +181,8 @@ void slave(MPI_Comm mesh_comm)
 
     numbers = malloc(sizeof(int) * (n/p));
     /* Scatter Data to processors including self */
-    MPI_Scatter(NULL, n/p  /*Send n/p numbers to everyone from array */, MPI_INT, 
-                numbers, n/p /* Receive n/p numbers from self */, MPI_INT, 0 /* id of root node */,
+    MPI_Scatter(NULL, n/p  /*Send n/p numbers from root */, MPI_INT, 
+                numbers, n/p /* Receive n/p numbers from root */, MPI_INT, 0 /* id of root node */,
                 mesh_comm);
 
     work_t work;
@@ -220,7 +220,6 @@ int main(int argc, char *argv[])
 
 
     /* Form a MESH cartesian topology */
-    printf("Procs in each dimenstion = %d\n",PROCS_PER_DIM);
 
     /* Allocate and initialize dims and periods array */
     int *dims = NULL;
@@ -251,7 +250,7 @@ int main(int argc, char *argv[])
     MPI_Comm_rank(mesh_comm, &id);
 
     if(id == 0)
-    printf("Processors(p) = %d , Dimensions(d) = %d\n", p, ndims);
+        printf("Procs in each dimenstion = %d\n", PROCS_PER_DIM);
 
     MPI_Barrier(mesh_comm);
     start_time = MPI_Wtime();
