@@ -3,27 +3,90 @@
 #include <stdio.h>
 #include <math.h>
 
-#define PROCS_PER_DIM 2
 
 int id, p; /* id = rank of processor, p = no. of processes */
 
 typedef struct work_t{
-    int no1, no2;
+    int *numbers;
+    int n;
 }work_t;
 
 typedef struct work_result_t{
-    int min_no;
+    int det;
 }work_result_t;
 
 
+
+int det(int *mat, int order)
+{
+    int debug = 0;
+    double cofact[order], determinant, **temp;
+    determinant = 0;
+    debug=0;
+
+    if(order==1)
+    {
+        determinant=mat[0*order+0];
+
+        if(debug==1)
+        {
+            printf("order 1 if\n");
+        }
+    }
+    else if(order==2)
+    {
+        determinant= ((mat[0*order+0]*mat[1*order+1])-(mat[0 * order + 1]*mat[1 * order + 0]));
+
+        if(debug==1)
+        {
+            printf("order 2 if\n");
+        }
+    }
+    else
+    {
+
+        int column, rowtemp, coltemp, colread;
+        for (column=0; column<order; column++) 
+        {
+            /* Now create an array of size N-1 to store temporary data used for calculating minors */
+            temp= malloc((order-1)*sizeof(*temp)); 
+            for(rowtemp=0; rowtemp<(order-1); rowtemp++)
+            {
+                /* Now asign each element in the array temp as an array of size N-1 itself */
+                temp[rowtemp]=malloc((order-1)*sizeof(double));
+            }
+            for(rowtemp=1; rowtemp<order; rowtemp++)
+            {
+                /* We now have our empty array, and will now fill it by assinging row and collumn values    from the original mat with the aprroriate elements excluded */
+                coltemp=0;
+                for(colread=0; colread<order; colread++)
+                {
+                    /* When the collumn of temp is equal to the collumn of the matrix, this indicates this row should be exlcuded and is skiped over */
+                    if(colread==column)
+                    {
+                        continue;
+                    }
+                    temp[rowtemp-1][coltemp] = mat[rowtemp*order+colread];
+                    coltemp++;
+                }
+
+            }
+            if(debug==1)
+            {
+                printf("column =%d, order=%d\n", column, order);
+            }
+            determinant+=(mat[0 * order + column]*(1 - 2*(column & 1))*det(temp, order-1));
+        }   
+
+    }  
+    return(determinant);   
+}
+
 void do_work(work_t work, work_result_t *work_result)
 {
-    int no1, no2;
-
-    no1 = work.no1;
-    no2 = work.no2;
-
-    work_result->min_no = no1 < no2? no1: no2;
+    int d;
+    d = det(work.numbers, work.n);
+    work_result->det = d;
     return ;
 }/* do_work */
 
@@ -56,93 +119,85 @@ void read_input(int **array_in, int *n_in)
 
 
 
-void master(MPI_Comm hypercube_comm)
+void master(MPI_Comm mesh_comm)
 {
     int n;
     int *array = NULL;
-    int *subarray = NULL;
-    int numbers[2];
+    int *numbers;
     int lowest_no = 0;
     int lowest_no_so_far = 0;
 
     read_input(&array, &n);
 
+
     /* Let the slaves know too how many numbers we have to work on. */
-    MPI_Bcast(&n /* Bcast n to everyone */, 1, MPI_INT, 0, hypercube_comm);
+    MPI_Bcast(&n /* Bcast n to everyone */, 1, MPI_INT, 0, mesh_comm);
 
-    lowest_no_so_far = array[0]; /* Assume the first number is the lowest */
-    subarray = array;
+    numbers = malloc(sizeof(int) * (n/p));
+    /* Scatter Data to processors including self */
+    MPI_Scatter(array, n/p  /*Send n/p numbers to everyone from array */, MPI_INT, 
+                numbers, n/p /* Receive n/p numbers from self */, MPI_INT, 0 /* id of root node */,
+                mesh_comm);
 
-    for(int i=0; i<floorf((float)n/(2*p)); i++){
+    work_t work;
+    work_result_t work_result;
 
-        /* Scatter Data to processors including self */
-        MPI_Scatter(subarray, 2 /*Send 2 bytes to everyone from array */, MPI_INT, 
-                    numbers, 2 /* Receive 2 bytes from self */, MPI_INT, 0 /* id of root node */,
-                    hypercube_comm);
-
+    work.n = n/p;
+    work.numbers = numbers;
 
 
-        work_t work;
-        work_result_t work_result;
+    do_work(work, &work_result);
 
-        work.no1 = numbers[0];
-        work.no2 = numbers[1];
 
-        int min_no;
+    interm_matrix = malloc(sizeof(int) * p);
+    MPI_Gather(&work_result->det, 1 , MPI_INT , interm_matrix, 1, MPI_INT, 0, mesh_comm)
 
-        do_work(work, &work_result);
+    work.n = sqrt(p);
+    work.numbers = interm_matrix;
 
-        min_no = work_result.min_no;
+    do_work(work, &work_result);
 
-        MPI_Reduce(&min_no, &lowest_no /* root receives 1 number from everyone and applies reduction operation on the way*/ ,1 /*1 number */, MPI_INT, 
-                MPI_MIN , 0 /* id of root node */,
-                hypercube_comm);
+    printf("Determinant of Matrix %d.\n", work_result.det);
 
-        if(lowest_no < lowest_no_so_far) lowest_no_so_far = lowest_no;
-
-        //printf("Min [ ");
-        for(int j=0; j<p*2; j+=2){
-            //printf("(%d, %d) ,",subarray[j], subarray[j+1]);
-        }
-        //printf("\b ] = %d.\n", lowest_no);
-        //printf("Lowest no so far is %d\n", lowest_no_so_far);
-
-        subarray = subarray + p*2;
-    }/*for*/
-    printf("Lowest no is %d.\n", lowest_no_so_far);
+    free(numbers);
+    free(interm_matrix);
 
     free(array);
     return ;
 }/* master */
 
 
-void slave(MPI_Comm hypercube_comm)
+void slave(MPI_Comm mesh_comm)
 {
-    int numbers[2];
     int n;
+    int *numbers;
+    int lowest_no = 0;
+    int lowest_no_so_far = 0;
 
-    /* Receive n from root node */
-    MPI_Bcast(&n /* Receive n from root */, 1 /* rx 1 number */ , MPI_INT, 0, hypercube_comm);
 
-    for(int i=0; i<floorf((float)n/(2*p)); i++){
-        /* Receive 2 numbers from root */
-        MPI_Scatter(NULL, 2 /*Send 2 bytes to everyone from array */, MPI_INT, 
-                    numbers, 2 /* Receive 2 bytes from root */, MPI_INT, 0 /* id of root node */,
-                    hypercube_comm);
 
-        int min_no;
-        work_t work;
-        work.no1 = numbers[0];
-        work.no2 = numbers[1];
-        work_result_t work_result;
-        do_work(work, &work_result);
-        min_no = work_result.min_no;
+    /* Let the slaves know too how many numbers we have to work on. */
+    MPI_Bcast(&n /* Bcast n to everyone */, 1, MPI_INT, 0, mesh_comm);
 
-        /* Slaves send the minimum of two numbers */
-        MPI_Reduce(&min_no /* everyone sends 1 number to root */, NULL ,1 /* 1 number */, MPI_INT, 
-                MPI_MIN , 0 /* id of root node */, 
-                hypercube_comm);
-    }/*for*/
+    numbers = malloc(sizeof(int) * (n/p));
+    /* Scatter Data to processors including self */
+    MPI_Scatter(NULL, n/p  /*Send n/p numbers to everyone from array */, MPI_INT, 
+                numbers, n/p /* Receive n/p numbers from self */, MPI_INT, 0 /* id of root node */,
+                mesh_comm);
+
+    work_t work;
+    work_result_t work_result;
+
+    work.n = n/p;
+    work.numbers = numbers;
+
+
+    do_work(work, &work_result);
+
+
+    MPI_Gather(&work_result->det, 1 , MPI_INT , NULL, 1, MPI_INT, 0, mesh_comm)
+
+    free(numbers);
 
     return ;
 }/* slave */
@@ -152,31 +207,20 @@ int main(int argc, char *argv[])
     MPI_Status status;
 
     double start_time, end_time;
-    int ndims;
+    int ndims =2 ;
+    int PROCS_PER_DIM = 0;
+    PROCS_PER_DIM = sqrt(p);
 
 
     MPI_Init(&argc, &argv);
     MPI_Comm_size(MPI_COMM_WORLD, &p);
 
 
-    ndims = (float)log(p)/log((PROCS_PER_DIM));
-    //printf("log -1\n");
 
 
 
-    /* Form a hypercube cartesian topology */
-/*
-                   4--------5
-                  /|       /|
-                 / |      / | 
-                0--------1  |         dim3  dim2
-                |  |     |  |          |   /
-                |  6-----|--7          |  /
-                | /      | /           | /
-                |/       |/            |/ 
-                2--------3             O-------- dim1
-*/
-
+    /* Form a MESH cartesian topology */
+    printf("Procs in each dimenstion = %d\n",PROCS_PER_DIM);
 
     /* Allocate and initialize dims and periods array */
     int *dims = NULL;
@@ -189,38 +233,45 @@ int main(int argc, char *argv[])
     }
 
     int reorder = 1 /* false */;
-    MPI_Comm hypercube_comm;
+    MPI_Comm mesh_comm;
 
     //printf("log0\n");
-    if(MPI_Cart_create(MPI_COMM_WORLD, ndims,  dims, periods, reorder, &hypercube_comm) < 0){
+    if(MPI_Cart_create(MPI_COMM_WORLD, ndims,  dims, periods, reorder, &mesh_comm) < 0){
         perror("MPI_Cart_create failed. \n");
         MPI_Finalize();
         return -2;
     }
+
     //printf("log1\n");
 
     free(dims);
     free(periods);
     //printf("log2\n");
 
-    MPI_Comm_rank(hypercube_comm, &id);
+    MPI_Comm_rank(mesh_comm, &id);
 
-    MPI_Barrier(hypercube_comm);
+    if(id == 0)
+    printf("Processors(p) = %d , Dimensions(d) = %d\n", p, ndims);
+
+    MPI_Barrier(mesh_comm);
     start_time = MPI_Wtime();
 
+    //printf("log3\n");
     if(id == 0){
-        master(hypercube_comm);
+        master(mesh_comm);
     }
     else{
-        slave(hypercube_comm);
+        slave(mesh_comm);
     }
 
-    MPI_Barrier(hypercube_comm);
+    //printf("log4\n");
+
+    MPI_Barrier(mesh_comm);
     end_time = MPI_Wtime();
 
 
     if(id == 0)
-        printf("Total time taken by parallel algorithm = %.6f ",end_time-start_time);
+        printf("Total time taken by parallel algorithm = %.6f\n", (end_time - start_time));
 
     MPI_Finalize();
     return 0;
