@@ -22,15 +22,16 @@
 int main(int argc, char *argv[]) {
 
 
-  int n,no,c;
-  n=atoi(argv[1]);
+  int n,no,c,k
+  n=atoi(argv[2]);
+  k=atoi(argv[1]);
 
 
-  printf("%d\n", n);
+  printf("%d %d\n",k, n);
  
  
   for (c = 1; c <= n; c++) {
-    no = rand()%200 + 1;
+    no = rand()%2 - 1;
     printf("%d ", no);
   }
   printf("\n");
