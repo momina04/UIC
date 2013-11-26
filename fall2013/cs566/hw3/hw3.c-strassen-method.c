@@ -185,9 +185,6 @@ void master(MPI_Comm mesh_comm, int * array)
     int lowest_no = 0;
     int lowest_no_so_far = 0;
 
-    read_input(&array, &n, &k);
-
-
     /* Let the slaves know too how many numbers we have to work on. */
     MPI_Bcast(&n /* Bcast n to everyone */, 1, MPI_INT, 0, mesh_comm);
 
@@ -268,6 +265,8 @@ void slave_phase1(MPI_Comm mesh_comm)
     free(result);
 
     free(numbers);
+    
+    slave();
 
     return ;
 }/* slave */
@@ -364,10 +363,10 @@ int main(int argc, char *argv[])
 
     //printf("log3\n");
     if(id == 0){
-        master(mesh_comm);
+        master_phase1(mesh_comm);
     }
     else{
-        slave(mesh_comm);
+        slave_phase1(mesh_comm);
     }
 
     //printf("log4\n");
